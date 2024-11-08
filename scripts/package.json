@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p ../build && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/"
+    "build": "mkdir -p ../build && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build"
   },
   "repository": {
     "type": "git",
