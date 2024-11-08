@@ -3,6 +3,7 @@
 ## 하위문서
 
 * [[simple-as-possible-computer]]{Simple-As-Possible 컴퓨터}
+* [[i386]]{i386}
 
 ## 관련문서
 
