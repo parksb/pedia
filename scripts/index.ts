@@ -102,6 +102,10 @@ interface SearchIndex {
     const linkRegex = /\[\[(.+?)\]\]/g;
     const labeledLinkRegex = /\[\[(.+?)\]\]\{(.+?)\}/g;
 
+    const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
+    const writtenFiles: Set<string> = new Set(['index']);
+    const documents: { [key: string]: Document } = {};
+
     const findSubFilenames = (markdown: string): string[] => {
       const filenames = []
       const subdocSection = new RegExp('## 하위문서\\s*\\n([^#]*)', 'g').exec(markdown);
@@ -128,21 +132,25 @@ interface SearchIndex {
       ];
     };
 
-    const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
-    const writtenFiles: Set<string> = new Set(['index']);
-    const documents: { [key: string]: Document } = {};
+    const labelInternalLink = (markdown: string): string => {
+      return markdown.replace(/\[\[(?!.*?\]\]\{.*?\})(.*?)\]\]/g, (match, p) =>
+        `${match}{${documents[p.trim()].title}}`);
+    }
+
+    const insertToc = (markdown: string) => {
+      const match = markdown.match(/^(# .+?)(\n|$)/m);
+      if (!match) return markdown;
+      const headerIndex = match.index + match[0].length
+      return `${markdown.slice(0, headerIndex)}\n[[toc]]\n${markdown.slice(headerIndex)}`;
+    };
 
     while (queue.length > 0) {
       const { filename, breadcrumbs } = queue.shift();
 
-      const preContents = '[[toc]]\n\n';
       const markdown = (await fs.readFile(`${MARKDOWN_DIRECTORY_PATH}/${filename}.md`)).toString();
-      const html = md.render(`${preContents}${markdown}`)
-        .replace(labeledLinkRegex, '<a href="./$1.html">$2</a>')
-        .replace(linkRegex, '<a href="./$1.html">$1</a>');
       const title = markdown.match(/^#\s.*/)[0].replace(/^#\s/, '');
 
-      const document: Document = { title, filename, markdown, html, breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
+      const document: Document = { title, filename, markdown, html: '', breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
       documents[filename] = document;
 
       for (const internalFilename of findSubFilenames(markdown)) {
@@ -159,6 +167,11 @@ interface SearchIndex {
           documents[referredFilename].referredFrom.push(document);
         }
       }
+
+      document.markdown = labelInternalLink(document.markdown);
+      document.html = md.render(`${insertToc(document.markdown)}`)
+        .replace(labeledLinkRegex, '<a href="./$1.html">$2</a>')
+        .replace(linkRegex, '<a href="./$1.html">$1</a>');
     }
 
     for (const document of Object.values(documents)) {
