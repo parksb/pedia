@@ -3,7 +3,7 @@
 ## INF
 
 * Mot-Schützen:
-  * 상비군 대신 사용하는 15 포인트 충격보병. 
+  * 상비군 대신 사용하는 15 포인트 충격보병.
 * Mot-Schützen '90:
   * 20 포인트 충격보병으로, 저렴한 가격과 LMG 944의 높은 연사력을 자랑한다.
   * 사거리 525m, AP 20 RPG-7VR로 무장해 시가지나 숲에서 적 전차에 대응할 수 있다.
@@ -68,7 +68,7 @@
   * 40mm Pallad-M 유탄발사기를 보유한 정찰 특수부대.
   * 기관단총과 유탄발사기 조합으로 대보병, 특히 시가전에서 강력하다.
 * OT-65RL:
-  * 대지상 레이더를 탑재해 시야가 뛰어난 정찰 차량. 
+  * 대지상 레이더를 탑재해 시야가 뛰어난 정찰 차량.
 * AufkPz BRM-1:
   * 넓은 시야와 빠른 속도로 정찰 목적에 잘 맞는 차량.
 * W-3U Salamandra:
@@ -97,9 +97,13 @@
   * 사거리 8400m R-27R Vympel 반능동레이더 AAM이 2발뿐이라 조심해야 한다.
 * Su-22M4P:
   * 재장전시간 1초의R-60 Molniya 적외선 AAM과 750km/h의 느린 속도로 대헬기에 적합하다.
-  * 이상하게 SEAD기인데 ECM이 30% 수준이다. 
+  * 이상하게 SEAD기인데 ECM이 30% 수준이다.
 * Su-22M4 Seria 30:
   * 사거리 3500m, AP 30 Kh-29T TV 유도식 AGM을 탑재한 위력적인 ATGM 항공기.
+
+## 관련문서
+
+* [[t-72]]
 
 [^kommandosi]: [NotMegatron, “Kommandosi”, reddit.com/r/wargame, 2021.](https://www.reddit.com/r/wargame/comments/nobjxe/komandosi/)
 [^t72m1m]: [NotMegatron, “T-72M1M”, reddit.com/r/wargame, 2019.](https://www.reddit.com/r/wargame/comments/bmgm6x/t72m1m/)
