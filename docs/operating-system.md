@@ -1,8 +1,8 @@
-# Operating System
+# 운영체제
 
 ## 하위문서
 
-* [[unix]]{UNIX}
+* [[unix]]{유닉스 운영체제}
 
 ## 관련문서
 
