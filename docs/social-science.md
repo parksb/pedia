@@ -4,6 +4,7 @@
 
 - [[economics]]{경제학}
 - [[law]]{법률 및 법학}
+- [[seoul-urban-master-plan-1966]]
 
 ## 관련문서
 
