@@ -11,6 +11,7 @@
 - [[graphic-design]]{시각디자인}
 - [[mathematics]]{수학}
 - [[history]]{역사학}
+- [[safety-engineering]]{안전공학}
 - [[military-science]]{군사학}
 - [[publication]]{문헌}
 - [[memo]]{메모}
