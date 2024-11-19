@@ -2,7 +2,7 @@
 
 ## 개요
 
-[박성범](https://parksb.github.io/)의 개인 위키.
+[박성범](https://parksb.github.io/)의 주관적인 개인 위키.
 
 ## 하위문서
 
