@@ -9,6 +9,7 @@
 - [[svelte]]{Svelte}
 - [[unix-philosophy]]
 - [[platform-engineering]]
+- [[ks-x-1001]]
 
 ## 관련문서
 
