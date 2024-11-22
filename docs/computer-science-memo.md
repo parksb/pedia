@@ -4,3 +4,4 @@
 
 - [[developer-chauvinism]]
 - [[clean-code-myth]]
+- [[community-computer-science-argument]]
