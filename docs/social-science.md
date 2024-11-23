@@ -9,3 +9,4 @@
 ## 관련문서
 
 - [[social-science-publication]]{사회과학문헌}
+- [[social-science-memo]]
