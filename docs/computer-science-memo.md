@@ -5,3 +5,4 @@
 - [[developer-chauvinism]]
 - [[clean-code-myth]]
 - [[community-computer-science-argument]]
+- [[dynamic-language-vs-static-language]]

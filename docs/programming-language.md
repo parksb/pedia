@@ -6,7 +6,6 @@
 - [[typescript]]{TypeScript}
 - [[kotlin]]{Kotlin}
 - [[abstract-syntax-tree]]{추상 구문 트리}
-- [[dynamic-language-vs-static-language]]{동적 언어 vs 정적 언어}
 - [[effect-system]]{효과 체계}
 - [[structural-typing]]
 - [[functional-programming]]{함수형 프로그래밍}
