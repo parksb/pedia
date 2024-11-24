@@ -13,3 +13,4 @@
 - [[system-design-interview]]{가상 면접 사례로 배우는 대규모 시스템 설계 기초}
 - [[the-rust-programming-language]]{The Rust Programming Language}
 - [[human-centered-artificial-intelligence]]
+- [[large-scale-cluster-management-at-google-with-borg]]

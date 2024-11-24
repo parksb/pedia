@@ -14,5 +14,5 @@
 
 ## 관련문서
 
-- [[computer-science-publication]]{컴퓨터과학문헌}
+- [[computer-science-publication]]
 - [[computer-science-memo]]
