@@ -1,112 +1,68 @@
 # Simple-As-Possible 컴퓨터
 
-- Alber P. Malvino가 <Digital Computer Electronics>에서 제시한 컴퓨터 모델.
-- 단순한 SAP 컴퓨터 아키텍처를 통해 컴퓨터의 원리를 설명한다.
-
-## Logic Circuits
-
-- Inverter:
-  - 두 개를 이어 붙이면 noninverting amplifier.
-  - NOT하지 않으면 버퍼가 됨. 임피던스 레벨을 높이고 싶을 때.
-- 그리고 OR, AND, ...
-- 드 모르간 법칙:
-  - NOR: $\overline{A + B} = \bar{A}\bar{B}$
-  - NAND: $\overline{AB} = \bar{A} + \bar{B}$
-  - 리팩토링할 때도 유용하다: `!A && !B`하지 말고 `!(A || B)`
-- XOR: $A \oplus B = \bar{A}B + A\bar{B}$
-  - 두 입력이 다를 때만 1을 출력하기 때문에 유용함.
-
-## Arithmetic Circuits
-
-- 이진수 덧셈하다가 carry가 있으면?
-  - 십진수 덧셈할 때처럼 처리한다:
-    ```
-      1
-      11100
-    + 11010
-    -------
-     110110
-    ```
-  - 또 다른 예시:
-    ```
-      1111
-       1101
-    + 10111
-    -------
-     110110
-    ```
-- Half adder:
-  - $\text{SUM} = A \oplus B$
-  - $\text{CARRY} = AB$
-  - 반가산기는 두 개 비트 덧셈밖에 못함.
-- Full adder:
-  - $\text{SUM} = A \oplus B \oplus C$
-  - $\text{CARRY} = AB + AC + BC$
-- Binary adder:
-  - half adder 하나와 full adder를 이어 붙이면 된다.
-- 부호를 어떻게 표현할 것인가?
-  - 최상위 비트가 0이면 양수, 1이면 음수로 취급하면:
-    - $+7_{10} = 0000\ 000\ 000\ 0111_2$
-    - $-7_{10} = 1000\ 000\ 000\ 0111_2$
-  - 이 방식은 너무 많은 아트웨어를 필요로 한다. 그 대안은..
-  - 2의 보수를 취하는 방식:
-    - invert한 다음 1을 더한다: $A^\prime = \bar{A} + 1$
-    - 만약 $A = 0111$이라면, $A^\prime = 1001$
-    - 원본으로 되돌리려면 다시 2의 보수를 취하면 된다: $A^{\prime\prime} = 0111$
-    - 이제 양수와 음수를 아래와 같이 표현할 수 있음:
-      - $A = +7_{10} = 0111_2$
-      - $A^\prime = -7_{10} = 1001_2$
-    - 8비트 컴퓨터에서 표현할 수 있는 최대, 최소는:
-      - 최대: $0111\ 1111 = +127$
-      - 최소: $1000\ 0001 = -127$
-- 2's complement adder/subtractor:
-  - 음수를 표현할 수 있으므로 덧셈과 같은 방식으로 뺄셈도 가능.
-  - 만약 3에 -2를 더한다면:
-    ```
-      11
-      0011
-    + 1110
-    ------
-      0001
-    ```
-    - 마지막 CARRY 값은 버린다.
-  - 뺄셈은 어떻게 할까? 3에서 2를 뺀다면:
-    ```
-      0011     0011
-    - 0010   + 1101
-    ------ = ------
-      0001     0001
-    ```
-    - 뺄셈은 두 번째 피연산자에 2의 보수를 취하고 더하는 것과 같음.
-    - 대상이 음수일 때도 마찬가지로 2의 보수를 취하고 더하면 된다.
-
-## Flip-flops
-
-- LOW 또는 HIGH 볼트로 하나의 비트를 저장할 수 있는 메모리 요소.
-- RS flip-flop:
-  - Q를 0으로 만드는 Reset과, 1로 만드는 Set 트리거를 입력받는 플립플롭.
-  - 컴퓨터는 수많은 플립플롭을 사용하므로, 전체적인 동작을 제어하기 위해 클록을 사용한다.
-  - 클록은 일정 주기로 신호를 보내는 수정 진동자. 올바른 시점에 플립플롭의 상태가 변할 수 있도록 만든다.
-  - Clocked RS flip-flop: RS flip-flop 앞에 AND 게이트를 붙여서 클록이 LOW일 때 입력을 받지 않음.
-- D flip-flop:
-  - RS 플립플롭은 두 개의 데이터 입력을 받아야 하므로 불편함.
-  - Unclocked DFF: 입력 D를 하나 두자. S에는 D를 그대로 입력하고, R에는 NOT D를 입력해주면 어떨까?
-  - 클록까지 일체형으로 만든 소자가 DFF, D와 CLK를 입력으로 받는다.
+Albert P. Malvino가 <Digital Computer Electronics>에서 제시한 컴퓨터 모델. 단순한 SAP 컴퓨터 아키텍처를 통해 컴퓨터의 원리를 설명한다.
 
 ## SAP-1
 
 ### Architecture
 
-- PC(program counter): 0000부터 1111까지 카운트. 인스트럭션을 하나 fetch하면 카운트가 하나 늘어남. 따라서 각 fetch 사이클의 시작점에서 PC는 현재 인스트럭션의 주소를 가지고 있게 됨.
-- MAR(memory address register): PC로부터 주소를 받아서 ROM에 전달.
-- PROM: 프로그래밍 가능한 ROM.
-- IR(instruction register): 버스로부터 ROM 인스트럭션 주소를 읽음. IR은 입력을 두 개의 부분으로 나누는데, 4개의 MSB opcode는 바로 CON에 전달되고, 4개의 LSB address는 버스로 보낸다.
-- CON(control unit): 각 컴포넌트에 적절한 신호를 보내 제어하는 역할. IR로부터 받은 opcode를 보고 이에 따라 $C_PE_PL_ME_R\ L_IE_IL_AE_A\ S_UE_UL_UL_U$ 신호를 출력한다. 계산기와 컴퓨터를 구분짓는 결정적인 요소.
-- A(accumulator): 연산의 중간 결과를 저장. 출력 중 하나는 ALU로, 다른 하나는 버스로 보낸다.
-- ALU(arithmetic-logic unit)
-- B(b register)
-- OUT(output register)
-- D(binary display)
+![](images/8e83590f-dd87-4063-9d97-3b14e747244c.webp)
+
+#### Program counter
+
+![](images/3f4b753e-611c-4725-ae5f-b3667c48f0f8.webp)
+
+0000부터 1111까지 증가하는 카운터. 인스트럭션을 하나 fetch하면 카운트가 하나 늘어난다. 따라서 각 fetch 사이클의 시작점에서 PC는 현재 인스트럭션의 주소를 가지고 있게 된다.
+
+#### Input & MAR (Memory address register)
+
+![](images/00f42696-2a9a-4dd6-975d-a53597d29203.webp)
+
+입력 유닛에는 주소 스위치 레지스터와 데이터 스위치 레지스터가 포함된다. 주소 스위치 레지스터는 PC로부터 주소를 받아서 메모리에 전달하는 역할을 하고, 데이터 스위치 레지스터는 입력 데이터를 저장한다. 두 스위치 레지스터는 4개의 주소 비트와 8개의 데이터 비트를 RAM으로 전달할 수 있다. 참고로 인스트럭션과 데이터 워드는 컴퓨터 구동 전에 RAM에 작성되어 있어야 한다. 다이어그램에서 핀 14, 11, 5, 2는 주소 스위치 레지스터로부터 들어온다.
+
+MAR은 메모리의 일부로, 컴퓨터가 작동할 때 PC의 주소 값을 전달받는다. 이후 MAR은 읽기 동작이 수행될 때 전달받은 4비트 주소를 RAM에 전달한다.
+
+#### Random-access memory
+
+![](images/2e268598-21de-4ac3-8e11-3194d1f1cdd4.webp)
+
+16 $\times$ 8 정적 TTL RAM. RAM은 MAR로부터 4비트 주소를 받는다. 이 주소를 이용해 RAM에 저장된 인스트럭션 워드나 데이터 워드를 W 버스로 연결된 컴퓨터의 다른 부분에서 사용할 수 있다.
+
+#### Instruction register
+
+![](images/fcbc2a80-e078-43fc-b2f0-aa2f4b8ed984.webp)
+
+메모리로부터 인스트럭션을 읽기 위해 컴퓨터는 메모리 읽기 동작을 수행하는데, 이때 IR은 W 버스에 주어진 메모리 주소의 내용을 전달한다. IR의 내용은 두 니블(4비트)로 나뉘는데, 상위 니블은 Controller-sequencer 블록으로 직접 전달되며, 하위 니블은 W 버스로 전달된다.
+
+#### Controller-sequencer
+
+각 컴포넌트에 적절한 신호를 보내 제어하는 역할을 한다. IR로부터 받은 opcode를 보고 이에 따라 $CON = C_PE_PL_ME_R\ L_IE_IL_AE_A\ S_UE_UL_UL_U$ 신호를 출력한다. 계산기와 컴퓨터를 구분짓는 결정적인 요소이다.
+
+#### Accumulator (A)
+
+연산의 중간 결과를 저장하는 버퍼 레지스터다. 두 출력 중 하나는 Adder-subtracter로 직접 전달되고, 다른 하나는 W 버스로 전달된다. 8비트 accumulator 워드는 연속적으로 adder-subtractorer로 흘러가며, $E_A$가 HIGH일 때 같은 워드가 W 버스로 전달된다.
+
+#### Adder-subtracter
+
+![](images/3210698f-870f-4ee4-8be3-eae09ac6bf1c.webp)
+
+2의 보수를 사용하는 adder-subtracter이다. $S_U$가 LOW일 때 출력은 $S = A + B$이며, HIGH일 때 출력은 $A = A + B'$이다. adder-subtracter는 비동기적(unclocked)이며, 입력 워드가 바뀌면 최대한 빠르게 내용이 변경된다. $E_U$가 HIGH일 때 결과가 W 버스로 전달된다.
+
+#### B register
+
+![](images/81e62445-b268-4264-ba4c-f1e7c50ea048.webp)
+
+산술 연산에 사용하는 버퍼 레지스터.
+
+#### Output register
+
+![](images/ad9b088d-064b-4fec-bc24-78d2137fdd18.webp)
+
+컴퓨터가 연산을 마치면 accumulator에 결과가 저장되는데, 이 결과를 외부 세계에 표현하기 위한 레지스터이다.
+
+#### Binary display
+
+단순히 8개의 LED로 구성된 디스플레이. output register의 결과를 바이너리 형식으로 보여준다.
 
 ### Machine cycle
 

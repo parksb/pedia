@@ -2,9 +2,11 @@
 
 ## 하위문서
 
-* [[simple-as-possible-computer]]{Simple-As-Possible 컴퓨터}
-* [[i386]]{i386}
+- [[simple-as-possible-computer]]
+- [[i386]]
+- [[flip-flop]]
+- [[adder]]
 
 ## 관련문서
 
-* [[computer-organization-and-design]]{Computer Organization and Design}
+- [[computer-organization-and-design]]{Computer Organization and Design}
