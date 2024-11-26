@@ -28,3 +28,7 @@
 
  - [이동윤, 박준식, "민주화과정에서 저항폭력의 정당성 - 5.18 광주 시민군의 무장투쟁을 중심으로", _민주주의와 인권_, 2008.](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001232314)
  - [이관후, "비폭력 시민 저하으이 이해: 촛불 시위의 사상적 배경 연구", _시민사회와 NGO_, 2017](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002228079)
+
+## 관련문서
+
+- [[precedent-2000hunba67]]

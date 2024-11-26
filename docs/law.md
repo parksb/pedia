@@ -2,6 +2,10 @@
 
 ## 하위문서
 
-* [[criminal-law]]{형법}
-* [[civil-law]]{민법}
-* [[intellectual-property-right]]{지식재산권}
+- [[criminal-law]]
+- [[civil-law]]
+- [[intellectual-property-right]]
+
+## 관련문서
+
+- [[law-publication]]
