@@ -2,14 +2,15 @@
 
 ## 하위문서
 
-- [[git]]{Git}
-- [[kubernetes]]{Kubernetes}
-- [[spring]]{Spring}
-- [[react]]{React}
-- [[svelte]]{Svelte}
+- [[git]]
+- [[kubernetes]]
+- [[spring]]
+- [[react]]
+- [[svelte]]
 - [[unix-philosophy]]
 - [[platform-engineering]]
 - [[ks-x-1001]]
+- [[monorepo]]
 
 ## 관련문서
 
