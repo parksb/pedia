@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p ../build && mkdir -p ../build/private && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build && cp -r ../docs/private/images ../build/private",
+    "build": "npm run build:pre && ts-node index.ts && cp -r ../docs/images ../build && cp -r ../docs/private/images ../build/private",
+    "build:pre": "mkdir -p ../build && mkdir -p ../build/private && mkdir -p ../build/images && cp -r assets ../build && cp -r public/. ../build/",
     "serve": "live-server ../build -q"
   },
   "repository": {
