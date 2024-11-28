@@ -14,3 +14,4 @@
 - [[the-rust-programming-language]]{The Rust Programming Language}
 - [[human-centered-artificial-intelligence]]
 - [[large-scale-cluster-management-at-google-with-borg]]
+- [[the-software-engineers-guidebook]]
