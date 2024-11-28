@@ -58,12 +58,15 @@
     searchTextField.value = searchWord;
   </script>
   <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="/assets/lunr.stemmer.support.min.js"></script>
+  <script src="/assets/lunr.multi.min.js"></script>
+  <script src="/assets/lunr.ko.min.js"></script>
   <script>
     const documents = <%- document %>;
-
     const idx = lunr(function () {
+      this.use(lunr.multiLanguage('en', 'ko'));
       this.ref('filename');
-      this.field('title');
+      this.field('title', { boost: 10 });
       this.field('text');
 
       documents.forEach(function (doc) {
@@ -72,12 +75,16 @@
     });
 
     const searchResult = idx.search(searchWord);
+    const registry = {}
+    documents.forEach((doc) => {
+      registry[doc.filename] = doc.title;
+    });
 
     const resultList = document.querySelector('main > ul')
     searchResult.forEach((item) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      const title = document.createTextNode(item.ref);
+      const title = document.createTextNode(registry[item.ref]);
       a.href = `/${item.ref}.html`;
       a.appendChild(title);
       li.appendChild(a);
