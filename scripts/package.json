@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p ../build && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build"
+    "build": "mkdir -p ../build && mkdir -p ../build/private && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build",
+    "start": "http-server ../build -p 8080"
   },
   "repository": {
     "type": "git",

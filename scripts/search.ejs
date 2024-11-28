@@ -21,18 +21,17 @@
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" as="style">
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
 
-  <link rel="stylesheet" href="assets/bundle.min.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥝</text></svg>">
+  <link rel="stylesheet" href="/assets/bundle.min.css">
 
-  <link rel="preload" href="index.css" as="style">
-  <link  rel="stylesheet" href="index.css">
+  <link rel="preload" href="/index.css" as="style">
+  <link  rel="stylesheet" href="/index.css">
 </head>
 <body>
    <header role="navigation">
     <small>
-      <a href="index.html">🥝wikiwikiwi</a>
+      <a href="/index.html">🥝Wikiwikiwi</a>
         <span> ＞ </span>
-        <a href="search.html">search</a>
+        <a href="/search.html">search</a>
       ― <a href="https://github.com/parksb/wikiwikiwi/commits/master/scripts/search.ejs">history</a> ·
       <a href="https://raw.githubusercontent.com/parksb/wikiwikiwi/master/scripts/search.ejs">raw</a>
     </small>
@@ -49,12 +48,12 @@
 
   <footer>
     <small>© 2021 <a href="https://parksb.github.io/">Simon Park</a></small>
-  </footer> 
-  
+  </footer>
+
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     let searchWord = urlParams.get('q');
-    
+
     const searchTextField = document.querySelector('#search-text-field');
     searchTextField.value = searchWord;
   </script>
@@ -70,16 +69,16 @@
       documents.forEach(function (doc) {
         this.add(doc);
       }, this);
-    });   
+    });
 
     const searchResult = idx.search(searchWord);
-    
+
     const resultList = document.querySelector('main > ul')
     searchResult.forEach((item) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
       const title = document.createTextNode(item.ref);
-      a.href = `${item.ref}.html`;
+      a.href = `/${item.ref}.html`;
       a.appendChild(title);
       li.appendChild(a);
 

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#ffffff">
-  <link rel="canonical" href="https://wikiwikiwi.vercel.app/<%- document.filename %>.html" />
+  <link rel="canonical" href="https://wiki.parksb.xyz/<%- document.filename %>.html" />
 
   <meta property="og:title" content="Wikiwikiwi - <%- document.title %>">
   <meta property="og:image" content="https://dummyimage.com/1200x675/bbca4e/202020.jpg&text=<%- document.filename %>">
@@ -23,10 +23,10 @@
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" as="style">
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
 
-  <link rel="stylesheet" href="assets/bundle.min.css">
+  <link rel="stylesheet" href="/assets/bundle.min.css">
 
-  <link rel="preload" href="index.css" as="style">
-  <link rel="stylesheet" href="index.css">
+  <link rel="preload" href="/index.css" as="style">
+  <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
     <small>
       <ul>
         <% document.breadcrumbs.map((breadcrumb) => { %>
-          <li><a href="<%- breadcrumb.filename %>.html"><%- breadcrumb.title %></a></li>
+          <li><a href="/<%- breadcrumb.filename %>.html"><%- breadcrumb.title %></a></li>
         <% }) %>
       </ul>
       <span class="meta">
@@ -56,7 +56,7 @@
           Backlinks:
           <ul>
             <% document.referredFrom.map((document) => { %>
-              <li><a href="<%- document.filename %>.html"><%- document.title %></a></li>
+              <li><a href="/<%- document.filename %>.html"><%- document.title %></a></li>
             <% }) %>
           </ul>
         </small>

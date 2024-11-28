@@ -175,4 +175,4 @@ build/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,intellij
 
-docs/_*.md
+docs/private/

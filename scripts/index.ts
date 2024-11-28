@@ -137,7 +137,7 @@ interface SearchIndex {
 
       ret = ret.replace(/\[\[([^\]]+)\]\](\{[^}]+\})?/g, (match, link, label) => {
         try {
-          if (link.startsWith('_') && !label) {
+          if (link.startsWith('private/') && !label) {
             console.warn(`Unlabeled private internal link: ${match} in ${parent}.md`);
           }
 
