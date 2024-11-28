@@ -28,6 +28,8 @@ h1 > code, h2 > code, li > code,  p > code { padding: .2rem .4rem; margin: 0; fo
 blockquote { margin: 0; padding: 0 15px; color: #6a737d; border-left: .25rem solid #dfe2e5; }
 .NOTE { padding: 1rem; background-color: #fefbe6; color: #bf9f5f; margin-bottom: 1rem; }
 .NOTE > p { margin: 0; }
+blockquote a, .NOTE a { color: #53a6f6; }
+blockquote a.external, .NOTE a.external { color: #50b0d0; }
 ol ol, ol ul, ul ol, ul ul { margin: 0; }
 li div.NOTE, li blockquote p, li .hljs { margin: 0; }
 hr { color: #fdfdfd; }
