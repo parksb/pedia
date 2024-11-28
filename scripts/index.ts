@@ -92,7 +92,7 @@ interface SearchIndex {
     })
     .use(mdExternalLink, {
       externalClassName: 'external',
-      internalDomains: ['wikiwikiwi.vercel.app'],
+      internalDomains: ['wikiwikiwi.vercel.app', 'wiki.parksb.xyz'],
     });
 
     const sitemapUrls: string[] = [];
@@ -132,9 +132,15 @@ interface SearchIndex {
       ];
     };
 
-    const labelInternalLink = (markdown: string): string => {
-      return markdown.replace(/\[\[(?!.*?\]\]\{.*?\})(.*?)\]\]/g, (match, p) =>
-        `${match}{${documents[p.trim()].title}}`);
+    const labelInternalLink = (markdown: string, parent?: string): string => {
+      return markdown.replace(/\[\[(?!.*?\]\]\{.*?\})(.*?)\]\]/g, (match, p) => {
+        try {
+          return `${match}{${documents[p.trim()].title}}`;
+        } catch (e) {
+          console.warn(`Unresolved internal link: ${match} in ${parent}.md`);
+          return `[[${p.trim()}�]]`;
+        }
+      });
     }
 
     const insertToc = (markdown: string) => {
@@ -147,17 +153,22 @@ interface SearchIndex {
     while (queue.length > 0) {
       const { filename, breadcrumbs } = queue.shift();
 
-      const markdown = (await fs.readFile(`${MARKDOWN_DIRECTORY_PATH}/${filename}.md`)).toString();
-      const title = markdown.match(/^#\s.*/)[0].replace(/^#\s/, '');
+      try {
+        const markdown = (await fs.readFile(`${MARKDOWN_DIRECTORY_PATH}/${filename}.md`)).toString();
+        const title = markdown.match(/^#\s.*/)[0].replace(/^#\s/, '');
 
-      const document: Document = { title, filename, markdown, html: '', breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
-      documents[filename] = document;
+        const document: Document = { title, filename, markdown, html: '', breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
+        documents[filename] = document;
 
-      for (const internalFilename of findSubFilenames(markdown)) {
-        if (!writtenFiles.has(internalFilename)) {
-          queue.push({ filename: internalFilename, breadcrumbs: document.breadcrumbs });
-          writtenFiles.add(internalFilename);
+        for (const internalFilename of findSubFilenames(markdown)) {
+          if (!writtenFiles.has(internalFilename)) {
+            queue.push({ filename: internalFilename, breadcrumbs: document.breadcrumbs });
+            writtenFiles.add(internalFilename);
+          }
         }
+      } catch (e) {
+        console.error(`Unresolved markdown file: ${filename}.md`);
+        continue;
       }
     }
 
@@ -168,7 +179,7 @@ interface SearchIndex {
         }
       }
 
-      document.markdown = labelInternalLink(document.markdown);
+      document.markdown = labelInternalLink(document.markdown, document.filename);
       document.html = md.render(`${insertToc(document.markdown)}`)
         .replace(labeledLinkRegex, '<a href="./$1.html">$2</a>')
         .replace(linkRegex, '<a href="./$1.html">$1</a>');

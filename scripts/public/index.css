@@ -19,6 +19,7 @@ img + em { display: block; font-size: 0.9rem; }
 ol, ul { padding-left: 2rem; }
 ul > li, ol > li { line-height: 1.7; }
 a { color: #0366d6; text-decoration: none; }
+a[href$="�.html"] { color: #ff4070; }
 a.external { color: #00a0c0; }
 a.external:after { content: '↗'; font-size: .7rem; vertical-align: super; }
 a:hover { outline-width: 0; text-decoration: underline; }
