@@ -61,161 +61,162 @@ interface SearchIndex {
       return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
     },
   }).use(mdFootnote)
-    .use(mdInlineComment)
-    .use(mdMermaid)
-    .use(mdEmoji)
-    .use(mdTex, {
-      engine: katex,
-      delimiters: 'dollars',
-      macros: { '\\RR': '\\mathbb{R}' },
-    })
-    .use(mdAnchor)
-    .use(mdTableOfContents, {
-      includeLevel: [2, 3, 4],
-      format: (content: string) => content.replace(/\[\^.*\]/, ''),
-    })
-    .use(mdCheckbox, {
-      disabled: true,
-    })
-    .use(mdContainer, 'TOGGLE', {
-      validate(params: string) {
-        return params.trim().match(/^TOGGLE\s+(.*)$/);
-      },
-      render(tokens: unknown, idx: number) {
-        const content = tokens[idx].info.trim().match(/^TOGGLE\s+(.*)$/);
-        if (tokens[idx].nesting === 1) {
-          return `<details><summary>${md.utils.escapeHtml(content[1])}</summary>\n`;
+  .use(mdInlineComment)
+  .use(mdMermaid)
+  .use(mdEmoji)
+  .use(mdTex, {
+    engine: katex,
+    delimiters: 'dollars',
+    macros: { '\\RR': '\\mathbb{R}' },
+  })
+  .use(mdAnchor)
+  .use(mdTableOfContents, {
+    includeLevel: [2, 3, 4],
+    format: (content: string) => content.replace(/\[\^.*\]/, ''),
+  })
+  .use(mdCheckbox, {
+    disabled: true,
+  })
+  .use(mdContainer, 'TOGGLE', {
+    validate(params: string) {
+      return params.trim().match(/^TOGGLE\s+(.*)$/);
+    },
+    render(tokens: unknown, idx: number) {
+      const content = tokens[idx].info.trim().match(/^TOGGLE\s+(.*)$/);
+      if (tokens[idx].nesting === 1) {
+        return `<details><summary>${md.utils.escapeHtml(content[1])}</summary>\n`;
+      }
+      return '</details>\n';
+    },
+  })
+  .use(mdContainer, 'NOTE', {
+    validate: () => true,
+  })
+  .use(mdExternalLink, {
+    externalClassName: 'external',
+    internalDomains: ['wikiwikiwi.vercel.app', 'wiki.parksb.xyz'],
+  });
+
+  const sitemapUrls: string[] = [];
+  const searchIndices: SearchIndex[] =[];
+
+  // https://github.com/johngrib/johngrib-jekyll-skeleton/blob/v1.0/_includes/createLink.html
+  const linkRegex = /\[\[(.+?)\]\]/g;
+  const labeledLinkRegex = /\[\[(.+?)\]\]\{(.+?)\}/g;
+
+  const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
+  const writtenFiles: Set<string> = new Set(['index']);
+  const documents: { [key: string]: Document } = {};
+
+  const findSubFilenames = (markdown: string): string[] => {
+    const filenames = []
+    const subdocSection = new RegExp('## 하위문서\\s*\\n([^#]*)', 'g').exec(markdown);
+
+    if (!subdocSection) return filenames;
+
+    const lines = subdocSection[1].trim().split('\n');
+    for (const line of lines) {
+      const match = line.match(/(-|\*) \[\[(.*?)\]\]/);
+      if (match) {
+        filenames.push(match[2]);
+      }
+    }
+
+    return filenames;
+  };
+
+  const findReferredFilenames = (markdown: string): string[] => {
+    return [
+      ...new Set([
+        ...markdown.match(linkRegex)?.map((link) => link.replace(/(\[\[)|(\]\])/g, '')) || [],
+        ...markdown.match(labeledLinkRegex)?.map((link) => link.replace(/(\[\[)|(\]\])|({(.+?)})/g, '')) || [],
+      ]),
+    ];
+  };
+
+  const labelInternalLink = (markdown: string, parent?: string): string => {
+    let ret = markdown;
+
+    ret = ret.replace(/\[\[([^\]]+)\]\](\{[^}]+\})?/g, (match, link, label) => {
+      try {
+        if (link.startsWith('private/') && !label) {
+          console.warn(`Unlabeled private internal link: ${match} in ${parent}.md`);
         }
-        return '</details>\n';
-      },
-    })
-    .use(mdContainer, 'NOTE', {
-      validate: () => true,
-    })
-    .use(mdExternalLink, {
-      externalClassName: 'external',
-      internalDomains: ['wikiwikiwi.vercel.app', 'wiki.parksb.xyz'],
+
+        if (!documents[link]) {
+          throw new Error(`Unresolved internal link: ${match} in ${parent}.md`);
+        }
+
+        if (label) {
+          return match;
+        }
+        return `${match}{${documents[link].title}}`;
+      } catch (e) {
+        console.warn(e.message);
+        if (label) {
+          return `[[${link}?]]${label}`;
+        }
+        return `[[${link}?]]`;
+      }
     });
 
-    const sitemapUrls: string[] = [];
-    const searchIndices: SearchIndex[] =[];
+    return ret;
+  }
 
-    // https://github.com/johngrib/johngrib-jekyll-skeleton/blob/v1.0/_includes/createLink.html
-    const linkRegex = /\[\[(.+?)\]\]/g;
-    const labeledLinkRegex = /\[\[(.+?)\]\]\{(.+?)\}/g;
+  const insertToc = (markdown: string) => {
+    const match = markdown.match(/^(# .+?)(\n|$)/m);
+    if (!match) return markdown;
+    const headerIndex = match.index + match[0].length
+    return `${markdown.slice(0, headerIndex)}\n[[toc]]\n${markdown.slice(headerIndex)}`;
+  };
 
-    const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
-    const writtenFiles: Set<string> = new Set(['index']);
-    const documents: { [key: string]: Document } = {};
+  while (queue.length > 0) {
+    const { filename, breadcrumbs } = queue.shift();
 
-    const findSubFilenames = (markdown: string): string[] => {
-      const filenames = []
-      const subdocSection = new RegExp('## 하위문서\\s*\\n([^#]*)', 'g').exec(markdown);
+    try {
+      const markdown = (await fs.readFile(`${MARKDOWN_DIRECTORY_PATH}/${filename}.md`)).toString();
+      const title = markdown.match(/^#\s.*/)[0].replace(/^#\s/, '');
 
-      if (!subdocSection) return filenames;
+      const document: Document = { title, filename, markdown, html: '', breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
+      documents[filename] = document;
 
-      const lines = subdocSection[1].trim().split('\n');
-      for (const line of lines) {
-        const match = line.match(/(-|\*) \[\[(.*?)\]\]/);
-        if (match) {
-          filenames.push(match[2]);
+      for (const internalFilename of findSubFilenames(markdown)) {
+        if (!writtenFiles.has(internalFilename)) {
+          queue.push({ filename: internalFilename, breadcrumbs: document.breadcrumbs });
+          writtenFiles.add(internalFilename);
         }
       }
-
-      return filenames;
-    };
-
-    const findReferredFilenames = (markdown: string): string[] => {
-      return [
-        ...new Set([
-          ...markdown.match(linkRegex)?.map((link) => link.replace(/(\[\[)|(\]\])/g, '')) || [],
-          ...markdown.match(labeledLinkRegex)?.map((link) => link.replace(/(\[\[)|(\]\])|({(.+?)})/g, '')) || [],
-        ]),
-      ];
-    };
-
-    const labelInternalLink = (markdown: string, parent?: string): string => {
-      let ret = markdown;
-
-      ret = ret.replace(/\[\[([^\]]+)\]\](\{[^}]+\})?/g, (match, link, label) => {
-        try {
-          if (link.startsWith('private/') && !label) {
-            console.warn(`Unlabeled private internal link: ${match} in ${parent}.md`);
-          }
-
-          if (!documents[link]) {
-            throw new Error(`Unresolved internal link: ${match} in ${parent}.md`);
-          }
-
-          if (label) {
-            return match;
-          }
-          return `${match}{${documents[link].title}}`;
-        } catch (e) {
-          console.warn(e.message);
-          if (label) {
-            return `[[${link}?]]${label}`;
-          }
-          return `[[${link}?]]`;
-        }
-      });
-
-      return ret;
+    } catch (e) {
+      console.warn(`Unresolved markdown file: ${filename}.md`);
+      continue;
     }
+  }
 
-    const insertToc = (markdown: string) => {
-      const match = markdown.match(/^(# .+?)(\n|$)/m);
-      if (!match) return markdown;
-      const headerIndex = match.index + match[0].length
-      return `${markdown.slice(0, headerIndex)}\n[[toc]]\n${markdown.slice(headerIndex)}`;
-    };
-
-    while (queue.length > 0) {
-      const { filename, breadcrumbs } = queue.shift();
-
-      try {
-        const markdown = (await fs.readFile(`${MARKDOWN_DIRECTORY_PATH}/${filename}.md`)).toString();
-        const title = markdown.match(/^#\s.*/)[0].replace(/^#\s/, '');
-
-        const document: Document = { title, filename, markdown, html: '', breadcrumbs: [...breadcrumbs, { title, filename }], children: [], referredFrom: [] };
-        documents[filename] = document;
-
-        for (const internalFilename of findSubFilenames(markdown)) {
-          if (!writtenFiles.has(internalFilename)) {
-            queue.push({ filename: internalFilename, breadcrumbs: document.breadcrumbs });
-            writtenFiles.add(internalFilename);
-          }
-        }
-      } catch (e) {
-        console.warn(`Unresolved markdown file: ${filename}.md`);
-        continue;
+  for (const document of Object.values(documents)) {
+    for (const referredFilename of findReferredFilenames(document.markdown)) {
+      if (referredFilename in documents) {
+        documents[referredFilename].referredFrom.push(document);
       }
     }
 
-    for (const document of Object.values(documents)) {
-      for (const referredFilename of findReferredFilenames(document.markdown)) {
-        if (referredFilename in documents) {
-          documents[referredFilename].referredFrom.push(document);
-        }
-      }
+    document.markdown = labelInternalLink(document.markdown, document.filename);
+    document.html = md.render(`${insertToc(document.markdown)}`)
+      .replace(labeledLinkRegex, '<a href="/$1.html">$2</a>')
+      .replace(linkRegex, '<a href="/$1.html">$1</a>');
+  }
 
-      document.markdown = labelInternalLink(document.markdown, document.filename);
-      document.html = md.render(`${insertToc(document.markdown)}`)
-        .replace(labeledLinkRegex, '<a href="/$1.html">$2</a>')
-        .replace(linkRegex, '<a href="/$1.html">$1</a>');
-    }
+  for (const document of Object.values(documents)) {
+    const { title, filename, markdown } = document;
+    const searchIndex: SearchIndex = { title, filename, text: markdown };
+    searchIndices.push(searchIndex);
 
-    for (const document of Object.values(documents)) {
-      const { title, filename, markdown } = document;
-      const searchIndex: SearchIndex = { title, filename, text: markdown };
-      searchIndices.push(searchIndex);
+    fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(TEMPLATE_FILE_PATH), { document }));
+    sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
+  }
 
-      fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(TEMPLATE_FILE_PATH), { document }));
-      sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
-    }
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE_PATH), { document: JSON.stringify(searchIndices) }));
 
-    fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE_PATH), { document: JSON.stringify(searchIndices) }));
-
+  if (process.env.NODE_ENV === 'production') {
     fs.writeFile(
       SITEMAP_PATH,
       `<?xml version="1.0" encoding="UTF-8"?>
@@ -224,6 +225,6 @@ interface SearchIndex {
 ${sitemapUrls.join('\n')}
 </urlset>`,
     );
-
+  }
   console.timeEnd('Build');
 })();

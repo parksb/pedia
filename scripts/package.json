@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p ../build && mkdir -p ../build/private && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build",
+    "build": "mkdir -p ../build && mkdir -p ../build/private && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build && cp -r ../docs/private/images ../build/private",
     "serve": "live-server ../build -q"
   },
   "repository": {
