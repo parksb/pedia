@@ -133,14 +133,32 @@ interface SearchIndex {
     };
 
     const labelInternalLink = (markdown: string, parent?: string): string => {
-      return markdown.replace(/\[\[(?!.*?\]\]\{.*?\})(.*?)\]\]/g, (match, p) => {
+      let ret = markdown;
+
+      ret = ret.replace(/\[\[([^\]]+)\]\](\{[^}]+\})?/g, (match, link, label) => {
         try {
-          return `${match}{${documents[p.trim()].title}}`;
+          if (link.startsWith('_') && !label) {
+            console.warn(`Unlabeled private internal link: ${match} in ${parent}.md`);
+          }
+
+          if (!documents[link]) {
+            throw new Error(`Unresolved internal link: ${match} in ${parent}.md`);
+          }
+
+          if (label) {
+            return match;
+          }
+          return `${match}{${documents[link].title}}`;
         } catch (e) {
-          console.warn(`Unresolved internal link: ${match} in ${parent}.md`);
-          return `[[${p.trim()}�]]`;
+          console.warn(e.message);
+          if (label) {
+            return `[[${link}?]]${label}`;
+          }
+          return `[[${link}?]]`;
         }
       });
+
+      return ret;
     }
 
     const insertToc = (markdown: string) => {
@@ -167,7 +185,7 @@ interface SearchIndex {
           }
         }
       } catch (e) {
-        console.error(`Unresolved markdown file: ${filename}.md`);
+        console.warn(`Unresolved markdown file: ${filename}.md`);
         continue;
       }
     }
