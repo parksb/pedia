@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "mkdir -p ../build && mkdir -p ../build/private && ts-node index.ts && cp -r assets ../build && cp -r public/. ../build/ && cp -r ../docs/images ../build",
-    "start": "http-server ../build -p 8080"
+    "serve": "live-server ../build -q"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "ejs": "^3.1.5",
     "highlight.js": "^10.4.1",
     "katex": "^0.12.0",
+    "live-server": "^1.2.2",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^6.0.1",
     "markdown-it-container": "^3.0.0",

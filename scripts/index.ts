@@ -37,6 +37,8 @@ interface SearchIndex {
 }
 
 (async () => {
+  console.time('Build');
+
   const WEBSITE_DOMAIN = 'https://wikiwikiwi.vercel.app';
   const MARKDOWN_DIRECTORY_PATH: string = path.join(__dirname, '../docs');
   const DIST_DIRECTORY_PATH: string = path.join(__dirname, '../build');
@@ -222,4 +224,6 @@ interface SearchIndex {
 ${sitemapUrls.join('\n')}
 </urlset>`,
     );
+
+  console.timeEnd('Build');
 })();

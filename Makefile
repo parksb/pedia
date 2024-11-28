@@ -1,4 +1,7 @@
+start:
+	make serve & \
+	fswatch -o docs/*.md | while read -r; do make publish; done
 publish:
 	cd ./scripts && npm run build
-start:
-	cd ./scripts && npm run start
+serve:
+	cd ./scripts && npm run serve
