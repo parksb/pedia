@@ -5,14 +5,14 @@ import * as dayjs from 'dayjs';
 
 import * as MarkdownIt from 'markdown-it';
 import * as katex from 'katex';
-import * as highlightJs from 'highlight.js';
+import hljs from 'highlight.js';
 import * as mdFootnote from 'markdown-it-footnote';
 import * as mdTex from 'markdown-it-texmath';
-import * as mdAnchor from 'markdown-it-anchor';
+import mdAnchor from 'markdown-it-anchor';
 import * as mdTableOfContents from 'markdown-it-table-of-contents';
 import * as mdInlineComment from 'markdown-it-inline-comments';
 import * as mdCheckbox from 'markdown-it-task-checkbox';
-import * as mdEmoji from 'markdown-it-emoji';
+import { full as mdEmoji } from 'markdown-it-emoji';
 import * as mdExternalLink from 'markdown-it-external-links';
 import mdMermaid from 'markdown-it-mermaid';
 import * as mdContainer from 'markdown-it-container';
@@ -55,8 +55,8 @@ interface SearchIndex {
     typographer: true,
     quotes: '“”‘’',
     highlight: (str, lang) => {
-      if (lang && highlightJs.getLanguage(lang)) {
-        return `<pre class="hljs"><code>${highlightJs.highlight(lang, str, true).value}</code></pre>`;
+      if (lang && hljs.getLanguage(lang)) {
+        return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
       }
       return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
     },

@@ -37,7 +37,7 @@ p { margin: 0 0 1em 0; }
 code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospace; }
 .katex-display { background-color: #f6f8fa; padding: 20px; overflow: auto; }
 .hljs { font-size: 90%; line-height: 1.5; padding: 10px; margin: 0 0 1rem 0; }
-.table-of-contents { border-left: 1px solid #6a737d; font-size: 90%; line-height: 1.7; }
+.table-of-contents { border-left: 1px solid #6a737d; font-size: 90%; line-height: 1.7; margin-bottom: 1rem; }
 .table-of-contents ul { list-style-type: none; counter-reset: item; margin: 0; padding-left: 1rem; }
 .table-of-contents ul li:before { content: counters(item, ".") ". "; counter-increment: item; }
 .footnotes > .footnotes-list { padding: 0; counter-reset: list; font-size: .8rem; }
