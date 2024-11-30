@@ -12,4 +12,4 @@
 - [[how-to-grow-cactus]]{선인장 기르는 방법}
 - [[oral-hygiene]]{구강 위생}
 - [[wargame-red-dragon]]{Wargame: Red Dragon}
-- [[wikiwikiwi-rules]]{WikiWikiWi 규칙}
+- [[simonpedia-rules]]
