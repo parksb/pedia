@@ -39,7 +39,7 @@ interface SearchIndex {
 (async () => {
   console.time('Build');
 
-  const WEBSITE_DOMAIN = 'https://wikiwikiwi.vercel.app';
+  const WEBSITE_DOMAIN = 'https://pedia.parksb.xyz';
   const MARKDOWN_DIRECTORY_PATH: string = path.join(__dirname, '../docs');
   const DIST_DIRECTORY_PATH: string = path.join(__dirname, '../build');
   const TEMPLATE_FILE_PATH: Buffer = await fs.readFile(path.join(__dirname, './index.ejs'));
@@ -94,7 +94,7 @@ interface SearchIndex {
   })
   .use(mdExternalLink, {
     externalClassName: 'external',
-    internalDomains: ['wikiwikiwi.vercel.app', 'wiki.parksb.xyz'],
+    internalDomains: ['pedia.parksb.xyz'],
   });
 
   const sitemapUrls: string[] = [];

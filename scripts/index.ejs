@@ -5,28 +5,19 @@
   <meta charset="UTF-8" />
   <title><%- document.title %></title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="canonical" href="https://wiki.parksb.xyz/<%- document.filename %>.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="canonical" href="https://pedia.parksb.xyz/<%- document.filename %>.html" />
 
-  <meta property="og:title" content="Wikiwikiwi - <%- document.title %>">
-  <meta property="og:image" content="https://dummyimage.com/1200x675/bbca4e/202020.jpg&text=<%- document.filename %>">
+  <link rel="preload" href="/index.css" as="style" />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" as="style" />
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" as="style" />
 
-  <meta name="twitter:title" content="Wikiwikiwi - <%- document.title %>">
-  <meta name="twitter:image" content="https://dummyimage.com/1200x675/bbca4e/202020.jpg&text=<%- document.filename %>">
-  <meta name="twitter:card" content="summary_large_image">
-
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" as="style">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" as="style">
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-
-  <link rel="stylesheet" href="/assets/bundle.min.css">
-
-  <link rel="preload" href="/index.css" as="style">
-  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
+  <link rel="stylesheet" href="/assets/bundle.min.css" />
+  <link rel="stylesheet" href="/index.css" />
 </head>
 
 <body>
@@ -38,8 +29,8 @@
         <% }) %>
       </ul>
       <span class="meta">
-        <a href="https://github.com/parksb/wikiwikiwi/commits/master/docs/<%- document.filename %>.md">history</a> ·
-        <a href="https://raw.githubusercontent.com/parksb/wikiwikiwi/master/docs/<%- document.filename %>.md">raw</a>
+        <a href="https://github.com/parksb/pedia/commits/master/docs/<%- document.filename %>.md">history</a> ·
+        <a href="https://raw.githubusercontent.com/parksb/pedia/master/docs/<%- document.filename %>.md">raw</a>
       </span>
     </small>
     <form id="search-form" method="get" action="/search.html">
