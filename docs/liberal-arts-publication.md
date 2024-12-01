@@ -2,5 +2,7 @@
 
 ## 하위문서
 
-- [[rip-flash]]{R.I.P. FLASH}
+- [[rip-flash]]
 - [[how-to-take-smart-notes]]
+- [[how-to-read-a-paper]]
+- [[how-to-speak]]

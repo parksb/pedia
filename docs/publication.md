@@ -9,3 +9,4 @@
 - [[history-publication]]
 - [[liberal-arts-publication]]
 - [[law-publication]]
+- [[architecture-publication]]

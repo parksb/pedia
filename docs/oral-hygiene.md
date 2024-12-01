@@ -1,4 +1,4 @@
-# Oral Hygiene
+# 구강건강
 
 ## 치약
 

@@ -9,4 +9,6 @@
 - [[history-of-my-mobile-phones]]
 - [[goodbye-yyyy]]
 - [[what-will-i-live-for]]
+- [[how-to-grow-cactus]]
+- [[simonpedia-rules]]
 - [[private/finishing-undergraduate-in-seven-years]]{7년만에 학부를 마치며}

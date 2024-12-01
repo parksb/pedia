@@ -9,7 +9,6 @@
 - [[subject]]
 - [[publication]]
 - [[memo]]
-- [[etc]]{etc.}
 
 ## 관련문서
 
