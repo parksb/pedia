@@ -11,7 +11,7 @@
 - [[safety-engineering]]
 - [[military-science]]
 - [[electronic-engineering]]
-- [[sports]]
+- [[culture-art]]
 - [[medicine]]
 - [[architecture]]
 - [[etc]]
