@@ -11,6 +11,7 @@
 - [[platform-engineering]]
 - [[ks-x-1001]]
 - [[monorepo]]
+- [[yarn]]
 
 ## 관련문서
 
