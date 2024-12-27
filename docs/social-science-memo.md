@@ -4,4 +4,4 @@
 
 - [[justification-for-resistance-violence]]
 - [[gyeonggi-do-citizens-sense-of-urban-area]]
-- [[memo-on-korean-politics-in-2024]]
+- [[memo-on-korean-palace-coup-in-2024]]
