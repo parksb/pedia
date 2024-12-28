@@ -158,9 +158,9 @@ interface SearchIndex {
       } catch (e) {
         console.warn(e.message);
         if (label) {
-          return `[[${link}?]]${label}`;
+          return `[[http-404]]${label}`;
         }
-        return `[[${link}?]]`;
+        return `[[http-404]]${link}`;
       }
     });
 
