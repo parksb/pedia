@@ -15,10 +15,15 @@
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
+      const path = window.location.pathname;
       const hash = window.location.hash;
+      const el = document.getElementById('main');
       if (hash) {
-        const el = document.getElementById('main');
         el.setAttribute('hx-get', `/${hash.substring(2)}.html`);
+        el.setAttribute('hx-trigger', 'load');
+        htmx.process(el);
+      } else if (path && path !== '/') {
+        el.setAttribute('hx-get', `/${path}.html`);
         el.setAttribute('hx-trigger', 'load');
         htmx.process(el);
       }
