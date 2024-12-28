@@ -152,7 +152,7 @@ interface Document {
         if (label) {
           return `[[http-404]]${label}`;
         }
-        return `[[http-404]]${link}`;
+        return `[[http-404]]{${link}}`;
       }
     });
 
