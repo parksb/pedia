@@ -32,7 +32,7 @@
     </main>
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
     <script>
-    function toggleAsideItem(key) {
+    function asideItemEffect(key) {
       for (const item of document.querySelectorAll('aside > ul > li')) {
         item.classList.remove('active');
         if (item.getAttribute('data-key') === key) {
@@ -41,28 +41,22 @@
       }
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-      const path = window.location.pathname;
-      const hash = window.location.hash;
+    function pathname() {
+      const { pathname: path } = window.location;
+      return (path && path !== '/') ? path : 'simonpedia'
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const { pathname: path } = window.location;
       const el = document.getElementById('main');
-      if (path && path !== '/') {
-        el.setAttribute('hx-get', `${path}.html`);
-        toggleAsideItem(path);
-      } else {
-        el.setAttribute('hx-get', 'simonpedia.html');
-        toggleAsideItem('/simonpedia');
-      }
+      el.setAttribute('hx-get', `${pathname()}.html`);
       el.setAttribute('hx-trigger', 'load');
       htmx.process(el);
 
-      (() => {
-        const items = document.querySelectorAll('aside > ul > li > a');
-        items.forEach(link => {
-          link.addEventListener('click', event => {
-            toggleAsideItem(event.target.getAttribute('href'));
-          });
-        });
-      })();
+      document.body.addEventListener('htmx:afterSwap', (event) => {
+        asideItemEffect(pathname());
+        document.title = document.querySelector('article > h1').textContent;
+      });
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
