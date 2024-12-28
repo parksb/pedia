@@ -3,7 +3,8 @@
     <ul>
       <% document.breadcrumbs.map((breadcrumb) => { %>
       <li>
-        <a href="/<%- breadcrumb.filename %>"><%- breadcrumb.title %></a>
+        <a href="/<%- breadcrumb.filename %>.html" hx-get="/<%- breadcrumb.filename %>.html"
+          hx-target="#main" hx-push-url="/<%- breadcrumb.filename %>"><%- breadcrumb.title %></a>
       </li>
       <% }) %>
     </ul>
@@ -21,7 +22,8 @@
       <ul>
         <% document.referredFrom.map((document) => { %>
         <li>
-          <a href="/<%- document.filename %>"><%- document.title %></a>
+          <a href="/<%- document.filename %>.html" hx-get="/<%- document.filename %>.html"
+            hx-target="#main" hx-push-url="/<%- document.filename %>"><%- document.title %></a>
         </li>
         <% }) %>
       </ul>
