@@ -14,18 +14,16 @@
   </head>
   <body>
     <aside>
-      <ul>
+      <ul hx-boost="true">
         <% documents.map((document) => { %>
         <li data-key="/<%- document.filename %>">
-          <a title="<%- document.title %>" href="/<%- document.filename %>"
-            hx-get="/<%- document.filename %>.html" hx-target="#main"
-            hx-push-url="/<%- document.filename %>"><%- document.title %></a>
+          <a title="<%- document.title %>" href="/<%- document.filename %>"><%- document.title %></a>
         </li>
         <% }) %>
       </ul>
     </aside>
     <main>
-      <section id="main"></section>
+      <section id="main" hx-boost="true"></section>
       <footer>
         <small>© 박성범</small>
       </footer>
