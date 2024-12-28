@@ -4,6 +4,7 @@
 
 - [[computer-science]]
 - [[social-science]]
+- [[humanities]]
 - [[natural-science]]
 - [[graphic-design]]
 - [[mathematics]]
@@ -14,4 +15,3 @@
 - [[culture-art]]
 - [[medicine]]
 - [[architecture]]
-- [[etc]]

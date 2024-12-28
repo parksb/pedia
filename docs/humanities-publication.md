@@ -6,3 +6,4 @@
 - [[how-to-take-smart-notes]]
 - [[how-to-read-a-paper]]
 - [[how-to-speak]]
+- [[taebaek-sanmaeck]]

@@ -15,3 +15,4 @@
 - [[human-centered-artificial-intelligence]]
 - [[large-scale-cluster-management-at-google-with-borg]]
 - [[the-software-engineers-guidebook]]
+- [[hypermedia-systems]]

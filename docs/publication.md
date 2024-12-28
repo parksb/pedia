@@ -7,6 +7,6 @@
 - [[design-publication]]
 - [[mathematics-publication]]
 - [[history-publication]]
-- [[liberal-arts-publication]]
+- [[humanities-publication]]
 - [[law-publication]]
 - [[architecture-publication]]

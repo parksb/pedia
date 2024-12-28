@@ -7,11 +7,13 @@
 - [[spring]]
 - [[react]]
 - [[svelte]]
+- [[htmx]]
 - [[unix-philosophy]]
 - [[platform-engineering]]
 - [[ks-x-1001]]
 - [[monorepo]]
 - [[yarn]]
+- [[ieee-citation-style]]
 
 ## 관련문서
 
