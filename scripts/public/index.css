@@ -5,15 +5,19 @@
 }
 
 html { display: flex; height: 100%; }
-body { display: flex; flex-direction: row; word-break: keep-all; word-wrap: break-word; line-height: 1.7; font-family: 'Pretendard VF Distilled', sans-serif; font-size: 16px; }
+body { display: flex; flex-direction: row; word-break: keep-all; word-wrap: break-word; line-height: 1.7; font-family: 'Pretendard VF Distilled', sans-serif; font-size: 16px; height: 100%; width: 100%; }
 header { margin-bottom: 30px; line-height: 1.2 }
 header ul, .backlinks ul { display: inline; list-style-type: none; margin: 0; padding: 0; }
 header ul > li, .backlinks ul > li { display: inline; }
 header span.meta:before { content: '―'; margin-left: 5px; margin-right: 5px; }
 header ul > li:not(:last-child):after { content: '＞'; margin-left: 1px; margin-right: 1px; }
 .backlinks ul > li:not(:last-child):after { content: ','; margin-right: 1px; }
-aside { overflow: scroll; flex: 1; max-width: 250px; position: sticky; top: 0; border-right: 1px solid #eaecef; }
-main { flex: 3; padding: 1rem; max-width: 900px; }
+aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #dfe2e5; }
+aside > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
+aside > ul > li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 1rem 0 1rem; }
+aside > ul > li.active { font-weight: 600; background-color: #eaecef; }
+main { display: flex; flex: 3; flex-direction: column; padding: 1.5rem; overflow: scroll; }
+section#main { max-width: 900px; }
 footer { margin-top: 30px; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1rem; font-weight: 600; line-height: 1.25  }
 h1, h2 { padding-bottom: .3rem; border-bottom: 1px solid #eaecef; }

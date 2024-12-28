@@ -16,32 +16,53 @@
     <aside>
       <ul>
         <% documents.map((document) => { %>
-        <li>
-          <a href="/<%- document.filename %>" hx-get="/<%- document.filename %>.html"
-            hx-target="#main" hx-push-url="/<%- document.filename %>"><%- document.title %></a>
+        <li data-key="/<%- document.filename %>">
+          <a title="<%- document.title %>" href="/<%- document.filename %>"
+            hx-get="/<%- document.filename %>.html" hx-target="#main"
+            hx-push-url="/<%- document.filename %>"><%- document.title %></a>
         </li>
         <% }) %>
       </ul>
     </aside>
-    <main id="main"></main>
-    <footer>
-      <small>© 박성범</small>
-    </footer>
+    <main>
+      <section id="main"></section>
+      <footer>
+        <small>© 박성범</small>
+      </footer>
+    </main>
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
     <script>
+    function toggleAsideItem(key) {
+      for (const item of document.querySelectorAll('aside > ul > li')) {
+        item.classList.remove('active');
+        if (item.getAttribute('data-key') === key) {
+          item.classList.add('active');
+        }
+      }
+    }
+
     document.addEventListener('DOMContentLoaded', function () {
       const path = window.location.pathname;
       const hash = window.location.hash;
       const el = document.getElementById('main');
-      if (hash) {
-        el.setAttribute('hx-get', `/${hash.substring(2)}.html`);
-      } else if (path && path !== '/') {
+      if (path && path !== '/') {
         el.setAttribute('hx-get', `${path}.html`);
+        toggleAsideItem(path);
       } else {
         el.setAttribute('hx-get', 'simonpedia.html');
+        toggleAsideItem('/simonpedia');
       }
       el.setAttribute('hx-trigger', 'load');
       htmx.process(el);
+
+      (() => {
+        const items = document.querySelectorAll('aside > ul > li > a');
+        items.forEach(link => {
+          link.addEventListener('click', event => {
+            toggleAsideItem(event.target.getAttribute('href'));
+          });
+        });
+      })();
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>

@@ -1,4 +1,4 @@
-// Single Page Apps - redirect to /#/ except when a file extension is given
+// Single Page Apps - redirect to / except when a file extension is given
 var path = require('path');
 module.exports = function(req, res, next) {
 	if (req.method !== "GET" && req.method !== "HEAD")
