@@ -37,9 +37,7 @@
       return (path && path !== '/') ? path : '/simonpedia'
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      htmx.ajax('GET', `${pathname()}.html`, '#main');
-    });
+    htmx.ajax('GET', `${pathname()}.html`, '#main');
 
     document.body.addEventListener('htmx:afterSwap', event => {
       htmx.findAll('aside > ul > li').forEach(el => htmx.removeClass(el, 'active'));
