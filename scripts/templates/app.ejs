@@ -43,7 +43,7 @@
 
     function pathname() {
       const { pathname: path } = window.location;
-      return (path && path !== '/') ? path : 'simonpedia'
+      return (path && path !== '/') ? path : '/simonpedia'
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -53,7 +53,7 @@
       el.setAttribute('hx-trigger', 'load');
       htmx.process(el);
 
-      document.body.addEventListener('htmx:afterSwap', (event) => {
+      document.body.addEventListener('htmx:afterSwap', event => {
         asideItemEffect(pathname());
         document.title = document.querySelector('article > h1').textContent;
       });
