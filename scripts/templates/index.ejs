@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preload" href="/index.css" as="style" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" as="style" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" as="style" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
+    <link rel="stylesheet" href="/assets/bundle.min.css" />
+    <link rel="stylesheet" href="/index.css" />
+
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const path = window.location.pathname;
+      const contentDiv = document.getElementById('main');
+      if (path && path !== '/') {
+        contentDiv.setAttribute('hx-get', '/articles' + path + '.html');
+        contentDiv.setAttribute('hx-trigger', 'load');
+        htmx.process(contentDiv);
+      }
+    });
+    </script>
+  </head>
+  <body>
+    <aside>
+      <ul>
+        <% documents.map((document) => { %>
+        <li>
+          <a href="/<%- document.filename %>"
+            hx-get="/<%- document.filename %>.html"
+            hx-target="#main"
+            hx-push-url="/<%- document.filename %>">
+            <%- document.title %>
+          </a>
+        </li>
+        <% }) %>
+      </ul>
+    </aside>
+    <main id="main"></main>
+    <footer>
+      <small>© 박성범</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad:true });</script>
+  </body>
+</html>

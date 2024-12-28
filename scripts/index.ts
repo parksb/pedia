@@ -42,8 +42,12 @@ interface SearchIndex {
   const WEBSITE_DOMAIN = 'https://pedia.parksb.xyz';
   const MARKDOWN_DIRECTORY_PATH: string = path.join(__dirname, '../docs');
   const DIST_DIRECTORY_PATH: string = path.join(__dirname, '../build');
-  const TEMPLATE_FILE_PATH: Buffer = await fs.readFile(path.join(__dirname, './index.ejs'));
-  const SEARCH_TEMPLATE_FILE_PATH: Buffer = await fs.readFile(path.join(__dirname, './search.ejs'));
+
+  const TEMPLATE_DIR_PATH = path.join(__dirname, './templates');
+  const INDEX_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'index.ejs'));
+  const DOC_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'document.ejs'));
+  const SEARCH_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'search.ejs'));
+
   const SITEMAP_PATH = `${DIST_DIRECTORY_PATH}/sitemap.xml`;
 
   const md: MarkdownIt = new MarkdownIt({
@@ -210,11 +214,12 @@ interface SearchIndex {
     const searchIndex: SearchIndex = { title, filename, text: markdown };
     searchIndices.push(searchIndex);
 
-    fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(TEMPLATE_FILE_PATH), { document }));
+    fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(DOC_TEMPLATE_FILE), { document }));
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
-  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE_PATH), { document: JSON.stringify(searchIndices) }));
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(INDEX_TEMPLATE_FILE), { documents: Object.values(documents) }));
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE), { document: JSON.stringify(searchIndices) }));
 
   if (process.env.NODE_ENV === 'production') {
     fs.writeFile(
