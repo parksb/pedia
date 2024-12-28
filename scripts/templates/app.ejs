@@ -32,31 +32,19 @@
     </main>
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
     <script>
-    function asideItemEffect(key) {
-      for (const item of document.querySelectorAll('aside > ul > li')) {
-        item.classList.remove('active');
-        if (item.getAttribute('data-key') === key) {
-          item.classList.add('active');
-        }
-      }
-    }
-
     function pathname() {
       const { pathname: path } = window.location;
       return (path && path !== '/') ? path : '/simonpedia'
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-      const { pathname: path } = window.location;
-      const el = document.getElementById('main');
-      el.setAttribute('hx-get', `${pathname()}.html`);
-      el.setAttribute('hx-trigger', 'load');
-      htmx.process(el);
+      htmx.ajax('GET', `${pathname()}.html`, '#main');
+    });
 
-      document.body.addEventListener('htmx:afterSwap', event => {
-        asideItemEffect(pathname());
-        document.title = document.querySelector('article > h1').textContent;
-      });
+    document.body.addEventListener('htmx:afterSwap', event => {
+      htmx.findAll('aside > ul > li').forEach(el => htmx.removeClass(el, 'active'));
+      htmx.addClass(htmx.find(`aside > ul > li[data-key="${pathname()}"]`), 'active');
+      document.title = htmx.find('article > h1').textContent;
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
