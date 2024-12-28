@@ -14,7 +14,7 @@
   </head>
   <body>
     <aside>
-      <ul hx-boost="true">
+      <ul hx-boost="true" hx-target="#main">
         <% documents.map((document) => { %>
         <li data-key="/<%- document.filename %>">
           <a title="<%- document.title %>" href="/<%- document.filename %>"><%- document.title %></a>
@@ -23,7 +23,7 @@
       </ul>
     </aside>
     <main>
-      <section id="main" hx-boost="true"></section>
+      <section id="main" hx-boost="true" hx-target="#main"></section>
       <footer>
         <small>© 박성범</small>
       </footer>
