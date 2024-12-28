@@ -44,7 +44,7 @@ interface SearchIndex {
   const DIST_DIRECTORY_PATH: string = path.join(__dirname, '../build');
 
   const TEMPLATE_DIR_PATH = path.join(__dirname, './templates');
-  const INDEX_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'index.ejs'));
+  const APP_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'app.ejs'));
   const DOC_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'document.ejs'));
   const SEARCH_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'search.ejs'));
 
@@ -108,8 +108,8 @@ interface SearchIndex {
   const linkRegex = /\[\[(.+?)\]\]/g;
   const labeledLinkRegex = /\[\[(.+?)\]\]\{(.+?)\}/g;
 
-  const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
-  const writtenFiles: Set<string> = new Set(['index']);
+  const queue = new Denque([{ filename: 'simonpedia', breadcrumbs: [] }]);
+  const writtenFiles: Set<string> = new Set(['simonpedia']);
   const documents: { [key: string]: Document } = {};
 
   const findSubFilenames = (markdown: string): string[] => {
@@ -218,7 +218,7 @@ interface SearchIndex {
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
-  fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(INDEX_TEMPLATE_FILE), { documents: Object.values(documents) }));
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(APP_TEMPLATE_FILE), { documents: Object.values(documents) }));
   fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE), { document: JSON.stringify(searchIndices) }));
 
   if (process.env.NODE_ENV === 'production') {

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./build.sh",
-    "serve": "live-server ../build --middleware=spa-ignore-assets"
+    "serve": "live-server ../build --middleware=../../spa.js"
   },
   "repository": {
     "type": "git",

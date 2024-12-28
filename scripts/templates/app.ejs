@@ -11,24 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
     <link rel="stylesheet" href="/assets/bundle.min.css" />
     <link rel="stylesheet" href="/index.css" />
-
-    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const path = window.location.pathname;
-      const hash = window.location.hash;
-      const el = document.getElementById('main');
-      if (hash) {
-        el.setAttribute('hx-get', `/${hash.substring(2)}.html`);
-        el.setAttribute('hx-trigger', 'load');
-        htmx.process(el);
-      } else if (path && path !== '/') {
-        el.setAttribute('hx-get', `/${path}.html`);
-        el.setAttribute('hx-trigger', 'load');
-        htmx.process(el);
-      }
-    });
-    </script>
   </head>
   <body>
     <aside>
@@ -45,6 +27,23 @@
     <footer>
       <small>© 박성범</small>
     </footer>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const path = window.location.pathname;
+      const hash = window.location.hash;
+      const el = document.getElementById('main');
+      if (hash) {
+        el.setAttribute('hx-get', `/${hash.substring(2)}.html`);
+      } else if (path && path !== '/') {
+        el.setAttribute('hx-get', `${path}.html`);
+      } else {
+        el.setAttribute('hx-get', 'simonpedia.html');
+      }
+      el.setAttribute('hx-trigger', 'load');
+      htmx.process(el);
+    });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({ startOnLoad:true });</script>
   </body>
