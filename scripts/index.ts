@@ -30,20 +30,17 @@ interface Document {
   referredFrom: Document[];
 }
 
-interface SearchIndex {
-  title: string;
-  filename: string; // without extension
-  text: string;
-}
-
 (async () => {
   console.time('Build');
 
   const WEBSITE_DOMAIN = 'https://pedia.parksb.xyz';
   const MARKDOWN_DIRECTORY_PATH: string = path.join(__dirname, '../docs');
   const DIST_DIRECTORY_PATH: string = path.join(__dirname, '../build');
-  const TEMPLATE_FILE_PATH: Buffer = await fs.readFile(path.join(__dirname, './index.ejs'));
-  const SEARCH_TEMPLATE_FILE_PATH: Buffer = await fs.readFile(path.join(__dirname, './search.ejs'));
+
+  const TEMPLATE_DIR_PATH = path.join(__dirname, './templates');
+  const APP_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'app.ejs'));
+  const DOC_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'document.ejs'));
+
   const SITEMAP_PATH = `${DIST_DIRECTORY_PATH}/sitemap.xml`;
 
   const md: MarkdownIt = new MarkdownIt({
@@ -98,14 +95,13 @@ interface SearchIndex {
   });
 
   const sitemapUrls: string[] = [];
-  const searchIndices: SearchIndex[] =[];
 
   // https://github.com/johngrib/johngrib-jekyll-skeleton/blob/v1.0/_includes/createLink.html
   const linkRegex = /\[\[(.+?)\]\]/g;
   const labeledLinkRegex = /\[\[(.+?)\]\]\{(.+?)\}/g;
 
-  const queue = new Denque([{ filename: 'index', breadcrumbs: [] }]);
-  const writtenFiles: Set<string> = new Set(['index']);
+  const queue = new Denque([{ filename: 'simonpedia', breadcrumbs: [] }]);
+  const writtenFiles: Set<string> = new Set(['simonpedia']);
   const documents: { [key: string]: Document } = {};
 
   const findSubFilenames = (markdown: string): string[] => {
@@ -154,9 +150,9 @@ interface SearchIndex {
       } catch (e) {
         console.warn(e.message);
         if (label) {
-          return `[[${link}?]]${label}`;
+          return `[[http-404]]${label}`;
         }
-        return `[[${link}?]]`;
+        return `[[http-404]]${link}`;
       }
     });
 
@@ -201,20 +197,17 @@ interface SearchIndex {
 
     document.markdown = labelInternalLink(document.markdown, document.filename);
     document.html = md.render(`${insertToc(document.markdown)}`)
-      .replace(labeledLinkRegex, '<a href="/$1.html">$2</a>')
-      .replace(linkRegex, '<a href="/$1.html">$1</a>');
+      .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$2</a>')
+      .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$1</a>');
   }
 
   for (const document of Object.values(documents)) {
-    const { title, filename, markdown } = document;
-    const searchIndex: SearchIndex = { title, filename, text: markdown };
-    searchIndices.push(searchIndex);
-
-    fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(TEMPLATE_FILE_PATH), { document }));
+    const { filename } = document;
+    fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(DOC_TEMPLATE_FILE), { document }));
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
-  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE_PATH), { document: JSON.stringify(searchIndices) }));
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(APP_TEMPLATE_FILE), { documents: Object.values(documents) }));
 
   if (process.env.NODE_ENV === 'production') {
     fs.writeFile(
