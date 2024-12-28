@@ -14,11 +14,12 @@
   </head>
   <body>
     <aside>
+      <input type="search" placeholder="🔍" />
       <ul>
         <% documents.map((document) => { %>
         <li data-key="/<%- document.filename %>">
           <a title="<%- document.title %>" href="/<%- document.filename %>"
-            hx-get="/<%- document.filename %>.html" hx-target="#main"
+            hx-get="/<%- document.filename %>.html" hx-target="#main" hx-swap="show:top"
             hx-push-url="/<%- document.filename %>"><%- document.title %></a>
         </li>
         <% }) %>

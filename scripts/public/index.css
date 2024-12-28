@@ -16,9 +16,9 @@ aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #df
 aside > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
 aside > ul > li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 1rem 0 1rem; }
 aside > ul > li.active { font-weight: 600; background-color: #eaecef; }
-main { display: flex; flex: 3; flex-direction: column; padding: 1.5rem; overflow: scroll; }
-section#main { max-width: 900px; }
-footer { margin-top: 30px; }
+main { display: flex; flex: 3; flex-direction: column; overflow: scroll; }
+section#main { max-width: 900px; padding: 1.5rem; }
+footer { padding: 1.5rem; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1rem; font-weight: 600; line-height: 1.25  }
 h1, h2 { padding-bottom: .3rem; border-bottom: 1px solid #eaecef; }
 img { box-sizing: initial; width: auto; height: auto; max-width: 100%; max-height: 600px; display: block; border: 1px solid #eaecef; }
@@ -51,8 +51,4 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .footnotes > .footnotes-list > .footnote-item { list-style-position: inherit; list-style: none; line-height: 1.4; }
 .footnotes > .footnotes-list > .footnote-item:before { content: "[" counter(list) "] "; counter-increment: list; }
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
-#search-form { width: 100%; max-width: 400px; margin-top: 10px; font-size: 1rem; }
-#search-text-field { width: 80%; }
-#search-button { border: none; background-color: #ffffff; cursor: pointer; }
-#search-button:before { content: '🔍'; }
-#search-button:hover:before { content: '🔎'; }
+input[type="search"] { border: 0; border-bottom: 1px solid #dfe2e5; font-size: 1rem; padding: 0.5rem; outline: none; width: 100%; }

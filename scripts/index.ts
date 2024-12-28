@@ -30,12 +30,6 @@ interface Document {
   referredFrom: Document[];
 }
 
-interface SearchIndex {
-  title: string;
-  filename: string; // without extension
-  text: string;
-}
-
 (async () => {
   console.time('Build');
 
@@ -46,7 +40,6 @@ interface SearchIndex {
   const TEMPLATE_DIR_PATH = path.join(__dirname, './templates');
   const APP_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'app.ejs'));
   const DOC_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'document.ejs'));
-  const SEARCH_TEMPLATE_FILE: Buffer = await fs.readFile(path.join(TEMPLATE_DIR_PATH, 'search.ejs'));
 
   const SITEMAP_PATH = `${DIST_DIRECTORY_PATH}/sitemap.xml`;
 
@@ -102,7 +95,6 @@ interface SearchIndex {
   });
 
   const sitemapUrls: string[] = [];
-  const searchIndices: SearchIndex[] =[];
 
   // https://github.com/johngrib/johngrib-jekyll-skeleton/blob/v1.0/_includes/createLink.html
   const linkRegex = /\[\[(.+?)\]\]/g;
@@ -205,21 +197,17 @@ interface SearchIndex {
 
     document.markdown = labelInternalLink(document.markdown, document.filename);
     document.html = md.render(`${insertToc(document.markdown)}`)
-      .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1">$2</a>')
-      .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1">$1</a>');
+      .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$2</a>')
+      .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$1</a>');
   }
 
   for (const document of Object.values(documents)) {
-    const { title, filename, markdown } = document;
-    const searchIndex: SearchIndex = { title, filename, text: markdown };
-    searchIndices.push(searchIndex);
-
+    const { filename } = document;
     fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(DOC_TEMPLATE_FILE), { document }));
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
   fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(APP_TEMPLATE_FILE), { documents: Object.values(documents) }));
-  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.html`, ejs.render(String(SEARCH_TEMPLATE_FILE), { document: JSON.stringify(searchIndices) }));
 
   if (process.env.NODE_ENV === 'production') {
     fs.writeFile(
