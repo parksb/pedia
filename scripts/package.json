@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./build.sh",
-    "serve": "live-server ../build --middleware=../../spa.js"
+    "serve": "live-server ../build -q --middleware=../../spa.js"
   },
   "repository": {
     "type": "git",
