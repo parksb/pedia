@@ -22,6 +22,7 @@
 - [[person]]
 - [[publication]]
 - [[simonpedia-rules]]
+- [[simonpedia-system]]
 
 ## 관련문서
 
