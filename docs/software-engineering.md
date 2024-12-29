@@ -15,6 +15,7 @@
 - [[yarn]]
 - [[ieee-citation-style]]
 - [[yak-shaving]]
+- [[clean-code-myth]]
 
 ## 관련문서
 

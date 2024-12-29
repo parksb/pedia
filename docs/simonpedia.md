@@ -2,16 +2,28 @@
 
 ## 개요
 
-[박성범](https://parksb.github.io/)의 디지털 정원.
+[[parksb]]의 디지털 정원.
 
 ## 하위문서
 
-- [[subject]]
+- [[computer-science]]
+- [[social-science]]
+- [[humanities]]
+- [[natural-science]]
+- [[graphic-design]]
+- [[mathematics]]
+- [[history]]
+- [[safety-engineering]]
+- [[military-science]]
+- [[electronic-engineering]]
+- [[culture-art]]
+- [[medicine]]
+- [[architecture]]
+- [[person]]
 - [[publication]]
-- [[memo]]
+- [[simonpedia-rules]]
 
 ## 관련문서
 
 - [[memex]]
 - [[how-to-take-smart-notes]]
-- [[simonpedia-rules]]

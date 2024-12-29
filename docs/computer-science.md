@@ -12,8 +12,9 @@
 - [[concurrent-programming]]
 - [[software-engineering]]
 - [[human-computer-interaction]]
+- [[developer-chauvinism]]
+- [[community-computer-science-argument]]
 
 ## 관련문서
 
 - [[computer-science-publication]]
-- [[computer-science-memo]]
