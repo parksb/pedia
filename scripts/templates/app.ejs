@@ -19,8 +19,9 @@
         <% documents.map((document) => { %>
         <li data-key="/<%- document.filename %>">
           <a title="<%- document.title %>" href="/<%- document.filename %>"
-            hx-get="/<%- document.filename %>.html" hx-target="#main" hx-swap="show:top"
-            hx-push-url="/<%- document.filename %>"><%- document.title %></a>
+            hx-get="/<%- document.filename %>.html" hx-target="#main"
+            hx-swap="show:top" hx-push-url="/<%- document.filename %>"
+            hx-on:click="select('/<%- document.filename %>')"><%- document.title %></a>
         </li>
         <% }) %>
       </ul>
@@ -38,12 +39,23 @@
       return (path && path !== '/') ? path : '/simonpedia'
     }
 
-    htmx.ajax('GET', `${pathname()}.html`, '#main');
+    function select(key) {
+      htmx.findAll('aside > ul > li').forEach(el => htmx.removeClass(el, 'active'));
+      htmx.addClass(htmx.find(`aside > ul > li[data-key="${key}"]`), 'active');
+    }
+
+    document.addEventListener("DOMContentLoaded", (event) => {
+      htmx.ajax('GET', `${pathname()}.html`, '#main');
+      select(pathname());
+    });
 
     document.body.addEventListener('htmx:afterSwap', event => {
-      htmx.findAll('aside > ul > li').forEach(el => htmx.removeClass(el, 'active'));
-      htmx.addClass(htmx.find(`aside > ul > li[data-key="${pathname()}"]`), 'active');
       document.title = htmx.find('article > h1').textContent;
+    });
+
+    document.body.addEventListener('htmx:historyRestore', event => {
+      select(pathname());
+      htmx.find('aside > ul > li.active').scrollIntoView({ block: 'center' });
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
