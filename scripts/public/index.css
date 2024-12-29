@@ -15,8 +15,9 @@ header ul > li:not(:last-child):after { content: '＞'; margin-left: 1px; margin
 .backlinks ul > li:not(:last-child):after { content: ','; margin-right: 1px; }
 aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #dfe2e5; }
 aside > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
-aside > ul > li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 1rem 0 1rem; }
-aside > ul > li.active { font-weight: 600; background-color: #eaecef; }
+aside > ul > li { overflow: hidden; white-space: nowrap; padding: 0 1rem 0 1rem; cursor: pointer; }
+aside > ul > li > a { display: block; }
+aside > ul > li.active, aside > ul > li:hover { font-weight: 600; background-color: #eaecef; }
 main { display: flex; flex: 3; flex-direction: column; overflow: scroll; }
 article { max-width: 900px; padding: 1.5rem; }
 footer { padding: 1.5rem; }
