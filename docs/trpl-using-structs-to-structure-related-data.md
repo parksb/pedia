@@ -1,4 +1,4 @@
-# Using Structs to Structure Related Data (TRPL)
+# TRPL Ch 5. Using Structs to Structure Related Data
 
 * C의 구조체와 비슷하다.
   ```rust

@@ -1,4 +1,4 @@
-# Common Programming Concepts (TRPL)
+# TRPL Ch 3. Common Programming Concepts
 
 ## Variables and Mutability
 

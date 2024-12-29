@@ -9,6 +9,7 @@
 - [[activity-pub]]{ActivityPub}
 - [[web3]]{Web3}
 - [[http-404]]
+- [[w3c]]
 
 ## 관련문서
 

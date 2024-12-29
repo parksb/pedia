@@ -1,4 +1,4 @@
-# Generic Types, Traits, and Lifetimes (TRPL)
+# TRPL Ch 10. Generic Types, Traits, and Lifetimes
 
 ## Generic Data Types
 

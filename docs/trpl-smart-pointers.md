@@ -1,4 +1,4 @@
-# Smart Pointers (TRPL)
+# TRPL Ch 15. Smart Pointers
 
 * 스마트 포인터는 포인터처럼 동작하지만 추가적인 메타데이터와 기능을 가진 데이터 구조다.
 * `Box<T>`: 값을 힙에 할당하기 위한 타입

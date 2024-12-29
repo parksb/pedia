@@ -1,4 +1,4 @@
-# Operating System Concepts (OSC)
+# Operating System Concepts(OSC)
 
 ![](https://media.wiley.com/product_data/coverImage300/55/11180937/1118093755.jpg)
 

@@ -1,4 +1,4 @@
-# Process Concept (OSC)
+# OSC Ch 3. Process Concept
 
 * 본격적으로 프로세스에 대해서 다룬다.
 * 디스크에 있는 것은 프로그램, 메모리에 로드된 것은 프로세스라고 한다.

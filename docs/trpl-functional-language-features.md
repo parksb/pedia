@@ -1,4 +1,4 @@
-# Functional Language Features: Iterators and Closures (TRPL)
+# TRPL Ch 13. Functional Language Features: Iterators and Closures
 
 * Closures: 변수에 저장할 수 있는 function-like 구조.
 * Iterators: 배열의 요소를 처리할 수 있는 방법.

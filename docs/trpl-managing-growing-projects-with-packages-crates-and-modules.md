@@ -1,4 +1,4 @@
-# Using Structs to Structure Related Data (TRPL)
+# TRPL Ch 7. Managing Growing Projects with Packages, Crates, and Modules
 
 * 모듈은 `mod` 키워드로 정의한다.
   ```rust

@@ -1,4 +1,4 @@
-# Common Collections (TRPL)
+# TRPL Ch 8. Common Collections
 
 ## Vector (`Vec<T>`)
 
