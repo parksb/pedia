@@ -1,4 +1,4 @@
-# Process Scheduling
+# Process Scheduling (OSC)
 
 * 어떤 프로세스를 프로세서에 할당할 것인가 정하는 프로세스 스케줄링(Process scheduling)에 대해 다룬다.
 * FCFS, SJF, RR 등 다양한 프로세스 스케줄링에 대해 소개한다.

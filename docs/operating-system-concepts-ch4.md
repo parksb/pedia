@@ -1,4 +1,4 @@
-# Multithreaded Programming
+# Multithreaded Programming (OSC)
 
 * 스레드에 대해 다루는 챕터.
 * 구체적인 멀티스레드 구현 방법이나 코드가 나온다.

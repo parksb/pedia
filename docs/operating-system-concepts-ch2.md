@@ -1,4 +1,4 @@
-# System Structures
+# System Structures (OSC)
 
 * 시스템에 대해 보다 자세히 다루는 챕터.
 

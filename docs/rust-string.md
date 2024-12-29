@@ -1,4 +1,4 @@
-# String
+# String (Rust)
 
 ## `&str`과 `String` 사이 변환
 

@@ -1,4 +1,4 @@
-# Ownership
+# Ownership (Rust)
 
 ## 메소드의 `self`, `&self`, `&mut self`
 

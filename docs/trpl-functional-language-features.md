@@ -1,4 +1,4 @@
-# Functional Language Features: Iterators and Closures
+# Functional Language Features: Iterators and Closures (TRPL)
 
 * Closures: 변수에 저장할 수 있는 function-like 구조.
 * Iterators: 배열의 요소를 처리할 수 있는 방법.
@@ -100,7 +100,7 @@ fn main() {
 fn main() {
     let x = vec![1, 2, 3];
 
-    // `x`의 오너십이 클로저 안으로 이동한다. 
+    // `x`의 오너십이 클로저 안으로 이동한다.
     let equal_to_x = move |z| z == x;
 
     // 여기서부터 `x`를 사용할 수 없다.

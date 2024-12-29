@@ -1,4 +1,4 @@
-# Using Structs to Structure Related Data
+# Using Structs to Structure Related Data (TRPL)
 
 * 모듈은 `mod` 키워드로 정의한다.
   ```rust
@@ -46,7 +46,7 @@ pub fn eat_at_restaurant() {
     rand = "0.5.5"
     ```
   * `rand` 모듈을 가져올 때도 `use`를 사용한다. `use rand::Rng`
-* `use` 경로를 중첩할 수 있다. `use std::{cmp::Ordering, io}` 
+* `use` 경로를 중첩할 수 있다. `use std::{cmp::Ordering, io}`
   * `io` 자기 자신과 `io::Write`를 스코프로 가져올 때 중첩을 이용한다. `use std::io::{self, Write}`
 * 모든 public 요소를 가져올 때는 glob 연산자 `*`을 사용한다. `use std::collections::*`
 

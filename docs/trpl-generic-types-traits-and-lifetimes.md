@@ -1,4 +1,4 @@
-# Generic Types, Traits, and Lifetimes
+# Generic Types, Traits, and Lifetimes (TRPL)
 
 ## Generic Data Types
 
@@ -11,22 +11,22 @@
       x: T,
       y: T,
   }
-  
+
   fn main() {
       let integer = Point { x: 5, y: 10 };
-      let float = Point { x: 1.0, y: 4.0 };      
+      let float = Point { x: 1.0, y: 4.0 };
   }
-  ``` 
+  ```
    ```rust
   struct Point<T, U> {
       x: T,
       y: U,
   }
-  
+
   fn main() {
       let integer_and_float = Point { x: 5, y: 4.0 };
   }
-  ``` 
+  ```
 * enum에서:
   ```rust
   enum Result<T, E> {
@@ -40,13 +40,13 @@
       x: T,
       y: T,
   }
-  
+
   impl<T> Point<T> {
       fn x(&self) -> &T {
           &self.x
       }
   }
-  
+
   fn main() {
       let p = Point { x: 5, y: 10 };
       println!("p.x = {}", p.x()); // p.x = 5

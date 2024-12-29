@@ -1,6 +1,6 @@
 # Hypermedia Systems
 
-> Carson Gross, et al., "Hypermedia Systems", [hypermedia.systems](https://hypermedia.systems/), 2023
+> Carson Gross et al., "Hypermedia Systems", [hypermedia.systems](https://hypermedia.systems/), 2023
 
 ## Hypermedia Concepts
 

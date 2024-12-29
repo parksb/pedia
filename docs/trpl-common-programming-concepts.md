@@ -1,4 +1,4 @@
-# Common Programming Concepts
+# Common Programming Concepts (TRPL)
 
 ## Variables and Mutability
 
@@ -18,7 +18,7 @@
       println!("The value of x is: {}", x); // The value of x is: 12
   }
   ```
-  * 쉐도잉을 통해 변수를 재선언함으로써 타입을 바꿀 수 있다. 
+  * 쉐도잉을 통해 변수를 재선언함으로써 타입을 바꿀 수 있다.
 
 ## Data Types
 

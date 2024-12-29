@@ -1,4 +1,4 @@
-# Module
+# Module (Rust)
 
 ## 다른 파일에서 모듈 가져오기
 
@@ -30,18 +30,18 @@ pub mod services {
 }
 ```
 
-* 디렉토리, 파일 자체가 하나의 모듈이다. `services` 모듈 안에 `user` 모듈이 있는 것. 
+* 디렉토리, 파일 자체가 하나의 모듈이다. `services` 모듈 안에 `user` 모듈이 있는 것.
 * `pub mod user;`는 `user` 모듈(파일)의 내용을 다른 위치에서 찾으라는 의미다.
 
   ```rust
   pub mod services {
  	pub mod user {
 	  // contents of services/user.rs
-	}   
+	}
   }
   ```
 
-* 이제 `main.rs`에서 루트를 기준으로 `services` 모듈과 그 안의 `user` 모듈을 찾을 수 있다. 
+* 이제 `main.rs`에서 루트를 기준으로 `services` 모듈과 그 안의 `user` 모듈을 찾을 수 있다.
 
 ```rust
 // src/main.rs

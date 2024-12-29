@@ -23,6 +23,10 @@ _모노레포와 폴리레포._
 
 ## 사례
 
+### 구글
+
+> [Rachel Potvin et al., "Why Google Stores Billions of Lines of Code in a Single Repository", 2016](https://dl.acm.org/doi/10.1145/2854146)
+
 ### 토스
 
 > [정석호, "200여개 서비스 모노레포의 파이프라인 최적화", 2024](https://toss.tech/article/monorepo-pipeline)

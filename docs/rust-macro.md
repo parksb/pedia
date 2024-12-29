@@ -1,4 +1,4 @@
-# Macros
+# Macros (Rust)
 
 * 코드에 대한 코드, 메타프로그래밍이라고 한다. `println!`, `vec!` 모두 매크로.
 * `macro_rules!` 매크로를 이용해 선언형 매크로 (declarative macro)를 만들 수 있다.

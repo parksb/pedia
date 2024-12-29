@@ -1,4 +1,4 @@
-# Understanding Ownership
+# Understanding Ownership (TRPL)
 
 * 오너십은 러스트의 메모리 관리 방식이다. C에서는 개발자가 직접 메모리를 할당, 해제한다. JVM에서는 가비지 컬렉터가 메모리를 정리한다.
 * 오너십에는 세 가지 규칙이 있다.

@@ -1,4 +1,4 @@
-# Using Structs to Structure Related Data
+# Using Structs to Structure Related Data (TRPL)
 
 * C의 구조체와 비슷하다.
   ```rust
@@ -32,7 +32,7 @@
 
 * struct를 그대로 출력하려고 하면 오류가 발생한다.
   * 일단 포맷 스트링은 `{:?}` 또는 `{:#?}`를 사용해야 한다.
-  * 그리고 `std::fmd::Debug`를 implement해야 한다. 러스트는 디버깅 정보를 출력하도록 지원하기 때문이다. 
+  * 그리고 `std::fmd::Debug`를 implement해야 한다. 러스트는 디버깅 정보를 출력하도록 지원하기 때문이다.
   * 실제로 구현하지 않고 struct 정의 위에 annotation `#[derive(Debug)]`를 적어주면 된다.
   ```rust
   #[derive(Debug)]
@@ -59,7 +59,7 @@
   ```
   * 호출할 때는 `rect1.area()`와 같이 한다.
   * 메소드가 인스턴스 자기 자신을 사용하고 싶으면 `&self`를 파라미터로 사용한다. 호출부에서는 무시된다.
-* 한 struct에 대한 `impl` 블록이 여러개일 수 있다. 
+* 한 struct에 대한 `impl` 블록이 여러개일 수 있다.
 
 ## Enums and Pattern Matching
 

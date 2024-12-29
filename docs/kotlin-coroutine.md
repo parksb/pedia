@@ -1,4 +1,4 @@
-# Kotlin Coroutine
+# 코루틴 (Kotlin)
 
 ## Exceptions handling
 
@@ -12,7 +12,7 @@
     throw IndexOutOfBoundsException() // 여기서 예외가 발생
                                       // Thread.defaultUncaughtExceptionHandler에 의해 에러가 출력됨
   }
-  
+
   try {
     job.join()
     println("Reached")
@@ -28,7 +28,7 @@
     } catch (e: IndexOutOfBoundsException) {
       println("Caught IndexOutOfBoundsException") // 예외가 캐치됨
     }
-  } 
+  }
   ```
 * 사용자가 예외를 처리하도록 노출하는 빌더: `async`, `produce`
   ```kotlin
@@ -36,7 +36,7 @@
     println("Throwing exception from async")
     throw ArithmeticException()
   }
-  
+
   try {
     deferred.await() // 여기서 예외가 발생
     println("Unreached")
@@ -52,7 +52,7 @@
     } catch (e: ArithmeticException) {
       println("Caught ArithmeticException") // 예외가 캐치됨
     }
-  } 
+  }
   ```
 
 ### CoroutineExceptionHandler
@@ -60,7 +60,7 @@
 * 코루틴에서 캐치되지 않는 예외가 발생하면 CoroutineExceptionHandler가 예외를 다룬다.
 * 핸들러의 동작을 커스텀할 수도 있다:
   ```kotlin
-  val handler = CoroutineExceptionHandler { _, exception -> 
+  val handler = CoroutineExceptionHandler { _, exception ->
     println("CoroutineExceptionHandler got $exception") // 단순히 에러 메시지를 출력하는 커스텀 핸들러
   }
 
@@ -96,7 +96,7 @@
 
     println("Parent is not cancelled")
   }
-  
+
   job.join()
   ```
 * 부모가 예외를 다루려면 모든 자식 코루틴이 종료되어야 한다:

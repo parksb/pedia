@@ -1,4 +1,4 @@
-# Memory-Management Strategies
+# Memory-Management Strategies (OSC)
 
 * 메모리에 로드된 프로세스를 효율적으로 관리하는 방법을 다룬다.
 

@@ -1,4 +1,4 @@
-# Concurrency
+# Concurrency (Rust)
 
 - 동시성: 프로그램의 서로 다른 일부를 독립적으로 실행하는 것.
 - 병렬성: 프로그램의 서로 다른 일부를 같은 시점에 실행하는 것.
@@ -13,7 +13,7 @@
   ```rust
   use std::thread;
   use std::time::Duration;
-  
+
   fn main() {
       thread::spawn(|| {
           for i in 1..10 {
@@ -21,7 +21,7 @@
               thread::sleep(Duration::from_millis(1));
           }
       });
-  
+
       for i in 1..5 {
           println!("hi number {} from the main thread!", i);
           thread::sleep(Duration::from_millis(1));
@@ -44,7 +44,7 @@
   ```rust
   use std::thread;
   use std::time::Duration;
-  
+
   fn main() {
       let handle = thread::spawn(|| {
           for i in 1..10 {
@@ -52,12 +52,12 @@
               thread::sleep(Duration::from_millis(1));
           }
       });
-  
+
       for i in 1..5 {
           println!("hi number {} from the main thread!", i);
           thread::sleep(Duration::from_millis(1));
       }
-  
+
       handle.join().unwrap();
   }
   ```
@@ -68,13 +68,13 @@
 
     fn main() {
         let v = vec![1, 2, 3];
-    
+
         let handle = thread::spawn(|| {
             println!("Here's a vector: {:?}", v);
         });
-    
+
         drop(v); // oh no!
-    
+
         handle.join().unwrap();
     }
     ```
@@ -84,11 +84,11 @@
 
     fn main() {
         let v = vec![1, 2, 3];
-    
+
         let handle = thread::spawn(move || {
             println!("Here's a vector: {:?}", v);
         });
-    
+
         handle.join().unwrap();
     }
     ```
@@ -112,11 +112,11 @@
       let song = learn_song().await;
       sing_song(song).await;
   }
-  
+
   async fn async_main() {
       let f1 = learn_and_sing();
       let f2 = dance();
-  
+
       // `join!`은 `.await`와 비슷하지만 여러 futures를 동시에 기다린다.
       // 만약 `learn_and_sing`가 잠시 블로킹되면, `dance`가 현재 스레드를 점유할 것이다.
       // 만약 `dance`가 블로킹되면, `learn_and_sing`이 다시 스레드를 점유한다.
@@ -124,7 +124,7 @@
       // `let (book, music) = futures::join!(get_book, get_music);` 처럼 페어를 반환할 수도 있다.
       futures::join!(f1, f2);
   }
-  
+
   fn main() {
       // `block_on`은 future가 완료될 때까지 현재 스레드를 블로킹한다.
       block_on(async_main());
@@ -140,7 +140,7 @@
       type Output;
       fn poll(&mut self, wake: fn()) -> Poll<Self::Output>;
   }
-  
+
   enum Poll<T> {
       Ready(T),
       Pending,

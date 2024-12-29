@@ -1,11 +1,11 @@
-# Process Concept
+# Process Concept (OSC)
 
-* 본격적으로 프로세스에 대해서 다룬다. 
+* 본격적으로 프로세스에 대해서 다룬다.
 * 디스크에 있는 것은 프로그램, 메모리에 로드된 것은 프로세스라고 한다.
 * 프로세스는 Stack, Heap, Data, Code로 나뉜다:
   ```
   +---------------+ max
-  |     stack     | 
+  |     stack     |
   +-------+-------+
   |       |       |
   |       v       |
@@ -50,7 +50,7 @@
   * CPU-scheduling information: 프로세스의 중요도, 스케줄링 큐 포인터 등 스케줄링 파라미터 정보.
   * Memory-management information: base, limit 레지스터 값, 페이지 테이블 등 메모리 시스템 정보.
   * Accounting information: 사용된 CPU 총량, 프로세스 개수, 시간 제한 등.
-  * I/O status information: 프로세스에 할당된 입출력 장치 목록, 열린 파일 목록 등. 
+  * I/O status information: 프로세스에 할당된 입출력 장치 목록, 열린 파일 목록 등.
 
 ## Threads
 

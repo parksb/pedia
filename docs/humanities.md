@@ -4,6 +4,7 @@
 
 - [[marxism]]
 - [[accelerationism]]
+- [[campus-life]]
 
 ## 관련문서
 
