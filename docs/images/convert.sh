@@ -5,9 +5,10 @@ OUTPUT=$(uuidgen | tr "[:upper:]" "[:lower:]").webp
 WIDTH=900
 
 if (( "$(identify -format "%w" "$INPUT")" > "$WIDTH" )); then
-  convert -resize "$WIDTH"x "$INPUT" "$OUTPUT"
+  magick -resize "$WIDTH"x "$INPUT" "$OUTPUT"
 else
-  convert "$INPUT" "$OUTPUT"
+  magick "$INPUT" "$OUTPUT"
 fi
 
+rm "$INPUT"
 echo "$OUTPUT"

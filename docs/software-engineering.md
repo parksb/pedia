@@ -14,6 +14,7 @@
 - [[monorepo]]
 - [[yarn]]
 - [[ieee-citation-style]]
+- [[yak-shaving]]
 
 ## 관련문서
 

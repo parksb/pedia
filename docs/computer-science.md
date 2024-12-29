@@ -11,6 +11,7 @@
 - [[algorithm-and-data-structure]]
 - [[concurrent-programming]]
 - [[software-engineering]]
+- [[human-computer-interaction]]
 
 ## 관련문서
 

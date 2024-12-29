@@ -16,3 +16,4 @@
 - [[large-scale-cluster-management-at-google-with-borg]]
 - [[the-software-engineers-guidebook]]
 - [[hypermedia-systems]]
+- [[as-we-may-think]]

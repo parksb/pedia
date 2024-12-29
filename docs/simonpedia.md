@@ -12,4 +12,6 @@
 
 ## 관련문서
 
+- [[memex]]
+- [[how-to-take-smart-notes]]
 - [[simonpedia-rules]]
