@@ -36,7 +36,12 @@
     <script>
     function pathname() {
       const { pathname: path } = window.location;
-      return (path && path !== '/') ? path : '/simonpedia'
+      if (path && path !== '/') {
+        const keys = new Set(<%- JSON.stringify(documents.map(doc => `/${doc.filename}`)) %>);
+        if (!keys.has(path)) return '/http-404';
+        return path;
+      }
+      return '/simonpedia';
     }
 
     function select(key) {
@@ -44,7 +49,7 @@
       htmx.addClass(htmx.find(`aside > ul > li[data-key="${key}"]`), 'active');
     }
 
-    document.addEventListener("DOMContentLoaded", (event) => {
+    document.addEventListener('DOMContentLoaded', (event) => {
       htmx.ajax('GET', `${pathname()}.html`, '#main');
       select(pathname());
     });
