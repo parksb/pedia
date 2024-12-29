@@ -49,9 +49,15 @@
       htmx.addClass(htmx.find(`aside > ul > li[data-key="${key}"]`), 'active');
     }
 
+    function scrollToActive() {
+      htmx.find('aside > ul > li.active').scrollIntoView({ block: 'center' });
+    }
+
+    htmx.ajax('GET', `${pathname()}.html`, '#main');
+
     document.addEventListener('DOMContentLoaded', (event) => {
-      htmx.ajax('GET', `${pathname()}.html`, '#main');
       select(pathname());
+      scrollToActive();
     });
 
     document.body.addEventListener('htmx:afterSwap', event => {
@@ -60,7 +66,7 @@
 
     document.body.addEventListener('htmx:historyRestore', event => {
       select(pathname());
-      htmx.find('aside > ul > li.active').scrollIntoView({ block: 'center' });
+      scrollToActive();
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
