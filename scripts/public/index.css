@@ -6,11 +6,14 @@
 
 html { display: flex; height: 100%; }
 body { display: flex; flex-direction: row; word-break: keep-all; word-wrap: break-word; line-height: 1.7; font-family: 'Pretendard VF Distilled', sans-serif; font-size: 16px; height: 100%; width: 100%; }
-header { position: sticky; top: 0; background-color: #ffffffd0; border-bottom: 1px solid #dfe2e5; padding: .6rem; line-height: 1; }
+header { position: sticky; top: 0; background-color: #ffffffd0; border-bottom: 1px solid #dfe2e5; line-height: 1; display: flex; flex-direction: row; align-items: center; }
 header ul, .backlinks ul { display: inline; list-style-type: none; margin: 0; padding: 0; }
 header ul > li, .backlinks ul > li { display: inline; line-height: inherit;}
 header span.meta:before { content: '/'; margin-left: 5px; margin-right: 5px; }
 header ul > li:not(:last-child):after { content: '＞'; margin-left: 1px; margin-right: 1px; }
+header .sidebar-toggle { padding: .6rem; cursor: pointer; font-size: 1rem; font-weight: 200; }
+header .sidebar-toggle:hover { font-weight: 600; }
+header .breadcrumbs { padding: .6rem .6rem .6rem 0; }
 .backlinks { line-height: 1; }
 .backlinks ul > li:not(:last-child):after { content: ','; margin-right: 1px; }
 aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #dfe2e5; }
@@ -54,3 +57,4 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .footnotes > .footnotes-list > .footnote-item:before { content: "[" counter(list) "] "; counter-increment: list; }
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
 input[type="search"] { border: 0; border-bottom: 1px solid #dfe2e5; font-size: 1rem; padding: 0.5rem; outline: none; width: 100%; }
+.hidden { display: none; }

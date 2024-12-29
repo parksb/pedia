@@ -59,9 +59,15 @@
       return true;
     }
 
+    function toggleSidebar() {
+      htmx.toggleClass('aside', 'hidden');
+      return true;
+    }
+
     htmx.ajax('GET', `${pathname()}.html`, '#main');
 
     document.addEventListener('DOMContentLoaded', (event) => {
+      if (window.innerWidth < 800) toggleSidebar();
       select(pathname());
       scrollToActive();
     });
