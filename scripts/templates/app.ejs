@@ -17,7 +17,7 @@
   </head>
   <body>
     <aside>
-      <input type="search" placeholder="🔍" />
+      <input type="search" placeholder="🔍" hx-on:input="search(this.value)" />
       <ul>
         <% documents.map((document) => { %>
         <li data-key="/<%- document.filename %>">
@@ -68,6 +68,7 @@
 
     document.addEventListener('DOMContentLoaded', (event) => {
       if (window.innerWidth < 800) toggleSidebar();
+      htmx.find('aside > input').value = '';
       select(pathname());
       scrollToActive();
     });
@@ -81,6 +82,42 @@
       select(pathname());
       scrollToActive();
     });
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="/assets/lunr.stemmer.support.min.js"></script>
+    <script src="/assets/lunr.multi.min.js"></script>
+    <script src="/assets/lunr.ko.min.js"></script>
+    <script type="module">
+    const pool = await (await fetch('/search.json')).json();
+    const idx = lunr(function () {
+      this.use(lunr.multiLanguage('en', 'ko'));
+      this.ref('filename');
+      this.field('title', { boost: 10 });
+      this.field('filename');
+      this.field('text');
+
+      pool.forEach(function (doc) {
+        this.add(doc);
+      }, this);
+    });
+
+    function search(word) {
+      const results = idx.search(word);
+      const html = pool
+      .filter(item => results.some(result => result.ref === item.filename))
+      .map(item => `
+<li data-key="/${item.filename}">
+<a title="${item.title}" href="/${item.filename}"
+hx-get="/${item.filename}.html" hx-target="#main"
+hx-swap="show:top" hx-push-url="/${item.filename}"
+hx-on:click="select('/${item.filename}')">${item.title}</a>
+</li>
+`).join('');
+      htmx.find('aside > ul').innerHTML = html;
+      htmx.process(htmx.find('aside > ul'));
+    }
+
+    window.search = search;
     </script>
   </body>
 </html>

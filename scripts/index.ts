@@ -30,6 +30,12 @@ interface Document {
   referredFrom: Document[];
 }
 
+interface SearchIndex {
+  title: string;
+  filename: string; // without extension
+  text: string;
+}
+
 (async () => {
   console.time('Build');
 
@@ -95,6 +101,7 @@ interface Document {
   });
 
   const sitemapUrls: string[] = [];
+  const searchIndices: SearchIndex[] =[];
 
   // https://github.com/johngrib/johngrib-jekyll-skeleton/blob/v1.0/_includes/createLink.html
   const linkRegex = /\[\[(.+?)\]\]/g;
@@ -202,12 +209,16 @@ interface Document {
   }
 
   for (const document of Object.values(documents)) {
-    const { filename } = document;
+    const { title, filename, markdown } = document;
+    const searchIndex: SearchIndex = { title, filename, text: markdown };
+    searchIndices.push(searchIndex);
+
     fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(DOC_TEMPLATE_FILE), { document }));
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
   fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(APP_TEMPLATE_FILE), { documents: Object.values(documents) }));
+  fs.writeFile(`${DIST_DIRECTORY_PATH}/search.json`, JSON.stringify(searchIndices));
 
   if (process.env.NODE_ENV === 'production') {
     fs.writeFile(
