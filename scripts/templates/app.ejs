@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#ffffff" />
 
+    <link rel="prefetch" href="https://unpkg.com/htmx.org@2.0.4" />
+    <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
     <link rel="stylesheet" href="/assets/bundle.min.css" />
@@ -33,6 +36,7 @@
       </footer>
     </main>
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
     function pathname() {
       const { pathname: path } = window.location;
@@ -47,10 +51,12 @@
     function select(key) {
       htmx.findAll('aside > ul > li').forEach(el => htmx.removeClass(el, 'active'));
       htmx.addClass(htmx.find(`aside > ul > li[data-key="${key}"]`), 'active');
+      return true;
     }
 
     function scrollToActive() {
       htmx.find('aside > ul > li.active').scrollIntoView({ block: 'center' });
+      return true;
     }
 
     htmx.ajax('GET', `${pathname()}.html`, '#main');
@@ -62,6 +68,7 @@
 
     document.body.addEventListener('htmx:afterSwap', event => {
       document.title = htmx.find('article > h1').textContent;
+      mermaid.run({ querySelector: 'article div.mermaid' });
     });
 
     document.body.addEventListener('htmx:historyRestore', event => {
@@ -69,7 +76,5 @@
       scrollToActive();
     });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad:true });</script>
   </body>
 </html>

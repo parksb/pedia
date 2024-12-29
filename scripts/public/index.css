@@ -6,7 +6,7 @@
 
 html { display: flex; height: 100%; }
 body { display: flex; flex-direction: row; word-break: keep-all; word-wrap: break-word; line-height: 1.7; font-family: 'Pretendard VF Distilled', sans-serif; font-size: 16px; height: 100%; width: 100%; }
-header { border-bottom: 1px solid #dfe2e5; padding: .6rem; line-height: 1; }
+header { position: sticky; top: 0; background-color: #ffffffd0; border-bottom: 1px solid #dfe2e5; padding: .6rem; line-height: 1; }
 header ul, .backlinks ul { display: inline; list-style-type: none; margin: 0; padding: 0; }
 header ul > li, .backlinks ul > li { display: inline; line-height: inherit;}
 header span.meta:before { content: '/'; margin-left: 5px; margin-right: 5px; }

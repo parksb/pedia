@@ -197,8 +197,8 @@ interface Document {
 
     document.markdown = labelInternalLink(document.markdown, document.filename);
     document.html = md.render(`${insertToc(document.markdown)}`)
-      .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$2</a>')
-      .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top">$1</a>');
+      .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$2</a>')
+      .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$1</a>');
   }
 
   for (const document of Object.values(documents)) {

@@ -4,7 +4,8 @@
       <% document.breadcrumbs.map((breadcrumb) => { %>
       <li>
         <a href="/<%- breadcrumb.filename %>.html" hx-get="/<%- breadcrumb.filename %>.html" hx-swap="show:top"
-          hx-target="#main" hx-push-url="/<%- breadcrumb.filename %>"><%- breadcrumb.title %></a>
+          hx-target="#main" hx-push-url="/<%- breadcrumb.filename %>"
+          hx-on:click="select('/<%- breadcrumb.filename %>') && scrollToActive()"><%- breadcrumb.title %></a>
       </li>
       <% }) %>
     </ul>
@@ -24,7 +25,8 @@
         <% document.referredFrom.map((document) => { %>
         <li>
           <a href="/<%- document.filename %>.html" hx-get="/<%- document.filename %>.html" hx-swap="show:top"
-            hx-target="#main" hx-push-url="/<%- document.filename %>"><%- document.title %></a>
+            hx-target="#main" hx-push-url="/<%- document.filename %>"
+            hx-on:click="select('/<%- document.filename %>') && scrollToActive()"><%- document.title %></a>
         </li>
         <% }) %>
       </ul>
