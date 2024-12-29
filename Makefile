@@ -5,3 +5,5 @@ publish:
 	cd ./scripts && npm run build
 serve:
 	cd ./scripts && npm run serve
+commit:
+	cd ./scripts && ./commit.sh
