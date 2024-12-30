@@ -217,6 +217,13 @@ interface SearchIndex {
     sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
   }
 
+  for (const filename of (await fs.readdir(MARKDOWN_DIRECTORY_PATH)).filter((filename) => filename.endsWith('.md'))) {
+    if (!writtenFiles.has(filename.replace(/\.md$/, '')) && !filename.startsWith('private/')) {
+      console.warn(`Isolated document: ${filename}`);
+    }
+  }
+  console.info('Total documents:', Object.keys(documents).length);
+
   fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(APP_TEMPLATE_FILE), { documents: Object.values(documents) }));
   fs.writeFile(`${DIST_DIRECTORY_PATH}/search.json`, JSON.stringify(searchIndices));
 
