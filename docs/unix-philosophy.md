@@ -1,7 +1,5 @@
 # 유닉스 철학
 
-## 개요
-
 > 1. Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features."
 > 2. Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
 > 3. Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.

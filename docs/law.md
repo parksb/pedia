@@ -2,10 +2,14 @@
 
 ## 하위문서
 
+### 주제
+
 - [[criminal-law]]
 - [[civil-law]]
 - [[intellectual-property-right]]
 
-## 관련문서
+### 문헌
 
-- [[law-publication]]
+- [[precedent-2017hunba127]]
+- [[precedent-2000hunba67]]
+- [[justifying-injustice]]

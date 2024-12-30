@@ -1,7 +1,5 @@
 # 하인리히의 법칙
 
-## 개요
-
 ![](https://upload.wikimedia.org/wikipedia/commons/6/61/Heinrich%27s_triangle_English.png)
 
 한 건의 대형 사고가 발생하기 전, 같은 원인으로 300건의 경미한 사고와 29건의 준사고가 징후로 나타남을 의미하는 통계적 법칙. 하인리히의 삼각형 또는 사고의 삼각형으로도 알려져 있다.

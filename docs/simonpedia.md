@@ -1,28 +1,15 @@
 # 🪴Simonpedia
 
-## 개요
-
 [[parksb]]의 디지털 정원.
 
 ## 하위문서
 
-- [[computer-science]]
+- [[general]]
+- [[philosophy]]
 - [[social-science]]
-- [[humanities]]
 - [[natural-science]]
-- [[graphic-design]]
-- [[mathematics]]
-- [[history]]
-- [[safety-engineering]]
-- [[military-science]]
-- [[electronic-engineering]]
-- [[culture-art]]
-- [[medicine]]
-- [[architecture]]
-- [[person]]
-- [[publication]]
-- [[simonpedia-rules]]
-- [[simonpedia-system]]
+- [[tech-science]]
+- [[art]]
 
 ## 관련문서
 

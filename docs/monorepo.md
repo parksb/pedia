@@ -1,7 +1,5 @@
 # 모노레포
 
-## 개요
-
 ![](https://monorepo.tools/images/monorepo-polyrepo.svg)
 _모노레포와 폴리레포._
 

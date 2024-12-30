@@ -1,7 +1,5 @@
 # SHELL 모델
 
-## 개요
-
 ![](https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/SHELL.png/1024px-SHELL.png)
 
 업무를 수행하는 작업자를 중심으로 주변과의 상호작용 관계를 설명하는 모델.

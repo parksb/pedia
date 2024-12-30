@@ -26,9 +26,9 @@
 
 ## 하위문서
 
-* [[wrd-tactics-recon]]{정찰}
-* [[wrd-deck-blue-dragon]]{청룡연합군 덱}
-* [[wrd-deck-eastern-bloc]]{동구권동맹군 덱}
+* [[wrd-tactics-recon]]
+* [[wrd-deck-blue-dragon]]
+* [[wrd-deck-eastern-bloc]]
 
 ## 참고자료
 

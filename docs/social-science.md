@@ -2,12 +2,15 @@
 
 ## 하위문서
 
+### 주제
+
 - [[economics]]
 - [[law]]
-- [[seoul-urban-master-plan-1966]]
-- [[justification-for-resistance-violence]]
-- [[gyeonggi-do-citizens-sense-of-urban-area]]
+- [[military-science]]
+- [[campus-life]]
 
-## 관련문서
+### 문헌
 
-- [[social-science-publication]]
+- [[education-premium]]
+- [[das-kapital-study]]
+- [[rip-flash]]

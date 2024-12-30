@@ -1,4 +1,4 @@
-# 정찰
+# 정찰 (WRD)
 
 * 원문: https://www.reddit.com/r/wargame/comments/o42dru/ground_recon_fundamentals_guide/
 * 워게임에서 가장 중요한 부분이 정찰:
