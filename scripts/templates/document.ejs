@@ -1,21 +1,24 @@
 <header role="navigation">
-  <div class="sidebar-toggle" hx-on:click="toggleSidebar()">#</div>
-  <div class="breadcrumbs">
-    <small>
-      <ul>
-        <% document.breadcrumbs.map((breadcrumb) => { %>
-        <li>
-          <a href="/<%- breadcrumb.filename %>.html" hx-get="/<%- breadcrumb.filename %>.html" hx-swap="show:top"
-            hx-target="#main" hx-push-url="/<%- breadcrumb.filename %>"
-            hx-on:click="select('/<%- breadcrumb.filename %>') && scrollToActive()"><%- breadcrumb.title %></a>
-        </li>
-        <% }) %>
-      </ul>
-      <span class="meta">
-        <a href="https://github.com/parksb/pedia/commits/master/docs/<%- document.filename %>.md">history</a> ·
-        <a href="https://raw.githubusercontent.com/parksb/pedia/master/docs/<%- document.filename %>.md">raw</a>
-      </span>
-    </small>
+  <div>
+    <div class="sidebar-toggle" hx-on:click="toggleSidebar()">#</div>
+    <div class="breadcrumbs">
+      <small>
+        <ul>
+          <% document.breadcrumbs.map((breadcrumb) => { %>
+          <li>
+            <a href="/<%- breadcrumb.filename %>.html" hx-get="/<%- breadcrumb.filename %>.html" hx-swap="show:top"
+              hx-target="#main" hx-push-url="/<%- breadcrumb.filename %>"
+              hx-on:click="select('/<%- breadcrumb.filename %>') && scrollToActive()"><%- breadcrumb.title %></a>
+          </li>
+          <% }) %>
+        </ul>
+
+      </small>
+    </div>
+  </div>
+  <div class="meta">
+    <a class="external" href="https://github.com/parksb/pedia/commits/master/docs/<%- document.filename %>.md">@</a>
+    <a class="external" href="https://raw.githubusercontent.com/parksb/pedia/master/docs/<%- document.filename %>.md">M</a>
   </div>
 </header>
 <article>
