@@ -113,7 +113,7 @@ interface SearchIndex {
 
   const findSubFilenames = (markdown: string): string[] => {
     const filenames = []
-    const subdocSection = new RegExp('## 하위문서\\s*\\n([^#]*)', 'g').exec(markdown);
+    const subdocSection = /## 하위문서\s*\n+([\s\S]*?)(?=\n##\s|$)/.exec(markdown);
 
     if (!subdocSection) return filenames;
 
