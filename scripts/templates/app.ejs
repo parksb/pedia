@@ -89,6 +89,7 @@
     <script src="/assets/lunr.ko.min.js"></script>
     <script type="module">
     const pool = await (await fetch('/search.json')).json();
+    const reg = new Map(pool.map(item => [item.filename, item.title]));
     const idx = lunr(function () {
       this.use(lunr.multiLanguage('en', 'ko'));
       this.ref('filename');
@@ -102,15 +103,14 @@
     });
 
     function search(word) {
-      const results = idx.search(word);
-      const html = pool
-      .filter(item => results.some(result => result.ref === item.filename))
-      .map(item => `
-<li data-key="/${item.filename}">
-<a title="${item.title}" href="/${item.filename}"
-hx-get="/${item.filename}.html" hx-target="#main"
-hx-swap="show:top" hx-push-url="/${item.filename}"
-hx-on:click="select('/${item.filename}')">${item.title}</a>
+      let results = idx.search(word);
+      const html = results
+      .map(({ ref }) => `
+<li data-key="/${ref}">
+<a title="${reg.get(ref)}" href="/${ref}"
+hx-get="/${ref}.html" hx-target="#main"
+hx-swap="show:top" hx-push-url="/${ref}"
+hx-on:click="select('/${ref}')">${reg.get(ref)}</a>
 </li>
 `).join('');
       htmx.find('aside > ul').innerHTML = html;
