@@ -21,22 +21,4 @@
     <a class="external" href="https://raw.githubusercontent.com/parksb/pedia/master/docs/<%- document.filename %>.md">M</a>
   </div>
 </header>
-<article>
-<%- document.html %>
-<% if (document.referredFrom.length > 0) { %>
-  <section class="backlinks">
-    <small>
-      Backlinks:
-      <ul>
-        <% document.referredFrom.map((document) => { %>
-        <li>
-          <a href="/<%- document.filename %>.html" hx-get="/<%- document.filename %>.html" hx-swap="show:top"
-            hx-target="#main" hx-push-url="/<%- document.filename %>"
-            hx-on:click="select('/<%- document.filename %>') && scrollToActive()"><%- document.title %></a>
-        </li>
-        <% }) %>
-      </ul>
-    </small>
-  </section>
-<% } %>
-</article>
+<article><%- document.html %></article>

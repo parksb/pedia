@@ -2,7 +2,7 @@
   "name": "wikiwikiwi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "build": "./build.sh",
     "serve": "live-server ../build -q --middleware=../../spa.js"

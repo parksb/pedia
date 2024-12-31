@@ -12,4 +12,4 @@ if [ -d "../docs/private" ]; then
   cp -r ../docs/private/images ../build/private
 fi
 
-ts-node index.ts
+ts-node src/main.ts

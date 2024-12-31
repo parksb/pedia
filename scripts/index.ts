@@ -27,7 +27,7 @@ interface Document {
   breadcrumbs: string[]; // without extension
   children: Document[];
   parent?: Document;
-  referredFrom: Document[];
+  referredFrom: [Document, string[]][];
 }
 
 interface SearchIndex {
@@ -49,56 +49,7 @@ interface SearchIndex {
 
   const SITEMAP_PATH = `${DIST_DIRECTORY_PATH}/sitemap.xml`;
 
-  const md: MarkdownIt = new MarkdownIt({
-    html: false,
-    xhtmlOut: false,
-    breaks: false,
-    langPrefix: 'language-',
-    linkify: true,
-    typographer: true,
-    quotes: '“”‘’',
-    highlight: (str, lang) => {
-      if (lang && hljs.getLanguage(lang)) {
-        return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
-      }
-      return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
-    },
-  }).use(mdFootnote)
-  .use(mdInlineComment)
-  .use(mdMermaid)
-  .use(mdEmoji)
-  .use(mdTex, {
-    engine: katex,
-    delimiters: 'dollars',
-    macros: { '\\RR': '\\mathbb{R}' },
-  })
-  .use(mdAnchor)
-  .use(mdTableOfContents, {
-    includeLevel: [2, 3, 4],
-    format: (content: string) => content.replace(/\[\^.*\]/, ''),
-  })
-  .use(mdCheckbox, {
-    disabled: true,
-  })
-  .use(mdContainer, 'TOGGLE', {
-    validate(params: string) {
-      return params.trim().match(/^TOGGLE\s+(.*)$/);
-    },
-    render(tokens: unknown, idx: number) {
-      const content = tokens[idx].info.trim().match(/^TOGGLE\s+(.*)$/);
-      if (tokens[idx].nesting === 1) {
-        return `<details><summary>${md.utils.escapeHtml(content[1])}</summary>\n`;
-      }
-      return '</details>\n';
-    },
-  })
-  .use(mdContainer, 'NOTE', {
-    validate: () => true,
-  })
-  .use(mdExternalLink, {
-    externalClassName: 'external',
-    internalDomains: ['pedia.parksb.xyz'],
-  });
+
 
   const sitemapUrls: string[] = [];
   const searchIndices: SearchIndex[] =[];
@@ -136,6 +87,15 @@ interface SearchIndex {
       ]),
     ];
   };
+
+  const findReferredSentences = (text: string, word: string) => {
+    const stripHtml = (input: string) => {
+      return input.replace(/<div class="table-of-contents">.*<\/div>/, '').replace(/<[^>]*>/g, '');
+    };
+
+    const sentences = stripHtml(text).split(/\n|\./).filter(x => x.trim().length > 0);
+    return sentences ? sentences.filter(sentence => sentence.includes(word)).filter(x => x !== word) : [];
+  }
 
   const labelInternalLink = (markdown: string, parent?: string): string => {
     let ret = markdown;
@@ -196,16 +156,17 @@ interface SearchIndex {
   }
 
   for (const document of Object.values(documents)) {
-    for (const referredFilename of findReferredFilenames(document.markdown)) {
-      if (referredFilename in documents) {
-        documents[referredFilename].referredFrom.push(document);
-      }
-    }
-
     document.markdown = labelInternalLink(document.markdown, document.filename);
     document.html = md.render(`${insertToc(document.markdown)}`)
       .replace(labeledLinkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$2</a>')
       .replace(linkRegex, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$1</a>');
+
+    for (const referredFilename of findReferredFilenames(document.markdown)) {
+      if (referredFilename in documents) {
+        const referred = documents[referredFilename]
+        referred.referredFrom.push([document, findReferredSentences(document.html, referred.title)]);
+      }
+    }
   }
 
   for (const document of Object.values(documents)) {
