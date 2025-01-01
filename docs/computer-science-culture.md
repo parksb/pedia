@@ -5,3 +5,4 @@
 - [[developer-chauvinism]]
 - [[community-computer-science-argument]]
 - [[ceil-of-frontend-engineer-career]]
+- [[hippocratic-oath-for-technologists]]
