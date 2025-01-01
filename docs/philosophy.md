@@ -6,5 +6,6 @@
 - [[marxism]]
 - [[accelerationism]]
 - [[digital-democracy]]
-- [[justification-for-resistance-violence]]
+- [[violent-resistance]]
+- [[nonviolent-resistance]]
 - [[neutrality-myth]]

@@ -2,4 +2,5 @@
 
 ## 하위문서
 
-- [[armored-vehicle]]{기갑차량}
+- [[armored-vehicle]]
+- [[total-war]]
