@@ -8,4 +8,4 @@ publish:
 serve:
 	cd ./scripts && npm run --silent serve
 commit:
-	cd ./scripts && ./commit.sh
+	cd ./scripts && ./tools/commit.sh

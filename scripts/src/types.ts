@@ -20,4 +20,4 @@ export interface Reference {
   sentences: string[];
 }
 
-export type DocumentDict = { [key: string]: Document }
+export type DocumentDict = Record<string, Document>;

@@ -12,8 +12,8 @@ const Denque = require('denque');
   console.time('Build');
 
   const queue = new Denque([{ filename: 'simonpedia', breadcrumbs: [] }]);
-  const written: Set<string> = new Set(['simonpedia']);
-  const dict: { [key: string]: Document } = {};
+  const written = new Set<string>(['simonpedia']);
+  const dict: Record<string, Document> = {};
 
   // Find all the documents using BFS.
   while (queue.length > 0) {
@@ -41,7 +41,7 @@ const Denque = require('denque');
           written.add(subdoc);
         }
       }
-    } catch (e) {
+    } catch {
       console.warn(`Unresolved markdown file: ${filename}.md`);
       continue;
     }
