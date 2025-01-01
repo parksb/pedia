@@ -85,7 +85,7 @@ export const appendReferred = (markdown: string, referred: Reference[], dict: Do
   const referredList = referred.map(({ document, sentences }) =>
     `- [[${document.filename}]]${sentences.map(sentence => `\n  - > ${sentence}`).join('')}`).join('\n');
 
-  return labelInternalLinks(`${markdown}\n\n## 인용된 문서\n\n${referredList}`, dict);
+  return labelInternalLinks(`${markdown}\n\n## 이 문서를 인용한 문서\n\n${referredList}`, dict);
 };
 
 /**

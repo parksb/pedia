@@ -4,7 +4,7 @@ mkdir -p ../build.tmp
 mkdir -p ../build.tmp/images
 cp -r ../docs/images ../build.tmp
 cp -r assets ../build.tmp
-cp -r public/ ../build.tmp
+cp -r public/. ../build.tmp
 
 if [ -d "../docs/private" ]; then
   mkdir -p ../build.tmp/private
