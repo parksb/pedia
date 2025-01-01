@@ -1,21 +1,21 @@
-import * as MarkdownIt from 'markdown-it';
-import * as katex from 'katex';
+import MarkdownIt from 'markdown-it';
 import hljs from 'highlight.js';
-import * as mdFootnote from 'markdown-it-footnote';
-import * as mdTex from 'markdown-it-texmath';
+import mdFootnote from 'markdown-it-footnote';
+import mdTex from 'markdown-it-texmath';
 import mdAnchor from 'markdown-it-anchor';
-import * as mdTableOfContents from 'markdown-it-table-of-contents';
-import * as mdInlineComment from 'markdown-it-inline-comments';
-import * as mdCheckbox from 'markdown-it-task-checkbox';
-import { full as mdEmoji } from 'markdown-it-emoji';
-import * as mdExternalLink from 'markdown-it-external-links';
+import mdTableOfContents from 'markdown-it-table-of-contents';
+import mdInlineComment from 'markdown-it-inline-comments';
+import mdCheckbox from 'markdown-it-task-checkbox';
+import mdExternalLink from 'markdown-it-external-links';
 import mdMermaid from 'markdown-it-mermaid';
-import * as mdContainer from 'markdown-it-container';
+import mdContainer from 'markdown-it-container';
+import { full as mdEmoji } from 'markdown-it-emoji';
+import * as katex from 'katex';
 
 import { DocumentDict, Reference } from './types';
 import { LABELED_LINK_REGEX, LINK_REGEX } from './consts';
 
-export const md: MarkdownIt = new MarkdownIt({
+export const md = MarkdownIt({
   html: false,
   xhtmlOut: false,
   breaks: false,
@@ -33,12 +33,12 @@ export const md: MarkdownIt = new MarkdownIt({
 .use(mdInlineComment)
 .use(mdMermaid)
 .use(mdEmoji)
+.use(mdAnchor)
 .use(mdTex, {
   engine: katex,
   delimiters: 'dollars',
   macros: { '\\RR': '\\mathbb{R}' },
 })
-.use(mdAnchor)
 .use(mdTableOfContents, {
   includeLevel: [2, 3, 4],
   format: (content: string) => content.replace(/\[\^.*\]/, ''),

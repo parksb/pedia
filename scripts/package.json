@@ -22,12 +22,12 @@
     "@types/ejs": "^3.1.5",
     "@types/highlight.js": "^10.1.0",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.10.2",
+    "@types/node": "^22.10.3",
     "dayjs": "^1.11.13",
     "denque": "^2.1.0",
     "ejs": "^3.1.10",
     "highlight.js": "^11.11.1",
-    "katex": "^0.16.18",
+    "katex": "^0.16.19",
     "live-server": "^1.2.2",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
@@ -40,7 +40,7 @@
     "markdown-it-table-of-contents": "^0.8.0",
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-texmath": "^1.0.0",
-    "ts-node": "^10.9.2"
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

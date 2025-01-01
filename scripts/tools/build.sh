@@ -12,7 +12,7 @@ if [ -d "../docs/private" ]; then
   cp -r ../docs/private/images ../build.tmp/private
 fi
 
-ts-node src/main.ts
+tsx src/main.ts
 
 if [ -d "../build" ]; then
   rm -rf ../build

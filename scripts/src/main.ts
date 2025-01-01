@@ -1,12 +1,11 @@
 import * as ejs from 'ejs';
 import { promises as fs } from 'fs';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
+import Denque from 'denque';
 
 import { appendReferred, findReferences, findReferredSentences, findSubdocs, labelInternalLinks, md, prependToc } from './markdown';
 import { Document, SearchIndex } from './types';
 import { WEBSITE_DOMAIN, MARKDOWN_DIRECTORY_PATH, DIST_DIRECTORY_PATH, APP_TEMPLATE_FILE, DOC_TEMPLATE_FILE, SITEMAP_PATH, LABELED_LINK_REGEX, LINK_REGEX } from './consts';
-
-const Denque = require('denque');
 
 (async () => {
   console.time('Build');

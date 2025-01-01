@@ -2,7 +2,7 @@ MAKEFLAGS += --silent
 
 start:
 	make publish && make serve & \
-	fswatch -o docs scripts | while read -r; do make publish; done
+		fswatch -o docs scripts | while read -r; do make publish; done
 publish:
 	cd ./scripts && npm run --silent build
 serve:
