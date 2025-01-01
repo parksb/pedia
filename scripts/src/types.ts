@@ -6,7 +6,7 @@ export interface Document {
   breadcrumbs: string[]; // without extension
   children: Document[];
   parent?: Document;
-  referredFrom: Document[];
+  referred: Reference[];
 }
 
 export interface SearchIndex {

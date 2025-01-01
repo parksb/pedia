@@ -171,7 +171,7 @@ tags
 .obsidian
 
 ### Other ###
-build/
+build*/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,vim,intellij
 

@@ -1,15 +1,20 @@
 #!/bin/sh
 
-mkdir -p ../build
-mkdir -p ../build/images
-cp -r ../docs/images ../build
-cp -r assets ../build
-cp -r public/. ../build
+mkdir -p ../build.tmp
+mkdir -p ../build.tmp/images
+cp -r ../docs/images ../build.tmp
+cp -r assets ../build.tmp
+cp -r public/ ../build.tmp
 
 if [ -d "../docs/private" ]; then
-  mkdir -p ../build/private
-  mkdir -p ../build/private/images
-  cp -r ../docs/private/images ../build/private
+  mkdir -p ../build.tmp/private
+  mkdir -p ../build.tmp/private/images
+  cp -r ../docs/private/images ../build.tmp/private
 fi
 
 ts-node src/main.ts
+
+if [ -d "../build" ]; then
+  rm -rf ../build
+fi
+mv ../build.tmp ../build
