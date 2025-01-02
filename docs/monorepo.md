@@ -23,15 +23,21 @@ _모노레포와 폴리레포._
 
 ### 구글
 
-> Rachel Potvin et al., "[[why-google-stores-billions-of-code-in-a-single-repository]]", 2016
+::: INFO
+Rachel Potvin et al., "[[why-google-stores-billions-of-code-in-a-single-repository]]", 2016
+:::
 
 ### 토스
 
-> [정석호, "200여개 서비스 모노레포의 파이프라인 최적화", 2024](https://toss.tech/article/monorepo-pipeline)
+::: INFO
+[정석호, "200여개 서비스 모노레포의 파이프라인 최적화", 2024](https://toss.tech/article/monorepo-pipeline)
+:::
 
 ### 그린랩스
 
-> [최경식, "모노레포 - 마이크로 아키텍처를 지향하며", 2023](https://green-labs.github.io/monorepo-microfrontend)
+::: INFO
+[최경식, "모노레포 - 마이크로 아키텍처를 지향하며", 2023](https://green-labs.github.io/monorepo-microfrontend)
+:::
 
 ## 참고자료
 

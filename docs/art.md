@@ -4,4 +4,5 @@
 
 - [[graphic-design]]
 - [[literature]]
+- [[performance-media-art]]
 - [[entertainment-sports]]

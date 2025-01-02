@@ -1,6 +1,8 @@
 # Why Google Stores Billions of Lines of Code in a Single Repository
 
-> [Rachel Potvin et al., "Why Google Stores Billions of Lines of Code in a Single Repository", 2016](https://dl.acm.org/doi/10.1145/2854146)
+::: INFO
+[Rachel Potvin et al., "Why Google Stores Billions of Lines of Code in a Single Repository", 2016](https://dl.acm.org/doi/10.1145/2854146)
+:::
 
 - 구글은 20억 줄의 코드와 9백만 개의 소스 파일을 하나의 저장소에서 관리하고 있음. 이 저장소에는 매일 4만개의 커밋이 올라오고, 지금까지 35백만 개의 커밋이 쌓였음. 저장소 크기는 86TB에 달함.
 - 모노리포의 이점에 대해 이야기해보자:

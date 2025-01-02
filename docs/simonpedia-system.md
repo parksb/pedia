@@ -1,6 +1,8 @@
 # Simonpedia 시스템
 
-> https://github.com/parksb/pedia
+::: INFO
+https://github.com/parksb/pedia
+:::
 
 ## 프로젝트 구조
 

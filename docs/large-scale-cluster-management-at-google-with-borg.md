@@ -1,6 +1,8 @@
 # Large-scale cluster management at Google with Borg
 
-> [Abhishek Verma et al., "Large-scale cluster management at Google with Borg." _Proceedings of the Tenth European Conference on Computer Systems_. 2015](https://dl.acm.org/doi/10.1145/2741948.2741964)
+::: INFO
+[Abhishek Verma et al., "Large-scale cluster management at Google with Borg." _Proceedings of the Tenth European Conference on Computer Systems_. 2015](https://dl.acm.org/doi/10.1145/2741948.2741964)
+:::
 
 구글의 Borg 시스템은 수천 개의 다양한 애플리케이션과 수백만 개의 작업을 구동하기 위한 클러스터 매니저다. Borg를 사용했을 때 이익은 크게 세 가지가 있다: (1) 리소스 관리과 장애 대응의 디테일을 감춤으로써 사용자가 애플리케이션 개발에만 집중할 수 있게 해준다. (2) 높은 신뢰성과 가용성을 제공한다. (3) 수만 대의 머신에서 실행되는 워크로드를 효과적으로 실행할 수 있게 해준다.
 

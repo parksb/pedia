@@ -1,6 +1,8 @@
 # 기술자 히포크라테스 선서
 
-> https://mkdale.github.io/techoath/
+::: INFO
+https://mkdale.github.io/techoath/
+:::
 
 ## 전문
 

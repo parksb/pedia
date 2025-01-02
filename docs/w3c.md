@@ -1,6 +1,8 @@
 # W3C
 
-> https://www.w3.org/
+::: INFO
+https://www.w3.org/
+:::
 
 W3C(World Wide Web Consortium)은 월드 와이드 웹의 국제 표준 조직으로, 1994년 팀 버너스리(Tim Berners-Lee)를 중심으로 설립되었다.
 

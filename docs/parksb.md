@@ -1,6 +1,8 @@
 # 박성범
 
-> [parksb.github.io](https://parksb.github.io/)
+::: INFO
+[parksb.github.io](https://parksb.github.io/)
+:::
 
 ## 하위문서
 
