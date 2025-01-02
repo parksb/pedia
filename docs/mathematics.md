@@ -14,3 +14,4 @@
 
 - [[concrete-mathematics]]
 - [[mathematics-reboot]]
+- [[seven-sketches-in-compositionality]]

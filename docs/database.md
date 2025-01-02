@@ -80,15 +80,15 @@
 
 ## 하위문서
 
-* [[mysql]]{MySQL}
-* [[redis]]{Redis}
-* [[apache-kafka]]{아파치 카프카}
-* [[entity-relationship-model]]{Entity-Relationship 모델}
-* [[relational-data-model]]{관계형 데이터 모델}
-* [[relational-algebra]]{관계대수}
-* [[database-normalization]]{데이터베이스 정규화}
+- [[mysql]]
+- [[redis]]
+- [[apache-kafka]]
+- [[entity-relationship-model]]
+- [[relational-data-model]]
+- [[relational-algebra]]
+- [[database-normalization]]
 
 ## 관련문서
 
-* [[database-system-concepts]]{Database System Concepts}
-* [[designing-data-intensive-applications]]{데이터 중심 애플리케이션 설계}
+- [[database-system-concepts]]
+- [[designing-data-intensive-applications]]

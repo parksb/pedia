@@ -4,6 +4,7 @@
 
 ### 주제
 
+- [[brutalism]]
 - [[fissured-ceiling-tile]]
 - [[seoul-urban-master-plan-1966]]
 - [[gyeonggi-do-citizens-sense-of-urban-area]]

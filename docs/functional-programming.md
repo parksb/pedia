@@ -37,4 +37,4 @@
 
 ## 참고자료
 
-* [[functional-programming-in-kotlin]]{조재용, 우명인, "코틀린으로 배우는 함수형 프로그래밍", 인사이트, 2019.}
+* 조재용, 우명인, "[[functional-programming-in-kotlin]]", 인사이트, 2019.
