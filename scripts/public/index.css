@@ -38,7 +38,8 @@ a:hover { outline-width: 0; text-decoration: underline; }
 small { font-size: .85rem; color: #6a737d; font-weight: normal; }
 h1 > code, h2 > code, li > code,  p > code { padding: .2rem .4rem; margin: 0; font-size: .85rem; background-color: #f6f8fa; }
 blockquote { margin: 0; padding: 0 15px; color: #6a737d; border-left: .25rem solid #dfe2e5; }
-.NOTE { padding: 1rem; background-color: #fefbe6; color: #bf9f5f; margin-bottom: 1rem; }
+.INFO { margin: 0; padding: 0 15px; color: #6a737d; border-left: .25rem solid #90d0ef; }
+.NOTE { padding: 1rem; background-color: #fefbe6; color: #bf9f5f; margin-bottom: 1rem; border-left: .25rem solid #efdf9f; }
 .NOTE > p { margin: 0; }
 blockquote a, .NOTE a { color: #53a6f6; }
 blockquote a.external, .NOTE a.external { color: #50b0d0; }

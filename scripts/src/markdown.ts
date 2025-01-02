@@ -47,8 +47,8 @@ export const md = MarkdownIt({
   disabled: true,
 })
 .use(mdContainer, 'TOGGLE', {
-  validate(params: string) {
-    return params.trim().match(/^TOGGLE\s+(.*)$/);
+  validate(param: string) {
+    return param.trim().match(/^TOGGLE\s+(.*)$/);
   },
   render(tokens: unknown, idx: number) {
     const content = tokens[idx].info.trim().match(/^TOGGLE\s+(.*)$/);
@@ -59,7 +59,10 @@ export const md = MarkdownIt({
   },
 })
 .use(mdContainer, 'NOTE', {
-  validate: () => true,
+  validate: (param: string) => param.trim() == 'NOTE',
+})
+.use(mdContainer, 'INFO', {
+  validate: (param: string) => param.trim() == 'INFO',
 })
 .use(mdExternalLink, {
   externalClassName: 'external',
