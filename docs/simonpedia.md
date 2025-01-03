@@ -13,5 +13,7 @@
 
 ## 관련문서
 
-- [[memex]]
+- [[simonpedia-system]]
+- [[simonpedia-rules]]
 - [[how-to-take-smart-notes]]
+- [[memex]]
