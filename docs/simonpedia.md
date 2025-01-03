@@ -13,7 +13,7 @@
 
 ## 관련문서
 
-- [[simonpedia-system]]
+- [[simpesys]]
 - [[simonpedia-rules]]
 - [[how-to-take-smart-notes]]
 - [[memex]]

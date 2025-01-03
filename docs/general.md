@@ -6,7 +6,7 @@
 
 - [[person-and-org]]
 - [[simonpedia-rules]]
-- [[simonpedia-system]]
+- [[simpesys]]
 
 ### 문헌
 
