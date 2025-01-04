@@ -10,5 +10,6 @@
 - [[history-of-my-mobile-phones]]
 - [[remarkable-books-in-my-life]]
 - [[finishing-undergraduate-in-seven-years]]
-- [[private/what-will-i-live-for]]{무엇을 위해 살 것인가}
 - [[my-project]]
+- [[private/what-will-i-live-for]]{무엇을 위해 살 것인가}
+- [[private/my-biographical-dictionary]]{나의 인명사전}

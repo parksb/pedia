@@ -1,4 +1,4 @@
-# Hooks
+# 리액트 훅
 
 * 함수형 컴포넌트에서 사용할 수 없던 작업들을 가능하게 해주는 기능. (v16.8에서 도입됨.)
 * hooks를 도입하게된 동기. 클래스 컴포넌트를 사용할 때 나타나는 다양한 문제들이 소개되어 있다: [ko.reactjs.org/docs/hooks-intro.html#motivation](https://ko.reactjs.org/docs/hooks-intro.html#motivation)

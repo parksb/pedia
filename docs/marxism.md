@@ -6,5 +6,5 @@
 
 ## 관련문서
 
+- [[marxism-leninism]]
 - [[das-kapital-study]]
-

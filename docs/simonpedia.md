@@ -4,12 +4,13 @@
 
 ## 하위문서
 
-- [[general]]
-- [[philosophy]]
+- [[tech-science]]
 - [[social-science]]
 - [[natural-science]]
-- [[tech-science]]
+- [[philosophy]]
 - [[art]]
+- [[history]]
+- [[general]]
 
 ## 관련문서
 

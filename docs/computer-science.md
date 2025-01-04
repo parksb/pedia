@@ -15,7 +15,6 @@
 - [[software-engineering]]
 - [[human-computer-interaction]]
 - [[computer-science-culture]]
-- [[caps-lock]]
 
 ### 문헌
 

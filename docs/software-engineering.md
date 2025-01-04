@@ -13,9 +13,6 @@
 - [[ks-x-1001]]
 - [[monorepo]]
 - [[yarn]]
-- [[ieee-citation-style]]
-- [[yak-shaving]]
-- [[clean-code-myth]]
 - [[knip]]
 
 ## 관련문서
