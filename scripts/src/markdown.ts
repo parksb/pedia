@@ -102,7 +102,7 @@ export const findReferredSentences = (markdown: string, word: string, dict: Docu
     // .map(sentence => sentence.replace(/\[\[(.+)\]\]\{(.+)\}/g, (_match, _p1, p2) =>
     //   p2.replace(new RegExp(dict[word].title, 'g'), `**${dict[word].title}**`)
     // )) // Enable this block to highlight the word only if it is the title.
-    .map(sentence => sentence.replace(/\[\[.+\]\]\{(.+)\}/g, '**$1**'))
+    .map(sentence => sentence.replace(new RegExp(`\\[\\[${word}\\]\\]\\{(.+?)\\}`, 'g'), '**$1**'))
     .filter(sentence => sentence !== `**${dict[word].title}**` && sentence.length > 0) ?? [];
 };
 
