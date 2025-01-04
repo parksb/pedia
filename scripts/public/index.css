@@ -36,7 +36,7 @@ a.external { color: #00a0c0; }
 a.external:after { content: '↗'; font-size: .7rem; vertical-align: super; }
 a:hover { outline-width: 0; text-decoration: underline; }
 small { font-size: .85rem; color: #6a737d; font-weight: normal; }
-h1 > code, h2 > code, li > code,  p > code { padding: .2rem .4rem; margin: 0; font-size: .85rem; background-color: #f6f8fa; }
+li > code,  p > code { padding: .2rem .4rem; margin: 0; font-size: .85rem; background-color: #f6f8fa; }
 blockquote { margin: 0; padding: 0 15px; color: #6a737d; border-left: .25rem solid #dfe2e5; }
 .INFO { margin: 0; padding: 0 15px; color: #6a737d; border-left: .25rem solid #90d0ef; }
 .NOTE { padding: 1rem; background-color: #fefbe6; color: #bf9f5f; margin-bottom: 1rem; border-left: .25rem solid #efdf9f; }

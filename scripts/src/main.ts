@@ -41,7 +41,6 @@ import { WEBSITE_DOMAIN, MARKDOWN_DIRECTORY_PATH, DIST_DIRECTORY_PATH, APP_TEMPL
         }
       }
     } catch {
-      console.warn(`Unresolved markdown file: ${filename}.md`);
       continue;
     }
   }
