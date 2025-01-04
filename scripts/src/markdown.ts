@@ -141,10 +141,6 @@ export const labelInternalLinks = (markdown: string, dict: DocumentDict, parent?
 
   newMarkdown = newMarkdown.replace(/\[\[([^\]]+)\]\](\{[^}]+\})?/g, (match, link, label) => {
     try {
-      if (link.startsWith('private/') && !label) {
-        console.warn(`Unlabeled private internal link: ${match} in ${parent}.md`);
-      }
-
       if (!dict[link]) {
         throw new Error(`Unresolved internal link: ${match} in ${parent}.md`);
       }
