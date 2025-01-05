@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[digital-democracy]]
 - [[accelerationism]]
 - [[neutrality-myth]]
@@ -9,3 +11,7 @@
 - [[marxism-leninism]]
 - [[nonviolent-resistance]]
 - [[violent-resistance]]
+
+### 문헌
+
+- [[rip-flash]]

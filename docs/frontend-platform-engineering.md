@@ -2,21 +2,11 @@
 
 ## 사례
 
-### 토스
+### 비바리퍼블리카
 
 ::: INFO
 https://toss.im/career/article/Frontend
 :::
-
-### 카카오
-
-::: INFO
-https://tech.kakao.com/posts/389
-:::
-
-## JD
-
-### 토스
 
 > **합류하게 될 팀에 대해 알려드려요**
 >
@@ -64,10 +54,6 @@ https://tech.kakao.com/posts/389
 > - 빌드: Webpack, ESBuild, SWC, Babel
 > - CI/CD: GitHub Actions, CircleCI
 >
-> **토스로의 합류 여정**
->
-> 서류접수 > 사전과제 > 직무 인터뷰 > 문화적합성 인터뷰 > 레퍼런스 체크 > 처우협의 > 최종합격 및 입사
->
 > **함께할 동료를 위한 한마디**
 >
 > > “최고의 동료들과 최고의 비즈니스를 만들어요”
@@ -75,3 +61,61 @@ https://tech.kakao.com/posts/389
 > - 저는 토스 유저들과 가장 밀접하게 맞닿아 있는 최전선, 프론트엔드 개발을 하고 있어요.
 > - 제가 토스에 합류하기로 결정했던 이유는 뛰어난 동료들과 금융혁신을 만들 수 있겠다는 확신이 들었기 때문이에요. 뛰어난 동료들과 매일 생산적인 토론과 코드리뷰를 통해 하루하루 성장하고, 개개인이 DRI를 가지고 자신이 맡은 서비스를 주도적으로 개발하고 개선해요. 프론트엔드 개발자로서 일하는 모든 순간 순간이 토스의 성장, 그리고 나의 성장에 기여하고 있다는 책임감과 사명감이 들어요.
 > - 함께 훌륭한 비즈니스를 만들면서 성장하고자 하는 프론트엔드 개발자라면 토스로의 합류를 망설이지 마세요!
+
+### 네이버 랩스
+
+::: INFO
+https://www.naverlabs.com/storyDetail/187
+:::
+
+> **업무내용**
+>
+> 로봇/자율주행에 필요한 서비스의 프론트엔드(HTML/CSS/JS) 프로그램 개발 및 운영
+>
+> **지원자격**
+> - **직무관련**
+>   - HTTP / REST / DNS / oAuth 등 인터넷 기반 프로토콜과 기술에 대한 이해
+>   - Javascript, CSS, HTML 에 능숙
+>   - 기본적인 OS지식과 프로그래밍 실력
+>   - 지속적인 학습능력과 문제 해결 능력
+> - **우대사항**
+>   - LINUX / UNIX OS에 익숙하신 분
+>   - Docker / Kubernetes 환경에 익숙하신 분
+>   - ES2016 이상, React, Redux or MobX 등의 라이브러리 사용 경험
+>   - Javascript 이외의 언어 사용 경험 (예) Typescript
+
+### Vercel
+
+> **About Vercel:**
+>
+> Vercel’s Frontend Cloud provides the developer experience and infrastructure to build, scale, and secure a faster, more personalized web. Customers like Under Armour, eBay, The Washington Post, Johnson & Johnson, and Zapier use Vercel to build dynamic user experiences on the web.
+>
+> At Vercel, our mission is to enable the world to ship the best products and that goes hand in hand with creating an environment where you can do the best work of your life.
+>
+> **About the role:**
+>
+> We are looking for a software engineer to join our Frontend Platform team. You will be working alongside our product and SRE teams to improve the codebase health, iteration velocity, and overall reliability of the Vercel platform. You will play a crucial role in enhancing the developer experience, ensuring high-quality code, and enabling the efficient delivery of frontend features and improvements.
+>
+> **What you will do:**
+> -   Implement and maintain a visual regression system to prevent visual bugs from sneaking in unintentionally.
+> -   Maintain our integration test suite with a goal of easy implementation, zero flake, and fast execution.
+> -   Improve the overall codebase health by bringing older areas up to date with the latest best practices.
+>
+> **About you:**
+> - You have at least 4+ years of experience in frontend engineering, with a deep understanding of Javascript, TypeScript and React.
+> - You have some experience with visual regression testing.
+> - You are passionate about developer experience (DX) and developer velocity.
+> - You are able to drive a project from idea to completion without a step-by-step guide.
+>
+> **Bonus if you:**
+> - Have experience implementing visual regression testing.
+> - Have a history of deep performance work.
+> - Have experience with Next.js and Webpack performance optimization.
+> - Have extensive experience with JavaScript bundling tools.
+> - Have built and maintained an integration test suite with extensive API mocks.
+
+### 카카오
+
+::: INFO
+https://tech.kakao.com/posts/389
+:::

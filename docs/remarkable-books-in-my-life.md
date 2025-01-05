@@ -91,7 +91,7 @@
 * 객체지향 프로그래밍에 매몰되어 있던 나를 꺼내준 책이다. 이 책을 읽은 뒤 본격적으로 함수형 프로그래밍을 시작했다.
 * 이 책을 읽고 로버트 마틴이 '클린 코드'에서 제시하는 원칙들을 하나 하나 지키는 것보다 함수형 프로그래밍의 대원칙을 따르는게 더 도움이 된다고 생각했다.
 
-## Introduction to Programming Languages
+## [[introduction-to-programming-languages]]
 
 > 홍재민, 류석영, “Introduction to Programming Languages”, KAIST, 2021
 
