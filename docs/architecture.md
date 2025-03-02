@@ -13,5 +13,4 @@
 
 ### 문헌
 
-- [[megalopolis-seoul-railroad]]
 - [[what-did-architecture-do]]

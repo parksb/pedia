@@ -9,6 +9,7 @@
 - [[military-science]]
 - [[campus-life]]
 - [[chestertons-fence]]
+- [[university-admission-lottery-system]]
 
 ### 문헌
 
