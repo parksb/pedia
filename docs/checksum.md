@@ -9,18 +9,20 @@
 체크섬으로 사용되는 마지막 숫자 $X$를 제외하고 앞 12자리 숫자에 대해 아래와 같이 상수를 곱한다.
 
 $$
-A' = A \times 2 \\
-B' = B \times 3 \\
-C' = C \times 4 \\
-D' = D \times 5 \\
-E' = E \times 6 \\
-F' = F \times 7 \\
-G' = G \times 8 \\
-H' = H \times 9 \\
-I' = I \times 2 \\
-J' = J \times 3 \\
-K' = K \times 4 \\
-L' = L \times 5 \\
+\begin{align*}
+A' &= A \times 2 \\
+B' &= B \times 3 \\
+C' &= C \times 4 \\
+D' &= D \times 5 \\
+E' &= E \times 6 \\
+F' &= F \times 7 \\
+G' &= G \times 8 \\
+H' &= H \times 9 \\
+I' &= I \times 2 \\
+J' &= J \times 3 \\
+K' &= K \times 4 \\
+L' &= L \times 5 \\
+\end{align*}
 $$
 
 이렇게 계산된 12개의 숫자를 모두 더한 뒤, 11로 나눈 나머지를 구한다.
