@@ -17,3 +17,4 @@
 - [[education-premium]]
 - [[das-kapital-study]]
 - [[discourse-on-the-origin-and-basis-of-inequality-among-men]]
+- [[the-social-contract]]
