@@ -59,3 +59,9 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
 input[type="search"] { border: 0; border-bottom: 1px solid #dfe2e5; font-size: 1rem; padding: 0.5rem; outline: none; width: 100%; position: sticky; top: 0; background-color: #fffffff0; }
 .hidden { display: none; }
+table { border-collapse: collapse; border-spacing: 0; margin: 1rem 0; }
+table th { font-weight: 600; }
+table th, table td { padding: 0.5rem; border: 1px solid #dfe2e5; }
+table th { background-color: #f6f8fa; }
+table tr { background-color: #ffffff; }
+table tr:hover { background-color: #f6f8fa; }
