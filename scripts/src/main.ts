@@ -77,7 +77,7 @@ import {
       searchIndices.push(searchIndex);
 
       fs.writeFile(`${DIST_DIRECTORY_PATH}/swap/${filename}.html`, ejs.render(String(await SWAP_TEMPLATE_FILE), { document }));
-      sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
+      sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}.html</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
     }
 
     fs.writeFile(`${DIST_DIRECTORY_PATH}/search.json`, JSON.stringify(searchIndices));
