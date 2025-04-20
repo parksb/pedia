@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content="Simonpedia" />
-    <meta property="og:image" content="https://og-image.parksb.vercel.app/api/simonpedia" />
+<head>
+  <meta charset="UTF-8" />
 
-    <link rel="prefetch" href="https://unpkg.com/htmx.org@2.0.4" />
-    <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Simonpedia" />
+  <meta property="og:image" content="https://og-image.parksb.vercel.app/api/simonpedia" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
-    <link rel="stylesheet" href="/assets/bundle.min.css" />
-    <link rel="stylesheet" href="/index.css" />
-  </head>
-  <body>
-    <aside>
-      <input type="search" placeholder="🔍" hx-on:input="search(this.value)" />
-      <ul>
-        <% documents.map((document) => { %>
+  <link rel="prefetch" href="https://unpkg.com/htmx.org@2.0.4" />
+  <link rel="prefetch" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" />
+  <link rel="stylesheet" href="/assets/bundle.min.css" />
+  <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+  <aside>
+    <input type="search" placeholder="🔍" hx-on:input="search(this.value)" />
+    <ul>
+      <% documents.map((document)=> { %>
         <li data-key="/<%- document.filename %>">
-          <a title="<%- document.title %>" href="/<%- document.filename %>"
-            hx-get="/<%- document.filename %>.html" hx-target="#main"
-            hx-swap="show:top" hx-push-url="/<%- document.filename %>"
+          <a title="<%- document.title %>" href="/<%- document.filename %>" hx-get="/swap/<%- document.filename %>.html"
+            hx-target="#main" hx-swap="show:top" hx-push-url="/<%- document.filename %>"
             hx-on:click="select('/<%- document.filename %>')"><%- document.title %></a>
         </li>
         <% }) %>
-      </ul>
-    </aside>
-    <main>
-      <section id="main"></section>
-      <footer>
-        <small>© 박성범</small>
-      </footer>
-    </main>
-    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>
+    </ul>
+  </aside>
+  <main>
+    <section id="main"></section>
+    <footer>
+      <small>© 박성범</small>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
     function pathname() {
-      const { pathname: path } = window.location;
+      const {pathname} = window.location;
+      const path = pathname ? pathname.replace('.html', '') : null;
       if (path && path !== '/') {
         const keys = new Set(<%- JSON.stringify(documents.map(doc => `/${doc.filename}`)) %>);
         if (!keys.has(path)) return '/http-404';
@@ -57,7 +59,7 @@
     }
 
     function scrollToActive() {
-      htmx.find('aside > ul > li.active').scrollIntoView({ block: 'center' });
+      htmx.find('aside > ul > li.active').scrollIntoView({block: 'center'});
       return true;
     }
 
@@ -66,7 +68,7 @@
       return true;
     }
 
-    htmx.ajax('GET', `${pathname()}.html`, '#main');
+    htmx.ajax('GET', `/swap/${pathname()}.html`, '#main');
 
     document.addEventListener('DOMContentLoaded', (event) => {
       if (window.innerWidth < 800) toggleSidebar();
@@ -77,25 +79,25 @@
 
     document.body.addEventListener('htmx:afterSwap', event => {
       document.title = htmx.find('article > h1').textContent;
-      mermaid.run({ querySelector: 'article div.mermaid' });
+      mermaid.run({querySelector: 'article div.mermaid'});
     });
 
     document.body.addEventListener('htmx:historyRestore', event => {
       select(pathname());
       scrollToActive();
     });
-    </script>
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
-    <script src="/assets/lunr.stemmer.support.min.js"></script>
-    <script src="/assets/lunr.multi.min.js"></script>
-    <script src="/assets/lunr.ko.min.js"></script>
-    <script type="module">
-    const pool = await (await fetch('/search.json')).json();
+  </script>
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="/assets/lunr.stemmer.support.min.js"></script>
+  <script src="/assets/lunr.multi.min.js"></script>
+  <script src="/assets/lunr.ko.min.js"></script>
+  <script type="module">
+    const pool = await(await fetch('/search.json')).json();
     const reg = new Map(pool.map(item => [item.filename, item.title]));
     const idx = lunr(function () {
       this.use(lunr.multiLanguage('en', 'ko'));
       this.ref('filename');
-      this.field('title', { boost: 10 });
+      this.field('title', {boost: 10});
       this.field('filename');
       this.field('text');
 
@@ -107,7 +109,7 @@
     function search(word) {
       let results = idx.search(word);
       const html = results
-      .map(({ ref }) => `
+        .map(({ref}) => `
 <li data-key="/${ref}">
 <a title="${reg.get(ref)}" href="/${ref}"
 hx-get="/${ref}.html" hx-target="#main"
@@ -120,6 +122,7 @@ hx-on:click="select('/${ref}')">${reg.get(ref)}</a>
     }
 
     window.search = search;
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>

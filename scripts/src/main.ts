@@ -5,7 +5,9 @@ import Denque from 'denque';
 
 import { appendReferred, findReferences, findReferredSentences, findSubdocs, labelInternalLinks, md, prependToc } from './markdown';
 import { Document, SearchIndex } from './types';
-import { WEBSITE_DOMAIN, MARKDOWN_DIRECTORY_PATH, DIST_DIRECTORY_PATH, APP_TEMPLATE_FILE, DOC_TEMPLATE_FILE, SITEMAP_PATH, LABELED_LINK_REGEX, LINK_REGEX } from './consts';
+import {
+  WEBSITE_DOMAIN, MARKDOWN_DIRECTORY_PATH, DIST_DIRECTORY_PATH, APP_TEMPLATE_FILE, DOC_TEMPLATE_FILE, SITEMAP_PATH, LABELED_LINK_REGEX, LINK_REGEX, SWAP_TEMPLATE_FILE
+} from './consts';
 
 (async () => {
   console.time('Build');
@@ -59,20 +61,22 @@ import { WEBSITE_DOMAIN, MARKDOWN_DIRECTORY_PATH, DIST_DIRECTORY_PATH, APP_TEMPL
     document.markdown = appendReferred(document.markdown, document.referred, dict);
     document.markdown = prependToc(document.markdown);
     document.html = md.render(document.markdown)
-      .replace(LABELED_LINK_REGEX, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$2</a>')
-      .replace(LINK_REGEX, '<a href="/$1.html" hx-get="/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$1</a>');
+      .replace(LABELED_LINK_REGEX, '<a href="/$1.html" hx-get="/swap/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$2</a>')
+      .replace(LINK_REGEX, '<a href="/$1.html" hx-get="/swap/$1.html" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'/$1\') && scrollToActive()">$1</a>');
   }
+
+  const documents = Object.values(dict);
 
   const generateMetaFiles = async () => {
     const sitemapUrls: string[] = [];
-    const searchIndices: SearchIndex[] =[];
+    const searchIndices: SearchIndex[] = [];
 
-    for (const document of Object.values(dict)) {
+    for (const document of documents) {
       const { title, filename, markdown } = document;
       const searchIndex: SearchIndex = { title, filename, text: markdown };
       searchIndices.push(searchIndex);
 
-      fs.writeFile(`${DIST_DIRECTORY_PATH}/${filename}.html`, ejs.render(String(await DOC_TEMPLATE_FILE), { document }));
+      fs.writeFile(`${DIST_DIRECTORY_PATH}/swap/${filename}.html`, ejs.render(String(await SWAP_TEMPLATE_FILE), { document }));
       sitemapUrls.push(`<url><loc>${WEBSITE_DOMAIN}/${filename}</loc><changefreq>daily</changefreq><priority>1.00</priority></url>`);
     }
 
@@ -97,9 +101,18 @@ ${sitemapUrls.join('\n')}
     }
   };
 
+  const generateDocuments = async () => {
+    for (const document of documents) {
+      if (document.filename.startsWith('private/')) continue;
+      fs.writeFile(`${DIST_DIRECTORY_PATH}/${document.filename}.html`, ejs.render(String(await DOC_TEMPLATE_FILE), { documents, document }));
+    }
+  }
+
   Promise.all([
-    generateMetaFiles(), printInfo(),
-    fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(await APP_TEMPLATE_FILE), { documents: Object.values(dict) })),
+    generateMetaFiles(),
+    printInfo(),
+    generateDocuments(),
+    fs.writeFile(`${DIST_DIRECTORY_PATH}/index.html`, ejs.render(String(await APP_TEMPLATE_FILE), { documents })),
   ]);
 
   console.info('Total documents:', Object.keys(dict).length);
