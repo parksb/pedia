@@ -36,3 +36,5 @@
 - [[why-google-stores-billions-of-code-in-a-single-repository]]
 - [[fluid-flexible-user-interface-distribution-for-ubiquitous-multi-device-interaction]]
 - [[introduction-to-programming-languages]]
+- [[code-shaping]]
+- [[permission-rationales-in-the-web-ecosystem]]
