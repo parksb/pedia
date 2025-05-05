@@ -12,3 +12,4 @@
 
 - [[sapiens]]
 - [[what-is-history]]
+- [[history-immediately-after-liberation-in-1945]]
