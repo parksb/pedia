@@ -37,13 +37,13 @@ export function Content({ document }: Props) {
         <div class="meta">
           <a
             class="external"
-            href="https://github.com/parksb/pedia/commits/master/docs/<%- document.filename %>.md"
+            href={`https://github.com/parksb/pedia/commits/master/docs/${document.filename}.md`}
           >
             @
           </a>
           <a
             class="external"
-            href="https://raw.githubusercontent.com/parksb/pedia/master/docs/<%- document.filename %>.md"
+            href={`https://raw.githubusercontent.com/parksb/pedia/master/docs/${document.filename}.md`}
           >
             M
           </a>
