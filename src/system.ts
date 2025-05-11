@@ -135,7 +135,9 @@ export class System {
   }
 
   getSitemap() {
-    const urls = this.list.map(({ filename }) => `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`).join("\n");
+    const urls = this.list.map(({ filename }) =>
+      `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`
+    ).join("\n");
     return `<?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
         ${urls}

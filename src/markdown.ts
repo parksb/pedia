@@ -7,7 +7,7 @@ import mdTableOfContents from "markdown-it-table-of-contents";
 import mdInlineComment from "markdown-it-inline-comments";
 import mdCheckbox from "markdown-it-task-checkbox";
 import mdExternalLink from "markdown-it-external-links";
-import mdMermaid from "markdown-it-mermaid";
+import mdMermaid from "@markslides/markdown-it-mermaid";
 import mdContainer from "markdown-it-container";
 import { full as mdEmoji } from "markdown-it-emoji";
 import * as katex from "katex";
@@ -33,7 +33,7 @@ export const md = MarkdownIt({
   },
 }).use(mdFootnote)
   .use(mdInlineComment)
-  // .use(mdMermaid)
+  .use(mdMermaid)
   .use(mdEmoji)
   .use(mdAnchor)
   .use(mdTex, {
