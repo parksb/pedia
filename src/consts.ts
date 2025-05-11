@@ -4,7 +4,7 @@ export const WEBSITE_DOMAIN = "https://pedia.parksb.xyz";
 
 export const MARKDOWN_DIRECTORY_PATH: string = path.join(
   import.meta.dirname!,
-  "../../docs",
+  "../docs",
 );
 
 export const ASSETS_DIR_PATH = path.join(import.meta.dirname!, "../assets");

@@ -18,6 +18,10 @@ const documentResponse = (id: string, c: Context, swap = false) => {
 
 app.use("/assets/*", serveStatic({ root: "./" }));
 
+app.use("/images/*", serveStatic({ root: "./docs/" }));
+
+app.use("/private/images/*", serveStatic({ root: "./docs/" }));
+
 app.get("/swap/private/:id", (c) => {
   const id = `private/${c.req.param("id")}`;
   return documentResponse(id, c, true);
