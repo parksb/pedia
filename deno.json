@@ -21,8 +21,8 @@
     "typed-htmx": "npm:typed-htmx@^0.3.1"
   },
   "tasks": {
-    "start": "deno run --allow-net --allow-read src/main.ts",
-    "dev": "deno run --allow-net --allow-read --watch=docs,src src/main.ts",
+    "start": "deno run -N -R -E src/main.ts",
+    "dev": "deno run -N -R -E --watch=docs,src src/main.ts",
     "commit": "./tools/commit.sh",
     "img": "./tools/img.sh"
   },
