@@ -22,7 +22,7 @@
   },
   "tasks": {
     "start": "deno run --allow-net --allow-read src/main.ts",
-    "dev": "deno run --allow-net --allow-read --watch src/main.ts"
+    "dev": "deno run --allow-net --allow-read --watch=docs,src src/main.ts"
   },
   "compilerOptions": {
     "jsx": "precompile",

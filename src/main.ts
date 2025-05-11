@@ -16,18 +16,20 @@ const documentResponse = (id: string, c: Context, swap = false) => {
   return c.html(document);
 };
 
-app.use("/*", serveStatic({ root: "./public" }));
+app.use("/robots.txt", serveStatic({ root: "./public" }));
 
-app.get("/sitemap.xml", (c) => {
-  c.header("Content-Type", "application/xml");
-  return c.body(system.getSitemap());
-});
+app.use("/googleb1e5dbcc1d32e7b1.html", serveStatic({ root: "./public" }));
 
 app.use("/assets/*", serveStatic({ root: "./" }));
 
 app.use("/images/*", serveStatic({ root: "./docs/" }));
 
 app.use("/private/images/*", serveStatic({ root: "./docs/" }));
+
+app.get("/sitemap.xml", (c) => {
+  c.header("Content-Type", "application/xml");
+  return c.body(system.getSitemap());
+});
 
 app.get("/swap/private/:id", (c) => {
   const id = `private/${c.req.param("id")}`;
