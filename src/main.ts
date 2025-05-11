@@ -16,6 +16,13 @@ const documentResponse = (id: string, c: Context, swap = false) => {
   return c.html(document);
 };
 
+app.use("/*", serveStatic({ root: "./public" }));
+
+app.get("/sitemap.xml", (c) => {
+  c.header("Content-Type", "application/xml");
+  return c.body(system.getSitemap());
+});
+
 app.use("/assets/*", serveStatic({ root: "./" }));
 
 app.use("/images/*", serveStatic({ root: "./docs/" }));

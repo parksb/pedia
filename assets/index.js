@@ -1,5 +1,6 @@
 function pathname() {
   const { pathname } = window.location;
+  if (pathname === "/") return "simonpedia";
   return pathname ? pathname.replace(/^\//, "").replace(/\.html$/, "") : null;
 }
 

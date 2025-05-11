@@ -13,6 +13,7 @@ import {
   LABELED_LINK_REGEX,
   LINK_REGEX,
   MARKDOWN_DIRECTORY_PATH,
+  WEBSITE_DOMAIN,
 } from "./consts.ts";
 import { Breadcrumb, Document } from "./types.ts";
 import { readFile } from "./utils.ts";
@@ -116,7 +117,7 @@ export class System {
     return this;
   }
 
-  printInfo() {
+  private printInfo() {
     console.log("Documents loaded:", this.list.length);
 
     for (
@@ -131,6 +132,14 @@ export class System {
         console.warn(`Isolated document: ${filename}`);
       }
     }
+  }
+
+  getSitemap() {
+    const urls = this.list.map(({ filename }) => `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`).join("\n");
+    return `<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+        ${urls}
+      </urlset>`;
   }
 
   getList(q?: string) {
