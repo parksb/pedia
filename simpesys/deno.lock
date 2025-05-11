@@ -2,6 +2,7 @@
   "version": "5",
   "specifiers": {
     "jsr:@hono/hono@^4.7.8": "4.7.8",
+    "npm:@nozbe/microfuzz@1": "1.0.0",
     "npm:@types/node@*": "22.12.0",
     "npm:dayjs@^1.11.13": "1.11.13",
     "npm:denque@^2.1.0": "2.1.0",
@@ -27,6 +28,9 @@
     }
   },
   "npm": {
+    "@nozbe/microfuzz@1.0.0": {
+      "integrity": "sha512-XKIg/guk+s1tkPTkHch9hfGOWgsKojT7BqSQddXTppOfVr3SWQhhTCqbgQaPTbppf9gc2kFeG0gpBZZ612UXHA=="
+    },
     "@types/linkify-it@5.0.0": {
       "integrity": "sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q=="
     },
@@ -291,6 +295,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@^4.7.8",
+      "npm:@nozbe/microfuzz@1",
       "npm:dayjs@^1.11.13",
       "npm:denque@^2.1.0",
       "npm:ejs@^3.1.10",

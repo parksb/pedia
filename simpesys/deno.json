@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@nozbe/microfuzz": "npm:@nozbe/microfuzz@^1.0.0",
     "hono": "jsr:@hono/hono@^4.7.8",
     "markdown-it": "npm:markdown-it@^14.1.0",
     "markdown-it-anchor": "npm:markdown-it-anchor@^9.2.0",

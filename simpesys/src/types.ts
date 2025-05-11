@@ -14,12 +14,6 @@ export interface Breadcrumb {
   title: string;
 }
 
-export interface SearchIndex {
-  title: string;
-  filename: string; // without extension
-  text: string;
-}
-
 export interface Reference {
   document: Document;
   sentences: string[];

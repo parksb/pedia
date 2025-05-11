@@ -1,38 +1,40 @@
 function pathname() {
-	const { pathname } = window.location;
-	return pathname ? pathname.replace(/^\//, "").replace(/\.html$/, "") : null;
+  const { pathname } = window.location;
+  return pathname ? pathname.replace(/^\//, "").replace(/\.html$/, "") : null;
 }
 
 function select(key) {
-	htmx
-		.findAll("aside > ul > li")
-		.forEach((el) => htmx.removeClass(el, "active"));
-	htmx.addClass(htmx.find(`aside > ul > li[data-key="${key}"]`), "active");
-	return true;
+  htmx
+    .findAll("#list > ul > li")
+    .forEach((el) => htmx.removeClass(el, "active"));
+  htmx.addClass(htmx.find(`#list > ul > li[data-key="${key}"]`), "active");
+  return true;
 }
 
 function scrollToActive() {
-	htmx.find("aside > ul > li.active").scrollIntoView({ block: "center" });
-	return true;
+  htmx.find("#list > ul > li.active").scrollIntoView({ block: "center" });
+  return true;
 }
 
 function toggleSidebar() {
-	htmx.toggleClass("aside", "hidden");
-	return true;
+  htmx.toggleClass("aside", "hidden");
+  return true;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	if (window.innerWidth < 800) toggleSidebar();
-	htmx.find("aside > input").value = "";
-	select(pathname());
-	scrollToActive();
+  if (window.innerWidth < 800) toggleSidebar();
+  htmx.find("aside > input").value = "";
+  select(pathname());
+  scrollToActive();
 });
 
 document.body.addEventListener("htmx:afterSwap", () => {
-	mermaid.run({ querySelector: "article div.mermaid" });
+  select(pathname());
+  document.title = htmx.find('article > h1').textContent;
+  mermaid.run({ querySelector: "article div.mermaid" });
 });
 
 document.body.addEventListener("htmx:historyRestore", () => {
-	select(pathname());
-	scrollToActive();
+  select(pathname());
+  scrollToActive();
 });

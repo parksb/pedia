@@ -17,10 +17,10 @@ header .sidebar-toggle { padding: .6rem; cursor: pointer; font-size: 1rem; font-
 header .sidebar-toggle:hover { font-weight: 600; }
 header .breadcrumbs { padding: .6rem .6rem .6rem 0; margin-left: 1.2rem; text-indent: -1.2rem; }
 aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #dfe2e5; }
-aside > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
-aside > ul > li { overflow: hidden; white-space: nowrap; padding: 0 1rem 0 1rem; cursor: pointer; }
-aside > ul > li > a { display: block; }
-aside > ul > li.active, aside > ul > li:hover { font-weight: 600; background-color: #eaecef; }
+#list > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
+#list > ul > li { overflow: hidden; white-space: nowrap; padding: 0 1rem 0 1rem; cursor: pointer; }
+#list > ul > li > a { display: block; }
+#list > ul > li.active, aside > ul > li:hover { font-weight: 600; background-color: #eaecef; }
 main { display: flex; flex: 3; flex-direction: column; overflow: scroll; }
 article { max-width: 900px; padding: 1.5rem; }
 footer { padding: 1.5rem; }
