@@ -11,6 +11,7 @@
 - [[clean-code-myth]]
 - [[yak-shaving]]
 - [[ieee-citation-style]]
+- [[big-tech-vs-startup-at-starting-point-of-career]]
 
 ### 문헌
 
