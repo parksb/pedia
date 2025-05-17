@@ -57,7 +57,7 @@ export function App({ documents, document }: Props) {
             </div>
           </aside>
           <main>
-            <section id="main">
+            <section id="main" hx-history-elt>
               <Content document={document} />
             </section>
             <footer>
