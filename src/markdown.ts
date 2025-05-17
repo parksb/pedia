@@ -74,15 +74,12 @@ export const md = MarkdownIt({
   });
 
 /**
- * Insert a table of contents at the beginning of the markdown.
+ * Insert table of contents right after the first line of the markdown.
  */
 export const prependToc = (markdown: string) => {
-  const match = markdown.match(/^(# .+?)(\n|$)/m);
-  if (!match || !match.index) return markdown;
-  const headerIndex = match.index + match[0].length;
-  return `${markdown.slice(0, headerIndex)}\n[[toc]]\n${
-    markdown.slice(headerIndex)
-  }`;
+  const lines = markdown.split('\n');
+  if (lines.length === 0) return markdown;
+  return [lines[0], '[[toc]]', ...lines.slice(1)].join('\n');
 };
 
 /**
