@@ -54,7 +54,7 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .table-of-contents ul { list-style-type: none; counter-reset: item; margin: 0; padding-left: 1rem; }
 .table-of-contents ul li:before { content: counters(item, ".") ". "; counter-increment: item; }
 .footnotes > .footnotes-list { padding: 0; counter-reset: list; font-size: .8rem; }
-.footnotes > .footnotes-list > .footnote-item { list-style-position: inherit; list-style: none; line-height: 1.4; }
+.footnotes > .footnotes-list > .footnote-item { list-style-position: inherit; list-style: none; line-height: 1.4; margin-bottom: .2rem; }
 .footnotes > .footnotes-list > .footnote-item:before { content: "[" counter(list) "] "; counter-increment: list; }
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
 input[type="search"] { border: 0; border-bottom: 1px solid #dfe2e5; font-size: 1rem; padding: 0.5rem; outline: none; width: 100%; position: sticky; top: 0; background-color: #fffffff0; }
