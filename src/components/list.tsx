@@ -20,7 +20,6 @@ export function List({ documents, document }: Props) {
             hx-get={`/swap/${x.filename}`}
             hx-target="#main"
             hx-swap="show:top"
-            hx-on:click={`select("${x.filename}")`}
           >
             {x.title}
           </a>
