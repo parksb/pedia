@@ -51,6 +51,10 @@ app.get("/private/:id", (c) => {
   return documentResponse(id, c);
 });
 
+app.get("/health", (c) => {
+  return c.text("ok");
+});
+
 app.get("/:id", (c) => {
   const id = c.req.param("id");
   return documentResponse(id, c);
