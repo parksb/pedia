@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[asynchronous-programming]]
 - [[coroutine]]
 - [[atomic-operation]]
@@ -10,6 +12,10 @@
 - [[semaphore]]
 - [[barrier-synchronization]]
 - [[readers-writer-lock]]
+
+### 문헌
+
+- [[large-scale-cluster-management-at-google-with-borg]]
 
 ## 관련문서
 

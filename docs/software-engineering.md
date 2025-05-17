@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[git]]
 - [[kubernetes]]
 - [[spring]]
@@ -18,6 +20,9 @@
 - [[semver]]
 - [[es-modules]]
 
-## 관련문서
+### 문헌
 
-- [[system-design-interview]]{가상 면접 사례로 배우는 대규모 시스템 설계 기초}
+- [[a-philosophy-of-software-design]]
+- [[system-design-interview]]
+- [[hypermedia-systems]]
+- [[why-google-stores-billions-of-code-in-a-single-repository]]

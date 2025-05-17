@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[rust]]
 - [[typescript]]
 - [[kotlin]]
@@ -13,3 +15,9 @@
 - [[compiler]]
 - [[dynamic-language-vs-static-language]]
 - [[jscodeshift]]
+
+### 문헌
+
+- [[introduction-to-programming-languages]]
+- [[functional-programming-in-kotlin]]
+- [[the-rust-programming-language]]

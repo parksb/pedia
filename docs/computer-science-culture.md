@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[developer-chauvinism]]
 - [[community-computer-science-argument]]
 - [[ceil-of-frontend-engineer-career]]
@@ -9,3 +11,8 @@
 - [[clean-code-myth]]
 - [[yak-shaving]]
 - [[ieee-citation-style]]
+
+### 문헌
+
+- [[the-software-engineers-guidebook]]
+- [[the-pragmatic-programmer]]

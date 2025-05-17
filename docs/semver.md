@@ -1,9 +1,5 @@
 # SemVer
 
-::: INFO
-https://semver.org/
-:::
-
 시맨틱 버저닝(SemVer, Semantic versioning) 또는 유의적 버전은 소프트웨어의 버전을 효과적으로 관리하기 위한 규칙이다. 버전을 `<major>.<minor>.<patch>` 형식으로 표현하고, 기존 버전과 호환되지 않는 변경이 있다면 `major` 버전을, 기존과 호환되는 새로운 기능이 추가되었다면 `minor` 버전을, 기존 버전과 호환되는 버그 수정만 있었다면 `patch` 버전을 올린다.
 
 시맨틱 버저닝의 명세는 그라바타(Gravatars)의 창시자이자, 깃헙(GitHub)의 공동창립자인 톰 프레스턴-베르너(Tom Preston-Werner)가 작성했다.
@@ -30,3 +26,8 @@ https://semver.org/
 - `*`: `>=0.0.0` (모든 버전)
 - `1.x`: `>=1.0.0 <2.0.0` (메이저 버전 일치)
 - `1.2.x`: `>=1.2.0 <1.3.0` (메이저, 마이너 버전 일치)
+
+## 참고자료
+
+- [Semantic Versioning](https://semver.org/)
+- [Online Semver Checker](https://jubianchi.github.io/semver-check)

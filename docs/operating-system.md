@@ -2,8 +2,10 @@
 
 ## 하위문서
 
-* [[unix]]{유닉스 운영체제}
+### 주제
 
-## 관련문서
+- [[unix]]
 
-* [[operating-system-concepts]]{Operating System Concepts}
+### 문헌
+
+- [[operating-system-concepts]]

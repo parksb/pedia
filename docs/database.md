@@ -80,6 +80,8 @@
 
 ## 하위문서
 
+### 주제
+
 - [[mysql]]
 - [[redis]]
 - [[apache-kafka]]
@@ -88,7 +90,7 @@
 - [[relational-algebra]]
 - [[database-normalization]]
 
-## 관련문서
+### 문헌
 
 - [[database-system-concepts]]
 - [[designing-data-intensive-applications]]
