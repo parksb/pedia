@@ -1,4 +1,4 @@
-# Knuth-Morris-Pratt Algorithm
+# Knuth-Morris-Pratt 알고리즘
 
 - 문자열 내에서 특정 문자열을 찾는 매칭 알고리즘.
 - 단순히 나이브하게 브루트포스로 문자열을 찾는다면:

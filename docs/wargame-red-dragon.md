@@ -30,6 +30,10 @@
 * [[wrd-deck-blue-dragon]]
 * [[wrd-deck-eastern-bloc]]
 
+## 관련문서
+
+- [[military-science]]
+
 ## 참고자료
 
 * https://dev.dannymcgee.net/wargame/

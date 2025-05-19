@@ -5,6 +5,7 @@ AT Protocol 또는 atproto는 탈중앙화된 소셜 미디어를 구현하기 �
 ## 관련문서
 
 - [[bluesky-and-the-at-protocol]]
+- [[activity-pub]]
 
 ## 참고자료
 

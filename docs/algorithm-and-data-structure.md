@@ -2,5 +2,9 @@
 
 ## 하위문서
 
-* [[algorithm]]{알고리즘}
-* [[data-structure]]{자료구조}
+- [[a-star-search]]
+- [[binary-search]]
+- [[strongly-connected-component]]
+- [[zstd]]
+- [[kmp]]
+- [[array]]
