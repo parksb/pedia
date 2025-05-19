@@ -1,3 +1,4 @@
+import { WEBSITE_DOMAIN } from "../consts.ts";
 import { Document } from "../types.ts";
 import { Content } from "./content.tsx";
 import { List } from "./list.tsx";
@@ -16,10 +17,14 @@ export function App({ documents, document }: Props) {
           <meta charset="UTF-8" />
           <title>{document.title}</title>
 
+          <link rel="canonical" href={`${WEBSITE_DOMAIN}/${document.filename}`} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="theme-color" content="#ffffff" />
-          <meta property="og:title" content="Simonpedia" />
+
+          <meta name="fediverse:creator" content="@parksb@silicon.moe" />
+          <meta property="og:title" content={document.title} />
+          <meta property="og:url" content={`${WEBSITE_DOMAIN}/${document.filename}`} />
           <meta
             property="og:image"
             content="https://og-image.parksb.vercel.app/api/simonpedia"
