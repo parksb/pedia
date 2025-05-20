@@ -19,6 +19,7 @@
 - [[eslint]]
 - [[semver]]
 - [[es-modules]]
+- [[zed-editor]]
 
 ### 문헌
 
