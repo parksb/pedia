@@ -4,7 +4,7 @@
 [Ben Shneiderman, "Human-Centered Artificial Intelligence: Reliable, Safe & Trustworthy", 2020](https://arxiv.org/abs/2002.04087)
 :::
 
-인간중심 인공지능(Human-Centered Artificial Intelligence, HCAI)을 위한 2차원 프레임워크를 제시한다.  지금까지 인공지능 연구자와 개발자들은 제어권과 자동화를 1차원적으로 생각해왔다. 즉, 하나의 축 위에서 인간에게 모든 것을 맡길 것인지, 기계에게 모든 것을 맡길 것인지만을 비교한 것이다. 이제는 여기에서 벗어나 2차원적 HCAI 프레임워크를 고려해야 한다.
+인간중심 [[artificial-intelligence]](Human-Centered Artificial Intelligence, HCAI)을 위한 2차원 프레임워크를 제시한다.  지금까지 [[artificial-intelligence]] 연구자와 개발자들은 제어권과 자동화를 1차원적으로 생각해왔다. 즉, 하나의 축 위에서 인간에게 모든 것을 맡길 것인지, 기계에게 모든 것을 맡길 것인지만을 비교한 것이다. 이제는 여기에서 벗어나 2차원적 HCAI 프레임워크를 고려해야 한다.
 
 프레임워크의 한 축은 제어권이 누구에게 있는지 의미하며, 다른 한 축은 자동화의 수준을 의미한다. HCAI의 목적은 사람이 더 많은 제어권을 가지는 동시에 높은 자동화 수준을 달성하는 것이다. 이 지점에서 컴퓨터 애플리케이션은 보다 일관적이고, 안전하며, 신뢰할 수 있게(Reliable, Safe & Trustworhy, RST) 된다.
 

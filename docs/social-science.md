@@ -11,6 +11,7 @@
 - [[chestertons-fence]]
 - [[university-admission-lottery-system]]
 - [[multi-member-district]]
+- [[surviving-in-ai-era]]
 
 ### 문헌
 

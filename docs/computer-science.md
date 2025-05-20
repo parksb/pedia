@@ -11,5 +11,6 @@
 - [[algorithm-and-data-structure]]
 - [[concurrent-programming]]
 - [[software-engineering]]
+- [[artificial-intelligence]]
 - [[human-computer-interaction]]
 - [[computer-science-culture]]
