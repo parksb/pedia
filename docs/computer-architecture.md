@@ -8,6 +8,7 @@
 - [[i386]]
 - [[flip-flop]]
 - [[adder]]
+- [[webassembly]]
 
 ### 문헌
 
