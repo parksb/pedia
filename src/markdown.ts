@@ -193,6 +193,7 @@ export const labelInternalLinks = (
       } catch (e: any) {
         console.warn(e.message);
         if (label) return `[[http-404]]${label}`;
+        if (link.startsWith("private/")) return `[[http-404]]{${link.replace(/./g, "*")}}`;
         return `[[http-404]]{${link}}`;
       }
     },
