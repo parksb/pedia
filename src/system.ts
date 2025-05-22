@@ -28,15 +28,18 @@ export class System {
   private searcher: FuzzySearcher<Document> | null = null;
 
   async init() {
-    const queue = new Denque<{ filename: string; breadcrumbs: Breadcrumb[] }>([
+    const queue = new Denque<
+      { filename: string; type: Document["type"]; breadcrumbs: Breadcrumb[] }
+    >([
       {
         filename: "simonpedia",
+        type: "subject",
         breadcrumbs: [],
       },
     ]);
 
     while (queue.length > 0) {
-      const { filename, breadcrumbs } = queue.shift()!;
+      const { filename, type, breadcrumbs } = queue.shift()!;
 
       try {
         const markdown = await readFile(
@@ -52,14 +55,19 @@ export class System {
           breadcrumbs: [...breadcrumbs, { title, filename }],
           children: [],
           referred: [],
+          type,
         };
 
         this.dict[filename] = document;
 
-        for (const subdoc of findSubdocs(markdown)) {
-          if (!this.written.has(subdoc)) {
-            queue.push({ filename: subdoc, breadcrumbs: document.breadcrumbs });
-            this.written.add(subdoc);
+        for (const subdoc of findSubdocs(markdown, type)) {
+          if (!this.written.has(subdoc.filename)) {
+            queue.push({
+              filename: subdoc.filename,
+              type: subdoc.type,
+              breadcrumbs: document.breadcrumbs,
+            });
+            this.written.add(subdoc.filename);
           }
         }
       } catch {

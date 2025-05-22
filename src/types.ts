@@ -7,6 +7,7 @@ export interface Document {
   children: Document[];
   parent?: Document;
   referred: Reference[];
+  type: "subject" | "publication";
 }
 
 export interface Breadcrumb {

@@ -12,7 +12,7 @@ import mdContainer from "markdown-it-container";
 import { full as mdEmoji } from "markdown-it-emoji";
 import * as katex from "katex";
 
-import { DocumentDict, Reference } from "./types.ts";
+import { type Document, DocumentDict, Reference } from "./types.ts";
 import { LABELED_LINK_REGEX, LINK_REGEX } from "./consts.ts";
 
 export const md = MarkdownIt({
@@ -77,9 +77,9 @@ export const md = MarkdownIt({
  * Insert table of contents right after the first line of the markdown.
  */
 export const prependToc = (markdown: string) => {
-  const lines = markdown.split('\n');
+  const lines = markdown.split("\n");
   if (lines.length === 0) return markdown;
-  return [lines[0], '[[toc]]', ...lines.slice(1)].join('\n');
+  return [lines[0], "[[toc]]", ...lines.slice(1)].join("\n");
 };
 
 /**
@@ -133,27 +133,35 @@ export const findReferredSentences = (
 };
 
 /**
- * Find the filenames of the sub-documents.
+ * Find the filenames with type of the sub-documents.
  *
  * ```
  * findSubdocs('## 하위문서\n- [[a]]\n- [[b]]{B}')
- * // ['a', 'b']
+ * // [{ filename: 'a', type: 'subject' }, { filename: 'b', type: 'subject' }]
  * ```
  */
-export const findSubdocs = (markdown: string) => {
-  const filenames: string[] = [];
+export const findSubdocs = (markdown: string, type: Document["type"]) => {
+  const subdocs: { filename: string; type: Document["type"] }[] = [];
   const subdocSection = /## 하위문서\s*\n+([\s\S]*?)(?=\n##\s|$)/.exec(
     markdown,
   );
 
-  if (!subdocSection) return filenames;
+  if (!subdocSection) return subdocs;
 
+  let isPublicationSeciton = false;
   for (const line of subdocSection[1].trim().split("\n")) {
+    if (line.trim() === "### 문헌") isPublicationSeciton = true;
+
     const match = line.match(/(-|\*) \[\[(.*?)\]\]/);
-    if (match) filenames.push(match[2]);
+    if (match) {
+      subdocs.push({
+        filename: match[2],
+        type: isPublicationSeciton ? "publication" : type,
+      });
+    }
   }
 
-  return filenames;
+  return subdocs;
 };
 
 /**

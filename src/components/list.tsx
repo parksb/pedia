@@ -21,7 +21,7 @@ export function List({ documents, document }: Props) {
             hx-target="#main"
             hx-swap="show:top"
           >
-            {x.title}
+            {x.type === "publication" ? `『${x.title}』` : x.title}
           </a>
         </li>
       ))}
