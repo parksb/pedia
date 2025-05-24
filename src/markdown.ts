@@ -14,6 +14,7 @@ import * as katex from "katex";
 
 import { type Document, DocumentDict, Reference } from "./types.ts";
 import { LABELED_LINK_REGEX, LINK_REGEX } from "./consts.ts";
+import { Log } from "./utils.ts";
 
 export const md = MarkdownIt({
   html: false,
@@ -191,9 +192,11 @@ export const labelInternalLinks = (
 
         return `${match}{${dict[link].title}}`;
       } catch (e: any) {
-        console.warn(e.message);
+        Log.warn(e.message);
         if (label) return `[[http-404]]${label}`;
-        if (link.startsWith("private/")) return `[[http-404]]{${link.replace(/./g, "*")}}`;
+        if (link.startsWith("private/")) {
+          return `[[http-404]]{${link.replace(/./g, "*")}}`;
+        }
         return `[[http-404]]{${link}}`;
       }
     },

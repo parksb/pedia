@@ -16,7 +16,7 @@ import {
   WEBSITE_DOMAIN,
 } from "./consts.ts";
 import { Breadcrumb, Document } from "./types.ts";
-import { readFile } from "./utils.ts";
+import { Log, readFile } from "./utils.ts";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
 import { List } from "./components/list.tsx";
@@ -126,7 +126,7 @@ export class System {
   }
 
   private printInfo() {
-    console.log("Documents loaded:", this.list.length);
+    Log.info(`Documents loaded: ${this.list.length}`);
 
     for (
       const { name: filename } of Deno.readDirSync(
@@ -137,7 +137,7 @@ export class System {
         !this.written.has(filename.replace(/\.md$/, "")) &&
         !filename.startsWith("private/")
       ) {
-        console.warn(`Isolated document: ${filename}`);
+        Log.warn(`Isolated document: ${filename}`);
       }
     }
   }
