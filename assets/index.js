@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.body.addEventListener("htmx:afterSwap", () => {
-  select(pathname());
   document.title = htmx.find('article > h1').textContent;
   mermaid.run({ querySelector: "article div.mermaid" });
 });

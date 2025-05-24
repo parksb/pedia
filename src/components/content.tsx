@@ -1,5 +1,6 @@
 import { raw } from "hono/html";
 import { Breadcrumb, Document } from "../types.ts";
+import { Anchor } from "./anchor.tsx";
 
 interface Props {
   document: Document;
@@ -18,16 +19,11 @@ export function Content({ document }: Props) {
               <ul>
                 {document.breadcrumbs.map((breadcrumb: Breadcrumb) => (
                   <li>
-                    <a
-                      href={`/${breadcrumb.filename}`}
-                      hx-get={`/swap/${breadcrumb.filename}`}
-                      hx-swap="show:top"
-                      hx-target="#main"
-                      hx-push-url={`/${breadcrumb.filename}`}
-                      hx-on:click={`select("${breadcrumb.filename}") && scrollToActive()`}
-                    >
-                      {breadcrumb.title}
-                    </a>
+                    <Anchor
+                      href={breadcrumb.filename}
+                      label={breadcrumb.title}
+                      scrollTo
+                    />
                   </li>
                 ))}
               </ul>

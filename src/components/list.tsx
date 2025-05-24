@@ -1,4 +1,5 @@
 import { Document } from "../types.ts";
+import { Anchor } from "./anchor.tsx";
 
 interface Props {
   documents: Document[];
@@ -13,16 +14,10 @@ export function List({ documents, document }: Props) {
           data-key={x.filename}
           class={x.filename === document?.filename ? "active" : ""}
         >
-          <a
-            title={x.title}
-            href={`/${x.filename}`}
-            hx-push-url={`/${x.filename}`}
-            hx-get={`/swap/${x.filename}`}
-            hx-target="#main"
-            hx-swap="show:top"
-          >
-            {x.type === "publication" ? `『${x.title}』` : x.title}
-          </a>
+          <Anchor
+            href={x.filename}
+            label={x.type === "publication" ? `『${x.title}』` : x.title}
+          />
         </li>
       ))}
     </ul>

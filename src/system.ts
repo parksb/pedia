@@ -20,6 +20,7 @@ import { Log, readFile } from "./utils.ts";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
 import { List } from "./components/list.tsx";
+import { Anchor } from "./components/anchor.tsx";
 
 export class System {
   private dict: Record<string, Document> = {};
@@ -104,11 +105,11 @@ export class System {
         .render(document.markdown)
         .replace(
           LABELED_LINK_REGEX,
-          '<a href="/$1" hx-get="/swap/$1" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'$1\') && scrollToActive()">$2</a>',
+          Anchor({ href: "$1", label: "$2", scrollTo: true }),
         )
         .replace(
           LINK_REGEX,
-          '<a href="/$1" hx-get="/swap/$1" hx-target="#main" hx-push-url="/$1" hx-swap="show:top" hx-on:click="select(\'$1\') && scrollToActive()">$1</a>',
+          Anchor({ href: "$1", scrollTo: true }),
         );
     }
 
