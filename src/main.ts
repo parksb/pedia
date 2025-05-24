@@ -1,4 +1,5 @@
 import { Context, Hono } from "hono";
+import { logger } from 'hono/logger'
 import { serveStatic } from "hono/deno";
 import { System } from "./system.ts";
 
@@ -15,6 +16,8 @@ const documentResponse = (id: string, c: Context, swap = false) => {
 
   return c.html(document);
 };
+
+app.use(logger())
 
 app.use("/robots.txt", serveStatic({ root: "./public" }));
 
