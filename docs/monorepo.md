@@ -24,7 +24,7 @@ _모노레포와 폴리레포._
 ### 구글
 
 ::: INFO
-Rachel Potvin et al., "[[why-google-stores-billions-of-code-in-a-single-repository]]", 2016
+Rachel Potvin et al., [[why-google-stores-billions-of-code-in-a-single-repository]], 2016
 :::
 
 ### 토스

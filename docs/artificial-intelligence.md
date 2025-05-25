@@ -4,4 +4,4 @@
 
 ### 문헌
 
-- [[lee-boonstra-prompt-engineering]]
+- [[google-prompt-engineering]]

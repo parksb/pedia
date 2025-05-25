@@ -27,3 +27,4 @@
 - [[system-design-interview]]
 - [[hypermedia-systems]]
 - [[why-google-stores-billions-of-code-in-a-single-repository]]
+- [[oreilly-platform-engineering]]

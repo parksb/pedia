@@ -8,6 +8,10 @@
 
 - [[frontend-platform-engineering]]
 
+## 관련문서
+
+- [[oreilly-platform-engineering]]
+
 ## 참고자료
 
 - [변정훈, "내가 생각하는 플랫폼 엔지니어링", 2024.](https://blog.outsider.ne.kr/1736)
