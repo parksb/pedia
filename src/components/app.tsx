@@ -50,7 +50,10 @@ export function App({ documents, document }: Props) {
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
           />
-          <link rel="stylesheet" href="/assets/index.css" />
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/parksb/cdn@master/assets/simonpedia.css"
+          />
         </head>
         <body>
           <aside>
@@ -78,7 +81,8 @@ export function App({ documents, document }: Props) {
           <script src="https://unpkg.com/htmx.org@2.0.4"></script>
           <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
           </script>
-          <script src="/assets/index.js"></script>
+          <script src="https://cdn.jsdelivr.net/gh/parksb/cdn@master/assets/simonpedia.js">
+          </script>
         </body>
       </html>
     )
