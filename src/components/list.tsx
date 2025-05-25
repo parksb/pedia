@@ -14,10 +14,7 @@ export function List({ documents, document }: Props) {
           data-key={x.filename}
           class={x.filename === document?.filename ? "active" : ""}
         >
-          <Anchor
-            href={x.filename}
-            label={x.type === "publication" ? `『${x.title}』` : x.title}
-          />
+          <Anchor href={x.filename} label={x.title} />
         </li>
       ))}
     </ul>

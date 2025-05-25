@@ -17,7 +17,7 @@ import { LABELED_LINK_REGEX, LINK_REGEX } from "./consts.ts";
 import { Log } from "./utils.ts";
 
 export const md = MarkdownIt({
-  html: false,
+  html: true,
   xhtmlOut: false,
   breaks: false,
   langPrefix: "language-",
@@ -125,11 +125,11 @@ export const findReferredSentences = (
     .map((sentence) =>
       sentence.replace(
         new RegExp(`\\[\\[${word}\\]\\]\\{(.+?)\\}`, "g"),
-        "**$1**",
+        "<b>$1</b>",
       )
     )
     .filter((sentence) =>
-      sentence !== `**${dict[word].title}**` && sentence.length > 0
+      sentence !== `<b>${dict[word].title}</b>` && sentence.length > 0
     ) ?? [];
 };
 

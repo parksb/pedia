@@ -43,9 +43,14 @@ export class System {
       const { filename, type, breadcrumbs } = queue.shift()!;
 
       try {
-        const markdown = await readFile(
+        let markdown = await readFile(
           `${MARKDOWN_DIRECTORY_PATH}/${filename}.md`,
         );
+
+        if (type === "publication") {
+          markdown = markdown.replace(/^#\s(.*)/, "# 『$1』");
+        }
+
         const title = markdown.match(/^#\s.*/)![0].replace(/^#\s/, "");
 
         const document: Document = {
