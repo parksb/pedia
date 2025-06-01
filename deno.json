@@ -29,5 +29,6 @@
   "compilerOptions": {
     "jsx": "precompile",
     "jsxImportSource": "hono/jsx"
-  }
+  },
+  "unstable": ["temporal"]
 }

@@ -2,6 +2,8 @@
   "version": "5",
   "specifiers": {
     "jsr:@hono/hono@^4.7.8": "4.7.8",
+    "jsr:@std/path@*": "1.1.0",
+    "npm:@js-temporal/polyfill@*": "0.5.1",
     "npm:@markslides/markdown-it-mermaid@~0.3.6": "0.3.6",
     "npm:@nozbe/microfuzz@1": "1.0.0",
     "npm:@types/node@*": "22.12.0",
@@ -26,6 +28,9 @@
   "jsr": {
     "@hono/hono@4.7.8": {
       "integrity": "620b1eaab065196d4ebe02cff31f8d3a78c94f736ce2ca86ee14f5f26fe48ecd"
+    },
+    "@std/path@1.1.0": {
+      "integrity": "ddc94f8e3c275627281cbc23341df6b8bcc874d70374f75fec2533521e3d6886"
     }
   },
   "npm": {
@@ -80,6 +85,12 @@
         "kolorist",
         "local-pkg",
         "mlly"
+      ]
+    },
+    "@js-temporal/polyfill@0.5.1": {
+      "integrity": "sha512-hloP58zRVCRSpgDxmqCWJNlizAlUgJFqG2ypq79DCvyv9tHjRYMDOcPFjzfl/A1/YxDvRCZz8wvZvmapQnKwFQ==",
+      "dependencies": [
+        "jsbi"
       ]
     },
     "@markslides/markdown-it-mermaid@0.3.6": {
@@ -735,6 +746,9 @@
         "minimatch@3.1.2"
       ],
       "bin": true
+    },
+    "jsbi@4.3.2": {
+      "integrity": "sha512-9fqMSQbhJykSeii05nxKl4m6Eqn2P6rOlYiS+C5Dr/HPIU/7yZxu5qzbs40tgaFORiw2Amd0mirjxatXYMkIew=="
     },
     "katex@0.16.22": {
       "integrity": "sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==",

@@ -13,9 +13,10 @@ import {
   LABELED_LINK_REGEX,
   LINK_REGEX,
   MARKDOWN_DIRECTORY_PATH,
+  ROOT_PATH,
   WEBSITE_DOMAIN,
 } from "./consts.ts";
-import { Breadcrumb, Document } from "./types.ts";
+import { Breadcrumb, Document, DocumentMetadata } from "./types.ts";
 import { Log, readFile } from "./utils.ts";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
@@ -29,9 +30,15 @@ export class System {
   private searcher: FuzzySearcher<Document> | null = null;
 
   async init() {
-    const queue = new Denque<
-      { filename: string; type: Document["type"]; breadcrumbs: Breadcrumb[] }
-    >([
+    const metadata: Record<string, DocumentMetadata> = JSON.parse(
+      await readFile(`${ROOT_PATH}/.metadata.json`),
+    );
+
+    const queue = new Denque<{
+      filename: string;
+      type: Document["type"];
+      breadcrumbs: Breadcrumb[];
+    }>([
       {
         filename: "simonpedia",
         type: "subject",
@@ -62,6 +69,8 @@ export class System {
           children: [],
           referred: [],
           type,
+          createdAt: metadata[filename]?.createdAt || Temporal.Now.instant(),
+          updatedAt: metadata[filename]?.updatedAt,
         };
 
         this.dict[filename] = document;
@@ -112,18 +121,17 @@ export class System {
           LABELED_LINK_REGEX,
           Anchor({ href: "$1", label: "$2", scrollTo: true }),
         )
-        .replace(
-          LINK_REGEX,
-          Anchor({ href: "$1", scrollTo: true }),
-        );
+        .replace(LINK_REGEX, Anchor({ href: "$1", scrollTo: true }));
     }
 
     this.list = Object.values(this.dict);
 
     this.searcher = createFuzzySearch.default(this.list, {
-      getText: (
-        document: Document,
-      ) => [document.title, document.filename, document.markdown],
+      getText: (document: Document) => [
+        document.title,
+        document.filename,
+        document.markdown,
+      ],
     });
 
     this.printInfo();
@@ -149,9 +157,11 @@ export class System {
   }
 
   getSitemap() {
-    const urls = this.list.map(({ filename }) =>
-      `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`
-    ).join("\n");
+    const urls = this.list
+      .map(({ filename }) =>
+        `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`
+      )
+      .join("\n");
     return `<?xml version="1.0" encoding="UTF-8"?>
       <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
         ${urls}

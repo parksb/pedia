@@ -7,6 +7,8 @@ export const MARKDOWN_DIRECTORY_PATH: string = path.join(
   "../docs",
 );
 
+export const ROOT_PATH: string = path.join(import.meta.dirname!, "..");
+
 export const ASSETS_DIR_PATH = path.join(import.meta.dirname!, "../assets");
 
 export const LINK_REGEX = /\[\[(.+?)\]\]/g;
