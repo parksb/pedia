@@ -6,9 +6,11 @@ import { List } from "./list.tsx";
 interface Props {
   documents: Document[];
   document: Document;
+  css: string;
+  js: string;
 }
 
-export function App({ documents, document }: Props) {
+export function App({ documents, document, css, js }: Props) {
   return (
     "<!DOCTYPE html>" +
     (
@@ -50,10 +52,7 @@ export function App({ documents, document }: Props) {
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
           />
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/parksb/cdn@master/assets/simonpedia.css"
-          />
+          <style dangerouslySetInnerHTML={{ __html: css }}></style>
         </head>
         <body>
           <aside>
@@ -81,8 +80,7 @@ export function App({ documents, document }: Props) {
           <script src="https://unpkg.com/htmx.org@2.0.4"></script>
           <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
           </script>
-          <script src="https://cdn.jsdelivr.net/gh/parksb/cdn@master/assets/simonpedia.js">
-          </script>
+          <script dangerouslySetInnerHTML={{ __html: js }}></script>
         </body>
       </html>
     )

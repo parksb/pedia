@@ -27,4 +27,9 @@ export interface Reference {
   sentences: string[];
 }
 
+export interface Asset {
+  css: string;
+  js: string;
+}
+
 export type DocumentDict = Record<string, Document>;

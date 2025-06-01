@@ -10,13 +10,14 @@ import {
   prependToc,
 } from "./markdown.ts";
 import {
+  ASSETS_DIR_PATH,
   LABELED_LINK_REGEX,
   LINK_REGEX,
   MARKDOWN_DIRECTORY_PATH,
   ROOT_PATH,
   WEBSITE_DOMAIN,
 } from "./consts.ts";
-import { Breadcrumb, Document, DocumentMetadata } from "./types.ts";
+import { Asset, Breadcrumb, Document, DocumentMetadata } from "./types.ts";
 import { Log, readFile } from "./utils.ts";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
@@ -28,11 +29,17 @@ export class System {
   private list: Document[] = [];
   private written: Set<string> = new Set(["simonpedia"]);
   private searcher: FuzzySearcher<Document> | null = null;
+  private asset: Asset = { css: "", js: "" };
 
   async init() {
     const metadata: Record<string, DocumentMetadata> = JSON.parse(
       await readFile(`${ROOT_PATH}/.metadata.json`),
     );
+
+    this.asset = {
+      css: await readFile(`${ASSETS_DIR_PATH}/index.css`),
+      js: await readFile(`${ASSETS_DIR_PATH}/index.js`),
+    };
 
     const queue = new Denque<{
       filename: string;
@@ -158,8 +165,8 @@ export class System {
 
   getSitemap() {
     const urls = this.list
-      .map(({ filename }) =>
-        `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`
+      .map(
+        ({ filename }) => `<url><loc>${WEBSITE_DOMAIN}/${filename}</loc></url>`,
       )
       .join("\n");
     return `<?xml version="1.0" encoding="UTF-8"?>
@@ -182,7 +189,12 @@ export class System {
     if (swap) {
       return Content({ document });
     } else {
-      return App({ documents: this.list, document });
+      return App({
+        documents: this.list,
+        document,
+        css: this.asset.css,
+        js: this.asset.js,
+      });
     }
   }
 }
