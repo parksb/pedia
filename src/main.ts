@@ -40,8 +40,8 @@ app.get("/swap/private/:id", (c) => {
 });
 
 app.get("/search", (c) => {
-  const query = c.req.query("q");
-  return c.html(system.getList(query));
+  const { q, o } = c.req.query();
+  return c.html(system.getList(q, o));
 });
 
 app.get("/swap/:id", (c) => {

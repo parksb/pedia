@@ -18,7 +18,7 @@ import {
   WEBSITE_DOMAIN,
 } from "./consts.ts";
 import { Asset, Breadcrumb, Document, DocumentMetadata } from "./types.ts";
-import { Log, readFile } from "./utils.ts";
+import { Log, readFile, sortBy } from "./utils.ts";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
 import { List } from "./components/list.tsx";
@@ -76,7 +76,7 @@ export class System {
           children: [],
           referred: [],
           type,
-          createdAt: metadata[filename]?.createdAt || Temporal.Now.instant(),
+          createdAt: metadata[filename]?.createdAt,
           updatedAt: metadata[filename]?.updatedAt,
         };
 
@@ -175,10 +175,20 @@ export class System {
       </urlset>`;
   }
 
-  getList(q?: string) {
-    return List({
-      documents: q ? this.searcher!(q).map(({ item }) => item) : this.list,
-    });
+  getList(q?: string, o?: string) {
+    let documents = [...this.list];
+
+    if (q) {
+      documents = this.searcher!(q).map(({ item }) => item);
+    }
+
+    if (o === "c") {
+      documents.sort((a, b) => sortBy(a, b, "createdAt"));
+    } else if (o === "u") {
+      documents.sort((a, b) => sortBy(a, b, "updatedAt"));
+    }
+
+    return List({ documents });
   }
 
   getDocument(id: string, swap = false) {

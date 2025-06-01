@@ -56,15 +56,27 @@ export function App({ documents, document, css, js }: Props) {
         </head>
         <body>
           <aside>
-            <input
-              type="search"
-              name="q"
-              placeholder="🔍"
-              hx-get="/search"
-              hx-trigger="keyup changed delay:200ms"
-              hx-target="#list"
-              hx-swap="innerHTML"
-            />
+            <div id="search">
+              <input
+                type="search"
+                name="q"
+                placeholder="🔍"
+                hx-get="/search"
+                hx-trigger="keyup changed delay:200ms"
+                hx-target="#list"
+                hx-swap="innerHTML"
+              />
+              <select
+                name="o"
+                hx-get="/search"
+                hx-target="#list"
+                hx-swap="innerHTML"
+              >
+                <option value="b" title="BFS">B</option>
+                <option value="c" title="Newest">C</option>
+                <option value="u" title="Recently updated">U</option>
+              </select>
+            </div>
             <div id="list">
               <List documents={documents} document={document} />
             </div>

@@ -8,12 +8,12 @@ export interface Document {
   parent?: Document;
   referred: Reference[];
   type: "subject" | "publication";
-  createdAt: Temporal.Instant;
+  createdAt?: Temporal.Instant;
   updatedAt?: Temporal.Instant;
 }
 
 export interface DocumentMetadata {
-  createdAt?: Temporal.Instant;
+  createdAt: Temporal.Instant;
   updatedAt?: Temporal.Instant;
 }
 
