@@ -24,8 +24,7 @@ function toggleSidebar() {
 
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth < 800) toggleSidebar();
-  htmx.find("aside > input").value = "";
-  select(pathname());
+  htmx.find("#search > input").value = "";
   scrollToActive();
 });
 

@@ -58,7 +58,7 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .footnotes > .footnotes-list > .footnote-item:before { content: "[" counter(list) "] "; counter-increment: list; }
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
 #search { display: flex; border-bottom: 1px solid #dfe2e5; font-size: 1rem; position: sticky; top: 0; background-color: #fffffff0; }
-#search > select { cursor: pointer; width: 40px; border: 0; border-left: 1px solid #dfe2e5; padding-left: 10px; background-color: #fffffff0; }
+#search > select { cursor: pointer; width: 44px; border: 0; border-left: 1px solid #dfe2e5; padding-left: 10px; background-color: #fffffff0; }
 input[type="search"] { flex: 1; width: 100%; border: 0; padding: 0.5rem; outline: none; background-color: #fffffff0; }
 .hidden { display: none; }
 table { border-collapse: collapse; border-spacing: 0; margin: 1rem 0; }
