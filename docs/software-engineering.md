@@ -9,6 +9,7 @@
 - [[spring]]
 - [[react]]
 - [[svelte]]
+- [[nextjs]]
 - [[htmx]]
 - [[unix-philosophy]]
 - [[platform-engineering]]
