@@ -125,7 +125,7 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-08-17T12:42:24Z"
+    "updatedAt": "2025-08-24T04:16:24Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1145,6 +1145,10 @@
     "updatedAt": "2024-12-30T15:33:13Z"
   },
   "nextjs": {
-    "createdAt": "2025-08-17T12:42:24Z"
+    "createdAt": "2025-08-17T12:42:24Z",
+    "updatedAt": "2025-08-24T04:16:24Z"
+  },
+  "open-telemetry": {
+    "createdAt": "2025-08-24T04:16:24Z"
   }
 }

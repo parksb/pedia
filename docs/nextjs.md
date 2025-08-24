@@ -112,11 +112,11 @@ sequenceDiagram
         alt 캐시 유효
             Server-->>Browser: 캐시된 HTML
         else 캐시 만료
-            Server-->>Browser: 기존에 캐시된 HTML
-
-            par 백그라운드 재생성
+            par
+                Server-->>Browser: 기존에 캐시된 HTML
+            and
                 Server->>Server: 자바스크립트 실행
-                Server->>Server: 새 HTML로 캐시 갱신
+                Server->>Server: 캐시 갱신
             end
         end
         Browser-->>User: 화면 렌더링

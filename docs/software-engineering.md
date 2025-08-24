@@ -21,6 +21,7 @@
 - [[semver]]
 - [[es-modules]]
 - [[zed-editor]]
+- [[open-telemetry]]
 
 ### 문헌
 
