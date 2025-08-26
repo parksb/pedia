@@ -817,7 +817,7 @@
   },
   "concurrent-programming": {
     "createdAt": "2022-04-19T04:43:32Z",
-    "updatedAt": "2025-05-17T10:44:45Z"
+    "updatedAt": "2025-08-26T15:02:05Z"
   },
   "sieve-of-eratosthenes": {
     "createdAt": "2024-01-12T02:19:01Z"
@@ -1150,5 +1150,8 @@
   },
   "open-telemetry": {
     "createdAt": "2025-08-24T04:16:24Z"
+  },
+  "js-async-context": {
+    "createdAt": "2025-08-26T15:02:05Z"
   }
 }
