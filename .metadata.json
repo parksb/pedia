@@ -125,7 +125,7 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-08-24T04:16:24Z"
+    "updatedAt": "2025-08-27T12:50:06Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1153,5 +1153,8 @@
   },
   "js-async-context": {
     "createdAt": "2025-08-26T15:02:05Z"
+  },
+  "making-software": {
+    "createdAt": "2025-08-27T12:50:06Z"
   }
 }
