@@ -72,9 +72,9 @@ export function App({ documents, document, css, js }: Props) {
                 hx-target="#list"
                 hx-swap="innerHTML"
               >
-                <option value="b" title="BFS">B</option>
                 <option value="c" title="Newest">C</option>
                 <option value="u" title="Recently updated">U</option>
+                <option value="b" title="BFS">B</option>
               </select>
             </div>
             <div id="list">

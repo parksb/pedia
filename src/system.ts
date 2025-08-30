@@ -146,6 +146,22 @@ export class System {
     return this;
   }
 
+  private getDocuments(query?: string, orderBy: string = 'c') {
+    let documents = [...this.list];
+
+    if (query) {
+      return this.searcher!(query).map(({ item }) => item);
+    }
+
+    if (orderBy === "c") {
+      documents = documents.sort((a, b) => sortBy(a, b, "createdAt"));
+    } else if (orderBy === "u") {
+      documents = documents.sort((a, b) => sortBy(a, b, "updatedAt"));
+    }
+
+    return [this.dict["simonpedia"], ...documents.filter((x) => x.filename !== "simonpedia")];
+  }
+
   private printInfo() {
     Log.info(`Documents loaded: ${this.list.length}`);
 
@@ -175,20 +191,8 @@ export class System {
       </urlset>`;
   }
 
-  getList(q?: string, o?: string) {
-    let documents = [...this.list];
-
-    if (q) {
-      documents = this.searcher!(q).map(({ item }) => item);
-    }
-
-    if (o === "c") {
-      documents.sort((a, b) => sortBy(a, b, "createdAt"));
-    } else if (o === "u") {
-      documents.sort((a, b) => sortBy(a, b, "updatedAt"));
-    }
-
-    return List({ documents });
+  getList(query?: string, orderBy?: string) {
+    return List({ documents: this.getDocuments(query, orderBy) });
   }
 
   getDocument(id: string, swap = false) {
@@ -200,7 +204,7 @@ export class System {
       return Content({ document });
     } else {
       return App({
-        documents: this.list,
+        documents: this.getDocuments(),
         document,
         css: this.asset.css,
         js: this.asset.js,
