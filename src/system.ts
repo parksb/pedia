@@ -77,7 +77,7 @@ export class System {
           referred: [],
           type,
           createdAt: metadata[filename]?.createdAt,
-          updatedAt: metadata[filename]?.updatedAt,
+          updatedAt: metadata[filename]?.updatedAt ?? metadata[filename]?.createdAt,
         };
 
         this.dict[filename] = document;
