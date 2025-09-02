@@ -541,7 +541,7 @@
   },
   "mathematics": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-01-02T13:35:24Z"
+    "updatedAt": "2025-09-02T15:04:22Z"
   },
   "swiss-cheese-model": {
     "createdAt": "2024-11-12T02:15:02Z",
@@ -1156,5 +1156,8 @@
   },
   "making-software": {
     "createdAt": "2025-08-27T12:50:06Z"
+  },
+  "an-infinitely-large-napkin": {
+    "createdAt": "2025-09-02T15:04:22Z"
   }
 }
