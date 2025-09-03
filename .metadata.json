@@ -125,7 +125,7 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-08-27T12:50:06Z"
+    "updatedAt": "2025-09-03T13:22:53Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -522,7 +522,7 @@
   },
   "htmx": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-09-03T13:22:53Z"
   },
   "multi-member-district": {
     "createdAt": "2025-03-10T12:20:24Z"
@@ -838,7 +838,8 @@
     "updatedAt": "2024-12-29T15:01:16Z"
   },
   "electronic-engineering": {
-    "createdAt": "2024-12-01T08:27:43Z"
+    "createdAt": "2024-12-01T08:27:43Z",
+    "updatedAt": "2025-09-03T13:22:53Z"
   },
   "code-shaping": {
     "createdAt": "2025-05-03T07:43:08Z"
@@ -1159,5 +1160,11 @@
   },
   "an-infinitely-large-napkin": {
     "createdAt": "2025-09-02T15:04:22Z"
+  },
+  "color-space": {
+    "createdAt": "2025-09-03T13:22:53Z"
+  },
+  "island-architecture": {
+    "createdAt": "2025-09-03T13:22:53Z"
   }
 }
