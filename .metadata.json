@@ -915,7 +915,7 @@
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-05T15:23:07Z"
+    "updatedAt": "2025-09-05T13:52:11Z"
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
@@ -1064,7 +1064,7 @@
   },
   "artificial-intelligence": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2025-05-27T14:20:18Z"
+    "updatedAt": "2025-09-05T13:52:11Z"
   },
   "justifying-injustice": {
     "createdAt": "2024-12-22T14:10:44Z"
@@ -1166,5 +1166,11 @@
   },
   "island-architecture": {
     "createdAt": "2025-09-03T13:22:53Z"
+  },
+  "agent-client-protocol": {
+    "createdAt": "2025-09-05T13:52:11Z"
+  },
+  "binary-opposition": {
+    "createdAt": "2025-09-05T13:52:11Z"
   }
 }

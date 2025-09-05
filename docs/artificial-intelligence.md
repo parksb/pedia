@@ -5,6 +5,7 @@
 ### 주제
 
 - [[test-driven-development-for-ai-coding]]
+- [[agent-client-protocol]]
 
 ### 문헌
 
