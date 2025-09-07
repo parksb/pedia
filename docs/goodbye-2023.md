@@ -162,5 +162,5 @@
   * 혼자 개발하느라 엄청 힘들었는데, 사실 그보다는 블록체인에 대한 배경지식이 없어서 더 힘들었다.
   * 기대한 것과는 조금 다른 수업이었지만, 이제 D3.js나 Plot으로 데이터 시각화를 할 수 있게 됐다.
 * Collie에 첫 PR이 올라왔다: [parksb/collie#11](https://github.com/parksb/collie/pull/11)
-* :book: 홍재민, "타입으로 견고하게 다형성으로 유연하게", 2023
+* :book: 홍재민, [[robust-with-types-flexible-with-polymorphism]], 2023
 * :book: 앤드루 고든, "현대 일본의 역사", 김우영 역, 2005

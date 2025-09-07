@@ -30,4 +30,4 @@ const point: Point2D = { x: 1, y: 2, z: 3 } as Point2D;
 ## 참고자료
 
 - 댄 밴더캄, "이펙티브 타입스크립트", 장원호 역, _인사이트_, 2021.
-- 홍재민, "타입으로 견고하게 다형성으로 유연하게", _인사이트_, 2023.
+- 홍재민, [[robust-with-types-flexible-with-polymorphism]], _인사이트_, 2023.

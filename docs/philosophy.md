@@ -16,3 +16,4 @@
 ### 문헌
 
 - [[rip-flash]]
+- [[introduction-to-contemporary-philosophy]]
