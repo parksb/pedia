@@ -5,3 +5,4 @@
 ### 문헌
 
 - [[taebaek-sanmaeck]]
+- [[beautyland]]
