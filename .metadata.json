@@ -216,7 +216,7 @@
   },
   "natural-science": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-09-20T08:13:50Z"
   },
   "person-and-org": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -567,7 +567,8 @@
     "createdAt": "2025-01-01T15:35:04Z"
   },
   "welcome-to-the-era-of-experience": {
-    "createdAt": "2025-05-27T14:20:18Z"
+    "createdAt": "2025-05-27T14:20:18Z",
+    "updatedAt": "2025-09-20T08:13:50Z"
   },
   "compiler": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -1183,6 +1184,10 @@
     "createdAt": "2025-09-07T09:50:24Z"
   },
   "beautyland": {
-    "createdAt": "2025-09-14T11:39:46Z"
+    "createdAt": "2025-09-14T11:39:46Z",
+    "updatedAt": "2025-09-20T08:13:50Z"
+  },
+  "a-brief-history-of-intelligence": {
+    "createdAt": "2025-09-20T08:13:50Z"
   }
 }
