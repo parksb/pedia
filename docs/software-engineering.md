@@ -32,3 +32,4 @@
 - [[why-google-stores-billions-of-code-in-a-single-repository]]
 - [[oreilly-platform-engineering]]
 - [[making-software]]
+- [[build-a-frontend-web-framework-from-scratch]]

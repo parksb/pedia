@@ -125,7 +125,7 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-09-03T13:22:53Z"
+    "updatedAt": "2025-09-27T12:29:10Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1189,6 +1189,9 @@
   },
   "a-brief-history-of-intelligence": {
     "createdAt": "2025-09-20T08:13:50Z",
-    "updatedAt": "2025-09-21T08:25:40Z"
+    "updatedAt": "2025-09-27T12:29:10Z"
+  },
+  "build-a-frontend-web-framework-from-scratch": {
+    "createdAt": "2025-09-27T12:29:10Z"
   }
 }
