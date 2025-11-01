@@ -77,7 +77,8 @@ export class System {
           referred: [],
           type,
           createdAt: metadata[filename]?.createdAt,
-          updatedAt: metadata[filename]?.updatedAt ?? metadata[filename]?.createdAt,
+          updatedAt: metadata[filename]?.updatedAt ??
+            metadata[filename]?.createdAt,
         };
 
         this.dict[filename] = document;
@@ -146,7 +147,7 @@ export class System {
     return this;
   }
 
-  private getDocuments(query?: string, orderBy: string = 'c') {
+  private getDocuments(query?: string, orderBy: string = "c") {
     let documents = [...this.list];
 
     if (query) {
@@ -159,7 +160,10 @@ export class System {
       documents = documents.sort((a, b) => sortBy(a, b, "updatedAt"));
     }
 
-    return [this.dict["simonpedia"], ...documents.filter((x) => x.filename !== "simonpedia")];
+    return [
+      this.dict["simonpedia"],
+      ...documents.filter((x) => x.filename !== "simonpedia"),
+    ];
   }
 
   private printInfo() {

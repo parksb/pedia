@@ -24,7 +24,8 @@
     "start": "deno run -N -R -E src/main.ts",
     "dev": "deno run -N -R -E --watch=docs,src src/main.ts",
     "commit": "./tools/commit.sh",
-    "img": "./tools/img.sh"
+    "img": "./tools/img.sh",
+    "build:client": "deno bundle --minify -o assets/index.js src/client/index.ts"
   },
   "compilerOptions": {
     "jsx": "precompile",
