@@ -9,6 +9,7 @@ import mdCheckbox from "markdown-it-task-checkbox";
 import mdExternalLink from "markdown-it-external-links";
 import mdMermaid from "@markslides/markdown-it-mermaid";
 import mdContainer from "markdown-it-container";
+import mdImSize from "markdown-it-imsize";
 import { full as mdEmoji } from "markdown-it-emoji";
 import * as katex from "katex";
 
@@ -37,6 +38,7 @@ export const md = MarkdownIt({
   .use(mdMermaid)
   .use(mdEmoji)
   .use(mdAnchor)
+  .use(mdImSize)
   .use(mdTex, {
     engine: katex,
     delimiters: "dollars",

@@ -17,6 +17,7 @@
     "npm:markdown-it-emoji@3": "3.0.0",
     "npm:markdown-it-external-links@0.0.6": "0.0.6",
     "npm:markdown-it-footnote@4": "4.0.0",
+    "npm:markdown-it-imsize@^2.0.1": "2.0.1",
     "npm:markdown-it-inline-comments@^1.0.1": "1.0.1",
     "npm:markdown-it-mermaid@~0.2.5": "0.2.5",
     "npm:markdown-it-table-of-contents@0.8": "0.8.0",
@@ -818,6 +819,9 @@
     "markdown-it-footnote@4.0.0": {
       "integrity": "sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ=="
     },
+    "markdown-it-imsize@2.0.1": {
+      "integrity": "sha512-5SH90ademqcR8ifQCBXRCfIR4HGfZZOh5pO0j2TglulfSQH+SBXM4Iw/QlTUbSoUwVZArCYgECoMvktDS2kP3w=="
+    },
     "markdown-it-inline-comments@1.0.1": {
       "integrity": "sha512-gObNM3NumcpsU66pO2LmV8MGBfdfFp7TcYME9iuUGs82+JYJWMmBQtAj6/qho4OhKqpR0UX2JTkuuA2HPgHUtQ=="
     },
@@ -1056,6 +1060,7 @@
       "npm:markdown-it-emoji@3",
       "npm:markdown-it-external-links@0.0.6",
       "npm:markdown-it-footnote@4",
+      "npm:markdown-it-imsize@^2.0.1",
       "npm:markdown-it-inline-comments@^1.0.1",
       "npm:markdown-it-table-of-contents@0.8",
       "npm:markdown-it-task-checkbox@^1.0.6",
