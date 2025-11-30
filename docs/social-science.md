@@ -12,6 +12,7 @@
 - [[university-admission-lottery-system]]
 - [[multi-member-district]]
 - [[surviving-in-ai-era]]
+- [[systems-theory]]
 
 ### 문헌
 
@@ -19,3 +20,4 @@
 - [[das-kapital-study]]
 - [[discourse-on-the-origin-and-basis-of-inequality-among-men]]
 - [[the-social-contract]]
+- [[thinking-in-systems]]

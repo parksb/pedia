@@ -668,7 +668,7 @@
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-05-20T13:51:28Z"
+    "updatedAt": "2025-11-30T13:11:11Z"
   },
   "binary-search": {
     "createdAt": "2024-09-11T02:27:17Z"
@@ -1196,9 +1196,16 @@
     "updatedAt": "2025-11-02T12:53:30Z"
   },
   "goodbye-2025": {
-    "createdAt": "2025-11-02T12:53:30Z"
+    "createdAt": "2025-11-02T12:53:30Z",
+    "updatedAt": "2025-11-30T13:11:11Z"
   },
   "the-first-battle-of-the-next-war": {
     "createdAt": "2025-11-02T12:53:30Z"
+  },
+  "systems-theory": {
+    "createdAt": "2025-11-30T13:11:11Z"
+  },
+  "thinking-in-systems": {
+    "createdAt": "2025-11-30T13:11:11Z"
   }
 }
