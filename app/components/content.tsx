@@ -1,5 +1,5 @@
 import { raw } from "hono/html";
-import { Breadcrumb, Document } from "../types.ts";
+import { Breadcrumb, Document } from "@simpesys/core";
 import { Anchor } from "./anchor.tsx";
 
 interface Props {

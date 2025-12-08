@@ -1,10 +1,11 @@
 {
   "database-system-concepts-ch2": {
     "createdAt": "2021-06-05T08:52:05Z",
-    "updatedAt": "2024-02-25T06:35:25Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z"
   },
   "medicine": {
-    "createdAt": "2024-12-01T08:27:43Z"
+    "createdAt": "2024-12-01T08:27:43Z",
+    "updatedAt": "2024-12-01T08:27:43Z"
   },
   "entertainment-sports": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -12,77 +13,83 @@
   },
   "what-did-architecture-do": {
     "createdAt": "2022-01-15T07:25:14Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "git-rebase-onto": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "spring": {
     "createdAt": "2021-02-03T09:52:40Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z"
   },
   "entity-relationship-model": {
-    "createdAt": "2024-03-03T14:02:56Z"
+    "createdAt": "2024-03-03T14:02:56Z",
+    "updatedAt": "2025-11-01T11:08:10.216Z"
   },
   "marxism-leninism": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.231Z"
   },
   "kubernetes": {
     "createdAt": "2024-09-11T02:27:17Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "designing-data-intensive-applications-ch3": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "kotlin": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2024-11-05T16:08:45Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "criminal-causal-relationship": {
-    "createdAt": "2021-11-05T15:38:54Z"
+    "createdAt": "2021-11-05T15:38:54Z",
+    "updatedAt": "2025-11-01T11:08:10.21Z"
   },
   "computer-organization-and-design": {
     "createdAt": "2020-12-28T15:15:32Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z"
   },
   "marxism": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z"
   },
   "performance-media-art": {
-    "createdAt": "2025-01-02T15:44:33Z"
+    "createdAt": "2025-01-02T15:44:33Z",
+    "updatedAt": "2025-01-02T15:44:33Z"
   },
   "readers-writer-lock": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "art": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2025-01-23T11:44:19Z"
+    "updatedAt": "2025-05-24T05:39:59.365Z"
   },
   "race-condition": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.239Z"
   },
   "t-72": {
     "createdAt": "2024-11-11T15:22:37Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "formula-one": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "rust-error-handling": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "trpl-understanding-ownership": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "goodbye-2021": {
     "createdAt": "2021-12-31T16:32:14Z",
-    "updatedAt": "2023-10-19T16:32:03Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z"
   },
   "fluid-flexible-user-interface-distribution-for-ubiquitous-multi-device-interaction": {
     "createdAt": "2025-01-02T13:35:24Z",
@@ -90,11 +97,11 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "operating-system": {
     "createdAt": "2021-07-31T16:06:36Z",
@@ -102,22 +109,23 @@
   },
   "ssh-key": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z"
   },
   "how-to-speak": {
-    "createdAt": "2020-12-16T11:07:11Z"
+    "createdAt": "2020-12-16T11:07:11Z",
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "ngrinder": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "modern-history-of-japan": {
     "createdAt": "2024-03-03T14:01:01Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "discourse-on-the-origin-and-basis-of-inequality-among-men": {
     "createdAt": "2025-03-23T04:43:30Z",
-    "updatedAt": "2025-04-12T10:14:46Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z"
   },
   "architecture": {
     "createdAt": "2024-12-01T08:27:43Z",
@@ -129,20 +137,23 @@
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "functional-programming-in-kotlin": {
     "createdAt": "2022-03-06T04:50:21Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "web3": {
-    "createdAt": "2022-06-08T01:57:36Z"
+    "createdAt": "2022-06-08T01:57:36Z",
+    "updatedAt": "2025-11-01T11:08:10.255Z"
   },
   "webassembly": {
-    "createdAt": "2025-05-21T13:15:28Z"
+    "createdAt": "2025-05-21T13:15:28Z",
+    "updatedAt": "2025-11-01T11:08:10.255Z"
   },
   "specific-crimes": {
-    "createdAt": "2021-11-05T15:38:54Z"
+    "createdAt": "2021-11-05T15:38:54Z",
+    "updatedAt": "2025-11-01T11:08:10.244Z"
   },
   "tech-science": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -150,69 +161,75 @@
   },
   "rust-ownership": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "a-star-search": {
     "createdAt": "2024-03-03T03:12:22Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.189Z"
   },
   "simple-as-possible-computer": {
     "createdAt": "2024-03-02T05:19:23Z",
-    "updatedAt": "2024-11-25T09:27:17Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z"
   },
   "how-to-grow-cactus": {
     "createdAt": "2020-12-27T17:23:23Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.223Z"
   },
   "goodbye-2020": {
     "createdAt": "2020-12-21T17:09:15Z",
-    "updatedAt": "2020-12-31T09:38:32Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z"
   },
   "neutrality-myth": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z"
   },
   "rust-oop": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "trpl-functional-language-features": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "merge-conflict": {
-    "createdAt": "2025-01-03T16:26:56Z"
+    "createdAt": "2025-01-03T16:26:56Z",
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "university-admission-lottery-system": {
-    "createdAt": "2025-03-02T05:48:54Z"
+    "createdAt": "2025-03-02T05:48:54Z",
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "designing-data-intensive-applications": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "llvm": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T08:30:05Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z"
   },
   "unix-shell-script": {
-    "createdAt": "2021-01-01T05:56:28Z"
+    "createdAt": "2021-01-01T05:56:28Z",
+    "updatedAt": "2025-11-01T11:08:10.251Z"
   },
   "armored-vehicle": {
-    "createdAt": "2024-11-05T16:37:41Z"
+    "createdAt": "2024-11-05T16:37:41Z",
+    "updatedAt": "2024-11-05T16:37:41Z"
   },
   "yak-shaving": {
-    "createdAt": "2024-12-29T08:30:05Z"
+    "createdAt": "2024-12-29T08:30:05Z",
+    "updatedAt": "2025-11-01T11:08:10.257Z"
   },
   "how-to-read-a-paper": {
-    "createdAt": "2020-12-16T09:15:20Z"
+    "createdAt": "2020-12-16T09:15:20Z",
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "human-centered-artificial-intelligence": {
     "createdAt": "2024-11-22T02:27:26Z",
-    "updatedAt": "2025-05-20T13:51:28Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z"
   },
   "generate-thumbnail-using-aws-lambda": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "natural-science": {
     "createdAt": "2024-12-01T08:27:43Z",
@@ -220,145 +237,155 @@
   },
   "person-and-org": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-05T15:23:07Z"
+    "updatedAt": "2025-06-03T12:27:38.882Z"
   },
   "conversational-user-interface": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-05-20T13:51:28Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z"
   },
   "redis": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "goodbye-2024": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.221Z"
   },
   "civil-law": {
-    "createdAt": "2024-11-06T09:58:07Z"
+    "createdAt": "2024-11-06T09:58:07Z",
+    "updatedAt": "2025-11-01T11:08:10.205Z"
   },
   "jscodeshift": {
-    "createdAt": "2025-01-23T11:44:19Z"
+    "createdAt": "2025-01-23T11:44:19Z",
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "jeonse": {
-    "createdAt": "2025-03-02T05:48:54Z"
+    "createdAt": "2025-03-02T05:48:54Z",
+    "updatedAt": "2025-11-01T11:08:10.228Z"
   },
   "concrete-mathematics": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z"
   },
   "fissured-ceiling-tile": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "wargame-red-dragon": {
     "createdAt": "2021-03-15T06:15:21Z",
-    "updatedAt": "2025-05-19T11:48:46Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z"
   },
   "concrete-mathematics-ch1": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z"
   },
   "yarn": {
     "createdAt": "2024-12-07T02:55:50Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.257Z"
   },
   "designing-data-intensive-applications-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "monorepo": {
     "createdAt": "2024-11-28T16:18:31Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "wrd-deck-eastern-bloc": {
     "createdAt": "2021-08-12T11:48:41Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "criminal-intent": {
-    "createdAt": "2021-11-05T15:38:54Z"
+    "createdAt": "2021-11-05T15:38:54Z",
+    "updatedAt": "2025-11-01T11:08:10.21Z"
   },
   "fish-shell": {
     "createdAt": "2021-01-06T13:23:19Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "entropy": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.216Z"
   },
   "unix-performance-measurement": {
-    "createdAt": "2024-12-15T02:45:01Z"
+    "createdAt": "2024-12-15T02:45:01Z",
+    "updatedAt": "2025-11-01T11:08:10.251Z"
   },
   "rust-file-io": {
     "createdAt": "2020-12-16T09:15:20Z",
     "updatedAt": "2024-12-29T01:33:59Z"
   },
   "flip-flop": {
-    "createdAt": "2024-11-25T09:27:17Z"
+    "createdAt": "2024-11-25T09:27:17Z",
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "criminal-abortion": {
     "createdAt": "2020-12-17T12:33:55Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z"
   },
   "oled-and-qled": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "mathematics-reboot": {
-    "createdAt": "2022-03-06T04:50:56Z"
+    "createdAt": "2022-03-06T04:50:56Z",
+    "updatedAt": "2024-11-05T13:38:15.578Z"
   },
   "operating-system-concepts-ch4": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "what-is-history": {
     "createdAt": "2022-03-10T03:55:11Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "rust": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T16:08:45Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "typescript-excess-property-check": {
     "createdAt": "2024-11-10T16:33:12Z",
-    "updatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "database-normalization": {
-    "createdAt": "2024-03-03T14:02:56Z"
+    "createdAt": "2024-03-03T14:02:56Z",
+    "updatedAt": "2025-11-01T11:08:10.211Z"
   },
   "functional-type-system": {
     "createdAt": "2021-07-31T04:20:11Z",
-    "updatedAt": "2021-08-25T06:34:54Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "history": {
     "createdAt": "2020-12-19T07:35:10Z",
-    "updatedAt": "2025-05-05T14:58:03Z"
+    "updatedAt": "2025-05-20T13:50:07.895Z"
   },
   "wrd-tactics-recon": {
     "createdAt": "2021-08-13T16:50:11Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "urban-sense": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "relational-data-model": {
-    "createdAt": "2024-03-03T14:02:56Z"
+    "createdAt": "2024-03-03T14:02:56Z",
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "caps-lock": {
-    "createdAt": "2025-01-03T16:26:56Z"
+    "createdAt": "2025-01-03T16:26:56Z",
+    "updatedAt": "2025-11-01T11:08:10.204Z"
   },
   "trpl-managing-growing-projects-with-packages-crates-and-modules": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "simpesys": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-05-24T08:55:12Z"
+    "updatedAt": "2025-12-08T13:40:27.954Z"
   },
   "mysql": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T12:46:37Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z"
   },
   "transportation-engineering": {
     "createdAt": "2025-01-04T15:12:24Z",
@@ -366,88 +393,95 @@
   },
   "git-switch-and-restore": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "kotlin-coroutine": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "jwt": {
     "createdAt": "2021-07-23T04:35:46Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "criminal-law": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2024-11-05T12:46:37Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z"
   },
   "react-server-component": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "exchange-trade-fund": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z"
   },
   "basic-design-textbook": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.199Z"
   },
   "monoid": {
     "createdAt": "2021-08-22T05:48:17Z",
-    "updatedAt": "2022-11-17T11:07:10Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "general": {
     "createdAt": "2024-12-30T15:33:13Z",
     "updatedAt": "2025-01-03T16:26:56Z"
   },
   "mutex": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.233Z"
   },
   "developer-chauvinism": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "a-philosophy-of-software-design": {
-    "createdAt": "2024-09-21T13:59:52Z"
+    "createdAt": "2024-09-21T13:59:52Z",
+    "updatedAt": "2025-11-01T11:08:10.189Z"
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "relational-algebra": {
     "createdAt": "2024-03-03T14:02:56Z",
-    "updatedAt": "2024-11-05T12:46:37Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "collapse-os": {
-    "createdAt": "2025-05-17T15:04:07Z"
+    "createdAt": "2025-05-17T15:04:07Z",
+    "updatedAt": "2025-11-01T11:08:10.207Z"
   },
   "surviving-in-ai-era": {
-    "createdAt": "2025-05-20T13:51:28Z"
+    "createdAt": "2025-05-20T13:51:28Z",
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "trpl-generic-types-traits-and-lifetimes": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "abstract-syntax-tree": {
     "createdAt": "2020-12-18T01:50:55Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.19Z"
   },
   "react-functional-component-and-class-component": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z"
   },
   "economics": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-03-02T05:48:54Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z"
   },
   "chestertons-fence": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.205Z"
   },
   "literature": {
     "createdAt": "2024-12-30T15:33:13Z",
     "updatedAt": "2025-09-14T11:39:46Z"
   },
   "adder": {
-    "createdAt": "2024-11-25T09:27:17Z"
+    "createdAt": "2024-11-25T09:27:17Z",
+    "updatedAt": "2024-11-25T09:27:17Z"
   },
   "tank": {
     "createdAt": "2024-11-05T16:37:41Z",
@@ -455,90 +489,99 @@
   },
   "frontend-platform-engineering": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-01-05T15:23:07Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "biocity-and-toolcity": {
-    "createdAt": "2025-02-23T08:14:36Z"
+    "createdAt": "2025-02-23T08:14:36Z",
+    "updatedAt": "2025-11-01T11:08:10.201Z"
   },
   "es-modules": {
     "createdAt": "2025-02-15T14:29:10Z",
-    "updatedAt": "2025-03-09T05:25:28Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z"
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-09-13T16:58:49.135Z"
   },
   "trpl-common-programming-concepts": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "operating-system-concepts-ch1": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "redis-pub-sub": {
     "createdAt": "2024-03-02T04:02:54Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "brutalism": {
-    "createdAt": "2025-01-02T13:35:24Z"
+    "createdAt": "2025-01-02T13:35:24Z",
+    "updatedAt": "2025-11-01T11:08:10.202Z"
   },
   "korean-palace-coup-2024": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "knip": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "zstd": {
-    "createdAt": "2024-11-21T15:13:05Z"
+    "createdAt": "2024-11-21T15:13:05Z",
+    "updatedAt": "2025-11-01T11:08:10.258Z"
   },
   "cartesian-product": {
     "createdAt": "2021-05-22T15:02:08Z",
-    "updatedAt": "2024-11-05T07:46:29Z"
+    "updatedAt": "2025-11-01T11:08:10.204Z"
   },
   "digital-democracy": {
-    "createdAt": "2024-12-30T15:33:13Z"
+    "createdAt": "2024-12-30T15:33:13Z",
+    "updatedAt": "2025-11-01T11:08:10.214Z"
   },
   "array": {
     "createdAt": "2021-12-19T14:46:06Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z"
   },
   "permission-rationales-in-the-web-ecosystem": {
-    "createdAt": "2025-05-03T07:43:08Z"
+    "createdAt": "2025-05-03T07:43:08Z",
+    "updatedAt": "2025-11-01T11:08:10.236Z"
   },
   "fishermans-knot": {
-    "createdAt": "2025-01-23T11:44:19Z"
+    "createdAt": "2025-01-23T11:44:19Z",
+    "updatedAt": "2025-01-23T11:44:19Z"
   },
   "intersection": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.228Z"
   },
   "aircraft-principal-axes": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.192Z"
   },
   "operating-system-concepts-ch5": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "htmx": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-09-03T13:22:53Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "multi-member-district": {
-    "createdAt": "2025-03-10T12:20:24Z"
+    "createdAt": "2025-03-10T12:20:24Z",
+    "updatedAt": "2025-11-01T11:08:10.233Z"
   },
   "the-social-contract": {
     "createdAt": "2025-04-12T10:14:46Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "unix-dev-null": {
     "createdAt": "2021-01-01T05:56:28Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z"
   },
   "wrd-deck-blue-dragon": {
     "createdAt": "2021-08-12T11:48:41Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "mathematics": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -546,33 +589,35 @@
   },
   "swiss-cheese-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "aircraft-accident-investigation": {
-    "createdAt": "2024-12-30T15:33:13Z"
+    "createdAt": "2024-12-30T15:33:13Z",
+    "updatedAt": "2025-11-01T11:08:10.192Z"
   },
   "react-hooks": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z"
   },
   "w3c": {
     "createdAt": "2024-12-29T15:01:16Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "as-we-may-think": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z"
   },
   "nonviolent-resistance": {
-    "createdAt": "2025-01-01T15:35:04Z"
+    "createdAt": "2025-01-01T15:35:04Z",
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "welcome-to-the-era-of-experience": {
     "createdAt": "2025-05-27T14:20:18Z",
-    "updatedAt": "2025-09-20T08:13:50Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z"
   },
   "compiler": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2024-11-05T15:20:38Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z"
   },
   "military-science": {
     "createdAt": "2024-11-05T16:37:41Z",
@@ -580,7 +625,7 @@
   },
   "g0v": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "human-computer-interaction": {
     "createdAt": "2024-12-29T08:30:05Z",
@@ -588,15 +633,15 @@
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z"
   },
   "trpl-common-collections": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "akira": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-03T16:26:56Z"
+    "updatedAt": "2025-11-01T11:08:10.193Z"
   },
   "unix": {
     "createdAt": "2021-01-01T05:56:28Z",
@@ -607,19 +652,20 @@
     "updatedAt": "2025-05-19T11:48:46Z"
   },
   "armored-fighting-vehicle": {
-    "createdAt": "2024-11-05T16:37:41Z"
+    "createdAt": "2024-11-05T16:37:41Z",
+    "updatedAt": "2024-11-05T16:37:41Z"
   },
   "semver": {
     "createdAt": "2025-01-25T16:34:07Z",
-    "updatedAt": "2025-05-17T10:44:45Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "checksum": {
     "createdAt": "2025-03-23T04:15:36Z",
-    "updatedAt": "2025-03-23T04:43:30Z"
+    "updatedAt": "2025-12-03T12:52:44.038Z"
   },
   "das-kapital-study": {
     "createdAt": "2024-11-06T03:24:39Z",
-    "updatedAt": "2024-11-06T07:20:30Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z"
   },
   "programming-language": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -627,25 +673,27 @@
   },
   "oral-hygiene": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-01T08:27:43Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z"
   },
   "barrier-synchronization": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.198Z"
   },
   "platform-engineering": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z"
   },
   "taebaek-sanmaeck": {
     "createdAt": "2021-10-30T06:05:59Z",
-    "updatedAt": "2022-01-15T07:25:01Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "operating-system-concepts-ch2": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "how-to-update-gpg-key-on-github": {
-    "createdAt": "2020-12-16T09:15:20Z"
+    "createdAt": "2020-12-16T09:15:20Z",
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "computer-network": {
     "createdAt": "2020-12-28T15:28:16Z",
@@ -653,25 +701,27 @@
   },
   "megalopolis-seoul-railroad": {
     "createdAt": "2022-04-07T14:04:39Z",
-    "updatedAt": "2025-03-02T05:48:54Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z"
   },
   "functional-programming": {
     "createdAt": "2021-07-24T13:54:47Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "goodbye-2019": {
-    "createdAt": "2020-12-21T17:09:15Z"
+    "createdAt": "2020-12-21T17:09:15Z",
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "trpl-using-structs-to-structure-related-data": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
     "updatedAt": "2025-11-30T13:11:11Z"
   },
   "binary-search": {
-    "createdAt": "2024-09-11T02:27:17Z"
+    "createdAt": "2024-09-11T02:27:17Z",
+    "updatedAt": "2025-11-01T11:08:10.201Z"
   },
   "computer-science": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -679,7 +729,7 @@
   },
   "seven-sketches-in-compositionality": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "my-project": {
     "createdAt": "2025-01-03T16:26:56Z",
@@ -687,53 +737,55 @@
   },
   "stock-option": {
     "createdAt": "2024-11-27T00:54:35Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z"
   },
   "zed-editor": {
     "createdAt": "2025-05-20T12:41:20Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.258Z"
   },
   "graphic-design": {
     "createdAt": "2020-12-16T09:15:20Z",
     "updatedAt": "2025-04-27T12:03:49Z"
   },
   "test-driven-development-for-ai-coding": {
-    "createdAt": "2025-05-27T14:20:18Z"
+    "createdAt": "2025-05-27T14:20:18Z",
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "operating-system-concepts-ch6": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "parksb": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-05-20T12:41:20Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z"
   },
   "google-prompt-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-05-27T14:20:18Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "zoning": {
-    "createdAt": "2025-04-12T06:48:57Z"
+    "createdAt": "2025-04-12T06:48:57Z",
+    "updatedAt": "2025-11-01T11:08:10.258Z"
   },
   "ts-functional-programming": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "gyeonggi-do-citizens-sense-of-urban-area": {
     "createdAt": "2024-12-01T15:19:39Z",
-    "updatedAt": "2025-02-23T08:14:36Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "visual-communication-design": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "database-system-concepts": {
     "createdAt": "2021-04-21T09:58:48Z",
-    "updatedAt": "2024-11-05T16:08:45Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z"
   },
   "digital-typography": {
     "createdAt": "2020-12-28T15:15:41Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z"
   },
   "computer-security": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -741,51 +793,55 @@
   },
   "dynamic-language-vs-static-language": {
     "createdAt": "2020-12-18T13:36:54Z",
-    "updatedAt": "2024-11-24T15:04:46Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z"
   },
   "strongly-connected-component": {
     "createdAt": "2024-05-27T01:17:38Z",
-    "updatedAt": "2024-11-05T07:46:29Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z"
   },
   "bluesky-and-the-at-protocol": {
-    "createdAt": "2025-05-17T15:04:07Z"
+    "createdAt": "2025-05-17T15:04:07Z",
+    "updatedAt": "2025-11-01T11:08:10.201Z"
   },
   "large-scale-cluster-management-at-google-with-borg": {
     "createdAt": "2024-11-24T16:11:07Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "racing-line": {
-    "createdAt": "2025-01-04T15:12:24Z"
+    "createdAt": "2025-01-04T15:12:24Z",
+    "updatedAt": "2025-11-01T11:08:10.239Z"
   },
   "operating-system-concepts-ch7": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "criminal-law-detailed": {
     "createdAt": "2024-11-05T12:46:37Z",
-    "updatedAt": "2024-11-05T15:16:27Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z"
   },
   "katex": {
     "createdAt": "2020-12-28T15:15:53Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "violent-resistance": {
-    "createdAt": "2025-01-01T15:35:04Z"
+    "createdAt": "2025-01-01T15:35:04Z",
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "i386": {
-    "createdAt": "2024-11-08T05:59:03Z"
+    "createdAt": "2024-11-08T05:59:03Z",
+    "updatedAt": "2025-11-01T11:08:10.225Z"
   },
   "apache-kafka": {
     "createdAt": "2024-03-03T08:11:11Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.194Z"
   },
   "computer-networking-a-top-down-approach": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z"
   },
   "rust-module": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "git": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -797,21 +853,23 @@
   },
   "rust-string": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "algorithm-and-data-structure": {
     "createdAt": "2024-11-05T07:46:29Z",
     "updatedAt": "2025-05-19T11:48:46Z"
   },
   "campus-life": {
-    "createdAt": "2024-12-29T01:33:59Z"
+    "createdAt": "2024-12-29T01:33:59Z",
+    "updatedAt": "2024-12-29T01:33:59Z"
   },
   "gtx-a": {
-    "createdAt": "2025-03-02T05:48:54Z"
+    "createdAt": "2025-03-02T05:48:54Z",
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "real-estate-investment-trusts": {
     "createdAt": "2021-08-03T05:21:27Z",
-    "updatedAt": "2024-11-05T07:46:29Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "computer-science-culture": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -822,99 +880,108 @@
     "updatedAt": "2025-08-26T15:02:05Z"
   },
   "sieve-of-eratosthenes": {
-    "createdAt": "2024-01-12T02:19:01Z"
+    "createdAt": "2024-01-12T02:19:01Z",
+    "updatedAt": "2024-11-05T13:38:15.714Z"
   },
   "the-pragmatic-programmer": {
-    "createdAt": "2022-03-06T04:50:21Z"
+    "createdAt": "2022-03-06T04:50:21Z",
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "operating-system-concepts-ch3": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "precedent-2013hunda1": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z"
   },
   "operating-system-concepts": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z"
   },
   "electronic-engineering": {
     "createdAt": "2024-12-01T08:27:43Z",
     "updatedAt": "2025-09-03T13:22:53Z"
   },
   "code-shaping": {
-    "createdAt": "2025-05-03T07:43:08Z"
+    "createdAt": "2025-05-03T07:43:08Z",
+    "updatedAt": "2025-11-01T11:08:10.206Z"
   },
   "ieee-citation-style": {
     "createdAt": "2020-12-19T04:20:35Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z"
   },
   "awesome-graphic-designers": {
     "createdAt": "2020-12-26T16:47:47Z",
-    "updatedAt": "2024-11-05T16:08:45Z"
+    "updatedAt": "2025-11-01T11:08:10.198Z"
   },
   "dunkel-sans": {
-    "createdAt": "2025-04-27T12:03:49Z"
+    "createdAt": "2025-04-27T12:03:49Z",
+    "updatedAt": "2025-11-01T11:08:10.215Z"
   },
   "base-n": {
-    "createdAt": "2024-01-12T02:19:01Z"
+    "createdAt": "2024-01-12T02:19:01Z",
+    "updatedAt": "2024-11-05T13:38:15.316Z"
   },
   "goodbye-2023": {
     "createdAt": "2023-12-31T07:44:44Z",
-    "updatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2025-11-01T11:08:10.221Z"
   },
   "monad": {
     "createdAt": "2021-10-24T07:14:24Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "ks-x-1001": {
     "createdAt": "2024-11-20T16:07:46Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z"
   },
   "history-of-my-mobile-phones": {
-    "createdAt": "2020-12-19T07:35:10Z"
+    "createdAt": "2020-12-19T07:35:10Z",
+    "updatedAt": "2025-11-01T11:08:10.223Z"
   },
   "precedent-2017hunba127": {
-    "createdAt": "2024-11-26T09:33:42Z"
+    "createdAt": "2024-11-26T09:33:42Z",
+    "updatedAt": "2025-11-01T11:08:10.237Z"
   },
   "operating-system-concepts-ch8": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z"
   },
   "sapiens": {
     "createdAt": "2022-02-26T13:24:24Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "seoul-urban-master-plan-1966": {
     "createdAt": "2024-11-12T11:49:06Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "structural-typing": {
     "createdAt": "2024-11-10T16:33:12Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z"
   },
   "designing-data-intensive-applications-ch5": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "memex": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z"
   },
   "rust-lifetime": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "computer-architecture": {
     "createdAt": "2024-11-05T07:46:29Z",
     "updatedAt": "2025-05-21T13:15:28Z"
   },
   "atomic-operation": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.196Z"
   },
   "well-made-film": {
-    "createdAt": "2025-01-02T15:44:33Z"
+    "createdAt": "2025-01-02T15:44:33Z",
+    "updatedAt": "2025-11-01T11:08:10.255Z"
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -922,71 +989,75 @@
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
-    "updatedAt": "2024-11-05T15:16:27Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z"
   },
   "variance": {
-    "createdAt": "2024-11-05T07:46:29Z"
+    "createdAt": "2024-11-05T07:46:29Z",
+    "updatedAt": "2025-11-01T11:08:10.252Z"
   },
   "concrete-mathematics-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z"
   },
   "markdown-toolkit": {
-    "createdAt": "2025-01-03T16:26:56Z"
+    "createdAt": "2025-01-03T16:26:56Z",
+    "updatedAt": "2025-01-03T16:26:56Z"
   },
   "finishing-undergraduate-in-seven-years": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-01-05T15:23:07Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z"
   },
   "ceil-of-frontend-engineer-career": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.205Z"
   },
   "system-design-interview": {
-    "createdAt": "2021-10-16T15:02:07Z"
+    "createdAt": "2021-10-16T15:02:07Z",
+    "updatedAt": "2025-11-01T11:08:10.247Z"
   },
   "community-computer-science-argument": {
     "createdAt": "2024-11-22T05:57:43Z",
-    "updatedAt": "2024-11-24T15:04:46Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z"
   },
   "hippocratic-oath-for-technologists": {
     "createdAt": "2025-01-01T03:51:23Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "oreilly-platform-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-06-03T01:48:08Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z"
   },
   "the-image-of-the-city": {
     "createdAt": "2025-04-12T10:14:46Z",
-    "updatedAt": "2025-04-20T08:33:38Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "designing-data-intensive-applications-ch1": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "rest-representational-state-transfer": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "coroutine": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z"
   },
   "big-tech-vs-startup-at-starting-point-of-career": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.2Z"
   },
   "applicative-functor": {
     "createdAt": "2021-08-07T06:03:52Z",
-    "updatedAt": "2022-11-17T11:07:10Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z"
   },
   "unix-command-line-tools": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z"
   },
   "database-system-concepts-ch1": {
-    "createdAt": "2021-06-05T08:41:56Z"
+    "createdAt": "2021-06-05T08:41:56Z",
+    "updatedAt": "2025-11-01T11:08:10.212Z"
   },
   "goodbye-yyyy": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -994,43 +1065,43 @@
   },
   "2016-ewoo-high-school-declaration-of-state-of-affairs": {
     "createdAt": "2024-12-29T01:33:59Z",
-    "updatedAt": "2025-01-02T13:35:24Z"
+    "updatedAt": "2025-11-01T11:08:10.187Z"
   },
   "eslint": {
     "createdAt": "2025-01-12T12:32:26Z",
-    "updatedAt": "2025-01-18T15:58:43Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z"
   },
   "remarkable-books-in-my-life": {
     "createdAt": "2022-04-19T04:49:15Z",
-    "updatedAt": "2025-01-05T15:23:07Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "completion-of-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
-    "updatedAt": "2021-11-07T04:50:27Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z"
   },
   "the-software-engineers-guidebook": {
     "createdAt": "2024-11-28T03:07:51Z",
-    "updatedAt": "2024-12-01T08:27:43Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "redis-cluster": {
     "createdAt": "2024-03-02T04:02:54Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z"
   },
   "rust-macro": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z"
   },
   "why-google-stores-billions-of-code-in-a-single-repository": {
     "createdAt": "2024-12-29T15:01:16Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z"
   },
   "asynchronous-programming": {
     "createdAt": "2022-04-27T05:25:31Z",
-    "updatedAt": "2024-11-05T07:46:29Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z"
   },
   "trpl-smart-pointers": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "law": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -1038,39 +1109,43 @@
   },
   "hypermedia-systems": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-05-25T13:27:14Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z"
   },
   "how-to-take-smart-notes": {
-    "createdAt": "2024-11-19T01:42:05Z"
+    "createdAt": "2024-11-19T01:42:05Z",
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "accelerationism": {
-    "createdAt": "2024-12-28T15:20:38Z"
+    "createdAt": "2024-12-28T15:20:38Z",
+    "updatedAt": "2025-11-01T11:08:10.19Z"
   },
   "higher-order-function": {
     "createdAt": "2021-07-24T13:59:36Z",
-    "updatedAt": "2024-02-25T06:35:25Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "difference-between-127-0-0-1-and-0-0-0-0": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z"
   },
   "history-immediately-after-liberation-in-1945": {
     "createdAt": "2025-05-05T14:58:03Z",
-    "updatedAt": "2025-05-11T14:15:24Z"
+    "updatedAt": "2025-11-01T11:08:10.223Z"
   },
   "rip-flash": {
-    "createdAt": "2022-03-10T03:55:11Z"
+    "createdAt": "2022-03-10T03:55:11Z",
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "effect-system": {
     "createdAt": "2024-11-06T08:44:04Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.216Z"
   },
   "artificial-intelligence": {
     "createdAt": "2025-05-20T13:51:28Z",
     "updatedAt": "2025-09-05T13:52:11Z"
   },
   "justifying-injustice": {
-    "createdAt": "2024-12-22T14:10:44Z"
+    "createdAt": "2024-12-22T14:10:44Z",
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "typescript": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1081,45 +1156,48 @@
     "updatedAt": "2025-05-19T11:48:46Z"
   },
   "semaphore": {
-    "createdAt": "2025-01-05T15:23:07Z"
+    "createdAt": "2025-01-05T15:23:07Z",
+    "updatedAt": "2025-11-01T11:08:10.243Z"
   },
   "floating-point": {
     "createdAt": "2020-12-30T05:53:13Z",
-    "updatedAt": "2024-11-05T13:44:04Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z"
   },
   "introduction-to-programming-languages": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-11-01T11:08:10.228Z"
   },
   "at-protocol": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-05-19T11:48:46Z"
+    "updatedAt": "2025-11-01T11:08:10.196Z"
   },
   "total-war": {
-    "createdAt": "2025-01-01T15:35:04Z"
+    "createdAt": "2025-01-01T15:35:04Z",
+    "updatedAt": "2025-11-01T11:08:10.249Z"
   },
   "intellectual-property-right": {
-    "createdAt": "2024-11-06T09:58:07Z"
+    "createdAt": "2024-11-06T09:58:07Z",
+    "updatedAt": "2025-11-01T11:08:10.227Z"
   },
   "the-rust-programming-language": {
     "createdAt": "2024-11-05T16:08:45Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z"
   },
   "heinrichs-law": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z"
   },
   "functor": {
     "createdAt": "2021-07-31T08:44:47Z",
-    "updatedAt": "2022-11-17T11:07:10Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z"
   },
   "goodbye-2022": {
     "createdAt": "2022-03-01T08:54:03Z",
-    "updatedAt": "2022-12-31T16:57:45Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z"
   },
   "http-404": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z"
   },
   "safety-engineering": {
     "createdAt": "2024-11-12T02:15:02Z",
@@ -1127,69 +1205,79 @@
   },
   "clean-code-myth": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-11-01T11:08:10.206Z"
   },
   "designing-data-intensive-applications-ch4": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2024-12-29T15:01:16Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z"
   },
   "education-premium": {
-    "createdAt": "2022-03-10T03:55:11Z"
+    "createdAt": "2022-03-10T03:55:11Z",
+    "updatedAt": "2025-11-01T11:08:10.215Z"
   },
   "database": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-05-17T10:44:45Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z"
   },
   "precedent-2000hunba67": {
     "createdAt": "2024-11-26T09:33:42Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z"
   },
   "shell-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z"
   },
   "nextjs": {
     "createdAt": "2025-08-17T12:42:24Z",
-    "updatedAt": "2025-08-24T04:16:24Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "open-telemetry": {
-    "createdAt": "2025-08-24T04:16:24Z"
+    "createdAt": "2025-08-24T04:16:24Z",
+    "updatedAt": "2025-11-01T11:08:10.234Z"
   },
   "js-async-context": {
-    "createdAt": "2025-08-26T15:02:05Z"
+    "createdAt": "2025-08-26T15:02:05Z",
+    "updatedAt": "2025-11-01T11:08:10.229Z"
   },
   "making-software": {
-    "createdAt": "2025-08-27T12:50:06Z"
+    "createdAt": "2025-08-27T12:50:06Z",
+    "updatedAt": "2025-11-01T11:08:10.231Z"
   },
   "an-infinitely-large-napkin": {
-    "createdAt": "2025-09-02T15:04:22Z"
+    "createdAt": "2025-09-02T15:04:22Z",
+    "updatedAt": "2025-11-01T11:08:10.193Z"
   },
   "color-space": {
-    "createdAt": "2025-09-03T13:22:53Z"
+    "createdAt": "2025-09-03T13:22:53Z",
+    "updatedAt": "2025-11-01T11:08:10.207Z"
   },
   "island-architecture": {
-    "createdAt": "2025-09-03T13:22:53Z"
+    "createdAt": "2025-09-03T13:22:53Z",
+    "updatedAt": "2025-11-01T11:08:10.228Z"
   },
   "agent-client-protocol": {
-    "createdAt": "2025-09-05T13:52:11Z"
+    "createdAt": "2025-09-05T13:52:11Z",
+    "updatedAt": "2025-11-01T11:08:10.191Z"
   },
   "binary-opposition": {
     "createdAt": "2025-09-05T13:52:11Z",
-    "updatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2025-11-01T11:08:10.2Z"
   },
   "introduction-to-contemporary-philosophy": {
-    "createdAt": "2025-09-07T09:50:24Z"
+    "createdAt": "2025-09-07T09:50:24Z",
+    "updatedAt": "2025-12-03T12:46:49.831Z"
   },
   "robust-with-types-flexible-with-polymorphism": {
-    "createdAt": "2025-09-07T09:50:24Z"
+    "createdAt": "2025-09-07T09:50:24Z",
+    "updatedAt": "2025-11-01T11:08:10.241Z"
   },
   "beautyland": {
     "createdAt": "2025-09-14T11:39:46Z",
-    "updatedAt": "2025-09-20T08:13:50Z"
+    "updatedAt": "2025-11-01T11:08:10.199Z"
   },
   "a-brief-history-of-intelligence": {
     "createdAt": "2025-09-20T08:13:50Z",
-    "updatedAt": "2025-09-27T12:29:10Z"
+    "updatedAt": "2025-11-01T11:08:10.188Z"
   },
   "build-a-frontend-web-framework-from-scratch": {
     "createdAt": "2025-09-27T12:29:10Z",
@@ -1200,12 +1288,15 @@
     "updatedAt": "2025-11-30T13:11:11Z"
   },
   "the-first-battle-of-the-next-war": {
-    "createdAt": "2025-11-02T12:53:30Z"
+    "createdAt": "2025-11-02T12:53:30Z",
+    "updatedAt": "2025-11-02T12:53:30Z"
   },
   "systems-theory": {
-    "createdAt": "2025-11-30T13:11:11Z"
+    "createdAt": "2025-11-30T13:11:11Z",
+    "updatedAt": "2025-12-03T12:44:32.968Z"
   },
   "thinking-in-systems": {
-    "createdAt": "2025-11-30T13:11:11Z"
+    "createdAt": "2025-11-30T13:11:11Z",
+    "updatedAt": "2025-12-03T14:57:34.069Z"
   }
 }

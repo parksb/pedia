@@ -1,36 +1,26 @@
 {
   "imports": {
-    "@markslides/markdown-it-mermaid": "npm:@markslides/markdown-it-mermaid@^0.3.6",
     "@nozbe/microfuzz": "npm:@nozbe/microfuzz@^1.0.0",
-    "hono": "jsr:@hono/hono@^4.7.8",
-    "markdown-it": "npm:markdown-it@^14.1.0",
-    "markdown-it-anchor": "npm:markdown-it-anchor@^9.2.0",
-    "markdown-it-container": "npm:markdown-it-container@^4.0.0",
-    "markdown-it-emoji": "npm:markdown-it-emoji@^3.0.0",
-    "markdown-it-external-links": "npm:markdown-it-external-links@0.0.6",
-    "markdown-it-footnote": "npm:markdown-it-footnote@^4.0.0",
-    "markdown-it-imsize": "npm:markdown-it-imsize@^2.0.1",
-    "markdown-it-inline-comments": "npm:markdown-it-inline-comments@^1.0.1",
-    "markdown-it-table-of-contents": "npm:markdown-it-table-of-contents@^0.8.0",
-    "markdown-it-task-checkbox": "npm:markdown-it-task-checkbox@^1.0.6",
-    "markdown-it-texmath": "npm:markdown-it-texmath@^1.0.0",
-    "dayjs": "npm:dayjs@^1.11.13",
-    "denque": "npm:denque@^2.1.0",
-    "katex": "npm:katex@^0.16.22",
-    "highlight.js": "npm:highlight.js@^11.11.1",
-    "ejs": "npm:ejs@^3.1.10",
-    "typed-htmx": "npm:typed-htmx@^0.3.1"
+    "@simpesys/core": "jsr:@simpesys/core@^0.3.4",
+    "hono": "jsr:@hono/hono@^4.10.7"
   },
   "tasks": {
-    "start": "deno run -N -R -E src/main.ts",
-    "dev": "deno run -N -R -E --watch=docs,src src/main.ts",
+    "start": "deno run -N -R -E -W app/main.ts",
+    "dev": "deno run -N -R -E -W --watch=app,docs app/main.ts",
     "commit": "./tools/commit.sh",
     "img": "./tools/img.sh",
-    "build:client": "deno bundle --minify -o assets/index.js src/client/index.ts"
+    "build:client": "deno bundle --minify -o assets/index.js app/client/index.ts"
   },
   "compilerOptions": {
     "jsx": "precompile",
-    "jsxImportSource": "hono/jsx"
+    "jsxImportSource": "hono/jsx",
+    "lib": [
+      "deno.window",
+      "dom",
+      "dom.iterable"
+    ]
   },
-  "unstable": ["temporal"]
+  "unstable": [
+    "temporal"
+  ]
 }

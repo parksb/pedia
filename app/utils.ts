@@ -1,4 +1,4 @@
-import { Document } from "./types.ts";
+import { Document } from "@simpesys/core";
 
 export async function readFile(path: string | URL) {
   const decoder = new TextDecoder("utf-8");

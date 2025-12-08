@@ -24,25 +24,7 @@ msg=""
 [ "$modified" -gt 0 ] && msg+="${modified}개 문서 수정"
 
 if [ -n "$msg" ]; then
-    if [ "$added" -gt 0 ]; then
-        echo "$added_files" | while read -r file; do
-            if [ -n "$file" ]; then
-                filename=$(basename "$file")
-                "$SCRIPT_DIR"/metadata.ts create "$filename"
-            fi
-        done
-    fi
-
-    if [ "$modified" -gt 0 ]; then
-        echo "$modified_files" | while read -r file; do
-            if [ -n "$file" ]; then
-                filename=$(basename "$file")
-                "$SCRIPT_DIR"/metadata.ts update "$filename"
-            fi
-        done
-    fi
-
-    git add . ../.metadata.json
+    git add .
     git commit -m "$msg"
 else
     echo "No changes to commit"

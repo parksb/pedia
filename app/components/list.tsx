@@ -1,4 +1,4 @@
-import { Document } from "../types.ts";
+import { Document } from "@simpesys/core";
 import { Anchor } from "./anchor.tsx";
 
 interface Props {

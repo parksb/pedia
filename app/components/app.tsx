@@ -1,5 +1,5 @@
 import { WEBSITE_DOMAIN } from "../consts.ts";
-import { Document } from "../types.ts";
+import { Document } from "@simpesys/core";
 import { Content } from "./content.tsx";
 import { List } from "./list.tsx";
 
