@@ -61,7 +61,9 @@ export class System {
       js: await readFile(`${ASSETS_DIR_PATH}/index.js`),
     };
 
-    this.simpesys = await this.simpesys.init({ syncMetadata: true });
+    this.simpesys = await this.simpesys.init({
+      syncMetadata: Deno.env.get("ENV") !== "production",
+    });
 
     this.dict = this.simpesys.getDocuments();
     this.list = Object.values(this.simpesys.getDocuments());
