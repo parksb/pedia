@@ -1,7 +1,7 @@
 {
   "imports": {
     "@nozbe/microfuzz": "npm:@nozbe/microfuzz@^1.0.0",
-    "@simpesys/core": "jsr:@simpesys/core@^0.3.4",
+    "@simpesys/core": "jsr:@simpesys/core@^0.4.1",
     "hono": "jsr:@hono/hono@^4.10.7"
   },
   "tasks": {

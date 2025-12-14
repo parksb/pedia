@@ -1,7 +1,7 @@
-import { Simpesys, Document } from "@simpesys/core";
+import { Document, Simpesys } from "@simpesys/core";
 import createFuzzySearch, { FuzzySearcher } from "@nozbe/microfuzz";
 import { Asset } from "./types.ts";
-import { readFile, Log, sortBy } from "./utils.ts";
+import { Log, readFile, sortBy } from "./utils.ts";
 import { Anchor } from "./components/anchor.tsx";
 import { ASSETS_DIR_PATH, MARKDOWN_DIRECTORY_PATH } from "./consts.ts";
 import { WEBSITE_DOMAIN } from "./consts.ts";
@@ -16,20 +16,20 @@ export class System {
   private searcher: FuzzySearcher<Document> | null = null;
   private asset: Asset = { css: "", js: "" };
 
-  private simpesys: Simpesys = new Simpesys(
-    {
+  private simpesys: Simpesys = new Simpesys({
+    config: {
       web: {
         domain: WEBSITE_DOMAIN,
       },
       docs: {
         root: "simonpedia",
         notFound: "http-404",
-        subdocumentsSectionTitle: "하위문서",
-        publicationsSectionTitle: "문헌",
+        subdocumentsSectionTitle: ["하위문서"],
+        publicationsSectionTitle: ["문헌"],
         backlinksSectionTitle: "이 문서를 인용한 문서",
       },
     },
-    {
+    hooks: {
       manipulateMarkdown: (markdown, candidate) => {
         let result = markdown;
 
@@ -42,16 +42,15 @@ export class System {
       onInternalLinkUnresolved: (error: Error) => {
         Log.warn(error.message);
       },
-    },
-    {
-      normal: (key: string) => {
-        return Anchor({ href: key, scrollTo: true }).toString();
+      renderInternalLink: (key: string, label?: string) => {
+        if (label) {
+          return Anchor({ href: key, label, scrollTo: true }).toString();
+        } else {
+          return Anchor({ href: key, scrollTo: true }).toString();
+        }
       },
-      labeled: (key, label) => {
-        return Anchor({ href: key, label, scrollTo: true }).toString();
-      },
     },
-  );
+  });
 
   async init() {
     const start = performance.now();
@@ -136,9 +135,11 @@ export class System {
   }
 
   private printInfo(timeTaken: number) {
-    for (const { name: filename } of Deno.readDirSync(
-      MARKDOWN_DIRECTORY_PATH,
-    ).filter(({ name: filename }) => filename.endsWith(".md"))) {
+    for (
+      const { name: filename } of Deno.readDirSync(
+        MARKDOWN_DIRECTORY_PATH,
+      ).filter(({ name: filename }) => filename.endsWith(".md"))
+    ) {
       if (
         !new Set(Object.keys(this.dict)).has(filename.replace(/\.md$/, "")) &&
         !filename.startsWith("private/")

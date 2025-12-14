@@ -1,1302 +1,1629 @@
 {
   "database-system-concepts-ch2": {
     "createdAt": "2021-06-05T08:52:05Z",
-    "updatedAt": "2025-11-01T11:08:10.212Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z",
+    "contentHash": "b81d3ee2340bdbab485bc8d72ade3195f79978bd"
   },
   "medicine": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2024-12-01T08:27:43Z"
+    "updatedAt": "2024-12-01T08:27:43Z",
+    "contentHash": "50dc0c6fc5be5078c2220e187d428c32e67d4bb0"
   },
   "entertainment-sports": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-01-04T15:12:24Z",
+    "contentHash": "d14058708ea4e1b2a11f927f116a9856e7901b26"
   },
   "what-did-architecture-do": {
     "createdAt": "2022-01-15T07:25:14Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "0d4497350d5e5a5259707a2a26580b65d25e4669"
   },
   "git-rebase-onto": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "38e1d34d7c739987db845a623b6e38f9afa913f2"
   },
   "spring": {
     "createdAt": "2021-02-03T09:52:40Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z",
+    "contentHash": "885ff9bb7d64b0892f343e9a7637f63ab97f1cc3"
   },
   "entity-relationship-model": {
     "createdAt": "2024-03-03T14:02:56Z",
-    "updatedAt": "2025-11-01T11:08:10.216Z"
+    "updatedAt": "2025-11-01T11:08:10.216Z",
+    "contentHash": "cd43c1e3e718db08aaad8b3f8730c877d58c1353"
   },
   "marxism-leninism": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z",
+    "contentHash": "ae84859cde43ec4e627eaad77f467b66d02c1700"
   },
   "kubernetes": {
     "createdAt": "2024-09-11T02:27:17Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "fbb752fbb9c51194f84fd02446a41f6cd2a8de98"
   },
   "designing-data-intensive-applications-ch3": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "241a7a5c48aecf1e99199462f529181a82a18c10"
   },
   "kotlin": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "771606a1058208731d94ad6cdd82b210e6601763"
   },
   "criminal-causal-relationship": {
     "createdAt": "2021-11-05T15:38:54Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z",
+    "contentHash": "6684aecf8915a451209097d99e2b7b318ef91481"
   },
   "computer-organization-and-design": {
     "createdAt": "2020-12-28T15:15:32Z",
-    "updatedAt": "2025-11-01T11:08:10.209Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z",
+    "contentHash": "20c2e06d171ae4fd211f4df239a18e5dcd7c63ad"
   },
   "marxism": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z",
+    "contentHash": "2b09fef6d6c6637871c3ddb5000f35382b49557b"
   },
   "performance-media-art": {
     "createdAt": "2025-01-02T15:44:33Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-01-02T15:44:33Z",
+    "contentHash": "9568ea3504291d7fa3971f03627649a6fab18578"
   },
   "readers-writer-lock": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "2c447611eb2d8c7bcb8c3e2ba5e77a77f8d4a546"
   },
   "art": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2025-05-24T05:39:59.365Z"
+    "updatedAt": "2025-05-24T05:39:59.365Z",
+    "contentHash": "9008349f6a00fe09b44276f7428604e6a8fc6d13"
   },
   "race-condition": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.239Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z",
+    "contentHash": "da0fd1146c263e73079704372384d10e3ee5d9ab"
   },
   "t-72": {
     "createdAt": "2024-11-11T15:22:37Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "4c39dd6ae378a6109ddf1a794739249580a8be6a"
   },
   "formula-one": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "54fbf0d4546e5ba542928e5b62be6b53207fa126"
   },
   "rust-error-handling": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "e790f4aab9bf8bd039af3e2e3d6cf99fdacdbd8a"
   },
   "trpl-understanding-ownership": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "40772be1208a628358db169e8b395591e1f1ae1e"
   },
   "goodbye-2021": {
     "createdAt": "2021-12-31T16:32:14Z",
-    "updatedAt": "2025-11-01T11:08:10.22Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z",
+    "contentHash": "3936bfdcb3d70f68d02fa8910ebc73db81e4c496"
   },
   "fluid-flexible-user-interface-distribution-for-ubiquitous-multi-device-interaction": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-02T15:44:33Z"
+    "updatedAt": "2025-01-02T15:44:33Z",
+    "contentHash": "30ca8fec4ac4448a781b130229a809a5a40fff52"
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z",
+    "contentHash": "1cf0dd2a5851c88649725393e42ef6c38be4faa9"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "8b6802cac30f82cf1c97bbf9fcabdb69939cc887"
   },
   "operating-system": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-05-17T15:04:07Z",
+    "contentHash": "6887ed3803a6d9530feb76ab00beaf5036f6cb20"
   },
   "ssh-key": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z",
+    "contentHash": "554546280fed5497a46756f45608a6bc164ed4fd"
   },
   "how-to-speak": {
     "createdAt": "2020-12-16T11:07:11Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "a72800bb540a57385789a99a3e9fedfcba74447a"
   },
   "ngrinder": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "4010ca8140b7d7abb18102f0a57bd21d7507875d"
   },
   "modern-history-of-japan": {
     "createdAt": "2024-03-03T14:01:01Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "7a83ab78872cb3025b25ac4d4af58850b9c1c958"
   },
   "discourse-on-the-origin-and-basis-of-inequality-among-men": {
     "createdAt": "2025-03-23T04:43:30Z",
-    "updatedAt": "2025-11-01T11:08:10.214Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z",
+    "contentHash": "229f6f16bc8ba1a35cca7e77313e79104874b128"
   },
   "architecture": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2025-04-12T10:14:46Z"
+    "updatedAt": "2025-04-12T10:14:46Z",
+    "contentHash": "c4e599ee05d406e93810c2e2cd4360904f5abf28"
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-09-27T12:29:10Z"
+    "updatedAt": "2025-09-27T12:29:10Z",
+    "contentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "e617e023cc46ab84a48dbc6a3d09990ee98c79b5"
   },
   "functional-programming-in-kotlin": {
     "createdAt": "2022-03-06T04:50:21Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "b300dd442a4465a1a212cd612974283f3ddd3b2f"
   },
   "web3": {
     "createdAt": "2022-06-08T01:57:36Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z",
+    "contentHash": "27e2e4c19045e3687b3cf53b58464809e49e2ecf"
   },
   "webassembly": {
     "createdAt": "2025-05-21T13:15:28Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z",
+    "contentHash": "4e9473a2a8aab843d89ee93cb5729c98d8276ca6"
   },
   "specific-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z",
+    "contentHash": "0ce2dea6c3d9ebd6c2a1abed64bcd57802922414"
   },
   "tech-science": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-01-04T15:12:24Z",
+    "contentHash": "b54720be0074e382eac7634d2f59a88491eea528"
   },
   "rust-ownership": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "16d5fe8de8790342d25bdb26aa8d0d8efa72bd6a"
   },
   "a-star-search": {
     "createdAt": "2024-03-03T03:12:22Z",
-    "updatedAt": "2025-11-01T11:08:10.189Z"
+    "updatedAt": "2025-11-01T11:08:10.189Z",
+    "contentHash": "c21aa8f55ef9ae4f12ebdf4f73626da8afaa920b"
   },
   "simple-as-possible-computer": {
     "createdAt": "2024-03-02T05:19:23Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z",
+    "contentHash": "5b0b4f905276f479922d8200701473b06a77172a"
   },
   "how-to-grow-cactus": {
     "createdAt": "2020-12-27T17:23:23Z",
-    "updatedAt": "2025-11-01T11:08:10.223Z"
+    "updatedAt": "2025-11-01T11:08:10.223Z",
+    "contentHash": "bf47333d84871f72abbf7cc9de26428b03000942"
   },
   "goodbye-2020": {
     "createdAt": "2020-12-21T17:09:15Z",
-    "updatedAt": "2025-11-01T11:08:10.22Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z",
+    "contentHash": "041735deac31da3dc9c0ce7b519f71faa9a1b84b"
   },
   "neutrality-myth": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.233Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z",
+    "contentHash": "1db69864a4e4f52d067913947c6f1dc04b3dd463"
   },
   "rust-oop": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "52c4114e8b1ce5274701de88a64089a529c08990"
   },
   "trpl-functional-language-features": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "e8d0e2dcd1c0ce3115d0cbd80180dd290e2b92ad"
   },
   "merge-conflict": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "df2675f7cfee3a0f7ce18932fc23f984666cb433"
   },
   "university-admission-lottery-system": {
     "createdAt": "2025-03-02T05:48:54Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "8cb7e99cf309b7d7900676871b92e81e23984aa5"
   },
   "designing-data-intensive-applications": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "e098c16d6cc31186008edd8452dccad9743ef498"
   },
   "llvm": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z",
+    "contentHash": "68a8100fb1af3f57fe35a380851b546bb2709747"
   },
   "unix-shell-script": {
     "createdAt": "2021-01-01T05:56:28Z",
-    "updatedAt": "2025-11-01T11:08:10.251Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z",
+    "contentHash": "c3821fc7f83b02f0b5a793e99efc2fdf2752c572"
   },
   "armored-vehicle": {
     "createdAt": "2024-11-05T16:37:41Z",
-    "updatedAt": "2024-11-05T16:37:41Z"
+    "updatedAt": "2024-11-05T16:37:41Z",
+    "contentHash": "be3d6a1af4ef1b8ef29aae2d5019e8724df407ed"
   },
   "yak-shaving": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-11-01T11:08:10.257Z"
+    "updatedAt": "2025-11-01T11:08:10.257Z",
+    "contentHash": "f24ab763bf3e5ef00da695083916fc617887fd75"
   },
   "how-to-read-a-paper": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "7b0f076e57742c391d7ae0ae774f2a696fa6e036"
   },
   "human-centered-artificial-intelligence": {
     "createdAt": "2024-11-22T02:27:26Z",
-    "updatedAt": "2025-11-01T11:08:10.225Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z",
+    "contentHash": "52022cfba93fa0ec68b051065d85337dc7e0ff3c"
   },
   "generate-thumbnail-using-aws-lambda": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "e53819b92f496d010f9d3c3bfa7f4424cc8f4165"
   },
   "natural-science": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2025-09-20T08:13:50Z"
+    "updatedAt": "2025-09-20T08:13:50Z",
+    "contentHash": "1d26149233fbaae3075d4ba5de2aeede9802f645"
   },
   "person-and-org": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-06-03T12:27:38.882Z"
+    "updatedAt": "2025-06-03T12:27:38.882Z",
+    "contentHash": "8af1c83408b979d9905c469ae52183c328de05be"
   },
   "conversational-user-interface": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z",
+    "contentHash": "a6078d047ec0714ebdc7b29944a654bc8c51a569"
   },
   "redis": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "d026bc90aebe482261157ae45f977941d2b16a35"
   },
   "goodbye-2024": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-11-01T11:08:10.221Z"
+    "updatedAt": "2025-11-01T11:08:10.221Z",
+    "contentHash": "45ab63a89f5f6e9e95f37596217d0df25d624722"
   },
   "civil-law": {
     "createdAt": "2024-11-06T09:58:07Z",
-    "updatedAt": "2025-11-01T11:08:10.205Z"
+    "updatedAt": "2025-11-01T11:08:10.205Z",
+    "contentHash": "2048d6281b4d96bf43f535d1f83d1a06eab7f957"
   },
   "jscodeshift": {
     "createdAt": "2025-01-23T11:44:19Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "e4e9402aa987934607ed6344524c190366a20b7e"
   },
   "jeonse": {
     "createdAt": "2025-03-02T05:48:54Z",
-    "updatedAt": "2025-11-01T11:08:10.228Z"
+    "updatedAt": "2025-11-01T11:08:10.228Z",
+    "contentHash": "b3efa8512d60e8f14b252e3423a4b087c94a4fa6"
   },
   "concrete-mathematics": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.209Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z",
+    "contentHash": "c1fa4b9ec4f58deb6af209dc5969be31f0b808e9"
   },
   "fissured-ceiling-tile": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "ce14ebeaf93ba2a43e0429ff2d4a7c22fbf2a18d"
   },
   "wargame-red-dragon": {
     "createdAt": "2021-03-15T06:15:21Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z",
+    "contentHash": "f19958b9ad10d04d9102e77623b10001172d6fb1"
   },
   "concrete-mathematics-ch1": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.209Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z",
+    "contentHash": "6eaa1e47f6877e58ad57352f11eda26d0f3928fb"
   },
   "yarn": {
     "createdAt": "2024-12-07T02:55:50Z",
-    "updatedAt": "2025-11-01T11:08:10.257Z"
+    "updatedAt": "2025-11-01T11:08:10.257Z",
+    "contentHash": "fcc7dd66609110ad5c4f78c7c54853db2b4ebc9d"
   },
   "designing-data-intensive-applications-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "24579373b830045e9535055f13c54c54c955191b"
   },
   "monorepo": {
     "createdAt": "2024-11-28T16:18:31Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "b70a1006c1fdf732960530c184b6fb875d537a4f"
   },
   "wrd-deck-eastern-bloc": {
     "createdAt": "2021-08-12T11:48:41Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "d93c3ceaed3b536a76f00f633e74ef5efc3c47c9"
   },
   "criminal-intent": {
     "createdAt": "2021-11-05T15:38:54Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z",
+    "contentHash": "a26c4cc2b5417a282f42622aa180bf4ec03df0ea"
   },
   "fish-shell": {
     "createdAt": "2021-01-06T13:23:19Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "29538ed11c927a5517f5eebec4dcad49b533b0e0"
   },
   "entropy": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.216Z"
+    "updatedAt": "2025-11-01T11:08:10.216Z",
+    "contentHash": "34ccf0154d2821bf38e220d2076dac50818df574"
   },
   "unix-performance-measurement": {
     "createdAt": "2024-12-15T02:45:01Z",
-    "updatedAt": "2025-11-01T11:08:10.251Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z",
+    "contentHash": "0e471f05a323db05a205bded3340c898f9e0e515"
   },
   "rust-file-io": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2024-12-29T01:33:59Z",
+    "contentHash": "fcb4ed4642b1ab69f593e8a60cc0423552ffb6bd"
   },
   "flip-flop": {
     "createdAt": "2024-11-25T09:27:17Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "7122f35d8cd5a0f1bee415df2c42875c2fc7f4ff"
   },
   "criminal-abortion": {
     "createdAt": "2020-12-17T12:33:55Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z",
+    "contentHash": "eca17a49802c66f6729bf9614e4bf49250fb109b"
   },
   "oled-and-qled": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "159681fec37941c8be847f7d6f8648e696add4be"
   },
   "mathematics-reboot": {
     "createdAt": "2022-03-06T04:50:56Z",
-    "updatedAt": "2024-11-05T13:38:15.578Z"
+    "updatedAt": "2024-11-05T13:38:15.578Z",
+    "contentHash": "5351b969c34158e817ab03dd9846d5bbac1d14ce"
   },
   "operating-system-concepts-ch4": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "392cdb59d595fa0a23930c67028e437cd5778274"
   },
   "what-is-history": {
     "createdAt": "2022-03-10T03:55:11Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "f03d9a168cb3c0bdcf2c412758e01ef0d464aa7d"
   },
   "rust": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "d0080847cdb66fc58fe8da7f0ec34147695aef2a"
   },
   "typescript-excess-property-check": {
     "createdAt": "2024-11-10T16:33:12Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "05cefbf230b5f803ccb9975dbd19f6492fe77169"
   },
   "database-normalization": {
     "createdAt": "2024-03-03T14:02:56Z",
-    "updatedAt": "2025-11-01T11:08:10.211Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z",
+    "contentHash": "43b755399fe6b1a9e938e405a887ccec529e698b"
   },
   "functional-type-system": {
     "createdAt": "2021-07-31T04:20:11Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "6813c3f858574eefc256c2b9dd8f2a43f332e0f8"
   },
   "history": {
     "createdAt": "2020-12-19T07:35:10Z",
-    "updatedAt": "2025-05-20T13:50:07.895Z"
+    "updatedAt": "2025-05-20T13:50:07.895Z",
+    "contentHash": "920e7b553fdfc9a75d3188e3efa763b4c1f82fee"
   },
   "wrd-tactics-recon": {
     "createdAt": "2021-08-13T16:50:11Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "500472d075bbb9582620f797e5a4973b5fb71ade"
   },
   "urban-sense": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "47064570ba7c34503330a640e7423fffa3bead5a"
   },
   "relational-data-model": {
     "createdAt": "2024-03-03T14:02:56Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "868ed9ebc577891c3289bf8a4d1d988acb9f7b63"
   },
   "caps-lock": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-11-01T11:08:10.204Z"
+    "updatedAt": "2025-11-01T11:08:10.204Z",
+    "contentHash": "bc7066d6f16aa8642494971a458d08ba2a599c9b"
   },
   "trpl-managing-growing-projects-with-packages-crates-and-modules": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "6a751edefd332221d62ce135d13a442c46a2f030"
   },
   "simpesys": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-12-08T13:40:27.954Z"
+    "updatedAt": "2025-12-08T13:40:27.954Z",
+    "contentHash": "e7bc8f3c03ed313a4bdb74bfa89ddfaa7d2c7730"
   },
   "mysql": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.233Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z",
+    "contentHash": "564a30113425f2d57a57b71312c6b5b0aaad97cc"
   },
   "transportation-engineering": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-03-02T05:48:54Z"
+    "updatedAt": "2025-03-02T05:48:54Z",
+    "contentHash": "353b68f6b52064c2cea53ea8598e52c5962c252b"
   },
   "git-switch-and-restore": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "a05f05f267ba012b7bb4a5cc8ea6a4ce3f82fdf0"
   },
   "kotlin-coroutine": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "bfe6cf12a082503ceec10dc8a7eed9f66443dbbf"
   },
   "jwt": {
     "createdAt": "2021-07-23T04:35:46Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "01c4becc87e197540545c9c68526c0e473a4e9a0"
   },
   "criminal-law": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-11-01T11:08:10.211Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z",
+    "contentHash": "b15454511c558a9d5324f63eb284a63b8c94c5a0"
   },
   "react-server-component": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "e89139f5279ce2b44c708ef94944a4bb0385c0c4"
   },
   "exchange-trade-fund": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z",
+    "contentHash": "8effa16f9aab93107aa27958d332d72fe77b6990"
   },
   "basic-design-textbook": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.199Z"
+    "updatedAt": "2025-11-01T11:08:10.199Z",
+    "contentHash": "abb8782acd616f3ae463bdccfcaff32d59669804"
   },
   "monoid": {
     "createdAt": "2021-08-22T05:48:17Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "465412aed3143296e6abfb066495fae5b2803c35"
   },
   "general": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-01-03T16:26:56Z"
+    "updatedAt": "2025-01-03T16:26:56Z",
+    "contentHash": "7e5dcea520db97d81dd6863d8b3e31699e06829a"
   },
   "mutex": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.233Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z",
+    "contentHash": "88fc2255e1b7909e5c24175f685c53890c3b31e4"
   },
   "developer-chauvinism": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "9d7630e693f799f28c97ce671ee949e3df27f0e1"
   },
   "a-philosophy-of-software-design": {
     "createdAt": "2024-09-21T13:59:52Z",
-    "updatedAt": "2025-11-01T11:08:10.189Z"
+    "updatedAt": "2025-11-01T11:08:10.189Z",
+    "contentHash": "f76be99a890f8baefd11a571b4679dc032a4321b"
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "18bee620bb6666a920fb72501da83bbd257a3239"
   },
   "relational-algebra": {
     "createdAt": "2024-03-03T14:02:56Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "1849bd476a71fbc1899f1ec33a34939118dc3f26"
   },
   "collapse-os": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.207Z"
+    "updatedAt": "2025-11-01T11:08:10.207Z",
+    "contentHash": "d4d5f7c7e9df91a986ee72dcb7ab0ce5ea522217"
   },
   "surviving-in-ai-era": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "af4c92b9cc666a233614622463e1c6df61d5ee1d"
   },
   "trpl-generic-types-traits-and-lifetimes": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "c6f41ecdfeeccdeb30531a1627da719a5650dd70"
   },
   "abstract-syntax-tree": {
     "createdAt": "2020-12-18T01:50:55Z",
-    "updatedAt": "2025-11-01T11:08:10.19Z"
+    "updatedAt": "2025-11-01T11:08:10.19Z",
+    "contentHash": "96f09ded31333570c9fa6dd161c26057a54851e9"
   },
   "react-functional-component-and-class-component": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.239Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z",
+    "contentHash": "ab112f2fdbc6624118a4bddbeb5cfd73fc79d70d"
   },
   "economics": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-11-01T11:08:10.215Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z",
+    "contentHash": "2a15bb35b365730cb788fd5574ca590a504f4fb6"
   },
   "chestertons-fence": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.205Z"
+    "updatedAt": "2025-11-01T11:08:10.205Z",
+    "contentHash": "af49a0b4eb0c2ae49f37f4e8905ea76e86fffb34"
   },
   "literature": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-09-14T11:39:46Z"
+    "updatedAt": "2025-09-14T11:39:46Z",
+    "contentHash": "0f670fd5862a429616144bed746a55022c7a575a"
   },
   "adder": {
     "createdAt": "2024-11-25T09:27:17Z",
-    "updatedAt": "2024-11-25T09:27:17Z"
+    "updatedAt": "2024-11-25T09:27:17Z",
+    "contentHash": "54f74dab1a46f18aea4d7debd6e808e50bb22263"
   },
   "tank": {
     "createdAt": "2024-11-05T16:37:41Z",
-    "updatedAt": "2024-11-11T15:22:37Z"
+    "updatedAt": "2024-11-11T15:22:37Z",
+    "contentHash": "357e43b74f545e315467b95cc10b1cc1e436c090"
   },
   "frontend-platform-engineering": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "30d23e78ff46dedb81b63701c87648a62606d4d8"
   },
   "biocity-and-toolcity": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2025-11-01T11:08:10.201Z"
+    "updatedAt": "2025-11-01T11:08:10.201Z",
+    "contentHash": "9b31bacf35a1c7a985c89caf0e323f27dc1d2753"
   },
   "es-modules": {
     "createdAt": "2025-02-15T14:29:10Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z",
+    "contentHash": "efb9664a8a4b26cae13f6a72504a1d334e742367"
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2025-09-13T16:58:49.135Z"
+    "updatedAt": "2025-09-13T16:58:49.135Z",
+    "contentHash": "700d60f126c2a961a2e773eefcc31e39aeaa3f83"
   },
   "trpl-common-programming-concepts": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "b7eb1f5997a7d47c302ad1a2285564a85aa79342"
   },
   "operating-system-concepts-ch1": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "81722cff71e1e0a1440e0ee9d9ee54731e9e8708"
   },
   "redis-pub-sub": {
     "createdAt": "2024-03-02T04:02:54Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "35fb276a5cddb8275992c5ac78c22a343edb344f"
   },
   "brutalism": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.202Z"
+    "updatedAt": "2025-11-01T11:08:10.202Z",
+    "contentHash": "fab5cc2a2467c88bbce71ef33ccf203257fd3325"
   },
   "korean-palace-coup-2024": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "6f5128150793c19806cf05ae1d6065e126eb81bf"
   },
   "knip": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "5d22303ac80ce4bdbffd5f6d78f77d59a9114698"
   },
   "zstd": {
     "createdAt": "2024-11-21T15:13:05Z",
-    "updatedAt": "2025-11-01T11:08:10.258Z"
+    "updatedAt": "2025-11-01T11:08:10.258Z",
+    "contentHash": "01def6c3b353ae57e03538fa36022d4d8c0572ba"
   },
   "cartesian-product": {
     "createdAt": "2021-05-22T15:02:08Z",
-    "updatedAt": "2025-11-01T11:08:10.204Z"
+    "updatedAt": "2025-11-01T11:08:10.204Z",
+    "contentHash": "97e49c18eb3f4d7860186a482f33da12d2a32de0"
   },
   "digital-democracy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.214Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z",
+    "contentHash": "58c1f13cba18d85d485e55224f22e67e19d383b0"
   },
   "array": {
     "createdAt": "2021-12-19T14:46:06Z",
-    "updatedAt": "2025-11-01T11:08:10.195Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z",
+    "contentHash": "e882b45bcf719fd801f65b07f40a6ff7c24ef3b4"
   },
   "permission-rationales-in-the-web-ecosystem": {
     "createdAt": "2025-05-03T07:43:08Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z",
+    "contentHash": "07c031bc917c3ca65148ec2963f752cc4a83dd9e"
   },
   "fishermans-knot": {
     "createdAt": "2025-01-23T11:44:19Z",
-    "updatedAt": "2025-01-23T11:44:19Z"
+    "updatedAt": "2025-01-23T11:44:19Z",
+    "contentHash": "a724621bcaa04b3c92f7744ffc16ff6f1bb621a6"
   },
   "intersection": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.228Z"
+    "updatedAt": "2025-11-01T11:08:10.228Z",
+    "contentHash": "ae313d481c8fd9b7b6ece58127e08ed07eb69f6e"
   },
   "aircraft-principal-axes": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.192Z"
+    "updatedAt": "2025-11-01T11:08:10.192Z",
+    "contentHash": "35ccb73bfdfa194e2df829cca9846073140ad800"
   },
   "operating-system-concepts-ch5": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "267ebb94b8e5ffaf1491688124d6f50be73489e4"
   },
   "htmx": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "24fd89c9c98d56cd1a23a643eb99520340b59f4f"
   },
   "multi-member-district": {
     "createdAt": "2025-03-10T12:20:24Z",
-    "updatedAt": "2025-11-01T11:08:10.233Z"
+    "updatedAt": "2025-11-01T11:08:10.233Z",
+    "contentHash": "af6283a66a2d377d0fb7b39e7b53c4b2b035032c"
   },
   "the-social-contract": {
     "createdAt": "2025-04-12T10:14:46Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "eebfc8abfeadeb3e13375257d018781276121629"
   },
   "unix-dev-null": {
     "createdAt": "2021-01-01T05:56:28Z",
-    "updatedAt": "2025-11-01T11:08:10.251Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z",
+    "contentHash": "8c4b1d6cb126a5043f5fe7a5c86e1753c0a04452"
   },
   "wrd-deck-blue-dragon": {
     "createdAt": "2021-08-12T11:48:41Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "d270118355ad596cf084e8cdefbd73b0e42df1c4"
   },
   "mathematics": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-09-02T15:04:22Z"
+    "updatedAt": "2025-09-02T15:04:22Z",
+    "contentHash": "62b257699abe807c37859039c6dc174488e62261"
   },
   "swiss-cheese-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "6d5209afb94000e03faa427f2ab5bce5a870388d"
   },
   "aircraft-accident-investigation": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.192Z"
+    "updatedAt": "2025-11-01T11:08:10.192Z",
+    "contentHash": "ad147a9a11bde51d5ceeac552cee6580c6d64ea8"
   },
   "react-hooks": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.239Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z",
+    "contentHash": "b47111175fbd9da3b90e4a5156175855aa37227c"
   },
   "w3c": {
     "createdAt": "2024-12-29T15:01:16Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "4ef007aa6f5079285483d87ae231b92751e1e227"
   },
   "as-we-may-think": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-11-01T11:08:10.195Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z",
+    "contentHash": "5cc7a6dca54fc57c22c3dd0f06c539823dfb46a0"
   },
   "nonviolent-resistance": {
     "createdAt": "2025-01-01T15:35:04Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "5ca606769989d6ae55491000d3018c2982d0c570"
   },
   "welcome-to-the-era-of-experience": {
     "createdAt": "2025-05-27T14:20:18Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z",
+    "contentHash": "b392a9cba99d36ddbcd55eebfca5364e04e3792a"
   },
   "compiler": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-11-01T11:08:10.208Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z",
+    "contentHash": "87d9bfc46b163202d83c726dc9a6f2ae0b25000a"
   },
   "military-science": {
     "createdAt": "2024-11-05T16:37:41Z",
-    "updatedAt": "2025-11-02T12:53:30Z"
+    "updatedAt": "2025-11-02T12:53:30Z",
+    "contentHash": "dc6016d52d5635e78a9c4aa0b49b94f50e1165f2"
   },
   "g0v": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "d3474446d7d33756dad3735ea790b107878319dc"
   },
   "human-computer-interaction": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-05-17T15:04:07Z",
+    "contentHash": "d8eba3e68d543d4410957297d9d1fae7d445db38"
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2025-11-01T11:08:10.251Z"
+    "updatedAt": "2025-11-01T11:08:10.251Z",
+    "contentHash": "8a49448ae9c7e067cb1ae0bbd6e88d44809fd555"
   },
   "trpl-common-collections": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "a5b50f1c776999d9ea4ae62123ec6229e14e0af5"
   },
   "akira": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.193Z"
+    "updatedAt": "2025-11-01T11:08:10.193Z",
+    "contentHash": "44e53883a52bc863abc197599b6fdf62b5f49afe"
   },
   "unix": {
     "createdAt": "2021-01-01T05:56:28Z",
-    "updatedAt": "2024-12-15T02:45:01Z"
+    "updatedAt": "2024-12-15T02:45:01Z",
+    "contentHash": "116206312018bb012f317bfa4cf93b46d84aa2f5"
   },
   "kmp": {
     "createdAt": "2024-09-11T02:27:17Z",
-    "updatedAt": "2025-05-19T11:48:46Z"
+    "updatedAt": "2025-05-19T11:48:46Z",
+    "contentHash": "90199b0bdd2945a11bdc5f9d6fd67fca2eed91a0"
   },
   "armored-fighting-vehicle": {
     "createdAt": "2024-11-05T16:37:41Z",
-    "updatedAt": "2024-11-05T16:37:41Z"
+    "updatedAt": "2024-11-05T16:37:41Z",
+    "contentHash": "258ba6da4581972f0a5662ce462563e97c84d442"
   },
   "semver": {
     "createdAt": "2025-01-25T16:34:07Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "0740214507c9a998583b5e43f8a734becd2f28c0"
   },
   "checksum": {
     "createdAt": "2025-03-23T04:15:36Z",
-    "updatedAt": "2025-12-03T12:52:44.038Z"
+    "updatedAt": "2025-12-03T12:52:44.038Z",
+    "contentHash": "60c38e8cb60f6525d0380f3467f3b78285e94445"
   },
   "das-kapital-study": {
     "createdAt": "2024-11-06T03:24:39Z",
-    "updatedAt": "2025-11-01T11:08:10.211Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z",
+    "contentHash": "50ca92acc3452a912266c2b93f7320d4c1033401"
   },
   "programming-language": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2025-09-07T09:50:24Z",
+    "contentHash": "e45c51f9f8baea5fded31536cc24a8ad109d0a45"
   },
   "oral-hygiene": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z",
+    "contentHash": "d717c08e6e1391a357101214f185a1f1f76cb004"
   },
   "barrier-synchronization": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.198Z"
+    "updatedAt": "2025-11-01T11:08:10.198Z",
+    "contentHash": "bb24c2574a1ea129d395a55cc26e3c96fa4de2eb"
   },
   "platform-engineering": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2025-11-01T11:08:10.237Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z",
+    "contentHash": "2a3f023059ef420cb3df13d25430b74804766a0a"
   },
   "taebaek-sanmaeck": {
     "createdAt": "2021-10-30T06:05:59Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "cc36d65d939c51f11ab6e46dc8a124411564eb24"
   },
   "operating-system-concepts-ch2": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "d574332bd6fb564b44c456b18da08a87d46b3fe0"
   },
   "how-to-update-gpg-key-on-github": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "9a03b4f0853ee939f4def5b9843d181c9a148831"
   },
   "computer-network": {
     "createdAt": "2020-12-28T15:28:16Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-05-17T15:04:07Z",
+    "contentHash": "c4a022d4fc221b71e80bcc1166037861b07387aa"
   },
   "megalopolis-seoul-railroad": {
     "createdAt": "2022-04-07T14:04:39Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z",
+    "contentHash": "cf204b2ff033076e2170a93ca34c636e516a49a2"
   },
   "functional-programming": {
     "createdAt": "2021-07-24T13:54:47Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "8c70ddf298b2825a8b4e3593d46f53b0e6257fda"
   },
   "goodbye-2019": {
     "createdAt": "2020-12-21T17:09:15Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "66248a1f55b4dd61dbc29be05c4a0c95a68c29ce"
   },
   "trpl-using-structs-to-structure-related-data": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "0bdf234bc8aca2f22ece8f4434e16a1579ff0537"
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-11-30T13:11:11Z"
+    "updatedAt": "2025-12-14T16:01:23.209Z",
+    "contentHash": "060234a11d22377eeceb2cc92c68247fc67e9ecf",
+    "previousContentHash": "724dc9480e7e9189de5444d05cc7ebcbe28b020a",
+    "previousUpdatedAt": "2025-11-30T13:11:11Z"
   },
   "binary-search": {
     "createdAt": "2024-09-11T02:27:17Z",
-    "updatedAt": "2025-11-01T11:08:10.201Z"
+    "updatedAt": "2025-11-01T11:08:10.201Z",
+    "contentHash": "7b5e179728cae90177046c8a88e37e204a2e497c"
   },
   "computer-science": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-05-20T13:51:28Z"
+    "updatedAt": "2025-05-20T13:51:28Z",
+    "contentHash": "468455bfb22482e72138ed79f6183a9554b9071f"
   },
   "seven-sketches-in-compositionality": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "a2b1393c9c66d7cb80401f88ae25f731c36487a9"
   },
   "my-project": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-05-20T12:41:20Z"
+    "updatedAt": "2025-05-20T12:41:20Z",
+    "contentHash": "95d7fd5814c15ae7a9b6f131e12bb9bc37cbc162"
   },
   "stock-option": {
     "createdAt": "2024-11-27T00:54:35Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z",
+    "contentHash": "918a1120fa51699a13a2da5be4f544e911c3e5df"
   },
   "zed-editor": {
     "createdAt": "2025-05-20T12:41:20Z",
-    "updatedAt": "2025-11-01T11:08:10.258Z"
+    "updatedAt": "2025-11-01T11:08:10.258Z",
+    "contentHash": "13237d6d7ece7da1744980e3dedecd553993cab2"
   },
   "graphic-design": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-04-27T12:03:49Z"
+    "updatedAt": "2025-04-27T12:03:49Z",
+    "contentHash": "166b40ffd97b8ee0c5e5c6ebe2aad419743d1e3e"
   },
   "test-driven-development-for-ai-coding": {
     "createdAt": "2025-05-27T14:20:18Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "dd2e4b4a1ec1bdb3202525c923f36a0a4b09ad31"
   },
   "operating-system-concepts-ch6": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "709d434e1d3dbed460a1c092bccf61f6a5a1820c"
   },
   "parksb": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z",
+    "contentHash": "118a4074780db9a38dc4b52f0881998e81dbaa0e"
   },
   "google-prompt-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "909e62566a619db22fa31f10af0605167efe4dee"
   },
   "zoning": {
     "createdAt": "2025-04-12T06:48:57Z",
-    "updatedAt": "2025-11-01T11:08:10.258Z"
+    "updatedAt": "2025-11-01T11:08:10.258Z",
+    "contentHash": "7923309778277e777684eabdfe6de3bac9fb8cda"
   },
   "ts-functional-programming": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "e5f784b592d33c36225fb9c2a6e458c659cdde0c"
   },
   "gyeonggi-do-citizens-sense-of-urban-area": {
     "createdAt": "2024-12-01T15:19:39Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "0aef7f09f3cdf4d79cc2f1436895019ca619ee82"
   },
   "visual-communication-design": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "d9ffa1a35a1a9c903a30e4a44922784709dcb6de"
   },
   "database-system-concepts": {
     "createdAt": "2021-04-21T09:58:48Z",
-    "updatedAt": "2025-11-01T11:08:10.212Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z",
+    "contentHash": "a62151577e75a506e54e99c2cf6ee727d70b3209"
   },
   "digital-typography": {
     "createdAt": "2020-12-28T15:15:41Z",
-    "updatedAt": "2025-11-01T11:08:10.214Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z",
+    "contentHash": "2ff93f9e09650a9cf4ee8392c9ce6419d63bfdee"
   },
   "computer-security": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-03-23T04:15:36Z"
+    "updatedAt": "2025-03-23T04:15:36Z",
+    "contentHash": "82e6de5dbf723521f5ebfad8ae08c7956045b78c"
   },
   "dynamic-language-vs-static-language": {
     "createdAt": "2020-12-18T13:36:54Z",
-    "updatedAt": "2025-11-01T11:08:10.215Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z",
+    "contentHash": "4456712a24a50c1a1d4df28ec331278fbcd24037"
   },
   "strongly-connected-component": {
     "createdAt": "2024-05-27T01:17:38Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z",
+    "contentHash": "8dbeedf1ee94a5872c02979930ebb541c8920fef"
   },
   "bluesky-and-the-at-protocol": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.201Z"
+    "updatedAt": "2025-11-01T11:08:10.201Z",
+    "contentHash": "af60575c8f36f455f78ff7627cbccf314b21eb99"
   },
   "large-scale-cluster-management-at-google-with-borg": {
     "createdAt": "2024-11-24T16:11:07Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "a384ddeed2f5b09ddd574cbccab62b9a6165c711"
   },
   "racing-line": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.239Z"
+    "updatedAt": "2025-11-01T11:08:10.239Z",
+    "contentHash": "fb2467f6c2bf9ca4c38eae96ce7b997dbcb5a975"
   },
   "operating-system-concepts-ch7": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "5187d1cd907e3084d6a20dfc19b65aabd2445b96"
   },
   "criminal-law-detailed": {
     "createdAt": "2024-11-05T12:46:37Z",
-    "updatedAt": "2025-11-01T11:08:10.211Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z",
+    "contentHash": "fbb1b12cfef29fc7f150ea84792f6ea64a3d6b57"
   },
   "katex": {
     "createdAt": "2020-12-28T15:15:53Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "8ae61ca6d7f43656ebcb6179fcd65beea7a4d155"
   },
   "violent-resistance": {
     "createdAt": "2025-01-01T15:35:04Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "6f1ebf0323250bd098fd449ce96218ef7329ac97"
   },
   "i386": {
     "createdAt": "2024-11-08T05:59:03Z",
-    "updatedAt": "2025-11-01T11:08:10.225Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z",
+    "contentHash": "4e0cc3c40e7d13abdc3ac2591188f38b7c155a18"
   },
   "apache-kafka": {
     "createdAt": "2024-03-03T08:11:11Z",
-    "updatedAt": "2025-11-01T11:08:10.194Z"
+    "updatedAt": "2025-11-01T11:08:10.194Z",
+    "contentHash": "788195ea87e23e7b4d93878f42c8597af14b464e"
   },
   "computer-networking-a-top-down-approach": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-11-01T11:08:10.209Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z",
+    "contentHash": "5b1a63b0d251de737d46150a302afb085fbf4af2"
   },
   "rust-module": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "248c95f91e9df47ccaeaa8b8cb3b2dfcc577b2c1"
   },
   "git": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-01-03T16:26:56Z"
+    "updatedAt": "2025-01-03T16:26:56Z",
+    "contentHash": "d1ca62dbb3defc170cdd702212ec5962e0fe92a1"
   },
   "react": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-01-04T15:12:24Z"
+    "updatedAt": "2025-01-04T15:12:24Z",
+    "contentHash": "af7000a5338600be83f9ec7c5d8b0e39047e1fad"
   },
   "rust-string": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "ce975edfcd08b5466f917d04fcc4be7eaa8e9c05"
   },
   "algorithm-and-data-structure": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-05-19T11:48:46Z"
+    "updatedAt": "2025-05-19T11:48:46Z",
+    "contentHash": "723b97cc0ce65d5825ad5f74aae4bc8d3205acf9"
   },
   "campus-life": {
     "createdAt": "2024-12-29T01:33:59Z",
-    "updatedAt": "2024-12-29T01:33:59Z"
+    "updatedAt": "2024-12-29T01:33:59Z",
+    "contentHash": "3893fed6c2ba6bb3f7969c69a3eb25db607de3bc"
   },
   "gtx-a": {
     "createdAt": "2025-03-02T05:48:54Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "eb2dce04014838dac4a1b5d8db06bc8916e7239f"
   },
   "real-estate-investment-trusts": {
     "createdAt": "2021-08-03T05:21:27Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "0501bc5d41b3ca1b665c511094d8d967a8033bd7"
   },
   "computer-science-culture": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2025-05-17T15:04:07Z",
+    "contentHash": "4d66cf2ccc039495a22ea01865e675fc0d1d86c2"
   },
   "concurrent-programming": {
     "createdAt": "2022-04-19T04:43:32Z",
-    "updatedAt": "2025-08-26T15:02:05Z"
+    "updatedAt": "2025-08-26T15:02:05Z",
+    "contentHash": "a2283b00e966eeb861165163efc6ad35589d0c96"
   },
   "sieve-of-eratosthenes": {
     "createdAt": "2024-01-12T02:19:01Z",
-    "updatedAt": "2024-11-05T13:38:15.714Z"
+    "updatedAt": "2024-11-05T13:38:15.714Z",
+    "contentHash": "7d5641dd6a8b5eb7c2547cdb11880cbaca4b2adc"
   },
   "the-pragmatic-programmer": {
     "createdAt": "2022-03-06T04:50:21Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "64a40a16a3d0fa2ae7d0574ddd8feab42e1f0e32"
   },
   "operating-system-concepts-ch3": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "8a56a965f466aeb4e65f914a33ead5c3abcb6ff9"
   },
   "precedent-2013hunda1": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-11-01T11:08:10.237Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z",
+    "contentHash": "c06f1e03e7d0d2f5d41359ffa42a9ad6e03fddd7"
   },
   "operating-system-concepts": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z",
+    "contentHash": "279b1a3f0989ab34ecfe8a88ea71f1cf52ec6d9e"
   },
   "electronic-engineering": {
     "createdAt": "2024-12-01T08:27:43Z",
-    "updatedAt": "2025-09-03T13:22:53Z"
+    "updatedAt": "2025-09-03T13:22:53Z",
+    "contentHash": "920c2b300fdd5449e5e551c758efd9d3a2855847"
   },
   "code-shaping": {
     "createdAt": "2025-05-03T07:43:08Z",
-    "updatedAt": "2025-11-01T11:08:10.206Z"
+    "updatedAt": "2025-11-01T11:08:10.206Z",
+    "contentHash": "00ea367b780e808a382c6454adb1659f7dc2711b"
   },
   "ieee-citation-style": {
     "createdAt": "2020-12-19T04:20:35Z",
-    "updatedAt": "2025-11-01T11:08:10.225Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z",
+    "contentHash": "50bf68d7367414e37a2246ab6934229935a9640d"
   },
   "awesome-graphic-designers": {
     "createdAt": "2020-12-26T16:47:47Z",
-    "updatedAt": "2025-11-01T11:08:10.198Z"
+    "updatedAt": "2025-11-01T11:08:10.198Z",
+    "contentHash": "42306497b6adadc5072e395f7b67aa9d3747afca"
   },
   "dunkel-sans": {
     "createdAt": "2025-04-27T12:03:49Z",
-    "updatedAt": "2025-11-01T11:08:10.215Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z",
+    "contentHash": "13c4e9bd3653e15e598c3a3a403eca2ee94375e5"
   },
   "base-n": {
     "createdAt": "2024-01-12T02:19:01Z",
-    "updatedAt": "2024-11-05T13:38:15.316Z"
+    "updatedAt": "2024-11-05T13:38:15.316Z",
+    "contentHash": "5ac03e961625421fcfb67ead4b3ba1e9f35c0d34"
   },
   "goodbye-2023": {
     "createdAt": "2023-12-31T07:44:44Z",
-    "updatedAt": "2025-11-01T11:08:10.221Z"
+    "updatedAt": "2025-11-01T11:08:10.221Z",
+    "contentHash": "b139cc9f52f0d21e7b2bf838cc5fbf4a1593845c"
   },
   "monad": {
     "createdAt": "2021-10-24T07:14:24Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "4d02c4be1b2f10629cad3c9765a000a3e003cae6"
   },
   "ks-x-1001": {
     "createdAt": "2024-11-20T16:07:46Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z"
+    "updatedAt": "2025-11-01T11:08:10.23Z",
+    "contentHash": "8cae4e5453f2cc0ad11f7c09086a37107c44c1d5"
   },
   "history-of-my-mobile-phones": {
     "createdAt": "2020-12-19T07:35:10Z",
-    "updatedAt": "2025-11-01T11:08:10.223Z"
+    "updatedAt": "2025-11-01T11:08:10.223Z",
+    "contentHash": "25f6eb418151a62b7a9fc9bd97ddfdff29cd8e8b"
   },
   "precedent-2017hunba127": {
     "createdAt": "2024-11-26T09:33:42Z",
-    "updatedAt": "2025-11-01T11:08:10.237Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z",
+    "contentHash": "ee56356e6e6b58bcc5c52f5861951ba9ecd92db4"
   },
   "operating-system-concepts-ch8": {
     "createdAt": "2021-07-31T16:06:36Z",
-    "updatedAt": "2025-11-01T11:08:10.235Z"
+    "updatedAt": "2025-11-01T11:08:10.235Z",
+    "contentHash": "cdd20ac504802ee6faa9d7eac6de8ef8418750bf"
   },
   "sapiens": {
     "createdAt": "2022-02-26T13:24:24Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "b68119e6bbe50353f324fb0380f98937df98b5dd"
   },
   "seoul-urban-master-plan-1966": {
     "createdAt": "2024-11-12T11:49:06Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "4d36fb8dd6e0124c32195d557dfb8fce59ea7796"
   },
   "structural-typing": {
     "createdAt": "2024-11-10T16:33:12Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z"
+    "updatedAt": "2025-11-01T11:08:10.246Z",
+    "contentHash": "486d125044eec75ebb1380d7a1d265efd9788d9f"
   },
   "designing-data-intensive-applications-ch5": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "2609ed922ca60471be3d32b31857efa92c6e84d8"
   },
   "memex": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z"
+    "updatedAt": "2025-11-01T11:08:10.232Z",
+    "contentHash": "bba396b177a21e4b21c0072d10910804e3fda96c"
   },
   "rust-lifetime": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "4eb9ff812f00ca81259bbd34ad8f14e524346843"
   },
   "computer-architecture": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-05-21T13:15:28Z"
+    "updatedAt": "2025-05-21T13:15:28Z",
+    "contentHash": "7bb489312c14ba39944deb34669461e488f4fe4d"
   },
   "atomic-operation": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.196Z"
+    "updatedAt": "2025-11-01T11:08:10.196Z",
+    "contentHash": "a5813823adb260be226f0ed5cf6bbbdfd4794409"
   },
   "well-made-film": {
     "createdAt": "2025-01-02T15:44:33Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z"
+    "updatedAt": "2025-11-01T11:08:10.255Z",
+    "contentHash": "6c4e43da2b5a5b68257406532d7096cf2295de9e"
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2025-09-07T09:50:24Z",
+    "contentHash": "d45b0edbcf8cb108e7e11ae15d75c8389dfb9d8f"
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
-    "updatedAt": "2025-11-01T11:08:10.211Z"
+    "updatedAt": "2025-11-01T11:08:10.211Z",
+    "contentHash": "7699906db607c4dbf16e0ea5424b1210537e80f9"
   },
   "variance": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z"
+    "updatedAt": "2025-11-01T11:08:10.252Z",
+    "contentHash": "45a18ff4cd58eca17dd1e01b920a73d1c4f84f6b"
   },
   "concrete-mathematics-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.209Z"
+    "updatedAt": "2025-11-01T11:08:10.209Z",
+    "contentHash": "aac4b189e012dd22d0925f45a234a2ecd5de86b7"
   },
   "markdown-toolkit": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-01-03T16:26:56Z"
+    "updatedAt": "2025-01-03T16:26:56Z",
+    "contentHash": "26d4c0ca8c9debd5c59e737e6fcda1a085ee58a1"
   },
   "finishing-undergraduate-in-seven-years": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z",
+    "contentHash": "19e986c4425a814865a04235ba83349ea9f430a8"
   },
   "ceil-of-frontend-engineer-career": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.205Z"
+    "updatedAt": "2025-11-01T11:08:10.205Z",
+    "contentHash": "8bb6e53e1587879e117090684d68a41311066d94"
   },
   "system-design-interview": {
     "createdAt": "2021-10-16T15:02:07Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2025-11-01T11:08:10.247Z",
+    "contentHash": "0a51e0c8860e0015749570b00e14f3c6ed0b487a"
   },
   "community-computer-science-argument": {
     "createdAt": "2024-11-22T05:57:43Z",
-    "updatedAt": "2025-11-01T11:08:10.208Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z",
+    "contentHash": "caa300106571d57762187c26b7f1bb6da04cc7f4"
   },
   "hippocratic-oath-for-technologists": {
     "createdAt": "2025-01-01T03:51:23Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "3c0f0d3ecbb04accdc9df23013207700780cb1e4"
   },
   "oreilly-platform-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2025-11-01T11:08:10.236Z",
+    "contentHash": "776d688337c5c7942b15b8904834c64e2b019635"
   },
   "the-image-of-the-city": {
     "createdAt": "2025-04-12T10:14:46Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "2a79efbdecbfab08597617b0e7ee797250cf4b21"
   },
   "designing-data-intensive-applications-ch1": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "acf5d0fd4ec82d26dfcda7664fceafbb7419e912"
   },
   "rest-representational-state-transfer": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "affcbdaeb21e867a36b81cdec324e938b41d9a42"
   },
   "coroutine": {
     "createdAt": "2022-04-19T04:44:41Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2025-11-01T11:08:10.21Z",
+    "contentHash": "487105b8fbf88e9dd0f04e746f59ca8e38e31441"
   },
   "big-tech-vs-startup-at-starting-point-of-career": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.2Z"
+    "updatedAt": "2025-11-01T11:08:10.2Z",
+    "contentHash": "dc0091d29ae4f70b80ec831f4625e0a8e93ff0d7"
   },
   "applicative-functor": {
     "createdAt": "2021-08-07T06:03:52Z",
-    "updatedAt": "2025-11-01T11:08:10.195Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z",
+    "contentHash": "e1a4f8f72c6e301ac5fd07e0de966fb05451d81e"
   },
   "unix-command-line-tools": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.25Z"
+    "updatedAt": "2025-11-01T11:08:10.25Z",
+    "contentHash": "4d8f78c05a606e03f7e94b7b1437880936be654a"
   },
   "database-system-concepts-ch1": {
     "createdAt": "2021-06-05T08:41:56Z",
-    "updatedAt": "2025-11-01T11:08:10.212Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z",
+    "contentHash": "6301f0c07c00809cd30465e5ba1f0eeec2b3084e"
   },
   "goodbye-yyyy": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-11-02T12:53:30Z"
+    "updatedAt": "2025-11-02T12:53:30Z",
+    "contentHash": "149e1e47e3263c64e75178bd6621d86c76e62e44"
   },
   "2016-ewoo-high-school-declaration-of-state-of-affairs": {
     "createdAt": "2024-12-29T01:33:59Z",
-    "updatedAt": "2025-11-01T11:08:10.187Z"
+    "updatedAt": "2025-11-01T11:08:10.187Z",
+    "contentHash": "feb2649b7e5fa8b5d3f6946223ed67464f94aa50"
   },
   "eslint": {
     "createdAt": "2025-01-12T12:32:26Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z"
+    "updatedAt": "2025-11-01T11:08:10.217Z",
+    "contentHash": "922ec52d364c338c137846e1d288feffb1df4b42"
   },
   "remarkable-books-in-my-life": {
     "createdAt": "2022-04-19T04:49:15Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "1960e8fd04234f32ae5718de12ebe6d44e1ccc57"
   },
   "completion-of-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
-    "updatedAt": "2025-11-01T11:08:10.208Z"
+    "updatedAt": "2025-11-01T11:08:10.208Z",
+    "contentHash": "812223276c0e42e21efab5c006cf2aee7eaedfb9"
   },
   "the-software-engineers-guidebook": {
     "createdAt": "2024-11-28T03:07:51Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "76cfc0fc6ed4057d082ca60b51a428d6bea1ac98"
   },
   "redis-cluster": {
     "createdAt": "2024-03-02T04:02:54Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z"
+    "updatedAt": "2025-11-01T11:08:10.24Z",
+    "contentHash": "813d4b0f9c30d6887761e0d225e2bed805bcd47e"
   },
   "rust-macro": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.242Z"
+    "updatedAt": "2025-11-01T11:08:10.242Z",
+    "contentHash": "3c3a93952b39814f00b354654c210eed176051ce"
   },
   "why-google-stores-billions-of-code-in-a-single-repository": {
     "createdAt": "2024-12-29T15:01:16Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z"
+    "updatedAt": "2025-11-01T11:08:10.256Z",
+    "contentHash": "3ea48b9a88eda559ad51a86834df950539f6e776"
   },
   "asynchronous-programming": {
     "createdAt": "2022-04-27T05:25:31Z",
-    "updatedAt": "2025-11-01T11:08:10.195Z"
+    "updatedAt": "2025-11-01T11:08:10.195Z",
+    "contentHash": "dd911ad6e5b13d6acba1a8bd30379e50af51eda6"
   },
   "trpl-smart-pointers": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "c9d0a219f6a555f36f2d6848471290982dada919"
   },
   "law": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-01-03T16:26:56Z"
+    "updatedAt": "2025-01-03T16:26:56Z",
+    "contentHash": "42cb9810104ddc39fceefbda04c7f7c21dc2dac8"
   },
   "hypermedia-systems": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-11-01T11:08:10.225Z"
+    "updatedAt": "2025-11-01T11:08:10.225Z",
+    "contentHash": "837e161d2eba8463f607862e59223c6e9a4ed88c"
   },
   "how-to-take-smart-notes": {
     "createdAt": "2024-11-19T01:42:05Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "c0e2dc7577a65e8b7e293d384b9c93b17155c51e"
   },
   "accelerationism": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-11-01T11:08:10.19Z"
+    "updatedAt": "2025-11-01T11:08:10.19Z",
+    "contentHash": "3a4e11a18598d8ee5315bccbc3e71ac45a7dc111"
   },
   "higher-order-function": {
     "createdAt": "2021-07-24T13:59:36Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "018ba3e35a938750af840fce1960851f9eb2a6b1"
   },
   "difference-between-127-0-0-1-and-0-0-0-0": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.214Z"
+    "updatedAt": "2025-11-01T11:08:10.214Z",
+    "contentHash": "1ce63f4312d07070e9a82fc00a9c0c820cdc3a3d"
   },
   "history-immediately-after-liberation-in-1945": {
     "createdAt": "2025-05-05T14:58:03Z",
-    "updatedAt": "2025-11-01T11:08:10.223Z"
+    "updatedAt": "2025-11-01T11:08:10.223Z",
+    "contentHash": "46c66185966ca751ee0d414e0ab87cc8bc76e8e5"
   },
   "rip-flash": {
     "createdAt": "2022-03-10T03:55:11Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "0ffb779f96563c488705b94c84824288320317b8"
   },
   "effect-system": {
     "createdAt": "2024-11-06T08:44:04Z",
-    "updatedAt": "2025-11-01T11:08:10.216Z"
+    "updatedAt": "2025-11-01T11:08:10.216Z",
+    "contentHash": "149ed50efdca5bf390bfd509f0d395c62d5ae093"
   },
   "artificial-intelligence": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2025-09-05T13:52:11Z"
+    "updatedAt": "2025-09-05T13:52:11Z",
+    "contentHash": "89ae7a691158606f71329947e5b061070b02348d"
   },
   "justifying-injustice": {
     "createdAt": "2024-12-22T14:10:44Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "9e970d3cc7366514304e38b14fd5a9f81e0dcec6"
   },
   "typescript": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2024-11-10T16:33:12Z"
+    "updatedAt": "2024-11-10T16:33:12Z",
+    "contentHash": "9c9312cf0037d2a779071607ae2f692cf30facdd"
   },
   "activity-pub": {
     "createdAt": "2024-09-11T02:27:17Z",
-    "updatedAt": "2025-05-19T11:48:46Z"
+    "updatedAt": "2025-05-19T11:48:46Z",
+    "contentHash": "a809c11145d1164e4c405f1e84dcf108a72283ed"
   },
   "semaphore": {
     "createdAt": "2025-01-05T15:23:07Z",
-    "updatedAt": "2025-11-01T11:08:10.243Z"
+    "updatedAt": "2025-11-01T11:08:10.243Z",
+    "contentHash": "af17a191af3e7fd938c2ccdc0043360d979b7c9b"
   },
   "floating-point": {
     "createdAt": "2020-12-30T05:53:13Z",
-    "updatedAt": "2025-11-01T11:08:10.218Z"
+    "updatedAt": "2025-11-01T11:08:10.218Z",
+    "contentHash": "14e6b579ec953c1942218570c0d264f8dba2f775"
   },
   "introduction-to-programming-languages": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.228Z"
+    "updatedAt": "2025-11-01T11:08:10.228Z",
+    "contentHash": "60f238e40352f05f485e78050857797ef32a98a1"
   },
   "at-protocol": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.196Z"
+    "updatedAt": "2025-11-01T11:08:10.196Z",
+    "contentHash": "e5ac714f655147a238a608350b1b8e8808497d82"
   },
   "total-war": {
     "createdAt": "2025-01-01T15:35:04Z",
-    "updatedAt": "2025-11-01T11:08:10.249Z"
+    "updatedAt": "2025-11-01T11:08:10.249Z",
+    "contentHash": "05931a3fe922104eb8db78e10bcef6c104d2671e"
   },
   "intellectual-property-right": {
     "createdAt": "2024-11-06T09:58:07Z",
-    "updatedAt": "2025-11-01T11:08:10.227Z"
+    "updatedAt": "2025-11-01T11:08:10.227Z",
+    "contentHash": "797714def807bdf98455d8adc10d50bcc22088df"
   },
   "the-rust-programming-language": {
     "createdAt": "2024-11-05T16:08:45Z",
-    "updatedAt": "2025-11-01T11:08:10.248Z"
+    "updatedAt": "2025-11-01T11:08:10.248Z",
+    "contentHash": "eec1b3898072a373c6ad83c91634165d04cb1a30"
   },
   "heinrichs-law": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z"
+    "updatedAt": "2025-11-01T11:08:10.222Z",
+    "contentHash": "e51870995d8c8eb1c09b2614dcb19dc6d2dde6f9"
   },
   "functor": {
     "createdAt": "2021-07-31T08:44:47Z",
-    "updatedAt": "2025-11-01T11:08:10.219Z"
+    "updatedAt": "2025-11-01T11:08:10.219Z",
+    "contentHash": "b682d7971148cfdb6e4692504a2ff873987871a6"
   },
   "goodbye-2022": {
     "createdAt": "2022-03-01T08:54:03Z",
-    "updatedAt": "2025-11-01T11:08:10.22Z"
+    "updatedAt": "2025-11-01T11:08:10.22Z",
+    "contentHash": "3ddad7d7f57a55c77d6451eca7b073792b61545a"
   },
   "http-404": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z"
+    "updatedAt": "2025-11-01T11:08:10.224Z",
+    "contentHash": "aecf47a0ea6ba45867a0a9fdfdc9ae3aab1a5fe7"
   },
   "safety-engineering": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2024-12-30T15:33:13Z"
+    "updatedAt": "2024-12-30T15:33:13Z",
+    "contentHash": "44b7df5eedac43d10acb5abb9465e3cf1f51eb42"
   },
   "clean-code-myth": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-11-01T11:08:10.206Z"
+    "updatedAt": "2025-11-01T11:08:10.206Z",
+    "contentHash": "d2ced45983347d5bbb22466fc6f0a07d2107904f"
   },
   "designing-data-intensive-applications-ch4": {
     "createdAt": "2021-01-28T08:35:34Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z"
+    "updatedAt": "2025-11-01T11:08:10.213Z",
+    "contentHash": "dded577820131f20dcf726016627b3a66b40482b"
   },
   "education-premium": {
     "createdAt": "2022-03-10T03:55:11Z",
-    "updatedAt": "2025-11-01T11:08:10.215Z"
+    "updatedAt": "2025-11-01T11:08:10.215Z",
+    "contentHash": "68770813ead66a26a53f5145a0faca6a668a0bb4"
   },
   "database": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-11-01T11:08:10.212Z"
+    "updatedAt": "2025-11-01T11:08:10.212Z",
+    "contentHash": "48a0e7d2d897fbfe2afb2c130b19b95452e129d0"
   },
   "precedent-2000hunba67": {
     "createdAt": "2024-11-26T09:33:42Z",
-    "updatedAt": "2025-11-01T11:08:10.237Z"
+    "updatedAt": "2025-11-01T11:08:10.237Z",
+    "contentHash": "05addb958e5c920391bf16ac32fb2cd67565f2dc"
   },
   "shell-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z"
+    "updatedAt": "2025-11-01T11:08:10.244Z",
+    "contentHash": "ed08c99e01d5bdf7520e3cbb16ff4a5f07263d71"
   },
   "nextjs": {
     "createdAt": "2025-08-17T12:42:24Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "0fafdc4e5b3e4ca8798550d5a8338e42b3e831bd"
   },
   "open-telemetry": {
     "createdAt": "2025-08-24T04:16:24Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z"
+    "updatedAt": "2025-11-01T11:08:10.234Z",
+    "contentHash": "0517a5638941fbe160db989afcdf1fb664dcce5a"
   },
   "js-async-context": {
     "createdAt": "2025-08-26T15:02:05Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z"
+    "updatedAt": "2025-11-01T11:08:10.229Z",
+    "contentHash": "61d0f0ffa822dbc9aaa662e6fcc7d4932b5f560a"
   },
   "making-software": {
     "createdAt": "2025-08-27T12:50:06Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z"
+    "updatedAt": "2025-11-01T11:08:10.231Z",
+    "contentHash": "e57e1572e41fbd2db84f0983edf113f705362698"
   },
   "an-infinitely-large-napkin": {
     "createdAt": "2025-09-02T15:04:22Z",
-    "updatedAt": "2025-11-01T11:08:10.193Z"
+    "updatedAt": "2025-11-01T11:08:10.193Z",
+    "contentHash": "60f8e5d8410240077d1fc3641f3b6cbf3c970c10"
   },
   "color-space": {
     "createdAt": "2025-09-03T13:22:53Z",
-    "updatedAt": "2025-11-01T11:08:10.207Z"
+    "updatedAt": "2025-11-01T11:08:10.207Z",
+    "contentHash": "e9b086cd0a66fd0fbadf9c8589fc62f0258304cc"
   },
   "island-architecture": {
     "createdAt": "2025-09-03T13:22:53Z",
-    "updatedAt": "2025-11-01T11:08:10.228Z"
+    "updatedAt": "2025-11-01T11:08:10.228Z",
+    "contentHash": "2f8a092b62874d15016a3f4efef13b908563c102"
   },
   "agent-client-protocol": {
     "createdAt": "2025-09-05T13:52:11Z",
-    "updatedAt": "2025-11-01T11:08:10.191Z"
+    "updatedAt": "2025-11-01T11:08:10.191Z",
+    "contentHash": "7a4a236cbe3c69b446e5cbb113044a4296f8535f"
   },
   "binary-opposition": {
     "createdAt": "2025-09-05T13:52:11Z",
-    "updatedAt": "2025-11-01T11:08:10.2Z"
+    "updatedAt": "2025-11-01T11:08:10.2Z",
+    "contentHash": "33b551f894d4b275fdad6b48967dd6a54bebb9c1"
   },
   "introduction-to-contemporary-philosophy": {
     "createdAt": "2025-09-07T09:50:24Z",
-    "updatedAt": "2025-12-03T12:46:49.831Z"
+    "updatedAt": "2025-12-03T12:46:49.831Z",
+    "contentHash": "6d21f61e416abd49b5f75f15b87652c0a86d71d2"
   },
   "robust-with-types-flexible-with-polymorphism": {
     "createdAt": "2025-09-07T09:50:24Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z"
+    "updatedAt": "2025-11-01T11:08:10.241Z",
+    "contentHash": "cf634f47d8a81f322bbdb7a0ea67429911075a5f"
   },
   "beautyland": {
     "createdAt": "2025-09-14T11:39:46Z",
-    "updatedAt": "2025-11-01T11:08:10.199Z"
+    "updatedAt": "2025-11-01T11:08:10.199Z",
+    "contentHash": "1e4285c4cad943eb9be94ab2e8621666b60445f8"
   },
   "a-brief-history-of-intelligence": {
     "createdAt": "2025-09-20T08:13:50Z",
-    "updatedAt": "2025-11-01T11:08:10.188Z"
+    "updatedAt": "2025-11-01T11:08:10.188Z",
+    "contentHash": "8b9e7374948a45d9b0d36ce4fc3339fa511a86e9"
   },
   "build-a-frontend-web-framework-from-scratch": {
     "createdAt": "2025-09-27T12:29:10Z",
-    "updatedAt": "2025-11-02T12:53:30Z"
+    "updatedAt": "2025-11-02T12:53:30Z",
+    "contentHash": "4c2dc075c9e6185027d540a0dbb75e8bb82203cb"
   },
   "goodbye-2025": {
     "createdAt": "2025-11-02T12:53:30Z",
-    "updatedAt": "2025-11-30T13:11:11Z"
+    "updatedAt": "2025-11-30T13:11:11Z",
+    "contentHash": "8c52d644e68cdf590250512997932636d7f9f7f5"
   },
   "the-first-battle-of-the-next-war": {
     "createdAt": "2025-11-02T12:53:30Z",
-    "updatedAt": "2025-11-02T12:53:30Z"
+    "updatedAt": "2025-11-02T12:53:30Z",
+    "contentHash": "67087b77214548ecd62a472b5301e6f8c203c440"
   },
   "systems-theory": {
     "createdAt": "2025-11-30T13:11:11Z",
-    "updatedAt": "2025-12-03T12:44:32.968Z"
+    "updatedAt": "2025-12-03T12:44:32.968Z",
+    "contentHash": "b57c13e924da5a43ac381f02f031571b6216fc31"
   },
   "thinking-in-systems": {
     "createdAt": "2025-11-30T13:11:11Z",
-    "updatedAt": "2025-12-03T14:57:34.069Z"
+    "updatedAt": "2025-12-03T14:57:34.069Z",
+    "contentHash": "78215d80551d6367d4b3a9b02da2d3cddb04c789"
   }
 }
