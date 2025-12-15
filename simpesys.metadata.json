@@ -121,8 +121,10 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z",
-    "contentHash": "1cf0dd2a5851c88649725393e42ef6c38be4faa9"
+    "updatedAt": "2025-12-15T14:15:45.157Z",
+    "contentHash": "f06c7e3f15bb2db41c358bcfbb67889ba1ee0c8f",
+    "previousContentHash": "d17f8b2755e695d2083a477c885b2d7f6aa852b6",
+    "previousUpdatedAt": "2025-12-15T14:15:13.839Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -476,8 +478,10 @@
   },
   "simpesys": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-12-08T13:40:27.954Z",
-    "contentHash": "e7bc8f3c03ed313a4bdb74bfa89ddfaa7d2c7730"
+    "updatedAt": "2025-12-15T14:14:05.264Z",
+    "contentHash": "8f054359ac0b11e14be21716be04cfffadb57261",
+    "previousContentHash": "1e48609a7ca5b3bb336c09a9c3717124bfa7f36d",
+    "previousUpdatedAt": "2025-12-15T14:14:03.295Z"
   },
   "mysql": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -896,10 +900,10 @@
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-12-14T16:01:23.209Z",
-    "contentHash": "060234a11d22377eeceb2cc92c68247fc67e9ecf",
-    "previousContentHash": "724dc9480e7e9189de5444d05cc7ebcbe28b020a",
-    "previousUpdatedAt": "2025-11-30T13:11:11Z"
+    "updatedAt": "2025-12-15T14:22:20.773Z",
+    "contentHash": "09a673a122fdd80f17a83f5db89c21e5cc67542a",
+    "previousContentHash": "060234a11d22377eeceb2cc92c68247fc67e9ecf",
+    "previousUpdatedAt": "2025-12-14T16:01:23.209Z"
   },
   "binary-search": {
     "createdAt": "2024-09-11T02:27:17Z",
@@ -1625,5 +1629,12 @@
     "createdAt": "2025-11-30T13:11:11Z",
     "updatedAt": "2025-12-03T14:57:34.069Z",
     "contentHash": "78215d80551d6367d4b3a9b02da2d3cddb04c789"
+  },
+  "early-morning-delivery": {
+    "createdAt": "2025-12-15T14:20:54.763Z",
+    "updatedAt": "2025-12-15T14:25:39.975Z",
+    "contentHash": "26c2c41d428a1690fd52651c7540534139ce55d5",
+    "previousContentHash": "788f7b011cf4c6396425c1cecb66e01eebb12790",
+    "previousUpdatedAt": "2025-12-15T14:22:20.778Z"
   }
 }
