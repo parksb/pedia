@@ -24,7 +24,7 @@ msg=""
 [ "$modified" -gt 0 ] && msg+="${modified}개 문서 수정"
 
 if [ -n "$msg" ]; then
-    git add .
+    git add . ../simpesys.metadata.json
     git commit -m "$msg"
 else
     echo "No changes to commit"
