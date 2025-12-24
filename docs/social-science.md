@@ -14,6 +14,7 @@
 - [[surviving-in-ai-era]]
 - [[systems-theory]]
 - [[early-morning-delivery]]
+- [[new-eugenics]]
 
 ### 문헌
 

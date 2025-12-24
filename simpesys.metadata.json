@@ -169,7 +169,9 @@
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
     "updatedAt": "2025-09-27T12:29:10Z",
-    "contentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7"
+    "contentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7",
+    "previousContentHash": "29adea655c8854ceac864b768399a5db6054e962",
+    "previousUpdatedAt": "2025-12-24T14:02:13.04Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -736,7 +738,9 @@
   "mathematics": {
     "createdAt": "2021-08-01T07:44:42Z",
     "updatedAt": "2025-09-02T15:04:22Z",
-    "contentHash": "62b257699abe807c37859039c6dc174488e62261"
+    "contentHash": "62b257699abe807c37859039c6dc174488e62261",
+    "previousContentHash": "349f4723920851e31271ba6ebfffab51c8b1c3ad",
+    "previousUpdatedAt": "2025-12-24T13:59:42.675Z"
   },
   "swiss-cheese-model": {
     "createdAt": "2024-11-12T02:15:02Z",
@@ -900,10 +904,10 @@
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-12-15T14:22:20.773Z",
-    "contentHash": "09a673a122fdd80f17a83f5db89c21e5cc67542a",
-    "previousContentHash": "060234a11d22377eeceb2cc92c68247fc67e9ecf",
-    "previousUpdatedAt": "2025-12-14T16:01:23.209Z"
+    "updatedAt": "2025-12-24T14:24:53.305Z",
+    "contentHash": "a4d47990bc3bc762f91834c12ea2a7346ed0aa32",
+    "previousContentHash": "09a673a122fdd80f17a83f5db89c21e5cc67542a",
+    "previousUpdatedAt": "2025-12-15T14:22:20.773Z"
   },
   "binary-search": {
     "createdAt": "2024-09-11T02:27:17Z",
@@ -1097,8 +1101,10 @@
   },
   "computer-science-culture": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-05-17T15:04:07Z",
-    "contentHash": "4d66cf2ccc039495a22ea01865e675fc0d1d86c2"
+    "updatedAt": "2025-12-24T14:02:44.591Z",
+    "contentHash": "af31c5846d53ac600a370ea9c1c6869a785d17bd",
+    "previousContentHash": "4d66cf2ccc039495a22ea01865e675fc0d1d86c2",
+    "previousUpdatedAt": "2025-05-17T15:04:07Z"
   },
   "concurrent-programming": {
     "createdAt": "2022-04-19T04:43:32Z",
@@ -1612,8 +1618,10 @@
   },
   "goodbye-2025": {
     "createdAt": "2025-11-02T12:53:30Z",
-    "updatedAt": "2025-11-30T13:11:11Z",
-    "contentHash": "8c52d644e68cdf590250512997932636d7f9f7f5"
+    "updatedAt": "2025-12-24T14:37:22.044Z",
+    "contentHash": "c61f4ff34207359cab38b59352822ce02198adf5",
+    "previousContentHash": "c4897e6c68a81eb4bad788c9cd8791dd9da537d9",
+    "previousUpdatedAt": "2025-12-24T14:36:52.764Z"
   },
   "the-first-battle-of-the-next-war": {
     "createdAt": "2025-11-02T12:53:30Z",
@@ -1636,5 +1644,19 @@
     "contentHash": "26c2c41d428a1690fd52651c7540534139ce55d5",
     "previousContentHash": "788f7b011cf4c6396425c1cecb66e01eebb12790",
     "previousUpdatedAt": "2025-12-15T14:22:20.778Z"
+  },
+  "math-in-software-development-field": {
+    "createdAt": "2025-12-24T14:00:51.734Z",
+    "updatedAt": "2025-12-24T14:18:49.402Z",
+    "contentHash": "6f801342b036df4ae62bef6e59ba929968cf9ad4",
+    "previousContentHash": "89ddfc4e4ebb5b92ebdc5f4c1e44e8102bad2ec9",
+    "previousUpdatedAt": "2025-12-24T14:18:23.544Z"
+  },
+  "new-eugenics": {
+    "createdAt": "2025-12-24T14:24:30.467Z",
+    "updatedAt": "2025-12-24T15:01:24.865Z",
+    "contentHash": "3aa07c88a326d94908ad77c78f898ba78ec3b2fe",
+    "previousContentHash": "7590808146846b5864accec42cbf1538c92fe049",
+    "previousUpdatedAt": "2025-12-24T15:00:49.051Z"
   }
 }
