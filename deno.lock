@@ -2,7 +2,7 @@
   "version": "5",
   "specifiers": {
     "jsr:@hono/hono@^4.10.7": "4.10.7",
-    "jsr:@simpesys/core@~0.4.1": "0.4.1",
+    "jsr:@simpesys/core@0.5": "0.5.0",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
     "jsr:@std/path@^1.0.8": "1.1.3",
     "npm:@js-temporal/polyfill@*": "0.5.1",
@@ -30,8 +30,8 @@
     "@hono/hono@4.10.7": {
       "integrity": "b60512559d554f20a945e07a6c5f115e57cbd4c024da9217833c8e7b2c90355d"
     },
-    "@simpesys/core@0.4.1": {
-      "integrity": "67580eff63dfc12b1d3db86ee31ebc4f099fee417cff91ebdd96f3ab0bd5a9a9",
+    "@simpesys/core@0.5.0": {
+      "integrity": "34fe0e88aad67843e5386dabcabbb2b1c9c78e9f2d4f92fefa083638272ac9e0",
       "dependencies": [
         "jsr:@std/encoding",
         "jsr:@std/path",
@@ -929,7 +929,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@^4.10.7",
-      "jsr:@simpesys/core@~0.4.1",
+      "jsr:@simpesys/core@0.5",
       "npm:@nozbe/microfuzz@1"
     ]
   }

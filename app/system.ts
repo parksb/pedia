@@ -1,4 +1,4 @@
-import { Document, Simpesys } from "@simpesys/core";
+import { defineConfig, Document, Simpesys } from "@simpesys/core";
 import createFuzzySearch, { FuzzySearcher } from "@nozbe/microfuzz";
 import { Asset } from "./types.ts";
 import { Log, readFile, sortBy } from "./utils.ts";
@@ -16,18 +16,16 @@ export class System {
   private searcher: FuzzySearcher<Document> | null = null;
   private asset: Asset = { css: "", js: "" };
 
-  private simpesys: Simpesys = new Simpesys({
-    config: {
-      web: {
-        domain: WEBSITE_DOMAIN,
-      },
-      docs: {
-        root: "simonpedia",
-        notFound: "http-404",
-        subdocumentsSectionTitle: ["하위문서"],
-        publicationsSectionTitle: ["문헌"],
-        backlinksSectionTitle: "이 문서를 인용한 문서",
-      },
+  private config = defineConfig({
+    web: {
+      domain: WEBSITE_DOMAIN,
+    },
+    docs: {
+      root: "simonpedia",
+      notFound: "http-404",
+      subdocumentsSectionTitle: ["하위문서"],
+      publicationsSectionTitle: ["문헌"],
+      backlinksSectionTitle: "이 문서를 인용한 문서",
     },
     hooks: {
       manipulateMarkdown: (markdown, candidate) => {
@@ -51,6 +49,8 @@ export class System {
       },
     },
   });
+
+  private simpesys: Simpesys = new Simpesys(this.config);
 
   async init() {
     const start = performance.now();
