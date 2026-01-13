@@ -168,10 +168,10 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-09-27T12:29:10Z",
-    "contentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7",
-    "previousContentHash": "29adea655c8854ceac864b768399a5db6054e962",
-    "previousUpdatedAt": "2025-12-24T14:02:13.04Z"
+    "updatedAt": "2026-01-13T13:27:10.054Z",
+    "contentHash": "7151a8248bd103ee705039e3ca2e6957331ae71f",
+    "previousContentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7",
+    "previousUpdatedAt": "2025-09-27T12:29:10Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1658,5 +1658,12 @@
     "contentHash": "3aa07c88a326d94908ad77c78f898ba78ec3b2fe",
     "previousContentHash": "7590808146846b5864accec42cbf1538c92fe049",
     "previousUpdatedAt": "2025-12-24T15:00:49.051Z"
+  },
+  "peer-dependencies": {
+    "createdAt": "2026-01-13T13:26:17.363Z",
+    "updatedAt": "2026-01-13T15:02:44.149Z",
+    "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb",
+    "previousContentHash": "852b4a3d8d5099f7e6821cecdc3a6047bf3fa6c3",
+    "previousUpdatedAt": "2026-01-13T15:02:35.902Z"
   }
 }

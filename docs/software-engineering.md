@@ -23,6 +23,7 @@
 - [[zed-editor]]
 - [[open-telemetry]]
 - [[island-architecture]]
+- [[peer-dependencies]]
 
 ### 문헌
 
