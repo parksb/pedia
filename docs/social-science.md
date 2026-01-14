@@ -15,6 +15,7 @@
 - [[systems-theory]]
 - [[early-morning-delivery]]
 - [[new-eugenics]]
+- [[condorcets-jury-theorem]]
 
 ### 문헌
 

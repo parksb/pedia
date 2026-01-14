@@ -904,10 +904,10 @@
   },
   "social-science": {
     "createdAt": "2024-11-05T15:16:27Z",
-    "updatedAt": "2025-12-24T14:24:53.305Z",
-    "contentHash": "a4d47990bc3bc762f91834c12ea2a7346ed0aa32",
-    "previousContentHash": "09a673a122fdd80f17a83f5db89c21e5cc67542a",
-    "previousUpdatedAt": "2025-12-15T14:22:20.773Z"
+    "updatedAt": "2026-01-14T12:00:44.171Z",
+    "contentHash": "a18a3ecd985635e9162fb0cb1183013e0640ce24",
+    "previousContentHash": "a4d47990bc3bc762f91834c12ea2a7346ed0aa32",
+    "previousUpdatedAt": "2025-12-24T14:24:53.305Z"
   },
   "binary-search": {
     "createdAt": "2024-09-11T02:27:17Z",
@@ -926,8 +926,10 @@
   },
   "my-project": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-05-20T12:41:20Z",
-    "contentHash": "95d7fd5814c15ae7a9b6f131e12bb9bc37cbc162"
+    "updatedAt": "2026-01-14T11:09:45.186Z",
+    "contentHash": "4ba68b9913553e28e043f69ae8161cd7f5112041",
+    "previousContentHash": "95d7fd5814c15ae7a9b6f131e12bb9bc37cbc162",
+    "previousUpdatedAt": "2025-05-20T12:41:20Z"
   },
   "stock-option": {
     "createdAt": "2024-11-27T00:54:35Z",
@@ -1665,5 +1667,19 @@
     "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb",
     "previousContentHash": "852b4a3d8d5099f7e6821cecdc3a6047bf3fa6c3",
     "previousUpdatedAt": "2026-01-13T15:02:35.902Z"
+  },
+  "ultimate-computer-science-textbook": {
+    "createdAt": "2026-01-14T11:09:43.082Z",
+    "updatedAt": "2026-01-14T13:00:44.384Z",
+    "contentHash": "41819619922a2af341448a0efa9dab145454e96e",
+    "previousContentHash": "92cc51207b3eb2e716b71f9064cb10b8d93b6db9",
+    "previousUpdatedAt": "2026-01-14T13:00:20.979Z"
+  },
+  "condorcets-jury-theorem": {
+    "createdAt": "2026-01-14T12:00:23.607Z",
+    "updatedAt": "2026-01-14T12:26:12.947Z",
+    "contentHash": "68f05abcaade42f437062ebb446d0a106062a5c0",
+    "previousContentHash": "20b8001d61c9fc2004bda5128bb58b8abe1cee1b",
+    "previousUpdatedAt": "2026-01-14T12:26:09.394Z"
   }
 }

@@ -4,3 +4,4 @@
 
 - [[simonpedia]]
 - [[markdown-toolkit]]
+- [[ultimate-computer-science-textbook]]
