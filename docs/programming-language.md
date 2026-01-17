@@ -5,8 +5,8 @@
 ### 주제
 
 - [[rust]]
-- [[typescript]]
 - [[kotlin]]
+- [[javascript]]
 - [[abstract-syntax-tree]]
 - [[effect-system]]
 - [[structural-typing]]
@@ -14,7 +14,6 @@
 - [[variance]]
 - [[compiler]]
 - [[dynamic-language-vs-static-language]]
-- [[jscodeshift]]
 
 ### 문헌
 

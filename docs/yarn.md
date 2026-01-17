@@ -1,6 +1,6 @@
 # Yarn
 
-Yarn은 자바스크립트 패키지 매니저다. Yarn은 npm에 대한 비판으로부터 출발했다. 2017년 릴리즈된 Yarn 1은 yarn.lock 파일을 이용한 종속성 트리 고정, 캐시를 통한 속도 향상 등 npm보다 개선된 패키지 관리 환경을 제공했다. 이후 2020년 릴리즈된 Yarn 2는 Berry 또는 Yarn Berry로 불리며, Plug'n'Play(PnP) 아키텍처를 도입해 `node_modules` 디렉토리를 제거하고, 각 의존성의 위치와 버전을 `.pnp.js` 파일로 추적함으로써 더욱 빠른 성능을 달성한다.
+Yarn은 [[javascript]] 패키지 매니저다. Yarn은 npm에 대한 비판으로부터 출발했다. 2017년 릴리즈된 Yarn 1은 yarn.lock 파일을 이용한 종속성 트리 고정, 캐시를 통한 속도 향상 등 npm보다 개선된 패키지 관리 환경을 제공했다. 이후 2020년 릴리즈된 Yarn 2는 Berry 또는 Yarn Berry로 불리며, Plug'n'Play(PnP) 아키텍처를 도입해 `node_modules` 디렉토리를 제거하고, 각 의존성의 위치와 버전을 `.pnp.js` 파일로 추적함으로써 더욱 빠른 성능을 달성한다.
 
 ## Workspaces
 

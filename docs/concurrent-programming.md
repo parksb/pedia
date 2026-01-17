@@ -12,11 +12,6 @@
 - [[semaphore]]
 - [[barrier-synchronization]]
 - [[readers-writer-lock]]
-- [[js-async-context]]
-
-### 문헌
-
-- [[large-scale-cluster-management-at-google-with-borg]]
 
 ## 관련문서
 

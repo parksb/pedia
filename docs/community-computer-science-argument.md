@@ -22,7 +22,7 @@ PHP가 정말 잘못 만들어진 언어인지, 더 이상 PHP를 사용해서�
 
 ## 자바스크립트 논쟁
 
-주로 자바스크립트의 '이상한 동작'을 비판하는 것으로 시작되는 논쟁.
+주로 [[javascript]]의 '이상한 동작'을 비판하는 것으로 시작되는 논쟁.
 
 ```js
 123.toString() // Uncaught SyntaxError: identifier starts immediately after numeric literal

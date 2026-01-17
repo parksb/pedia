@@ -152,7 +152,7 @@
 
 ### 자바스크립트와의 차이
 
-- 자바스크립트는 async-first 언어다.
+- [[javascript]]는 async-first 언어다.
 - 두 가지 면에서 자바스크립트의 promise와 러스트의 futures는 다르다:
   1. promise는 생성 즉시 스케줄된다. 반면, futures는 `await`됐을 때만 스케줄된다.
   2. 모든 promies는 fallible하다. 반면, futures는 infallible할 수 있다.

@@ -1,6 +1,6 @@
 # ECMAScript 모듈
 
-ECMAScript 모듈(ESM)은 자바스크립트의 표준 모듈 시스템이다.
+ECMAScript 모듈(ESM)은 [[javascript]]의 표준 모듈 시스템이다.
 
 ## 동작
 

@@ -168,10 +168,10 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2026-01-13T13:27:10.054Z",
-    "contentHash": "7151a8248bd103ee705039e3ca2e6957331ae71f",
-    "previousContentHash": "f0d4e51529f3b5046210148eacd83b9f0df61ee7",
-    "previousUpdatedAt": "2025-09-27T12:29:10Z"
+    "updatedAt": "2026-01-17T10:28:10.836Z",
+    "contentHash": "2b04442d84468f5f6572a5e7d8eb19551829c9ca",
+    "previousContentHash": "7f96ee7fb2a5292823cb075bdcf64982cc6d7564",
+    "previousUpdatedAt": "2026-01-17T10:22:53.041Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -190,8 +190,10 @@
   },
   "webassembly": {
     "createdAt": "2025-05-21T13:15:28Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z",
-    "contentHash": "4e9473a2a8aab843d89ee93cb5729c98d8276ca6"
+    "updatedAt": "2026-01-17T10:29:47.086Z",
+    "contentHash": "76dde4ddffe43e74ee886fe53515744a5ed739d2",
+    "previousContentHash": "5a68e1dcac2915557d198c88d750aa8aaf5503a4",
+    "previousUpdatedAt": "2026-01-17T10:29:39.807Z"
   },
   "specific-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
@@ -325,8 +327,10 @@
   },
   "jscodeshift": {
     "createdAt": "2025-01-23T11:44:19Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z",
-    "contentHash": "e4e9402aa987934607ed6344524c190366a20b7e"
+    "updatedAt": "2026-01-17T10:26:54.933Z",
+    "contentHash": "088d2337a735c890775a4427c769091f5187332d",
+    "previousContentHash": "e4e9402aa987934607ed6344524c190366a20b7e",
+    "previousUpdatedAt": "2025-11-01T11:08:10.229Z"
   },
   "jeonse": {
     "createdAt": "2025-03-02T05:48:54Z",
@@ -355,8 +359,10 @@
   },
   "yarn": {
     "createdAt": "2024-12-07T02:55:50Z",
-    "updatedAt": "2025-11-01T11:08:10.257Z",
-    "contentHash": "fcc7dd66609110ad5c4f78c7c54853db2b4ebc9d"
+    "updatedAt": "2026-01-17T10:30:17.699Z",
+    "contentHash": "6d00c63e702237e575ecd59786d2aa5758a6075d",
+    "previousContentHash": "fcc7dd66609110ad5c4f78c7c54853db2b4ebc9d",
+    "previousUpdatedAt": "2025-11-01T11:08:10.257Z"
   },
   "designing-data-intensive-applications-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -557,8 +563,10 @@
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z",
-    "contentHash": "18bee620bb6666a920fb72501da83bbd257a3239"
+    "updatedAt": "2026-01-17T10:30:03.677Z",
+    "contentHash": "f186fda2806f1eb472c587418bd175b679cf276a",
+    "previousContentHash": "18bee620bb6666a920fb72501da83bbd257a3239",
+    "previousUpdatedAt": "2025-11-01T11:08:10.241Z"
   },
   "relational-algebra": {
     "createdAt": "2024-03-03T14:02:56Z",
@@ -627,8 +635,10 @@
   },
   "es-modules": {
     "createdAt": "2025-02-15T14:29:10Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z",
-    "contentHash": "efb9664a8a4b26cae13f6a72504a1d334e742367"
+    "updatedAt": "2026-01-17T10:31:13.217Z",
+    "contentHash": "c175a01f65bcb3438f3095c840dc58d0a902d501",
+    "previousContentHash": "efb9664a8a4b26cae13f6a72504a1d334e742367",
+    "previousUpdatedAt": "2025-11-01T11:08:10.217Z"
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
@@ -662,8 +672,10 @@
   },
   "knip": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z",
-    "contentHash": "5d22303ac80ce4bdbffd5f6d78f77d59a9114698"
+    "updatedAt": "2026-01-17T10:31:05.104Z",
+    "contentHash": "919214978971320edbb489bd5f40fe073d0f9bfa",
+    "previousContentHash": "5d22303ac80ce4bdbffd5f6d78f77d59a9114698",
+    "previousUpdatedAt": "2025-11-01T11:08:10.229Z"
   },
   "zstd": {
     "createdAt": "2024-11-21T15:13:05Z",
@@ -844,8 +856,10 @@
   },
   "programming-language": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-09-07T09:50:24Z",
-    "contentHash": "e45c51f9f8baea5fded31536cc24a8ad109d0a45"
+    "updatedAt": "2026-01-17T10:21:55.087Z",
+    "contentHash": "b691d6d4d3a2b669e5601eaa56a7f10a07d7943c",
+    "previousContentHash": "e45c51f9f8baea5fded31536cc24a8ad109d0a45",
+    "previousUpdatedAt": "2025-09-07T09:50:24Z"
   },
   "oral-hygiene": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -916,8 +930,10 @@
   },
   "computer-science": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-05-20T13:51:28Z",
-    "contentHash": "468455bfb22482e72138ed79f6183a9554b9071f"
+    "updatedAt": "2026-01-17T10:17:43.593Z",
+    "contentHash": "da43ec919b4786bfdf2f89c5030da439d794f75e",
+    "previousContentHash": "3c1ceda955fa3a497ac6e641df9803f19ce40073",
+    "previousUpdatedAt": "2026-01-17T03:38:18.111Z"
   },
   "seven-sketches-in-compositionality": {
     "createdAt": "2025-01-02T13:35:24Z",
@@ -1110,8 +1126,10 @@
   },
   "concurrent-programming": {
     "createdAt": "2022-04-19T04:43:32Z",
-    "updatedAt": "2025-08-26T15:02:05Z",
-    "contentHash": "a2283b00e966eeb861165163efc6ad35589d0c96"
+    "updatedAt": "2026-01-17T10:23:10.377Z",
+    "contentHash": "aeba940dc4c91d83388587bb8a1e466159340898",
+    "previousContentHash": "ee325341a34fe4f66d9f5b530e3e614995db943d",
+    "previousUpdatedAt": "2026-01-17T03:38:39.394Z"
   },
   "sieve-of-eratosthenes": {
     "createdAt": "2024-01-12T02:19:01Z",
@@ -1285,8 +1303,10 @@
   },
   "community-computer-science-argument": {
     "createdAt": "2024-11-22T05:57:43Z",
-    "updatedAt": "2025-11-01T11:08:10.208Z",
-    "contentHash": "caa300106571d57762187c26b7f1bb6da04cc7f4"
+    "updatedAt": "2026-01-17T10:31:48.364Z",
+    "contentHash": "e3938f6d674327007cb7cd948721fcfebe083be5",
+    "previousContentHash": "caa300106571d57762187c26b7f1bb6da04cc7f4",
+    "previousUpdatedAt": "2025-11-01T11:08:10.208Z"
   },
   "hippocratic-oath-for-technologists": {
     "createdAt": "2025-01-01T03:51:23Z",
@@ -1350,8 +1370,10 @@
   },
   "eslint": {
     "createdAt": "2025-01-12T12:32:26Z",
-    "updatedAt": "2025-11-01T11:08:10.217Z",
-    "contentHash": "922ec52d364c338c137846e1d288feffb1df4b42"
+    "updatedAt": "2026-01-17T10:31:39.148Z",
+    "contentHash": "f8826aa6fc2acb609f6a3ed38f1070817237c2a9",
+    "previousContentHash": "922ec52d364c338c137846e1d288feffb1df4b42",
+    "previousUpdatedAt": "2025-11-01T11:08:10.217Z"
   },
   "remarkable-books-in-my-life": {
     "createdAt": "2022-04-19T04:49:15Z",
@@ -1661,13 +1683,6 @@
     "previousContentHash": "7590808146846b5864accec42cbf1538c92fe049",
     "previousUpdatedAt": "2025-12-24T15:00:49.051Z"
   },
-  "peer-dependencies": {
-    "createdAt": "2026-01-13T13:26:17.363Z",
-    "updatedAt": "2026-01-13T15:02:44.149Z",
-    "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb",
-    "previousContentHash": "852b4a3d8d5099f7e6821cecdc3a6047bf3fa6c3",
-    "previousUpdatedAt": "2026-01-13T15:02:35.902Z"
-  },
   "ultimate-computer-science-textbook": {
     "createdAt": "2026-01-14T11:09:43.082Z",
     "updatedAt": "2026-01-14T13:00:44.384Z",
@@ -1681,5 +1696,29 @@
     "contentHash": "68f05abcaade42f437062ebb446d0a106062a5c0",
     "previousContentHash": "20b8001d61c9fc2004bda5128bb58b8abe1cee1b",
     "previousUpdatedAt": "2026-01-14T12:26:09.394Z"
+  },
+  "parallel-computing": {
+    "createdAt": "2026-01-17T03:38:07.774Z",
+    "updatedAt": "2026-01-17T03:42:46.484Z",
+    "contentHash": "c4f1ab0de9839022ab28fbd1afaceba9d8638e62",
+    "previousContentHash": "8f175456f00a7e022e2b92021c3ab9b1963df6f6",
+    "previousUpdatedAt": "2026-01-17T03:38:18.121Z"
+  },
+  "world-wide-web": {
+    "createdAt": "2026-01-17T10:17:26.478Z",
+    "updatedAt": "2026-01-17T10:17:43.611Z",
+    "contentHash": "c0a233952e818491c4b364a79c4cb2b104dd3021"
+  },
+  "javascript": {
+    "createdAt": "2026-01-17T10:21:17.884Z",
+    "updatedAt": "2026-01-17T10:28:07.982Z",
+    "contentHash": "068a4e2d5d2fcb065f6fd06bfb54b28ad576f229",
+    "previousContentHash": "45b10f7c3b6b95f14b619de02c6ec27cadbac8d8",
+    "previousUpdatedAt": "2026-01-17T10:21:55.109Z"
+  },
+  "peer-dependencies": {
+    "createdAt": "2026-01-13T15:02:43.388Z",
+    "updatedAt": "2026-01-17T10:28:10.853Z",
+    "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb"
   }
 }

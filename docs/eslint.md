@@ -4,7 +4,7 @@
 https://eslint.org/
 :::
 
-ESLint는 자바스크립트, JSON, 마크다운을 정적 분석하는 린트(Lint) 도구다.
+ESLint는 [[javascript]], JSON, 마크다운을 정적 분석하는 린트(Lint) 도구다.
 
 ## 구성
 
