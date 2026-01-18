@@ -10,6 +10,7 @@
 - [[history-of-my-mobile-phones]]
 - [[my-project]]
 - [[remarkable-books-in-my-life]]
+- [[my-bookmarks]]
 - [[private/my-biographical-dictionary]]{나의 인명사전}
 - [[private/my-diary]]{나의 일지}
 - [[private/viva-republica-note]]{비바리퍼블리카 노트}

@@ -974,8 +974,10 @@
   },
   "parksb": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z",
-    "contentHash": "118a4074780db9a38dc4b52f0881998e81dbaa0e"
+    "updatedAt": "2026-01-18T10:04:21.954Z",
+    "contentHash": "5fa4524b24ad3feffbbf3d41761434421c510b38",
+    "previousContentHash": "118a4074780db9a38dc4b52f0881998e81dbaa0e",
+    "previousUpdatedAt": "2025-11-01T11:08:10.236Z"
   },
   "google-prompt-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
@@ -1720,5 +1722,12 @@
     "createdAt": "2026-01-13T15:02:43.388Z",
     "updatedAt": "2026-01-17T10:28:10.853Z",
     "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb"
+  },
+  "my-bookmarks": {
+    "createdAt": "2026-01-18T10:04:40.622Z",
+    "updatedAt": "2026-01-18T11:12:24.049Z",
+    "contentHash": "c668b5d298bdf8373700da49cf743da4018448e5",
+    "previousContentHash": "62726ce2b252b88579b276d25fb6aeb1b8c917fd",
+    "previousUpdatedAt": "2026-01-18T10:58:56.646Z"
   }
 }
