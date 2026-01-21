@@ -1016,8 +1016,10 @@
   },
   "computer-security": {
     "createdAt": "2021-08-01T07:44:42Z",
-    "updatedAt": "2025-03-23T04:15:36Z",
-    "contentHash": "82e6de5dbf723521f5ebfad8ae08c7956045b78c"
+    "updatedAt": "2026-01-20T13:23:11.791Z",
+    "contentHash": "c91df84c6affe6b0736465b2b40fe56fe4fa4e5f",
+    "previousContentHash": "82e6de5dbf723521f5ebfad8ae08c7956045b78c",
+    "previousUpdatedAt": "2025-03-23T04:15:36Z"
   },
   "dynamic-language-vs-static-language": {
     "createdAt": "2020-12-18T13:36:54Z",
@@ -1729,5 +1731,12 @@
     "contentHash": "c668b5d298bdf8373700da49cf743da4018448e5",
     "previousContentHash": "62726ce2b252b88579b276d25fb6aeb1b8c917fd",
     "previousUpdatedAt": "2026-01-18T10:58:56.646Z"
+  },
+  "mtls": {
+    "createdAt": "2026-01-20T13:22:54.379Z",
+    "updatedAt": "2026-01-21T11:31:35.981Z",
+    "contentHash": "8fc8b65b3ebc5844bc34f52a3581031ac544c348",
+    "previousContentHash": "f34835905042b3cf4833512a7212b2394787772d",
+    "previousUpdatedAt": "2026-01-20T14:05:19.195Z"
   }
 }
