@@ -1,5 +1,9 @@
 # 나의 북마크
 
+- [ ] [What Functional Programmers Get Wrong About Systems](https://www.iankduncan.com/engineering/2026-02-09-what-functional-programmers-get-wrong-about-systems/)
+- [ ] [Inside Turbopack: Building Faster by Building Less](https://nextjs.org/blog/turbopack-incremental-computation)
+- [x] [취향이 있는 소프트웨어](https://wiki.g15e.com/pages/Tasteful%20software)
+- [x] [UI Density](https://mattstromawn.com/writing/ui-density/)
 - [x] [High-level is the goal](https://bvisness.me/high-level/)
 - [ ] [The Illusion of Shared Understanding](https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding)
 - [x] [명령줄 인터페이스 가이드라인](https://clig.kr/)

@@ -7,6 +7,7 @@
 - [[memex]]
 - [[caps-lock]]
 - [[conversational-user-interface]]
+- [[fitts-law]]
 
 ### 문헌
 

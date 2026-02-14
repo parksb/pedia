@@ -6,6 +6,7 @@
 
 - [[concurrent-programming]]
 - [[kubernetes]]
+- [[observability]]
 - [[open-telemetry]]
 
 ### 문헌

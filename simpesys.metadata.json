@@ -558,8 +558,10 @@
   },
   "a-philosophy-of-software-design": {
     "createdAt": "2024-09-21T13:59:52Z",
-    "updatedAt": "2025-11-01T11:08:10.189Z",
-    "contentHash": "f76be99a890f8baefd11a571b4679dc032a4321b"
+    "updatedAt": "2026-02-14T15:26:25.357Z",
+    "contentHash": "3b7f5b18d0879e42c53f9c164dfdfee502eef764",
+    "previousContentHash": "a25a1984c9585f04fb7e5fbe5c7644757616b9a4",
+    "previousUpdatedAt": "2026-02-14T15:26:14.676Z"
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
@@ -806,8 +808,10 @@
   },
   "human-computer-interaction": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-05-17T15:04:07Z",
-    "contentHash": "d8eba3e68d543d4410957297d9d1fae7d445db38"
+    "updatedAt": "2026-02-14T09:15:24.161Z",
+    "contentHash": "1c693bce579b863e336c1ce69813c5c33fe5e165",
+    "previousContentHash": "d8eba3e68d543d4410957297d9d1fae7d445db38",
+    "previousUpdatedAt": "2025-05-17T15:04:07Z"
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
@@ -1703,10 +1707,10 @@
   },
   "parallel-computing": {
     "createdAt": "2026-01-17T03:38:07.774Z",
-    "updatedAt": "2026-01-17T03:42:46.484Z",
-    "contentHash": "c4f1ab0de9839022ab28fbd1afaceba9d8638e62",
-    "previousContentHash": "8f175456f00a7e022e2b92021c3ab9b1963df6f6",
-    "previousUpdatedAt": "2026-01-17T03:38:18.121Z"
+    "updatedAt": "2026-02-14T13:41:04.834Z",
+    "contentHash": "f5d4586265896c1d802fe867f946990c4529458a",
+    "previousContentHash": "c4f1ab0de9839022ab28fbd1afaceba9d8638e62",
+    "previousUpdatedAt": "2026-01-17T03:42:46.484Z"
   },
   "world-wide-web": {
     "createdAt": "2026-01-17T10:17:26.478Z",
@@ -1727,10 +1731,10 @@
   },
   "my-bookmarks": {
     "createdAt": "2026-01-18T10:04:40.622Z",
-    "updatedAt": "2026-01-18T11:12:24.049Z",
-    "contentHash": "c668b5d298bdf8373700da49cf743da4018448e5",
-    "previousContentHash": "62726ce2b252b88579b276d25fb6aeb1b8c917fd",
-    "previousUpdatedAt": "2026-01-18T10:58:56.646Z"
+    "updatedAt": "2026-02-14T09:03:24.769Z",
+    "contentHash": "7d9a6915aa77653e39c88fd287aebed558cd60b4",
+    "previousContentHash": "1273cffe03efb85ff4cbc0db0089d2c6881b8c16",
+    "previousUpdatedAt": "2026-02-14T09:03:12.461Z"
   },
   "mtls": {
     "createdAt": "2026-01-20T13:22:54.379Z",
@@ -1738,5 +1742,19 @@
     "contentHash": "8fc8b65b3ebc5844bc34f52a3581031ac544c348",
     "previousContentHash": "f34835905042b3cf4833512a7212b2394787772d",
     "previousUpdatedAt": "2026-01-20T14:05:19.195Z"
+  },
+  "fitts-law": {
+    "createdAt": "2026-02-14T09:15:09.585Z",
+    "updatedAt": "2026-02-14T10:01:54.327Z",
+    "contentHash": "4ef0ae7a694886618ab06d31ba561d9456b6c6c1",
+    "previousContentHash": "07eabc5736926e11e2a5d1ec3160b7e7041fd913",
+    "previousUpdatedAt": "2026-02-14T10:01:46.574Z"
+  },
+  "observability": {
+    "createdAt": "2026-02-14T13:40:19.989Z",
+    "updatedAt": "2026-02-14T13:47:25.485Z",
+    "contentHash": "ec7fe32ba2129879779ccd56f46cd5835d1bd49b",
+    "previousContentHash": "c1c2c7c49d3b94f6fc5d33d52f419b2a35574873",
+    "previousUpdatedAt": "2026-02-14T13:47:15.583Z"
   }
 }
