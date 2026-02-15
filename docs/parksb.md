@@ -11,8 +11,8 @@
 - [[my-project]]
 - [[remarkable-books-in-my-life]]
 - [[my-bookmarks]]
-- [[private/my-biographical-dictionary]]{나의 인명사전}
-- [[private/my-diary]]{나의 일지}
-- [[private/viva-republica-note]]{비바리퍼블리카 노트}
 - [[finishing-undergraduate-in-seven-years]]
-- [[private/what-will-i-live-for]]{무엇을 위해 살 것인가}
+- [[private/my-biographical-dictionary]]
+- [[private/my-diary]]
+- [[private/viva-republica-note]]
+- [[private/what-will-i-live-for]]

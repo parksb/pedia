@@ -12,6 +12,7 @@
 - [[nonviolent-resistance]]
 - [[violent-resistance]]
 - [[binary-opposition]]
+- [[reductionism]]
 
 ### 문헌
 

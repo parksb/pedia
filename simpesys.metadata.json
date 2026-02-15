@@ -978,10 +978,10 @@
   },
   "parksb": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2026-01-18T10:04:21.954Z",
-    "contentHash": "5fa4524b24ad3feffbbf3d41761434421c510b38",
-    "previousContentHash": "118a4074780db9a38dc4b52f0881998e81dbaa0e",
-    "previousUpdatedAt": "2025-11-01T11:08:10.236Z"
+    "updatedAt": "2026-02-15T13:11:37.561Z",
+    "contentHash": "af70ae8fbc78eb459be79e0fadb6e6150f99efa8",
+    "previousContentHash": "8fe17ea39e2d847e6ba3fb72d4f96657b33fe5b0",
+    "previousUpdatedAt": "2026-02-15T13:10:12.552Z"
   },
   "google-prompt-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
@@ -1271,8 +1271,10 @@
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-09-07T09:50:24Z",
-    "contentHash": "d45b0edbcf8cb108e7e11ae15d75c8389dfb9d8f"
+    "updatedAt": "2026-02-15T14:04:41.353Z",
+    "contentHash": "afe9eb31d893cfbd82fe30bcd5c2d8b90d097e94",
+    "previousContentHash": "d45b0edbcf8cb108e7e11ae15d75c8389dfb9d8f",
+    "previousUpdatedAt": "2025-09-07T09:50:24Z"
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
@@ -1385,8 +1387,10 @@
   },
   "remarkable-books-in-my-life": {
     "createdAt": "2022-04-19T04:49:15Z",
-    "updatedAt": "2025-11-01T11:08:10.241Z",
-    "contentHash": "1960e8fd04234f32ae5718de12ebe6d44e1ccc57"
+    "updatedAt": "2026-02-15T13:17:43.964Z",
+    "contentHash": "60891c9ef8029a0cd5ac28483c035e88b998212f",
+    "previousContentHash": "f00f27c05e7021098a71a26d58838508e928ee09",
+    "previousUpdatedAt": "2026-02-15T13:17:09.694Z"
   },
   "completion-of-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
@@ -1400,8 +1404,10 @@
   },
   "redis-cluster": {
     "createdAt": "2024-03-02T04:02:54Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z",
-    "contentHash": "813d4b0f9c30d6887761e0d225e2bed805bcd47e"
+    "updatedAt": "2026-02-15T14:19:22.125Z",
+    "contentHash": "1c7d719e36175847742eea49d638d9ce175b3956",
+    "previousContentHash": "813d4b0f9c30d6887761e0d225e2bed805bcd47e",
+    "previousUpdatedAt": "2025-11-01T11:08:10.24Z"
   },
   "rust-macro": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1662,8 +1668,10 @@
   },
   "systems-theory": {
     "createdAt": "2025-11-30T13:11:11Z",
-    "updatedAt": "2025-12-03T12:44:32.968Z",
-    "contentHash": "b57c13e924da5a43ac381f02f031571b6216fc31"
+    "updatedAt": "2026-02-15T14:04:18.777Z",
+    "contentHash": "84f0ac1e9db734de9eb84e030f2ef0d6f319b16a",
+    "previousContentHash": "b57c13e924da5a43ac381f02f031571b6216fc31",
+    "previousUpdatedAt": "2025-12-03T12:44:32.968Z"
   },
   "thinking-in-systems": {
     "createdAt": "2025-11-30T13:11:11Z",
@@ -1726,8 +1734,10 @@
   },
   "peer-dependencies": {
     "createdAt": "2026-01-13T15:02:43.388Z",
-    "updatedAt": "2026-01-17T10:28:10.853Z",
-    "contentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb"
+    "updatedAt": "2026-02-15T13:43:36.694Z",
+    "contentHash": "0c70d99e95bf5e5d94ecab7b294d13c4e35d1542",
+    "previousContentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb",
+    "previousUpdatedAt": "2026-01-17T10:28:10.853Z"
   },
   "my-bookmarks": {
     "createdAt": "2026-01-18T10:04:40.622Z",
@@ -1756,5 +1766,12 @@
     "contentHash": "ec7fe32ba2129879779ccd56f46cd5835d1bd49b",
     "previousContentHash": "c1c2c7c49d3b94f6fc5d33d52f419b2a35574873",
     "previousUpdatedAt": "2026-02-14T13:47:15.583Z"
+  },
+  "reductionism": {
+    "createdAt": "2026-02-15T14:03:55.774Z",
+    "updatedAt": "2026-02-15T14:13:49.879Z",
+    "contentHash": "680b8deb3fbe17b94c36d3c6ef312b56b5fd8557",
+    "previousContentHash": "cafbf785efecf10c6d28884aa89e1db7baf79de1",
+    "previousUpdatedAt": "2026-02-15T14:09:47.551Z"
   }
 }
