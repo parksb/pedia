@@ -60,7 +60,7 @@ export function App({ documents, document, css, js }: Props) {
               <input
                 type="search"
                 name="q"
-                placeholder="🔍"
+                placeholder="Search..."
                 hx-get="/search"
                 hx-trigger="keyup changed delay:200ms"
                 hx-target="#list"

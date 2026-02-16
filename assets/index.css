@@ -13,8 +13,11 @@ header ul > li { display: inline; line-height: inherit;}
 header ul > li:not(:last-child):after { content: '＞'; margin-left: 1px; margin-right: 1px; }
 header div.meta { margin-right: .5rem; font-size: .85rem; }
 header div.meta a { margin-right: .3rem; }
-header .sidebar-toggle { padding: .6rem; cursor: pointer; font-size: 1rem; font-weight: 200; }
-header .sidebar-toggle:hover { font-weight: 600; }
+header .sidebar-toggle { padding: .6rem; cursor: pointer; display: inline-flex; align-items: center; color: #6a737d; }
+header .sidebar-toggle:hover { color: #0366d6; }
+header .sidebar-toggle > svg:last-child { display: none; }
+aside.hidden ~ main header .sidebar-toggle > svg:first-child { display: none; }
+aside.hidden ~ main header .sidebar-toggle > svg:last-child { display: inline; }
 header .breadcrumbs { padding: .6rem .6rem .6rem 0; margin-left: 1.2rem; text-indent: -1.2rem; }
 aside { overflow: scroll; flex: 1; max-width: 300px; border-right: 1px solid #dfe2e5; }
 #list > ul { list-style-type: none; margin: 0; padding: 1rem 0 1rem 0; }
@@ -34,6 +37,10 @@ a { color: #0366d6; text-decoration: none; }
 a[href$="http-404"] { color: #ff4070; }
 a.external { color: #00a0c0; }
 a.external:after { content: '↗'; font-size: .7rem; vertical-align: super; }
+a.icon { color: #6a737d; display: inline-flex; align-items: center; }
+a.icon:hover { text-decoration: none; }
+a.icon.external:after { content: none; }
+a.icon.external:hover { color: #00a0c0; }
 a:hover { outline-width: 0; text-decoration: underline; }
 small { font-size: .85rem; color: #6a737d; font-weight: normal; }
 li > code,  p > code { padding: .2rem .4rem; margin: 0; font-size: .85rem; background-color: #f6f8fa; }
@@ -57,7 +64,7 @@ code { font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospac
 .footnotes > .footnotes-list > .footnote-item { list-style-position: inherit; list-style: none; line-height: 1.4; margin-bottom: .2rem; }
 .footnotes > .footnotes-list > .footnote-item:before { content: "[" counter(list) "] "; counter-increment: list; }
 .footnotes > .footnotes-list > .footnote-item > p { display: inline; }
-#search { display: flex; border-bottom: 1px solid #dfe2e5; font-size: 1rem; position: sticky; top: 0; background-color: #fffffff0; }
+#search { display: flex; border-bottom: 1px solid #dfe2e5; height: 39px; font-size: 1rem; position: sticky; top: 0; background-color: #fffffff0; }
 #search > select { cursor: pointer; width: 44px; border: 0; border-left: 1px solid #dfe2e5; padding-left: 10px; background-color: #fffffff0; }
 input[type="search"] { flex: 1; width: 100%; border: 0; padding: 0.5rem; outline: none; background-color: #fffffff0; }
 #graph-container { width: 100%; aspect-ratio: 1 / 1; border: 1px solid #eaecef; margin-bottom: 1rem; }
