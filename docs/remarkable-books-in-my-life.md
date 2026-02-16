@@ -108,5 +108,5 @@
 
 > Albert P. Malvino, “Digital Computer Electronics”, 1977
 
-- 트랜지스터와 다이오드로 논리 게이트를 만드는 것으로 시작해서 [[simple-as-possible-computer]] 컴퓨터를 만드는 여정.
+- 트랜지스터와 다이오드로 논리 게이트를 만드는 것으로 시작해서 [[simple-as-possible-computer]]를 만드는 여정.
 - SAP-3 아키텍처 다이어그램 하나로 내가 컴퓨터에 대해 갖고 있던 의문들과 끼워넣지 못한 조각들을 모조리 해결했다. 학교 도서관 구석에서 찾은 보석같은 책.

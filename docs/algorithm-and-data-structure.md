@@ -8,3 +8,4 @@
 - [[zstd]]
 - [[kmp]]
 - [[array]]
+- [[swiss-table]]
