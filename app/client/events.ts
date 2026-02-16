@@ -1,4 +1,5 @@
 import { pathname, scrollToActive, select, toggleSidebar } from "./dom.ts";
+import { initGraph } from "./graph.ts";
 
 /**
  * Initialize the app on DOMContentLoaded
@@ -7,6 +8,7 @@ function onDOMContentLoaded(): void {
   if (self.innerWidth < 800) toggleSidebar();
   (htmx.find("#search > input") as HTMLInputElement).value = "";
   scrollToActive();
+  initGraph();
 }
 
 /**
@@ -16,6 +18,7 @@ function onAfterSwap(): void {
   document.title = htmx.find("article > h1").textContent || "";
   mermaid.run({ querySelector: "article div.mermaid" });
   select(pathname());
+  initGraph();
 }
 
 /**
@@ -24,6 +27,7 @@ function onAfterSwap(): void {
 function onHistoryRestore(): void {
   select(pathname());
   scrollToActive();
+  initGraph();
 }
 
 /**

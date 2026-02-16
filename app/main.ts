@@ -54,10 +54,6 @@ app.get("/private/:id", (c) => {
   return documentResponse(id, c);
 });
 
-app.get("/health", (c) => {
-  return c.text("ok");
-});
-
 app.get("/:id", (c) => {
   const id = c.req.param("id");
   return documentResponse(id, c);
@@ -65,6 +61,16 @@ app.get("/:id", (c) => {
 
 app.get("/", (c) => {
   return documentResponse("simonpedia", c);
+});
+
+app.get("/api/health", (c) => {
+  return c.text("ok");
+});
+
+app.get("/api/graph", (c) => {
+  c.header("Content-Type", "application/json");
+  c.header("Cache-Control", "public, max-age=3600");
+  return c.body(system.getGraphData());
 });
 
 Deno.serve(app.fetch);

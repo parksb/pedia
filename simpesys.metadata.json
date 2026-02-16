@@ -121,10 +121,10 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2025-12-15T14:15:45.157Z",
-    "contentHash": "f06c7e3f15bb2db41c358bcfbb67889ba1ee0c8f",
-    "previousContentHash": "d17f8b2755e695d2083a477c885b2d7f6aa852b6",
-    "previousUpdatedAt": "2025-12-15T14:15:13.839Z"
+    "updatedAt": "2026-02-16T07:57:28.937Z",
+    "contentHash": "871ce71aab6a57c44fded6991c3d38bab2c41f2c",
+    "previousContentHash": "f06c7e3f15bb2db41c358bcfbb67889ba1ee0c8f",
+    "previousUpdatedAt": "2025-12-15T14:15:45.157Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -644,8 +644,10 @@
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2025-09-13T16:58:49.135Z",
-    "contentHash": "700d60f126c2a961a2e773eefcc31e39aeaa3f83"
+    "updatedAt": "2026-02-16T07:40:06.254Z",
+    "contentHash": "0fc11358ec28ecc25cc54ee3d5b3fd9bc8842c8c",
+    "previousContentHash": "2a569cf03a427508be65e369041560e06c869f55",
+    "previousUpdatedAt": "2026-02-16T07:17:04.124Z"
   },
   "trpl-common-programming-concepts": {
     "createdAt": "2020-12-16T09:15:20Z",

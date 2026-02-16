@@ -2,6 +2,8 @@
 
 [[parksb]]의 디지털 정원.
 
+<div id="graph-container"></div>
+
 ## 하위문서
 
 - [[tech-science]]

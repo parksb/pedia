@@ -4,6 +4,12 @@ interface Htmx {
   addClass(element: HTMLElement | null, className: string): void;
   removeClass(element: HTMLElement | null, className: string): void;
   toggleClass(selector: string, className: string): void;
+  ajax(
+    method: string,
+    url: string,
+    options?: { target?: string; swap?: string },
+  ): void;
+  process(element: HTMLElement): void;
 }
 
 interface Mermaid {
@@ -13,6 +19,8 @@ interface Mermaid {
 declare global {
   const htmx: Htmx;
   const mermaid: Mermaid;
+  // deno-lint-ignore no-explicit-any
+  const d3: any;
 }
 
 export {};

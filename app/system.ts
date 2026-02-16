@@ -15,6 +15,7 @@ export class System {
 
   private searcher: FuzzySearcher<Document> | null = null;
   private asset: Asset = { css: "", js: "" };
+  private graph: string | null = null;
 
   private config = defineConfig({
     web: {
@@ -113,6 +114,30 @@ export class System {
         js: this.asset.js,
       });
     }
+  }
+
+  getGraphData(): string {
+    if (this.graph) return this.graph;
+
+    const nodes: { id: string; label: string; category: string }[] = [];
+    const edges: { source: string; target: string }[] = [];
+    const seen = new Set<string>();
+
+    for (const doc of this.list) {
+      const category = doc.breadcrumbs[1]?.filename ?? "root";
+      nodes.push({ id: doc.filename, label: doc.title, category });
+
+      for (const ref of doc.referred) {
+        const edgeKey = `${ref.document.filename}->${doc.filename}`;
+        if (!seen.has(edgeKey)) {
+          edges.push({ source: ref.document.filename, target: doc.filename });
+          seen.add(edgeKey);
+        }
+      }
+    }
+
+    this.graph = JSON.stringify({ nodes, edges });
+    return this.graph;
   }
 
   private getDocuments(query?: string, orderBy: string = "c") {
