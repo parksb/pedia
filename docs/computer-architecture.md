@@ -13,3 +13,4 @@
 ### 문헌
 
 - [[computer-organization-and-design]]
+- [[digital-computer-electronics]]

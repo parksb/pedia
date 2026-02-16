@@ -1,6 +1,6 @@
 # Simple-As-Possible 컴퓨터
 
-Albert P. Malvino가 <Digital Computer Electronics>에서 제시한 컴퓨터 모델. 단순한 SAP 컴퓨터 아키텍처를 통해 컴퓨터의 원리를 설명한다.
+알버트 말비노(Albert P. Malvino)가 [[digital-computer-electronics]]에서 제시한 컴퓨터 모델. 단순한 SAP 컴퓨터 아키텍처를 통해 컴퓨터의 원리를 설명한다. 이 모델은 [벤 이터(Ben Eater)의 8비트 컴퓨터 프로젝트](https://eater.net/8bit)에도 영향을 줬다.
 
 ## SAP-1
 

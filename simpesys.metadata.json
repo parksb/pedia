@@ -217,8 +217,10 @@
   },
   "simple-as-possible-computer": {
     "createdAt": "2024-03-02T05:19:23Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z",
-    "contentHash": "5b0b4f905276f479922d8200701473b06a77172a"
+    "updatedAt": "2026-02-16T13:31:32.181Z",
+    "contentHash": "073da6f479aa1e31bf7a80acef8846cac0ea1f3d",
+    "previousContentHash": "11be70e71f3cc58a61824d61f3614c45295526a8",
+    "previousUpdatedAt": "2026-02-16T13:32:17.388Z"
   },
   "how-to-grow-cactus": {
     "createdAt": "2020-12-27T17:23:23Z",
@@ -317,8 +319,10 @@
   },
   "goodbye-2024": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-11-01T11:08:10.221Z",
-    "contentHash": "45ab63a89f5f6e9e95f37596217d0df25d624722"
+    "updatedAt": "2026-02-16T13:26:55.587Z",
+    "contentHash": "a406be61cceb9a4332f3a137317ce7afc3d125e6",
+    "previousContentHash": "bff0f1d6fb001cb95daa545dc8a1adc20699c504",
+    "previousUpdatedAt": "2026-02-16T13:24:49.037Z"
   },
   "civil-law": {
     "createdAt": "2024-11-06T09:58:07Z",
@@ -558,10 +562,10 @@
   },
   "a-philosophy-of-software-design": {
     "createdAt": "2024-09-21T13:59:52Z",
-    "updatedAt": "2026-02-14T15:26:25.357Z",
-    "contentHash": "3b7f5b18d0879e42c53f9c164dfdfee502eef764",
-    "previousContentHash": "a25a1984c9585f04fb7e5fbe5c7644757616b9a4",
-    "previousUpdatedAt": "2026-02-14T15:26:14.676Z"
+    "updatedAt": "2026-02-16T13:26:26.797Z",
+    "contentHash": "678d6aeb8eec27415c0326fb7da5b27ffc3a911c",
+    "previousContentHash": "3b7f5b18d0879e42c53f9c164dfdfee502eef764",
+    "previousUpdatedAt": "2026-02-14T15:26:25.357Z"
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
@@ -644,10 +648,10 @@
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2026-02-16T07:40:06.254Z",
-    "contentHash": "0fc11358ec28ecc25cc54ee3d5b3fd9bc8842c8c",
-    "previousContentHash": "2a569cf03a427508be65e369041560e06c869f55",
-    "previousUpdatedAt": "2026-02-16T07:17:04.124Z"
+    "updatedAt": "2026-02-16T11:42:19.781Z",
+    "contentHash": "92b79dc646b9d64eab35426227a0257c992d4ec6",
+    "previousContentHash": "0fc11358ec28ecc25cc54ee3d5b3fd9bc8842c8c",
+    "previousUpdatedAt": "2026-02-16T07:40:06.254Z"
   },
   "trpl-common-programming-concepts": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1260,8 +1264,10 @@
   },
   "computer-architecture": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2025-05-21T13:15:28Z",
-    "contentHash": "7bb489312c14ba39944deb34669461e488f4fe4d"
+    "updatedAt": "2026-02-16T13:12:27.097Z",
+    "contentHash": "966607bdf49a3cb3c7209f5af94e594521cf6cef",
+    "previousContentHash": "7bb489312c14ba39944deb34669461e488f4fe4d",
+    "previousUpdatedAt": "2025-05-21T13:15:28Z"
   },
   "atomic-operation": {
     "createdAt": "2025-01-05T15:23:07Z",
@@ -1391,10 +1397,10 @@
   },
   "remarkable-books-in-my-life": {
     "createdAt": "2022-04-19T04:49:15Z",
-    "updatedAt": "2026-02-16T06:18:16.374Z",
-    "contentHash": "88360881b6e0fecb9276876ce5d9301112673287",
-    "previousContentHash": "60891c9ef8029a0cd5ac28483c035e88b998212f",
-    "previousUpdatedAt": "2026-02-15T13:17:43.964Z"
+    "updatedAt": "2026-02-16T13:20:56.769Z",
+    "contentHash": "d2f8c3b9bd46050e1d05612a23f8b1a317214e8a",
+    "previousContentHash": "c54bc685fd23c3475725995608416b2a12cd4b39",
+    "previousUpdatedAt": "2026-02-16T13:12:03.451Z"
   },
   "completion-of-crimes": {
     "createdAt": "2021-11-05T15:38:54Z",
@@ -1705,10 +1711,10 @@
   },
   "ultimate-computer-science-textbook": {
     "createdAt": "2026-01-14T11:09:43.082Z",
-    "updatedAt": "2026-01-14T13:00:44.384Z",
-    "contentHash": "41819619922a2af341448a0efa9dab145454e96e",
-    "previousContentHash": "92cc51207b3eb2e716b71f9064cb10b8d93b6db9",
-    "previousUpdatedAt": "2026-01-14T13:00:20.979Z"
+    "updatedAt": "2026-02-16T14:09:24.533Z",
+    "contentHash": "b08056ed7d84ecfa8897ac6cec26f78c6606cfaa",
+    "previousContentHash": "41819619922a2af341448a0efa9dab145454e96e",
+    "previousUpdatedAt": "2026-01-14T13:00:44.384Z"
   },
   "condorcets-jury-theorem": {
     "createdAt": "2026-01-14T12:00:23.607Z",
@@ -1759,10 +1765,10 @@
   },
   "fitts-law": {
     "createdAt": "2026-02-14T09:15:09.585Z",
-    "updatedAt": "2026-02-14T10:01:54.327Z",
-    "contentHash": "4ef0ae7a694886618ab06d31ba561d9456b6c6c1",
-    "previousContentHash": "07eabc5736926e11e2a5d1ec3160b7e7041fd913",
-    "previousUpdatedAt": "2026-02-14T10:01:46.574Z"
+    "updatedAt": "2026-02-16T09:54:17.876Z",
+    "contentHash": "da5be965639b30daf809fd2b9dbda4616abf7efc",
+    "previousContentHash": "4ef0ae7a694886618ab06d31ba561d9456b6c6c1",
+    "previousUpdatedAt": "2026-02-14T10:01:54.327Z"
   },
   "observability": {
     "createdAt": "2026-02-14T13:40:19.989Z",
@@ -1784,5 +1790,12 @@
     "contentHash": "067e556ae55d12451296134509604a71b61c2bdb",
     "previousContentHash": "045ca0c8b9ceca5358e1e4ef97fdad74308077d6",
     "previousUpdatedAt": "2026-02-16T06:00:36.256Z"
+  },
+  "digital-computer-electronics": {
+    "createdAt": "2026-02-16T13:11:56.446Z",
+    "updatedAt": "2026-02-16T13:29:59.896Z",
+    "contentHash": "ecbb8991a25b789f62f729890d926e1bcd22b1ee",
+    "previousContentHash": "b18c3baac7bafc2ac6d55fe056813017f48e7dc8",
+    "previousUpdatedAt": "2026-02-16T13:29:57.731Z"
   }
 }

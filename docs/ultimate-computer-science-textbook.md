@@ -10,7 +10,7 @@
 
 - 『Structure and Interpretation of Computer Programs』
 - 『The Art of Computer Programming』
-- 『Digital Computer Electronics』
+- [[digital-computer-electronics]]
 - [From Nand to Tetris](https://www.nand2tetris.org/)
 
 ## 관련문서
