@@ -76,6 +76,47 @@ function buildClusterPositions(
   return positions;
 }
 
+function buildNodeColors(
+  nodes: GraphNode[],
+  edges: GraphEdge[],
+  categoryColor: (cat: string) => string,
+): Map<string, string> {
+  const nodeMap = new Map<string, GraphNode>();
+  for (const n of nodes) nodeMap.set(n.id, n);
+
+  const cats = new Map<string, Set<string>>();
+  for (const n of nodes) cats.set(n.id, new Set([n.category]));
+
+  for (const edge of edges) {
+    const [s, t] = edgeId(edge);
+    const sn = nodeMap.get(s), tn = nodeMap.get(t);
+    if (sn && tn) {
+      cats.get(s)!.add(tn.category);
+      cats.get(t)!.add(sn.category);
+    }
+  }
+
+  const colors = new Map<string, string>();
+  for (const node of nodes) {
+    const unique = [...cats.get(node.id)!];
+    if (unique.length === 1 || node.id === node.category) {
+      colors.set(node.id, categoryColor(node.category));
+    } else {
+      let r = 0, g = 0, b = 0, total = 0;
+      for (const c of unique) {
+        const w = c === node.category ? 3 : 1;
+        const rgb = d3.color(categoryColor(c)).rgb();
+        r += rgb.r * w;
+        g += rgb.g * w;
+        b += rgb.b * w;
+        total += w;
+      }
+      colors.set(node.id, d3.rgb(r / total, g / total, b / total).formatHex());
+    }
+  }
+  return colors;
+}
+
 function createSimulation(
   nodes: GraphNode[],
   edges: GraphEdge[],
@@ -115,7 +156,7 @@ function makeDrag(sim: ReturnType<typeof d3.forceSimulation>) {
       e.subject.fy = e.y;
     })
     .on("end", (e: { active: number; subject: GraphNode }) => {
-      if (!e.active) sim.alphaTarget(0);
+      if (!e.active) sim.alphaTarget(0.01);
       e.subject.fx = null;
       e.subject.fy = null;
     });
@@ -152,6 +193,7 @@ export async function initGraph(): Promise<void> {
     categories,
   );
   const clusters = buildClusterPositions(categories, w, h);
+  const nodeColors = buildNodeColors(nodes, edges, categoryColor);
 
   for (const node of nodes) {
     if (node.id === "simonpedia") {
@@ -205,7 +247,7 @@ export async function initGraph(): Promise<void> {
 
   const node = g.append("g").selectAll("circle").data(nodes).join("circle")
     .attr("r", nodeRadius)
-    .attr("fill", (d: GraphNode) => categoryColor(d.category))
+    .attr("fill", (d: GraphNode) => nodeColors.get(d.id)!)
     .attr("stroke", "#fff")
     .attr("stroke-width", 1.5)
     .attr("cursor", "pointer")
