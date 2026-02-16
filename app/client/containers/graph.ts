@@ -276,6 +276,7 @@ function createGraphHandler(): ContainerHandler {
 
       let currentTransform = d3.zoomIdentity;
       const fadeRadius = Math.min(w, h) * 0.8;
+      let hoveredNode: GraphNode | null = null;
 
       function updateLabelOpacity() {
         if (currentTransform.k < 0.7) {
@@ -284,7 +285,11 @@ function createGraphHandler(): ContainerHandler {
         }
         const cx = (w / 2 - currentTransform.x) / currentTransform.k;
         const cy = (h / 2 - currentTransform.y) / currentTransform.k;
+        const connected = hoveredNode
+          ? new Set([hoveredNode.id, ...(adjacency.get(hoveredNode.id) ?? [])])
+          : null;
         label.attr("opacity", (d: GraphNode) => {
+          if (connected) return connected.has(d.id) ? 1 : 0.1;
           const dx = (d.x ?? 0) - cx;
           const dy = (d.y ?? 0) - cy;
           const dist = Math.sqrt(dx * dx + dy * dy);
@@ -335,13 +340,10 @@ function createGraphHandler(): ContainerHandler {
 
       node
         .on("mouseover", (_: MouseEvent, d: GraphNode) => {
+          hoveredNode = d;
           const neighbors = adjacency.get(d.id) ?? new Set();
           const connected = new Set([d.id, ...neighbors]);
           node.attr(
-            "opacity",
-            (n: GraphNode) => connected.has(n.id) ? 1 : 0.1,
-          );
-          label.attr(
             "opacity",
             (n: GraphNode) => connected.has(n.id) ? 1 : 0.1,
           );
@@ -349,8 +351,10 @@ function createGraphHandler(): ContainerHandler {
             const [s, t] = edgeEndpoints(e);
             return (s === d.id || t === d.id) ? 0.8 : 0.05;
           });
+          updateLabelOpacity();
         })
         .on("mouseout", () => {
+          hoveredNode = null;
           node.attr("opacity", 1);
           updateLabelOpacity();
           link.attr("stroke-opacity", 0.6);
