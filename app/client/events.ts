@@ -14,7 +14,9 @@ function onDOMContentLoaded(): void {
 /**
  * Handle htmx:afterSwap event
  */
-function onAfterSwap(): void {
+function onAfterSwap(event: Event): void {
+  if ((event as CustomEvent).detail.target.id === "list") return;
+
   document.title = htmx.find("article > h1").textContent || "";
   mermaid.run({ querySelector: "article div.mermaid" });
   select(pathname());
