@@ -168,10 +168,10 @@
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2026-01-17T10:28:10.836Z",
-    "contentHash": "2b04442d84468f5f6572a5e7d8eb19551829c9ca",
-    "previousContentHash": "7f96ee7fb2a5292823cb075bdcf64982cc6d7564",
-    "previousUpdatedAt": "2026-01-17T10:22:53.041Z"
+    "updatedAt": "2026-02-18T09:14:07.25689209Z",
+    "contentHash": "96141d14ebe1ba59c554cb5d8da05a760807abec",
+    "previousContentHash": "2b04442d84468f5f6572a5e7d8eb19551829c9ca",
+    "previousUpdatedAt": "2026-01-17T10:28:10.836Z"
   },
   "svelte": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1495,8 +1495,10 @@
   },
   "justifying-injustice": {
     "createdAt": "2024-12-22T14:10:44Z",
-    "updatedAt": "2025-11-01T11:08:10.229Z",
-    "contentHash": "9e970d3cc7366514304e38b14fd5a9f81e0dcec6"
+    "updatedAt": "2026-02-18T14:17:47.427582031Z",
+    "contentHash": "f111da7fcbdf116b36f200112bcb3d5c663d0424",
+    "previousContentHash": "9e970d3cc7366514304e38b14fd5a9f81e0dcec6",
+    "previousUpdatedAt": "2025-11-01T11:08:10.229Z"
   },
   "typescript": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1804,9 +1806,16 @@
   },
   "white-noise": {
     "createdAt": "2026-02-16T16:26:58.838Z",
-    "updatedAt": "2026-02-18T06:35:05.486053955Z",
-    "contentHash": "32b9b1184f2d5431c118f75c7e2e0e14ce504f7e",
-    "previousContentHash": "b6f17a6f1b2be3a3b751f19b8b42e95a14570965",
-    "previousUpdatedAt": "2026-02-18T06:33:13.069683105Z"
+    "updatedAt": "2026-02-18T08:32:35.5245Z",
+    "contentHash": "c94006d0fbd20d8ca8f7cea7daab549a4e3e89a4",
+    "previousContentHash": "32b9b1184f2d5431c118f75c7e2e0e14ce504f7e",
+    "previousUpdatedAt": "2026-02-18T06:35:05.486053955Z"
+  },
+  "software-development-as-engineering": {
+    "createdAt": "2026-02-18T09:13:46.683Z",
+    "updatedAt": "2026-02-18T14:14:20.837187988Z",
+    "contentHash": "624e2512657363302a27b364999980916e30c2cf",
+    "previousContentHash": "6f95504c49b0390470214e77dea0e32ef3c5351a",
+    "previousUpdatedAt": "2026-02-18T14:07:16.021280029Z"
   }
 }
