@@ -26,6 +26,14 @@ console.time('test');
 console.timeEnd('test'); // test: 5004.000ms
 ```
 
+### hyperfine
+
+CLI 벤치마킹 도구 [hyperfine](https://github.com/sharkdp/hyperfine)을 사용하는 방법. 여러 차례 명령을 실행해 평균값, 중앙값, 편차값을 얻을 수 있다. 웜업(warmup), 파라미터 스캔, 시각화 기능도 제공한다.
+
+```sh
+$ hyperfine 'sleep 0.3'
+```
+
 ## 메모리 사용량
 
 ### top
