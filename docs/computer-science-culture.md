@@ -13,6 +13,7 @@
 - [[ieee-citation-style]]
 - [[big-tech-vs-startup-at-starting-point-of-career]]
 - [[math-in-software-development-field]]
+- [[product-research-in-field]]
 
 ### 문헌
 

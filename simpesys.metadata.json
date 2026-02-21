@@ -123,10 +123,10 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2026-02-16T07:57:28.937Z",
-    "contentHash": "871ce71aab6a57c44fded6991c3d38bab2c41f2c",
-    "previousContentHash": "f06c7e3f15bb2db41c358bcfbb67889ba1ee0c8f",
-    "previousUpdatedAt": "2025-12-15T14:15:45.157Z"
+    "updatedAt": "2026-02-21T15:52:53.352436035Z",
+    "contentHash": "75591d4f70393e4923fce8db5bb1384c4c8fbe3c",
+    "previousContentHash": "4c2eaa67635ae21a0db35abeb2db7a6b88ab5d74",
+    "previousUpdatedAt": "2026-02-21T15:51:17.673631104Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -315,8 +315,10 @@
   },
   "conversational-user-interface": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.21Z",
-    "contentHash": "a6078d047ec0714ebdc7b29944a654bc8c51a569"
+    "updatedAt": "2026-02-21T15:42:26.810145996Z",
+    "contentHash": "0a5bcaf595984b1802759553ceac4d3984865826",
+    "previousContentHash": "a6078d047ec0714ebdc7b29944a654bc8c51a569",
+    "previousUpdatedAt": "2025-11-01T11:08:10.21Z"
   },
   "redis": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -478,8 +480,10 @@
   },
   "urban-sense": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2025-11-01T11:08:10.252Z",
-    "contentHash": "47064570ba7c34503330a640e7423fffa3bead5a"
+    "updatedAt": "2026-02-21T15:44:25.926663086Z",
+    "contentHash": "d0e00dca11a8f967a69ae20e371d3cb974df3135",
+    "previousContentHash": "47064570ba7c34503330a640e7423fffa3bead5a",
+    "previousUpdatedAt": "2025-11-01T11:08:10.252Z"
   },
   "relational-data-model": {
     "createdAt": "2024-03-03T14:02:56Z",
@@ -535,10 +539,10 @@
   },
   "react-server-component": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2026-02-21T00:47:39.274121094Z",
-    "contentHash": "9d19dfcbbc000877a0ce8fd94cfaebea9c014f8a",
-    "previousContentHash": "d478548a6a166098edb37f125bf228d0d70c4813",
-    "previousUpdatedAt": "2026-02-21T00:47:29.30149292Z"
+    "updatedAt": "2026-02-21T15:44:35.565144043Z",
+    "contentHash": "f73bb7a25576c9c710050324e0722cddca536641",
+    "previousContentHash": "9d19dfcbbc000877a0ce8fd94cfaebea9c014f8a",
+    "previousUpdatedAt": "2026-02-21T00:47:39.274121094Z"
   },
   "exchange-trade-fund": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -567,8 +571,10 @@
   },
   "developer-chauvinism": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z",
-    "contentHash": "9d7630e693f799f28c97ce671ee949e3df27f0e1"
+    "updatedAt": "2026-02-21T15:44:16.214041016Z",
+    "contentHash": "c7e2afb2a67353120fb61a6571a3912d5a2a78a0",
+    "previousContentHash": "9e984fdb4964f1e0b7db13e52ed7566ecfa193a6",
+    "previousUpdatedAt": "2026-02-21T15:44:01.267458008Z"
   },
   "a-philosophy-of-software-design": {
     "createdAt": "2024-09-21T13:59:52Z",
@@ -596,8 +602,10 @@
   },
   "surviving-in-ai-era": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2025-11-01T11:08:10.247Z",
-    "contentHash": "af4c92b9cc666a233614622463e1c6df61d5ee1d"
+    "updatedAt": "2026-02-21T15:45:03.274758057Z",
+    "contentHash": "a920acbfe1eff7ab5872233ae624460fc147ec60",
+    "previousContentHash": "af4c92b9cc666a233614622463e1c6df61d5ee1d",
+    "previousUpdatedAt": "2025-11-01T11:08:10.247Z"
   },
   "trpl-generic-types-traits-and-lifetimes": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -648,8 +656,10 @@
   },
   "biocity-and-toolcity": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2025-11-01T11:08:10.201Z",
-    "contentHash": "9b31bacf35a1c7a985c89caf0e323f27dc1d2753"
+    "updatedAt": "2026-02-21T15:46:16.232335938Z",
+    "contentHash": "f8116eb4fa7eaaa5c66ab96d0551a39d980df525",
+    "previousContentHash": "9b31bacf35a1c7a985c89caf0e323f27dc1d2753",
+    "previousUpdatedAt": "2025-11-01T11:08:10.201Z"
   },
   "es-modules": {
     "createdAt": "2025-02-15T14:29:10Z",
@@ -687,8 +697,10 @@
   },
   "korean-palace-coup-2024": {
     "createdAt": "2024-12-29T09:10:48Z",
-    "updatedAt": "2025-11-01T11:08:10.23Z",
-    "contentHash": "6f5128150793c19806cf05ae1d6065e126eb81bf"
+    "updatedAt": "2026-02-21T15:46:07.143968018Z",
+    "contentHash": "af8e7f205a2cc35d2833470e215c019804922b5f",
+    "previousContentHash": "6f5128150793c19806cf05ae1d6065e126eb81bf",
+    "previousUpdatedAt": "2025-11-01T11:08:10.23Z"
   },
   "knip": {
     "createdAt": "2025-01-02T13:35:24Z",
@@ -744,8 +756,10 @@
   },
   "htmx": {
     "createdAt": "2024-12-28T15:20:38Z",
-    "updatedAt": "2025-11-01T11:08:10.224Z",
-    "contentHash": "24fd89c9c98d56cd1a23a643eb99520340b59f4f"
+    "updatedAt": "2026-02-21T15:46:35.572427979Z",
+    "contentHash": "fa52aa8451ad14a625781840a9d717d53c0c0887",
+    "previousContentHash": "24fd89c9c98d56cd1a23a643eb99520340b59f4f",
+    "previousUpdatedAt": "2025-11-01T11:08:10.224Z"
   },
   "multi-member-district": {
     "createdAt": "2025-03-10T12:20:24Z",
@@ -801,8 +815,10 @@
   },
   "nonviolent-resistance": {
     "createdAt": "2025-01-01T15:35:04Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z",
-    "contentHash": "5ca606769989d6ae55491000d3018c2982d0c570"
+    "updatedAt": "2026-02-21T15:45:22.812525879Z",
+    "contentHash": "d87c6989cb302e6ae01b1888ca59762dbec33fca",
+    "previousContentHash": "5ca606769989d6ae55491000d3018c2982d0c570",
+    "previousUpdatedAt": "2025-11-01T11:08:10.234Z"
   },
   "welcome-to-the-era-of-experience": {
     "createdAt": "2025-05-27T14:20:18Z",
@@ -835,8 +851,10 @@
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2025-11-01T11:08:10.251Z",
-    "contentHash": "8a49448ae9c7e067cb1ae0bbd6e88d44809fd555"
+    "updatedAt": "2026-02-21T15:45:08.959073975Z",
+    "contentHash": "17e3f6bca153c1f71db99659655384dd858064b9",
+    "previousContentHash": "8a49448ae9c7e067cb1ae0bbd6e88d44809fd555",
+    "previousUpdatedAt": "2025-11-01T11:08:10.251Z"
   },
   "trpl-common-collections": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -978,8 +996,10 @@
   },
   "zed-editor": {
     "createdAt": "2025-05-20T12:41:20Z",
-    "updatedAt": "2025-11-01T11:08:10.258Z",
-    "contentHash": "13237d6d7ece7da1744980e3dedecd553993cab2"
+    "updatedAt": "2026-02-21T15:46:31.026864014Z",
+    "contentHash": "cc703013e2a0f9c887878c0b636ca1d863e52ac9",
+    "previousContentHash": "13237d6d7ece7da1744980e3dedecd553993cab2",
+    "previousUpdatedAt": "2025-11-01T11:08:10.258Z"
   },
   "graphic-design": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1020,8 +1040,10 @@
   },
   "gyeonggi-do-citizens-sense-of-urban-area": {
     "createdAt": "2024-12-01T15:19:39Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z",
-    "contentHash": "0aef7f09f3cdf4d79cc2f1436895019ca619ee82"
+    "updatedAt": "2026-02-21T15:46:26.944150879Z",
+    "contentHash": "7b245e46440026588e82a31be108f4847327f39b",
+    "previousContentHash": "0aef7f09f3cdf4d79cc2f1436895019ca619ee82",
+    "previousUpdatedAt": "2025-11-01T11:08:10.222Z"
   },
   "visual-communication-design": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1149,10 +1171,10 @@
   },
   "computer-science-culture": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-12-24T14:02:44.591Z",
-    "contentHash": "af31c5846d53ac600a370ea9c1c6869a785d17bd",
-    "previousContentHash": "4d66cf2ccc039495a22ea01865e675fc0d1d86c2",
-    "previousUpdatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2026-02-21T15:15:54.073730957Z",
+    "contentHash": "5a246af8c4bd14b7c6bb26530358807821871a8d",
+    "previousContentHash": "af31c5846d53ac600a370ea9c1c6869a785d17bd",
+    "previousUpdatedAt": "2025-12-24T14:02:44.591Z"
   },
   "concurrent-programming": {
     "createdAt": "2022-04-19T04:43:32Z",
@@ -1290,8 +1312,10 @@
   },
   "well-made-film": {
     "createdAt": "2025-01-02T15:44:33Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z",
-    "contentHash": "6c4e43da2b5a5b68257406532d7096cf2295de9e"
+    "updatedAt": "2026-02-21T15:47:05.968778076Z",
+    "contentHash": "c9a91fc76d5785686b8fd2b45bf07112eefc5065",
+    "previousContentHash": "00523eca862785edfe48e891b806157c1a37f259",
+    "previousUpdatedAt": "2026-02-21T15:46:58.014531006Z"
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
@@ -1327,8 +1351,10 @@
   },
   "ceil-of-frontend-engineer-career": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.205Z",
-    "contentHash": "8bb6e53e1587879e117090684d68a41311066d94"
+    "updatedAt": "2026-02-21T15:41:50.9795979Z",
+    "contentHash": "5840af0275420412e3c96392fee58cce7f884650",
+    "previousContentHash": "8bb6e53e1587879e117090684d68a41311066d94",
+    "previousUpdatedAt": "2025-11-01T11:08:10.205Z"
   },
   "system-design-interview": {
     "createdAt": "2021-10-16T15:02:07Z",
@@ -1376,8 +1402,10 @@
   },
   "big-tech-vs-startup-at-starting-point-of-career": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2025-11-01T11:08:10.2Z",
-    "contentHash": "dc0091d29ae4f70b80ec831f4625e0a8e93ff0d7"
+    "updatedAt": "2026-02-21T15:42:12.749885986Z",
+    "contentHash": "975764e6654167fa1ab625b3eb8687351d13cdd7",
+    "previousContentHash": "dc0091d29ae4f70b80ec831f4625e0a8e93ff0d7",
+    "previousUpdatedAt": "2025-11-01T11:08:10.2Z"
   },
   "applicative-functor": {
     "createdAt": "2021-08-07T06:03:52Z",
@@ -1497,8 +1525,10 @@
   },
   "effect-system": {
     "createdAt": "2024-11-06T08:44:04Z",
-    "updatedAt": "2025-11-01T11:08:10.216Z",
-    "contentHash": "149ed50efdca5bf390bfd509f0d395c62d5ae093"
+    "updatedAt": "2026-02-21T15:46:43.363761963Z",
+    "contentHash": "82e2eb234b5b932cc8dc27e34bd334917e57f690",
+    "previousContentHash": "149ed50efdca5bf390bfd509f0d395c62d5ae093",
+    "previousUpdatedAt": "2025-11-01T11:08:10.216Z"
   },
   "artificial-intelligence": {
     "createdAt": "2025-05-20T13:51:28Z",
@@ -1842,5 +1872,12 @@
     "contentHash": "3ae678a41e9a7db92ebd922a90f5220b569ff9b5",
     "previousContentHash": "fba7b08bdec318f8dce01de9ff5627d0f9d2f6fb",
     "previousUpdatedAt": "2026-02-21T13:51:25.212947021Z"
+  },
+  "product-research-in-field": {
+    "createdAt": "2026-02-21T15:15:13.979Z",
+    "updatedAt": "2026-02-21T15:54:49.451916992Z",
+    "contentHash": "ca9b64df3ae99e6f0463cf0f4eab0016097a169f",
+    "previousContentHash": "a7e9bacd124217815ab442176e2665495c59bde8",
+    "previousUpdatedAt": "2026-02-21T15:34:04.484996094Z"
   }
 }

@@ -10,9 +10,7 @@
 print: String -> Unit / IO
 ```
 
-::: NOTE
 대수적 효과는 예외의 일반화된 정의처럼 느껴지기도 한다.
-:::
 
 ## Effekt
 
