@@ -16,8 +16,10 @@
   },
   "what-did-architecture-do": {
     "createdAt": "2022-01-15T07:25:14Z",
-    "updatedAt": "2025-11-01T11:08:10.256Z",
-    "contentHash": "0d4497350d5e5a5259707a2a26580b65d25e4669"
+    "updatedAt": "2026-02-21T14:05:47.026666992Z",
+    "contentHash": "9d78dccbe27f1c3dd060ca5843160988fcd5ec4a",
+    "previousContentHash": "d8d83ebe8e98d7c451ab587de6ff50201a25ef83",
+    "previousUpdatedAt": "2026-02-21T14:05:39.394935059Z"
   },
   "git-rebase-onto": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -153,8 +155,10 @@
   },
   "modern-history-of-japan": {
     "createdAt": "2024-03-03T14:01:01Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z",
-    "contentHash": "7a83ab78872cb3025b25ac4d4af58850b9c1c958"
+    "updatedAt": "2026-02-21T14:06:07.559543945Z",
+    "contentHash": "205beab0c02a23f4a7d3a38af881d24fcb90e9a1",
+    "previousContentHash": "7a83ab78872cb3025b25ac4d4af58850b9c1c958",
+    "previousUpdatedAt": "2025-11-01T11:08:10.232Z"
   },
   "discourse-on-the-origin-and-basis-of-inequality-among-men": {
     "createdAt": "2025-03-23T04:43:30Z",
@@ -234,8 +238,10 @@
   },
   "neutrality-myth": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.233Z",
-    "contentHash": "1db69864a4e4f52d067913947c6f1dc04b3dd463"
+    "updatedAt": "2026-02-21T12:25:35.003970947Z",
+    "contentHash": "f27eaddd530e0ce0987518ff73d91b4918815eec",
+    "previousContentHash": "d6e05394eb0ae786e9b7d7857b51e4e4ca88677c",
+    "previousUpdatedAt": "2026-02-21T12:19:06.649668945Z"
   },
   "rust-oop": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -529,8 +535,10 @@
   },
   "react-server-component": {
     "createdAt": "2025-01-04T15:12:24Z",
-    "updatedAt": "2025-11-01T11:08:10.24Z",
-    "contentHash": "e89139f5279ce2b44c708ef94944a4bb0385c0c4"
+    "updatedAt": "2026-02-21T00:47:39.274121094Z",
+    "contentHash": "9d19dfcbbc000877a0ce8fd94cfaebea9c014f8a",
+    "previousContentHash": "d478548a6a166098edb37f125bf228d0d70c4813",
+    "previousUpdatedAt": "2026-02-21T00:47:29.30149292Z"
   },
   "exchange-trade-fund": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -566,8 +574,8 @@
     "createdAt": "2024-09-21T13:59:52Z",
     "updatedAt": "2026-02-16T13:26:26.797Z",
     "contentHash": "678d6aeb8eec27415c0326fb7da5b27ffc3a911c",
-    "previousContentHash": "3b7f5b18d0879e42c53f9c164dfdfee502eef764",
-    "previousUpdatedAt": "2026-02-14T15:26:25.357Z"
+    "previousContentHash": "8cc50ab18a5072265f20e4369e5299de2e35e617",
+    "previousUpdatedAt": "2026-02-21T13:35:18.417794922Z"
   },
   "rust-concurrency": {
     "createdAt": "2022-04-07T10:10:19Z",
@@ -798,8 +806,10 @@
   },
   "welcome-to-the-era-of-experience": {
     "createdAt": "2025-05-27T14:20:18Z",
-    "updatedAt": "2025-11-01T11:08:10.255Z",
-    "contentHash": "b392a9cba99d36ddbcd55eebfca5364e04e3792a"
+    "updatedAt": "2026-02-21T13:50:54.272981934Z",
+    "contentHash": "b392a9cba99d36ddbcd55eebfca5364e04e3792a",
+    "previousContentHash": "23d62f397a20af9ff6f861720b560f5801af74e8",
+    "previousUpdatedAt": "2026-02-21T13:33:49.18487793Z"
   },
   "compiler": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -1285,10 +1295,10 @@
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2026-02-15T14:04:41.353Z",
-    "contentHash": "afe9eb31d893cfbd82fe30bcd5c2d8b90d097e94",
-    "previousContentHash": "d45b0edbcf8cb108e7e11ae15d75c8389dfb9d8f",
-    "previousUpdatedAt": "2025-09-07T09:50:24Z"
+    "updatedAt": "2026-02-21T12:20:46.224270996Z",
+    "contentHash": "7dc7fe0d31d75e77f43befe1e038edd0d18eee71",
+    "previousContentHash": "2d83c8169e370717eb8211d42aa42478cb63d99b",
+    "previousUpdatedAt": "2026-02-21T12:16:01.794751953Z"
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
@@ -1339,8 +1349,10 @@
   },
   "oreilly-platform-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z",
-    "contentHash": "776d688337c5c7942b15b8904834c64e2b019635"
+    "updatedAt": "2026-02-21T13:50:54.272370117Z",
+    "contentHash": "776d688337c5c7942b15b8904834c64e2b019635",
+    "previousContentHash": "8220419c87b98e20ab719bae9d32b358cd3d0178",
+    "previousUpdatedAt": "2026-02-21T13:32:12.41963501Z"
   },
   "the-image-of-the-city": {
     "createdAt": "2025-04-12T10:14:46Z",
@@ -1572,8 +1584,10 @@
   },
   "clean-code-myth": {
     "createdAt": "2024-11-19T04:38:50Z",
-    "updatedAt": "2025-11-01T11:08:10.206Z",
-    "contentHash": "d2ced45983347d5bbb22466fc6f0a07d2107904f"
+    "updatedAt": "2026-02-21T13:52:30.191468994Z",
+    "contentHash": "822979959b49261b0585bffba9befb668b3fda92",
+    "previousContentHash": "d5177d52b34772c87ce6fd0845503f7014782195",
+    "previousUpdatedAt": "2026-02-21T13:26:57.604329102Z"
   },
   "designing-data-intensive-applications-ch4": {
     "createdAt": "2021-01-28T08:35:34Z",
@@ -1582,8 +1596,10 @@
   },
   "education-premium": {
     "createdAt": "2022-03-10T03:55:11Z",
-    "updatedAt": "2025-11-01T11:08:10.215Z",
-    "contentHash": "68770813ead66a26a53f5145a0faca6a668a0bb4"
+    "updatedAt": "2026-02-21T14:05:19.450083008Z",
+    "contentHash": "b3cf09efa0995398c52dd93c088f133ff5550fef",
+    "previousContentHash": "68770813ead66a26a53f5145a0faca6a668a0bb4",
+    "previousUpdatedAt": "2025-11-01T11:08:10.215Z"
   },
   "database": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -1662,8 +1678,10 @@
   },
   "a-brief-history-of-intelligence": {
     "createdAt": "2025-09-20T08:13:50Z",
-    "updatedAt": "2025-11-01T11:08:10.188Z",
-    "contentHash": "8b9e7374948a45d9b0d36ce4fc3339fa511a86e9"
+    "updatedAt": "2026-02-21T14:03:58.954954102Z",
+    "contentHash": "42ef2314eddec877cd41693fd5d19a11085224c6",
+    "previousContentHash": "8b9e7374948a45d9b0d36ce4fc3339fa511a86e9",
+    "previousUpdatedAt": "2025-11-01T11:08:10.188Z"
   },
   "build-a-frontend-web-framework-from-scratch": {
     "createdAt": "2025-09-27T12:29:10Z",
@@ -1719,15 +1737,15 @@
     "createdAt": "2026-01-14T11:09:43.082Z",
     "updatedAt": "2026-02-16T14:09:24.533Z",
     "contentHash": "b08056ed7d84ecfa8897ac6cec26f78c6606cfaa",
-    "previousContentHash": "41819619922a2af341448a0efa9dab145454e96e",
-    "previousUpdatedAt": "2026-01-14T13:00:44.384Z"
+    "previousContentHash": "129dd4a713fa82d327b34a6a16cf0e1889a3d5aa",
+    "previousUpdatedAt": "2026-02-21T13:34:54.7330271Z"
   },
   "condorcets-jury-theorem": {
     "createdAt": "2026-01-14T12:00:23.607Z",
     "updatedAt": "2026-01-14T12:26:12.947Z",
     "contentHash": "68f05abcaade42f437062ebb446d0a106062a5c0",
-    "previousContentHash": "20b8001d61c9fc2004bda5128bb58b8abe1cee1b",
-    "previousUpdatedAt": "2026-01-14T12:26:09.394Z"
+    "previousContentHash": "3658e3a58e8c8788bb9521fac13519e0d7e288e7",
+    "previousUpdatedAt": "2026-02-21T13:34:10.783812988Z"
   },
   "parallel-computing": {
     "createdAt": "2026-01-17T03:38:07.774Z",
@@ -1752,8 +1770,8 @@
     "createdAt": "2026-01-13T15:02:43.388Z",
     "updatedAt": "2026-02-15T13:43:36.694Z",
     "contentHash": "0c70d99e95bf5e5d94ecab7b294d13c4e35d1542",
-    "previousContentHash": "bdcbf15dbb539cb3ca235b3401599d811f1bd8bb",
-    "previousUpdatedAt": "2026-01-17T10:28:10.853Z"
+    "previousContentHash": "0b371c4fd033f3884b86db85d1db6de867dd868e",
+    "previousUpdatedAt": "2026-02-21T13:34:25.361302979Z"
   },
   "my-bookmarks": {
     "createdAt": "2026-01-18T10:04:40.622Z",
@@ -1799,17 +1817,17 @@
   },
   "digital-computer-electronics": {
     "createdAt": "2026-02-16T13:11:56.446Z",
-    "updatedAt": "2026-02-16T13:29:59.896Z",
+    "updatedAt": "2026-02-21T13:48:39.634914063Z",
     "contentHash": "ecbb8991a25b789f62f729890d926e1bcd22b1ee",
-    "previousContentHash": "b18c3baac7bafc2ac6d55fe056813017f48e7dc8",
-    "previousUpdatedAt": "2026-02-16T13:29:57.731Z"
+    "previousContentHash": "3858976b87217b2a3af865f05cfdd2ee347e4ad1",
+    "previousUpdatedAt": "2026-02-21T13:48:20.779320068Z"
   },
   "white-noise": {
     "createdAt": "2026-02-16T16:26:58.838Z",
     "updatedAt": "2026-02-18T08:32:35.5245Z",
     "contentHash": "c94006d0fbd20d8ca8f7cea7daab549a4e3e89a4",
-    "previousContentHash": "32b9b1184f2d5431c118f75c7e2e0e14ce504f7e",
-    "previousUpdatedAt": "2026-02-18T06:35:05.486053955Z"
+    "previousContentHash": "099b807764e56717fc5aa5eb9daac15f80d71a08",
+    "previousUpdatedAt": "2026-02-21T13:35:05.322110107Z"
   },
   "software-development-as-engineering": {
     "createdAt": "2026-02-18T09:13:46.683Z",
@@ -1817,5 +1835,12 @@
     "contentHash": "624e2512657363302a27b364999980916e30c2cf",
     "previousContentHash": "6f95504c49b0390470214e77dea0e32ef3c5351a",
     "previousUpdatedAt": "2026-02-18T14:07:16.021280029Z"
+  },
+  "myth": {
+    "createdAt": "2026-02-21T12:20:40.867Z",
+    "updatedAt": "2026-02-21T13:51:56.753197998Z",
+    "contentHash": "3ae678a41e9a7db92ebd922a90f5220b569ff9b5",
+    "previousContentHash": "fba7b08bdec318f8dce01de9ff5627d0f9d2f6fb",
+    "previousUpdatedAt": "2026-02-21T13:51:25.212947021Z"
   }
 }
