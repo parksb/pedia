@@ -1,20 +1,5 @@
 # 컴퓨터 네트워크
 
-## 하위문서
-
-### 주제
-
-- [[rest-representational-state-transfer]]
-- [[difference-between-127-0-0-1-and-0-0-0-0]]
-- [[ngrinder]]
-- [[generate-thumbnail-using-aws-lambda]]
-- [[activity-pub]]
-- [[web3]]
-- [[http-404]]
-- [[w3c]]
-- [[at-protocol]]
-
-### 문헌
-
-- [[computer-networking-a-top-down-approach]]
-- [[bluesky-and-the-at-protocol]]
+> In computer science, computer engineering, and telecommunications, a network is a group of communicating computers and peripherals known as hosts, which communicate data to other hosts via communication protocols, as facilitated by networking hardware.  
+>
+> --- ["Computer network", Wikipedia](https://en.wikipedia.org/wiki/Computer_network)

@@ -47,4 +47,3 @@ OkLab과 같은 일부 색 공간은 CIE XYZ 색 공간과 동일한 색역을 �
 ## 관련문서
 
 - [[making-software]]
-- [[computer-science]]

@@ -27,4 +27,3 @@
 ## 관련문서
 
 - [[what-did-architecture-do]]
-- [[transportation-engineering]]

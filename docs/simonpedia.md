@@ -6,13 +6,9 @@
 
 ## 하위문서
 
-- [[tech-science]]
-- [[social-science]]
-- [[natural-science]]
-- [[philosophy]]
-- [[art]]
-- [[history]]
-- [[general]]
+- [[idea]]
+- [[subject]]
+- [[publication]]
 
 ## 관련문서
 

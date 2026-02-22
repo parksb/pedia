@@ -11,7 +11,6 @@ g0v 운동을 시작한 카오(Chia-liang Kao)는 2012년 대만 정부의 홍�
 ## 관련문서
 
 - [[digital-democracy]]
-- [[computer-science-culture]]
 
 ## 참고자료
 

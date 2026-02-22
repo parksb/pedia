@@ -16,5 +16,4 @@ Albert P. Malvino, 『Digital Computer Electronics』, 1977.
 
 ## 관련문서
 
-- [[electronic-engineering]]
 - [[simple-as-possible-computer]]

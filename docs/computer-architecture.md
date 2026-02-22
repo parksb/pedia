@@ -1,16 +1,5 @@
 # 컴퓨터 아키텍처
 
-## 하위문서
-
-### 주제
-
-- [[simple-as-possible-computer]]
-- [[i386]]
-- [[flip-flop]]
-- [[adder]]
-- [[webassembly]]
-
-### 문헌
-
-- [[computer-organization-and-design]]
-- [[digital-computer-electronics]]
+> In computer science and computer engineering, a computer architecture is the structure of a computer system made from component parts. It can sometimes be a high-level description that ignores details of the implementation. At a more detailed level, the description may include the instruction set architecture design, microarchitecture design, logic design, and implementation.
+>
+> --- [Wikipedia, "Computer architecture"](https://en.wikipedia.org/wiki/Computer_architecture)
