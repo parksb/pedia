@@ -123,10 +123,10 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2026-02-21T15:52:53.352436035Z",
-    "contentHash": "75591d4f70393e4923fce8db5bb1384c4c8fbe3c",
-    "previousContentHash": "4c2eaa67635ae21a0db35abeb2db7a6b88ab5d74",
-    "previousUpdatedAt": "2026-02-21T15:51:17.673631104Z"
+    "updatedAt": "2026-02-21T16:24:20.204426025Z",
+    "contentHash": "0ff69c84aae69ca624cb45832126050cb1cad129",
+    "previousContentHash": "3578bdf432d02808726e3b39636c10a47a3bb921",
+    "previousUpdatedAt": "2026-02-21T16:21:26.463366943Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -431,7 +431,9 @@
   "oled-and-qled": {
     "createdAt": "2020-12-16T09:15:20Z",
     "updatedAt": "2025-11-01T11:08:10.234Z",
-    "contentHash": "159681fec37941c8be847f7d6f8648e696add4be"
+    "contentHash": "159681fec37941c8be847f7d6f8648e696add4be",
+    "previousContentHash": "6dfe32eb5064c2fa54edf850edc8b4e45161abe9",
+    "previousUpdatedAt": "2026-02-21T15:56:53.236303955Z"
   },
   "mathematics-reboot": {
     "createdAt": "2022-03-06T04:50:56Z",
@@ -1319,10 +1321,10 @@
   },
   "philosophy": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2026-02-21T12:20:46.224270996Z",
-    "contentHash": "7dc7fe0d31d75e77f43befe1e038edd0d18eee71",
-    "previousContentHash": "2d83c8169e370717eb8211d42aa42478cb63d99b",
-    "previousUpdatedAt": "2026-02-21T12:16:01.794751953Z"
+    "updatedAt": "2026-02-22T07:10:53.315931885Z",
+    "contentHash": "8fcc24ff4fe06d0a488ab6c8274e3e9508890c5e",
+    "previousContentHash": "7dc7fe0d31d75e77f43befe1e038edd0d18eee71",
+    "previousUpdatedAt": "2026-02-21T12:20:46.224270996Z"
   },
   "criminal-law-principle": {
     "createdAt": "2024-11-05T12:46:37Z",
@@ -1879,5 +1881,10 @@
     "contentHash": "ca9b64df3ae99e6f0463cf0f4eab0016097a169f",
     "previousContentHash": "a7e9bacd124217815ab442176e2665495c59bde8",
     "previousUpdatedAt": "2026-02-21T15:34:04.484996094Z"
+  },
+  "argumentation": {
+    "createdAt": "2026-02-22T06:55:05.213Z",
+    "updatedAt": "2026-02-22T07:10:53.326413086Z",
+    "contentHash": "71945c3727936e6c6ae17d75ad3d74afb25e36e4"
   }
 }
