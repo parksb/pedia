@@ -31,7 +31,7 @@ header ul > li { display: inline; line-height: inherit;}
 header ul > li:not(:last-child):after { content: '＞'; margin-left: 1px; margin-right: 1px; }
 header div.meta { margin-right: .5rem; font-size: .85rem; }
 header div.meta a { margin-right: .3rem; }
-header .sidebar-toggle { padding: .6rem; cursor: pointer; display: inline-flex; align-items: center; color: #6a737d; }
+header .sidebar-toggle { padding: .6rem; cursor: pointer; display: inline-flex; align-items: center; color: var(--text-secondary); }
 header .sidebar-toggle:hover { color: var(--link); }
 header .sidebar-toggle > svg:last-child { display: none; }
 aside.hidden ~ main header .sidebar-toggle > svg:first-child { display: none; }
@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 1rem 0; font-weight: 600; line-height: 1.25
 h1, h2 { padding-bottom: .3rem; border-bottom: 1px solid var(--border-secondary); }
 h1 { font-weight: 800; }
 h2 { font-weight: 700; }
+b, strong { font-weight: 600; }
 img { box-sizing: initial; max-width: 100%; max-height: 600px; display: block; border: 1px solid var(--border-secondary); }
 img + em { display: block; font-size: 0.9rem; }
 ol, ul { padding-left: 2rem; }
