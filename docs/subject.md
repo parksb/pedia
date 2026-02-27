@@ -58,7 +58,6 @@
 - [[hippocratic-oath-for-technologists]]
 - [[aircraft-accident-investigation]]
 - [[digital-democracy]]
-- [[neutrality-myth]]
 - [[g0v]]
 - [[w3c]]
 - [[korean-palace-coup-2024]]
