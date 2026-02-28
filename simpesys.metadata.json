@@ -299,10 +299,10 @@
   },
   "urban-sense": {
     "createdAt": "2025-02-23T08:14:36Z",
-    "updatedAt": "2026-02-22T12:00:25.31338501Z",
-    "contentHash": "0cc0083d6c7f964d0c88ae6bf2aa3b18106cf755",
-    "previousContentHash": "d0e00dca11a8f967a69ae20e371d3cb974df3135",
-    "previousUpdatedAt": "2026-02-21T15:44:25.926663086Z"
+    "updatedAt": "2026-02-28T12:58:04.459974121Z",
+    "contentHash": "d0e00dca11a8f967a69ae20e371d3cb974df3135",
+    "previousContentHash": "3984b8abacbe872ae381475b346d272b43d8fe25",
+    "previousUpdatedAt": "2026-02-28T12:57:53.441294922Z"
   },
   "caps-lock": {
     "createdAt": "2025-01-03T16:26:56Z",
@@ -374,10 +374,10 @@
   },
   "surviving-in-ai-era": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2026-02-21T15:45:03.274758057Z",
+    "updatedAt": "2026-02-28T00:52:36.739768066Z",
     "contentHash": "a920acbfe1eff7ab5872233ae624460fc147ec60",
-    "previousContentHash": "af4c92b9cc666a233614622463e1c6df61d5ee1d",
-    "previousUpdatedAt": "2025-11-01T11:08:10.247Z"
+    "previousContentHash": "1664ccc2b8297fc68bcad29414baee10f5fa2f46",
+    "previousUpdatedAt": "2026-02-27T14:49:48.325031006Z"
   },
   "trpl-generic-types-traits-and-lifetimes": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1729,10 +1729,10 @@
   },
   "idea": {
     "createdAt": "2026-02-22T09:29:29.36Z",
-    "updatedAt": "2026-02-22T12:00:25.310393066Z",
-    "contentHash": "58f45f44ce3b578ac1687184ff4c7a5aa30ceb72",
-    "previousContentHash": "f11f4555ec0da62a20cefaf2b298a623ced1a22e",
-    "previousUpdatedAt": "2026-02-22T11:59:57.428740967Z"
+    "updatedAt": "2026-02-28T12:58:15.694264893Z",
+    "contentHash": "4b9b040c7aaf67f6a4615a1162624601d0677261",
+    "previousContentHash": "eecd0a7c7cc1e09c632618630f9ecf3441784c2e",
+    "previousUpdatedAt": "2026-02-28T12:58:04.456378906Z"
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
@@ -1747,5 +1747,19 @@
     "contentHash": "7f9eadb5b277a315ff256bedbe0b8170d3405b56",
     "previousContentHash": "7e71fc9432d12095571aed1ecbe7ccad2dd4e21d",
     "previousUpdatedAt": "2026-02-22T09:38:16.188513916Z"
+  },
+  "software-engineer-in-ai-era": {
+    "createdAt": "2026-02-28T00:52:10.421Z",
+    "updatedAt": "2026-02-28T10:34:26.941066895Z",
+    "contentHash": "8cde470f878154bf2ff6043478f006f7ccb27e79",
+    "previousContentHash": "071ad9346e17d5d19b1d3475a8d491d3c62f61b0",
+    "previousUpdatedAt": "2026-02-28T10:31:45.735883057Z"
+  },
+  "branching-strategies-for-package-monorepo": {
+    "createdAt": "2026-02-28T12:53:55.338Z",
+    "updatedAt": "2026-02-28T13:06:37.316419922Z",
+    "contentHash": "3684c28adb73cf2d7b9a99733b5876cb4975611a",
+    "previousContentHash": "9d265d1d0364ddc2274e4851ad416f202153a051",
+    "previousUpdatedAt": "2026-02-28T13:06:23.293631104Z"
   }
 }
