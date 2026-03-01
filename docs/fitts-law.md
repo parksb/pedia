@@ -26,6 +26,7 @@ $$
 ## 관련문서
 
 - [[graphic-design]]
+- [[human-computer-interaction]]
 
 ## 참고자료
 

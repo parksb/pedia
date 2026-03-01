@@ -15,3 +15,7 @@ do
     remapper:register()
 end
 ```
+
+## 관련문서
+
+- [[human-computer-interaction]]

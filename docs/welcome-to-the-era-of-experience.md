@@ -23,4 +23,9 @@
 데이비드 실버(David Silver)와 리처드 서튼(Richard Sutton)은 딥러닝의 시대에도 강화학습을 계속 연구해온 사람들이다.
 :::
 
+## 관련문서
+
+- [[artificial-intelligence]]
+
 [^turingpost]: [Ben Eum, 『'얀 르쿤'의 WEF 2025 타운홀 스피치』, Turing Post Korea, 2025](https://turingpost.co.kr/p/wef-2025-yann-lecun)
+

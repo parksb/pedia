@@ -4,6 +4,10 @@
 
 ### 문헌
 
+- [[the-way-we-notice-thats-what-really-matters-instantiating-ui-components-with-distinguishing-variations]]
+- [[towards-a-science-of-ai-agent-reilability]]
+- [[measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developer-productivity]]
+- [[your-brain-on-chatgpt-accumulation-of-cognitive-debt-when-using-an-ai-assistant-for-essay-writing-task]]
 - [[white-noise]]
 - [[digital-computer-electronics]]
 - [[thinking-in-systems]]

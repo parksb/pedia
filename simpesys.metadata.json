@@ -63,8 +63,10 @@
   },
   "fluid-flexible-user-interface-distribution-for-ubiquitous-multi-device-interaction": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-01-02T15:44:33Z",
-    "contentHash": "30ca8fec4ac4448a781b130229a809a5a40fff52"
+    "updatedAt": "2026-03-01T13:38:35.189164063Z",
+    "contentHash": "71ead5072e9fdc26ffc29e3ac64eaffafb4cee3f",
+    "previousContentHash": "30ca8fec4ac4448a781b130229a809a5a40fff52",
+    "previousUpdatedAt": "2025-01-02T15:44:33Z"
   },
   "vim": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -186,8 +188,10 @@
   },
   "human-centered-artificial-intelligence": {
     "createdAt": "2024-11-22T02:27:26Z",
-    "updatedAt": "2025-11-01T11:08:10.225Z",
-    "contentHash": "52022cfba93fa0ec68b051065d85337dc7e0ff3c"
+    "updatedAt": "2026-03-01T13:41:03.698822021Z",
+    "contentHash": "2e5fff69fba8f42b652b509bbf92e9547cd3fbc3",
+    "previousContentHash": "52022cfba93fa0ec68b051065d85337dc7e0ff3c",
+    "previousUpdatedAt": "2025-11-01T11:08:10.225Z"
   },
   "generate-thumbnail-using-aws-lambda": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -196,10 +200,10 @@
   },
   "conversational-user-interface": {
     "createdAt": "2025-05-17T15:04:07Z",
-    "updatedAt": "2026-02-21T15:42:26.810145996Z",
-    "contentHash": "0a5bcaf595984b1802759553ceac4d3984865826",
-    "previousContentHash": "a6078d047ec0714ebdc7b29944a654bc8c51a569",
-    "previousUpdatedAt": "2025-11-01T11:08:10.21Z"
+    "updatedAt": "2026-03-01T13:39:38.326965088Z",
+    "contentHash": "31c0090767f7f9dc01f70c7ebf1c048edb52f9d5",
+    "previousContentHash": "0a5bcaf595984b1802759553ceac4d3984865826",
+    "previousUpdatedAt": "2026-02-21T15:42:26.810145996Z"
   },
   "jscodeshift": {
     "createdAt": "2025-01-23T11:44:19Z",
@@ -306,8 +310,10 @@
   },
   "caps-lock": {
     "createdAt": "2025-01-03T16:26:56Z",
-    "updatedAt": "2025-11-01T11:08:10.204Z",
-    "contentHash": "bc7066d6f16aa8642494971a458d08ba2a599c9b"
+    "updatedAt": "2026-03-01T13:43:14.630778076Z",
+    "contentHash": "1aa713a5a8fed1deb9071b081e9a2cc034cc93de",
+    "previousContentHash": "bc7066d6f16aa8642494971a458d08ba2a599c9b",
+    "previousUpdatedAt": "2025-11-01T11:08:10.204Z"
   },
   "trpl-managing-growing-projects-with-packages-crates-and-modules": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -476,8 +482,10 @@
   },
   "permission-rationales-in-the-web-ecosystem": {
     "createdAt": "2025-05-03T07:43:08Z",
-    "updatedAt": "2025-11-01T11:08:10.236Z",
-    "contentHash": "07c031bc917c3ca65148ec2963f752cc4a83dd9e"
+    "updatedAt": "2026-03-01T13:39:07.107924072Z",
+    "contentHash": "990fe765b1db769c11e2b73fd47fdbcb33c38b6b",
+    "previousContentHash": "07c031bc917c3ca65148ec2963f752cc4a83dd9e",
+    "previousUpdatedAt": "2025-11-01T11:08:10.236Z"
   },
   "fishermans-knot": {
     "createdAt": "2025-01-23T11:44:19Z",
@@ -535,8 +543,10 @@
   },
   "as-we-may-think": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-11-01T11:08:10.195Z",
-    "contentHash": "5cc7a6dca54fc57c22c3dd0f06c539823dfb46a0"
+    "updatedAt": "2026-03-01T13:40:45.129592041Z",
+    "contentHash": "fdec93ac86a59170ac8e54d6692d1c0b47e40fbf",
+    "previousContentHash": "5cc7a6dca54fc57c22c3dd0f06c539823dfb46a0",
+    "previousUpdatedAt": "2025-11-01T11:08:10.195Z"
   },
   "nonviolent-resistance": {
     "createdAt": "2025-01-01T15:35:04Z",
@@ -547,10 +557,10 @@
   },
   "welcome-to-the-era-of-experience": {
     "createdAt": "2025-05-27T14:20:18Z",
-    "updatedAt": "2026-02-21T13:50:54.272981934Z",
-    "contentHash": "b392a9cba99d36ddbcd55eebfca5364e04e3792a",
-    "previousContentHash": "23d62f397a20af9ff6f861720b560f5801af74e8",
-    "previousUpdatedAt": "2026-02-21T13:33:49.18487793Z"
+    "updatedAt": "2026-03-01T13:40:17.210763916Z",
+    "contentHash": "9702802b8b6296072740c00a48903c9867d7d4d3",
+    "previousContentHash": "b392a9cba99d36ddbcd55eebfca5364e04e3792a",
+    "previousUpdatedAt": "2026-02-21T13:50:54.272981934Z"
   },
   "compiler": {
     "createdAt": "2021-08-01T07:44:42Z",
@@ -677,8 +687,10 @@
   },
   "google-prompt-engineering": {
     "createdAt": "2025-05-25T13:27:14Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z",
-    "contentHash": "909e62566a619db22fa31f10af0605167efe4dee"
+    "updatedAt": "2026-03-01T13:42:31.786240967Z",
+    "contentHash": "f47c12ade4616afa8d86c05da7d865e57643fa8b",
+    "previousContentHash": "909e62566a619db22fa31f10af0605167efe4dee",
+    "previousUpdatedAt": "2025-11-01T11:08:10.222Z"
   },
   "zoning": {
     "createdAt": "2025-04-12T06:48:57Z",
@@ -794,8 +806,10 @@
   },
   "code-shaping": {
     "createdAt": "2025-05-03T07:43:08Z",
-    "updatedAt": "2025-11-01T11:08:10.206Z",
-    "contentHash": "00ea367b780e808a382c6454adb1659f7dc2711b"
+    "updatedAt": "2026-03-01T13:39:19.745553955Z",
+    "contentHash": "55d2a2a94d8a9d1e49dccdae7c98389d7f4fd168",
+    "previousContentHash": "00ea367b780e808a382c6454adb1659f7dc2711b",
+    "previousUpdatedAt": "2025-11-01T11:08:10.206Z"
   },
   "ieee-citation-style": {
     "createdAt": "2020-12-19T04:20:35Z",
@@ -846,8 +860,10 @@
   },
   "memex": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2025-11-01T11:08:10.232Z",
-    "contentHash": "bba396b177a21e4b21c0072d10910804e3fda96c"
+    "updatedAt": "2026-03-01T13:43:43.083101074Z",
+    "contentHash": "a72e61c5b494d1ab68a5c8906d2ba37af3833237",
+    "previousContentHash": "bba396b177a21e4b21c0072d10910804e3fda96c",
+    "previousUpdatedAt": "2025-11-01T11:08:10.232Z"
   },
   "rust-lifetime": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1211,10 +1227,10 @@
   },
   "fitts-law": {
     "createdAt": "2026-02-14T09:15:09.585Z",
-    "updatedAt": "2026-02-16T09:54:17.876Z",
-    "contentHash": "da5be965639b30daf809fd2b9dbda4616abf7efc",
-    "previousContentHash": "4ef0ae7a694886618ab06d31ba561d9456b6c6c1",
-    "previousUpdatedAt": "2026-02-14T10:01:54.327Z"
+    "updatedAt": "2026-03-01T13:42:03.821076904Z",
+    "contentHash": "50d66c0f14e9247775e240ea5948d53c9d8b7acc",
+    "previousContentHash": "da5be965639b30daf809fd2b9dbda4616abf7efc",
+    "previousUpdatedAt": "2026-02-16T09:54:17.876Z"
   },
   "observability": {
     "createdAt": "2026-02-14T13:40:19.989Z",
@@ -1743,23 +1759,51 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-02-22T11:43:08.267827881Z",
-    "contentHash": "7f9eadb5b277a315ff256bedbe0b8170d3405b56",
-    "previousContentHash": "7e71fc9432d12095571aed1ecbe7ccad2dd4e21d",
-    "previousUpdatedAt": "2026-02-22T09:38:16.188513916Z"
+    "updatedAt": "2026-03-01T12:54:37.165751953Z",
+    "contentHash": "777e04905a839612c822a0c1b5b964c4ee827dc8",
+    "previousContentHash": "29d4264861b8049f50d33e85e6842ba3d44fcd80",
+    "previousUpdatedAt": "2026-03-01T12:54:34.739470947Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
-    "updatedAt": "2026-02-28T10:34:26.941066895Z",
-    "contentHash": "8cde470f878154bf2ff6043478f006f7ccb27e79",
-    "previousContentHash": "071ad9346e17d5d19b1d3475a8d491d3c62f61b0",
-    "previousUpdatedAt": "2026-02-28T10:31:45.735883057Z"
+    "updatedAt": "2026-03-01T05:59:18.918631104Z",
+    "contentHash": "db0c8025aacc1e705653db57e2e0b00d5aabfdac",
+    "previousContentHash": "8cde470f878154bf2ff6043478f006f7ccb27e79",
+    "previousUpdatedAt": "2026-02-28T10:34:26.941066895Z"
   },
   "branching-strategies-for-package-monorepo": {
     "createdAt": "2026-02-28T12:53:55.338Z",
-    "updatedAt": "2026-02-28T13:06:37.316419922Z",
-    "contentHash": "3684c28adb73cf2d7b9a99733b5876cb4975611a",
-    "previousContentHash": "9d265d1d0364ddc2274e4851ad416f202153a051",
-    "previousUpdatedAt": "2026-02-28T13:06:23.293631104Z"
+    "updatedAt": "2026-03-01T03:20:53.009541016Z",
+    "contentHash": "8836df5a501f22c67707444827e57474aa8ded24",
+    "previousContentHash": "824eab0301263929aadadaf30e62050f27c51bde",
+    "previousUpdatedAt": "2026-03-01T03:19:59.268662109Z"
+  },
+  "your-brain-on-chatgpt-accumulation-of-cognitive-debt-when-using-an-ai-assistant-for-essay-writing-task": {
+    "createdAt": "2026-03-01T04:55:38.273Z",
+    "updatedAt": "2026-03-01T11:45:24.86749707Z",
+    "contentHash": "7196ec1978b69b72dfa3855419aa8da750c6146e",
+    "previousContentHash": "13bd99353d7034948ff98674d638a5084c14f6be",
+    "previousUpdatedAt": "2026-03-01T06:28:48.451937012Z"
+  },
+  "measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developer-productivity": {
+    "createdAt": "2026-03-01T05:23:22.228Z",
+    "updatedAt": "2026-03-01T11:44:08.475825928Z",
+    "contentHash": "3d2fb6ea12b88e95b2198c73506ebcfc481f7085",
+    "previousContentHash": "7e926a6eb2348f03ea9c7ff90e961caa86877189",
+    "previousUpdatedAt": "2026-03-01T06:17:09.434429932Z"
+  },
+  "towards-a-science-of-ai-agent-reilability": {
+    "createdAt": "2026-03-01T11:00:29.553Z",
+    "updatedAt": "2026-03-01T11:44:26.461063965Z",
+    "contentHash": "971ea0045d7fe7eb849f52175c0169c72818221b",
+    "previousContentHash": "a123bf69bfefa8ed2530355308fc5ae4ffdbdc2e",
+    "previousUpdatedAt": "2026-03-01T11:42:02.389269043Z"
+  },
+  "the-way-we-notice-thats-what-really-matters-instantiating-ui-components-with-distinguishing-variations": {
+    "createdAt": "2026-03-01T12:54:06.249Z",
+    "updatedAt": "2026-03-01T13:54:22.929278076Z",
+    "contentHash": "f71996b6f3c125cf0c5f55c209504c242760fa54",
+    "previousContentHash": "e80fb41f9ce41bb58266b3467f4c81c132bb6984",
+    "previousUpdatedAt": "2026-03-01T13:36:28.061926025Z"
   }
 }

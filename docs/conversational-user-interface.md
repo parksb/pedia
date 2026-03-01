@@ -8,6 +8,10 @@
 
 나는 OS 레벨에서 [[artificial-intelligence]]이 메타 레이어로서 동작하지 않는 한, 대화형 AI는 제대로 사용하지 못할 것 같다. 지금 AI와 대화하는 방식의 워크플로우는 인간과 상호작용할 때의 불편한 부분들을 컴퓨터와 상호작용하는데 가져온 느낌. 내가 달성하고자 하는 일의 맥락과 의도를 모조리 설명해야 한다는 점에서 특히 그렇다. 이미 내 머릿속에 완성되어 있는 내 생각을 자연어로 설명하는 데 들이는 노력 vs 그냥 내가 직접 실행하는 데 들이는 노력을 계속 저울질한다.
 
+## 관련문서
+
+- [[human-computer-interaction]]
+
 ## 참고자료
 
 - [Julian Lehr, "The case against conversational interfaces", 2025](https://julian.digital/2025/03/27/the-case-against-conversational-interfaces/)

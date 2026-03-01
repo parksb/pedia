@@ -39,3 +39,4 @@
 - [[artificial-intelligence]]
 - [[google-prompt-engineering]]
 - [[surviving-in-ai-era]]
+- [[measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developer-productivity]]
