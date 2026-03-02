@@ -1759,10 +1759,10 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-03-01T12:54:37.165751953Z",
-    "contentHash": "777e04905a839612c822a0c1b5b964c4ee827dc8",
-    "previousContentHash": "29d4264861b8049f50d33e85e6842ba3d44fcd80",
-    "previousUpdatedAt": "2026-03-01T12:54:34.739470947Z"
+    "updatedAt": "2026-03-02T14:05:03.235822998Z",
+    "contentHash": "4603fb306c93d4e995a76a8f2cacaebebe102633",
+    "previousContentHash": "17fbdf56165298db90946c20550344955af6ead5",
+    "previousUpdatedAt": "2026-03-02T14:05:01.603940918Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1773,10 +1773,10 @@
   },
   "branching-strategies-for-package-monorepo": {
     "createdAt": "2026-02-28T12:53:55.338Z",
-    "updatedAt": "2026-03-01T03:20:53.009541016Z",
-    "contentHash": "8836df5a501f22c67707444827e57474aa8ded24",
-    "previousContentHash": "824eab0301263929aadadaf30e62050f27c51bde",
-    "previousUpdatedAt": "2026-03-01T03:19:59.268662109Z"
+    "updatedAt": "2026-03-02T12:12:54.037711914Z",
+    "contentHash": "1213ded656d1a0a2765a9addf2099b710131e391",
+    "previousContentHash": "e5b1c3d08a50777148765a2fcc515f4cc9631e6a",
+    "previousUpdatedAt": "2026-03-02T12:09:42.608425049Z"
   },
   "your-brain-on-chatgpt-accumulation-of-cognitive-debt-when-using-an-ai-assistant-for-essay-writing-task": {
     "createdAt": "2026-03-01T04:55:38.273Z",
@@ -1805,5 +1805,19 @@
     "contentHash": "f71996b6f3c125cf0c5f55c209504c242760fa54",
     "previousContentHash": "e80fb41f9ce41bb58266b3467f4c81c132bb6984",
     "previousUpdatedAt": "2026-03-01T13:36:28.061926025Z"
+  },
+  "the-productivity-paradox-of-information-technology": {
+    "createdAt": "2026-03-02T13:10:30.39Z",
+    "updatedAt": "2026-03-02T14:05:31.50927002Z",
+    "contentHash": "3d33c959e799cfa1c59a0a36bebc843538baf305",
+    "previousContentHash": "d2cdd3ec90c6347cbf704ba5a1358d8f0561f404",
+    "previousUpdatedAt": "2026-03-02T14:05:25.034073975Z"
+  },
+  "information-and-communications-technology-as-a-general-purpose-technology": {
+    "createdAt": "2026-03-02T14:04:31.79Z",
+    "updatedAt": "2026-03-02T14:06:58.943214111Z",
+    "contentHash": "20e191b2a67ebbc65fbf462234de1af7a27769db",
+    "previousContentHash": "a2ad10553ddbfcb284a85413e7d8d64219b11763",
+    "previousUpdatedAt": "2026-03-02T14:05:01.637239014Z"
   }
 }

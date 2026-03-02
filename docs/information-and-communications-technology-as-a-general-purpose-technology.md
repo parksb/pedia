@@ -1,0 +1,7 @@
+# Information and Communications Technology as a General Purpose Technology
+
+::: INFO
+[Hailin Liao et al., 『Information and Communications Technology as a General Purpose Technology』, _Information Economics and Policy, Volume 36_, 2016.](https://www.sciencedirect.com/science/article/abs/pii/S0167624516300348)
+:::
+
+> Researchers have long been puzzled by ICT's (Information and Communication Technology) contributions towards (productivity) growth. This paper investigates and reveals the multi-facets of ICT productivity and the mechanism through which ICT affects productivity by bringing all the distinct streams of existing findings together. In particular, we develop a two-level frontier-efficiency model to examine how ICT's direct and indirect impact on different components of productivity is related to the economic growth in the US. Our empirical analysis has confirmed that ICT investment does contribute to productivity but not in the usual manner – we find a positive (but lagged) ICT effect on technological progress. We argue that for a positive ICT role on growth to actually take place, a period of negative relationship between productivity and ICT investment together with ICT-using sectors’ capacity to learn from the embodied new technology was crucial. In addition, it took a learning period with appropriate complementary co-inventions for the new ICT-capital to become effective and its gains to be realized. Our findings provide solid, further empirical evidence to support ICT as a general purpose technology.

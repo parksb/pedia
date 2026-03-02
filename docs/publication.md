@@ -4,6 +4,8 @@
 
 ### 문헌
 
+- [[information-and-communications-technology-as-a-general-purpose-technology]]
+- [[the-productivity-paradox-of-information-technology]]
 - [[the-way-we-notice-thats-what-really-matters-instantiating-ui-components-with-distinguishing-variations]]
 - [[towards-a-science-of-ai-agent-reilability]]
 - [[measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developer-productivity]]
