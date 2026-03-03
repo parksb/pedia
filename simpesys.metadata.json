@@ -1761,8 +1761,8 @@
     "createdAt": "2026-02-22T08:40:31.759Z",
     "updatedAt": "2026-03-02T14:05:03.235822998Z",
     "contentHash": "4603fb306c93d4e995a76a8f2cacaebebe102633",
-    "previousContentHash": "17fbdf56165298db90946c20550344955af6ead5",
-    "previousUpdatedAt": "2026-03-02T14:05:01.603940918Z"
+    "previousContentHash": "8d3115a41a219147f3b8669fec23f7440bd04769",
+    "previousUpdatedAt": "2026-03-03T13:40:34.222333984Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1773,10 +1773,10 @@
   },
   "branching-strategies-for-package-monorepo": {
     "createdAt": "2026-02-28T12:53:55.338Z",
-    "updatedAt": "2026-03-02T12:12:54.037711914Z",
-    "contentHash": "1213ded656d1a0a2765a9addf2099b710131e391",
-    "previousContentHash": "e5b1c3d08a50777148765a2fcc515f4cc9631e6a",
-    "previousUpdatedAt": "2026-03-02T12:09:42.608425049Z"
+    "updatedAt": "2026-03-03T13:40:34.222745117Z",
+    "contentHash": "840a3533057eb1b2fed24aac00bda1f825948ce0",
+    "previousContentHash": "1213ded656d1a0a2765a9addf2099b710131e391",
+    "previousUpdatedAt": "2026-03-02T12:12:54.037711914Z"
   },
   "your-brain-on-chatgpt-accumulation-of-cognitive-debt-when-using-an-ai-assistant-for-essay-writing-task": {
     "createdAt": "2026-03-01T04:55:38.273Z",
@@ -1808,10 +1808,10 @@
   },
   "the-productivity-paradox-of-information-technology": {
     "createdAt": "2026-03-02T13:10:30.39Z",
-    "updatedAt": "2026-03-02T14:05:31.50927002Z",
-    "contentHash": "3d33c959e799cfa1c59a0a36bebc843538baf305",
-    "previousContentHash": "d2cdd3ec90c6347cbf704ba5a1358d8f0561f404",
-    "previousUpdatedAt": "2026-03-02T14:05:25.034073975Z"
+    "updatedAt": "2026-03-03T13:40:34.263990967Z",
+    "contentHash": "8d8bf8e8278a4b5e6f25676fd7ec219b0119fb36",
+    "previousContentHash": "3d33c959e799cfa1c59a0a36bebc843538baf305",
+    "previousUpdatedAt": "2026-03-02T14:05:31.50927002Z"
   },
   "information-and-communications-technology-as-a-general-purpose-technology": {
     "createdAt": "2026-03-02T14:04:31.79Z",
