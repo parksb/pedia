@@ -1766,10 +1766,10 @@
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
-    "updatedAt": "2026-03-01T05:59:18.918631104Z",
-    "contentHash": "db0c8025aacc1e705653db57e2e0b00d5aabfdac",
-    "previousContentHash": "8cde470f878154bf2ff6043478f006f7ccb27e79",
-    "previousUpdatedAt": "2026-02-28T10:34:26.941066895Z"
+    "updatedAt": "2026-03-06T14:33:48.902356934Z",
+    "contentHash": "a5c9368ab1503f4300aa50de2f6ee0035d709f7a",
+    "previousContentHash": "f660b0e24d642c9524e07d54fa02c678be39a531",
+    "previousUpdatedAt": "2026-03-06T14:33:11.404009033Z"
   },
   "branching-strategies-for-package-monorepo": {
     "createdAt": "2026-02-28T12:53:55.338Z",
