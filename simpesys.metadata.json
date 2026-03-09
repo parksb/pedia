@@ -1752,10 +1752,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-02-22T11:56:59.131939941Z",
-    "contentHash": "197cfb9d185e6ad316f0c991e25328aa565219cb",
-    "previousContentHash": "9f3147a248d6f6caa90a49e9de65718888e96a37",
-    "previousUpdatedAt": "2026-02-22T11:42:14.807330078Z"
+    "updatedAt": "2026-03-09T13:12:50.161888916Z",
+    "contentHash": "22ca64696f478d95826f9666cfc0d7b54471671d",
+    "previousContentHash": "197cfb9d185e6ad316f0c991e25328aa565219cb",
+    "previousUpdatedAt": "2026-02-22T11:56:59.131939941Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1819,5 +1819,12 @@
     "contentHash": "20e191b2a67ebbc65fbf462234de1af7a27769db",
     "previousContentHash": "a2ad10553ddbfcb284a85413e7d8d64219b11763",
     "previousUpdatedAt": "2026-03-02T14:05:01.637239014Z"
+  },
+  "agentation": {
+    "createdAt": "2026-03-09T13:12:26.68Z",
+    "updatedAt": "2026-03-09T13:42:47.791310059Z",
+    "contentHash": "7d3cfba93e94a1d33699338d23d6b634e29dfb08",
+    "previousContentHash": "77ef2708730ab1fa0f164f65f40f0177d4a84b4e",
+    "previousUpdatedAt": "2026-03-09T13:42:03.015031982Z"
   }
 }

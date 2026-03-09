@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[agentation]]
 - [[argumentation]]
 - [[myth]]
 - [[swiss-table]]
