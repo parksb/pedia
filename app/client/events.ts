@@ -1,5 +1,6 @@
 import { initContainers } from "./container.ts";
 import { pathname, scrollToActive, select, toggleSidebar } from "./dom.ts";
+import { updateLocalGraph } from "./containers/graph/local-graph.ts";
 
 /**
  * Initialize the app on DOMContentLoaded
@@ -21,6 +22,7 @@ function onAfterSwap(event: Event): void {
   mermaid.run({ querySelector: "article div.mermaid" });
   select(pathname());
   initContainers();
+  updateLocalGraph(pathname());
 }
 
 /**
@@ -30,6 +32,7 @@ function onHistoryRestore(): void {
   select(pathname());
   scrollToActive();
   initContainers();
+  updateLocalGraph(pathname());
 }
 
 /**

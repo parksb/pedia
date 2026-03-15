@@ -1,4 +1,4 @@
-import "./containers/graph.ts";
+import "./containers/graph/global-graph.ts";
 import { pathname, scrollToActive, select, toggleSidebar } from "./dom.ts";
 import { registerEvents } from "./events.ts";
 

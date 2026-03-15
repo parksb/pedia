@@ -2,7 +2,7 @@
 
 [[parksb]]의 디지털 정원.
 
-<div data-container="graph"></div>
+<div data-container="global-graph"></div>
 
 ## 하위문서
 

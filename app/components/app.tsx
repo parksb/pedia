@@ -77,6 +77,7 @@ export function App({ documents, document, css, js }: Props) {
                 <option value="b" title="BFS">B</option>
               </select>
             </div>
+            <div data-container="local-graph"></div>
             <div id="list">
               <List documents={documents} document={document} />
             </div>
