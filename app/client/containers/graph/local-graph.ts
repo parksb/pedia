@@ -185,11 +185,11 @@ function createLocalGraphHandler(): ContainerHandler {
   let lastDocId: string | null = null;
 
   const handle = {
-    update(docId: string, force = false) {
+    update(docId: string) {
       if (!container) return;
       const w = container.clientWidth;
       if (w === 0) return;
-      if (!force && w === lastWidth && docId === lastDocId) return;
+      if (w === lastWidth && docId === lastDocId) return;
       lastWidth = w;
       lastDocId = docId;
       simulation?.stop();
