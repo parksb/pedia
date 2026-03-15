@@ -8,15 +8,20 @@ type ContainerFactory = () => ContainerHandler;
 const registry = new Map<string, ContainerFactory>();
 const active = new Map<HTMLElement, ContainerHandler>();
 
+const scriptPromises = new Map<string, Promise<void>>();
+
 export function loadScript(src: string): Promise<void> {
-  if (document.querySelector(`script[src="${src}"]`)) return Promise.resolve();
-  return new Promise((resolve, reject) => {
+  let p = scriptPromises.get(src);
+  if (p) return p;
+  p = new Promise((resolve, reject) => {
     const el = document.createElement("script");
     el.src = src;
     el.onload = () => resolve();
     el.onerror = reject;
     document.head.appendChild(el);
   });
+  scriptPromises.set(src, p);
+  return p;
 }
 
 export function registerContainer(

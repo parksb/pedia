@@ -180,15 +180,25 @@ export function updateLocalGraph(docId: string): void {
 function createLocalGraphHandler(): ContainerHandler {
   // deno-lint-ignore no-explicit-any
   let simulation: any = null;
-  let resizeObserver: ResizeObserver | null = null;
   let container: HTMLElement | null = null;
+  let lastWidth = 0;
+  let lastDocId: string | null = null;
 
   const handle = {
-    update(docId: string) {
+    update(docId: string, force = false) {
       if (!container) return;
+      const w = container.clientWidth;
+      if (w === 0) return;
+      if (!force && w === lastWidth && docId === lastDocId) return;
+      lastWidth = w;
+      lastDocId = docId;
       simulation?.stop();
       simulation = renderLocalGraph(container, docId);
     },
+  };
+
+  const onResize = () => {
+    if (currentDocId) handle.update(currentDocId);
   };
 
   return {
@@ -196,25 +206,23 @@ function createLocalGraphHandler(): ContainerHandler {
       container = el;
       await ensureGraphData();
 
-      resizeObserver = new ResizeObserver(() => {
-        if (currentDocId) handle.update(currentDocId);
-      });
-      resizeObserver.observe(container);
-
+      globalThis.addEventListener("resize", onResize);
       activeHandlers.add(handle);
 
       const docId = currentDocId ??
         (globalThis.location.pathname.replace(/^\//, "") || "simonpedia");
+      if (!currentDocId) currentDocId = docId;
       handle.update(docId);
     },
 
     destroy(): void {
       activeHandlers.delete(handle);
+      globalThis.removeEventListener("resize", onResize);
       simulation?.stop();
       simulation = null;
-      resizeObserver?.disconnect();
-      resizeObserver = null;
       container = null;
+      lastWidth = 0;
+      lastDocId = null;
     },
   };
 }
