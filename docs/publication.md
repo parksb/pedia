@@ -4,6 +4,7 @@
 
 ### 문헌
 
+- [[why-ai-systems-dont-learn-and-what-to-do-about-it]]
 - [[information-and-communications-technology-as-a-general-purpose-technology]]
 - [[the-productivity-paradox-of-information-technology]]
 - [[the-way-we-notice-thats-what-really-matters-instantiating-ui-components-with-distinguishing-variations]]

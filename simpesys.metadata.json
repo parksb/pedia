@@ -1759,10 +1759,10 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-03-02T14:05:03.235822998Z",
-    "contentHash": "4603fb306c93d4e995a76a8f2cacaebebe102633",
-    "previousContentHash": "8d3115a41a219147f3b8669fec23f7440bd04769",
-    "previousUpdatedAt": "2026-03-03T13:40:34.222333984Z"
+    "updatedAt": "2026-03-18T11:57:11.179528076Z",
+    "contentHash": "670ae0d2171508e83dae296bf82087efa1b8b2d3",
+    "previousContentHash": "310d31d6d9f764c1963479f6cc1eede5cf210f70",
+    "previousUpdatedAt": "2026-03-18T11:56:38.09851001Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1826,5 +1826,12 @@
     "contentHash": "7d3cfba93e94a1d33699338d23d6b634e29dfb08",
     "previousContentHash": "77ef2708730ab1fa0f164f65f40f0177d4a84b4e",
     "previousUpdatedAt": "2026-03-09T13:42:03.015031982Z"
+  },
+  "why-ai-systems-dont-learn-and-what-to-do-about-it": {
+    "createdAt": "2026-03-18T11:57:03.728Z",
+    "updatedAt": "2026-03-18T12:24:22.980125977Z",
+    "contentHash": "93a9612a9f6a311f8d1cb3c46dc2b42a729a75d5",
+    "previousContentHash": "48dec14d8259cd5d485c6e1c70d0d54441e0b7ba",
+    "previousUpdatedAt": "2026-03-18T12:23:26.931865967Z"
   }
 }
