@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[alienated-work]]
 - [[plug-in-system]]
 - [[agentation]]
 - [[argumentation]]

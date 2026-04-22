@@ -1752,10 +1752,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-03-28T13:52:47.133684082Z",
-    "contentHash": "00c93bbeaa32c6e99565d900a53fb98c02592a29",
-    "previousContentHash": "22ca64696f478d95826f9666cfc0d7b54471671d",
-    "previousUpdatedAt": "2026-03-09T13:12:50.161888916Z"
+    "updatedAt": "2026-04-22T14:36:01.586129883Z",
+    "contentHash": "7b3e34be3983161d321486051f635f18245a5acc",
+    "previousContentHash": "00c93bbeaa32c6e99565d900a53fb98c02592a29",
+    "previousUpdatedAt": "2026-03-28T13:52:47.133684082Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1840,5 +1840,10 @@
     "contentHash": "068e9064c5d9ce8592614ca44514feb47dd455a2",
     "previousContentHash": "f70a859ab2c1a00efc30f927f4438853aa80518d",
     "previousUpdatedAt": "2026-03-28T15:18:07.522008057Z"
+  },
+  "alienated-work": {
+    "createdAt": "2026-04-22T14:35:41.389Z",
+    "updatedAt": "2026-04-22T14:36:01.589659912Z",
+    "contentHash": "97b8fd41ad313f1cb2207b92f064223c7273a1b5"
   }
 }
