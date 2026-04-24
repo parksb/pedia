@@ -1745,10 +1745,10 @@
   },
   "idea": {
     "createdAt": "2026-02-22T09:29:29.36Z",
-    "updatedAt": "2026-02-28T12:58:15.694264893Z",
-    "contentHash": "4b9b040c7aaf67f6a4615a1162624601d0677261",
-    "previousContentHash": "eecd0a7c7cc1e09c632618630f9ecf3441784c2e",
-    "previousUpdatedAt": "2026-02-28T12:58:04.456378906Z"
+    "updatedAt": "2026-04-23T15:51:31.772889893Z",
+    "contentHash": "f9968f892b8b3651638ffaeeb09a0965fba7a358",
+    "previousContentHash": "4b9b040c7aaf67f6a4615a1162624601d0677261",
+    "previousUpdatedAt": "2026-02-28T12:58:15.694264893Z"
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
@@ -1845,5 +1845,12 @@
     "createdAt": "2026-04-22T14:35:41.389Z",
     "updatedAt": "2026-04-22T14:36:01.589659912Z",
     "contentHash": "97b8fd41ad313f1cb2207b92f064223c7273a1b5"
+  },
+  "code-is-the-most-strict-spec": {
+    "createdAt": "2026-04-23T15:48:49.31Z",
+    "updatedAt": "2026-04-24T16:33:50.389841064Z",
+    "contentHash": "1a3ed1d5e7dc2e310c49d7960af2dad44f9d5acc",
+    "previousContentHash": "ec41b44a332d75738048a14e6d4e7e3c1a357d8b",
+    "previousUpdatedAt": "2026-04-24T16:33:21.295763916Z"
   }
 }

@@ -9,6 +9,7 @@
 - [[test-driven-development-for-ai-coding]]
 - [[surviving-in-ai-era]]
   - [[software-engineer-in-ai-era]]
+  - [[code-is-the-most-strict-spec]]
 - [[big-tech-vs-startup-at-starting-point-of-career]]
 - [[urban-sense]]
   - [[biocity-and-toolcity]]
