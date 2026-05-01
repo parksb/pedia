@@ -1745,10 +1745,10 @@
   },
   "idea": {
     "createdAt": "2026-02-22T09:29:29.36Z",
-    "updatedAt": "2026-04-23T15:51:31.772889893Z",
-    "contentHash": "f9968f892b8b3651638ffaeeb09a0965fba7a358",
-    "previousContentHash": "4b9b040c7aaf67f6a4615a1162624601d0677261",
-    "previousUpdatedAt": "2026-02-28T12:58:15.694264893Z"
+    "updatedAt": "2026-05-01T11:06:25.005444092Z",
+    "contentHash": "7765a367828653ef22dc9afd69ffa9bd0c54b8ad",
+    "previousContentHash": "f9968f892b8b3651638ffaeeb09a0965fba7a358",
+    "previousUpdatedAt": "2026-04-23T15:51:31.772889893Z"
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
@@ -1852,5 +1852,12 @@
     "contentHash": "1a3ed1d5e7dc2e310c49d7960af2dad44f9d5acc",
     "previousContentHash": "ec41b44a332d75738048a14e6d4e7e3c1a357d8b",
     "previousUpdatedAt": "2026-04-24T16:33:21.295763916Z"
+  },
+  "world-without-subtype-polymorphism": {
+    "createdAt": "2026-05-01T11:05:58.53Z",
+    "updatedAt": "2026-05-01T13:42:10.294986084Z",
+    "contentHash": "2627b8d859fcab96d6408f1e76a3fe047327998e",
+    "previousContentHash": "1e5e8e54445103cc4bfc0cec1dfd57784111cb1d",
+    "previousUpdatedAt": "2026-05-01T13:41:36.352198975Z"
   }
 }
