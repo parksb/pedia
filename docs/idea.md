@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+- [[publicizing-criminal-identities-is-just-soft-drink]]
+- [[what-people-dont-talk-about-when-it-comes-to-culling]]
 - [[world-without-subtype-polymorphism]]
 - [[branching-strategies-for-package-monorepo]]
 - [[product-research-in-field]]
@@ -17,6 +19,7 @@
   - [[gyeonggi-do-citizens-sense-of-urban-area]]
 - [[ceil-of-frontend-engineer-career]]
 - [[neutrality-myth]]
+- [[neoliberalism-ideology-behind-godsaeng]]
 - [[community-computer-science-argument]]
 - [[clean-code-myth]]
 - [[developer-chauvinism]]
