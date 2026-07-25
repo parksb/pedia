@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[urban-goods]]
 - [[clickhouse]]
 - [[alienated-work]]
 - [[plug-in-system]]

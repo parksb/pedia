@@ -1752,10 +1752,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-07-21T15:22:28.666031982Z",
-    "contentHash": "0a8df6bd4be7b98521c9fb360d0659a1ec28bd95",
-    "previousContentHash": "7b3e34be3983161d321486051f635f18245a5acc",
-    "previousUpdatedAt": "2026-04-22T14:36:01.586129883Z"
+    "updatedAt": "2026-07-25T13:45:12.695174072Z",
+    "contentHash": "c7ce7717382a2c43bf5989a5c5b992c86ae8eb5b",
+    "previousContentHash": "0a8df6bd4be7b98521c9fb360d0659a1ec28bd95",
+    "previousUpdatedAt": "2026-07-21T15:22:28.666031982Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1885,5 +1885,12 @@
     "contentHash": "094168449ad7b4d359e1a31fa136f09bfb6a004f",
     "previousContentHash": "31182a752fcbd057177e26747dedd0a6e3dfff06",
     "previousUpdatedAt": "2026-07-25T13:12:05.401314941Z"
+  },
+  "urban-goods": {
+    "createdAt": "2026-07-25T13:44:58.896Z",
+    "updatedAt": "2026-07-25T15:47:23.207479004Z",
+    "contentHash": "d17f6c3528408bad577b807e0be898698bf63d87",
+    "previousContentHash": "d3042d0cf245678cccc580af3827fb1813d17e88",
+    "previousUpdatedAt": "2026-07-25T15:47:46.360525879Z"
   }
 }
