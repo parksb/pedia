@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[clickhouse]]
 - [[alienated-work]]
 - [[plug-in-system]]
 - [[agentation]]

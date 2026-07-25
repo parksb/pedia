@@ -1752,10 +1752,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-04-22T14:36:01.586129883Z",
-    "contentHash": "7b3e34be3983161d321486051f635f18245a5acc",
-    "previousContentHash": "00c93bbeaa32c6e99565d900a53fb98c02592a29",
-    "previousUpdatedAt": "2026-03-28T13:52:47.133684082Z"
+    "updatedAt": "2026-07-21T15:22:28.666031982Z",
+    "contentHash": "0a8df6bd4be7b98521c9fb360d0659a1ec28bd95",
+    "previousContentHash": "7b3e34be3983161d321486051f635f18245a5acc",
+    "previousUpdatedAt": "2026-04-22T14:36:01.586129883Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1878,5 +1878,12 @@
     "contentHash": "36604dc71764733cd8e1a56a2f15c042d2085f81",
     "previousContentHash": "72bb77f5ae761e58cba808af93ac8f713f128810",
     "previousUpdatedAt": "2026-05-14T15:15:17.077072998Z"
+  },
+  "clickhouse": {
+    "createdAt": "2026-07-21T15:22:02.468Z",
+    "updatedAt": "2026-07-25T13:12:23.33050708Z",
+    "contentHash": "094168449ad7b4d359e1a31fa136f09bfb6a004f",
+    "previousContentHash": "31182a752fcbd057177e26747dedd0a6e3dfff06",
+    "previousUpdatedAt": "2026-07-25T13:12:05.401314941Z"
   }
 }
