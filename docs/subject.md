@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[simd]]
 - [[urban-goods]]
 - [[clickhouse]]
 - [[alienated-work]]

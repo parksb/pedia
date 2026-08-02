@@ -236,8 +236,10 @@
   },
   "designing-data-intensive-applications-ch2": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2025-11-01T11:08:10.213Z",
-    "contentHash": "24579373b830045e9535055f13c54c54c955191b"
+    "updatedAt": "2026-08-02T10:10:34.447333008Z",
+    "contentHash": "c1ea07c81b91edc47828445932d7a4a90f71893c",
+    "previousContentHash": "24579373b830045e9535055f13c54c54c955191b",
+    "previousUpdatedAt": "2025-11-01T11:08:10.213Z"
   },
   "monorepo": {
     "createdAt": "2024-11-28T16:18:31Z",
@@ -1752,10 +1754,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-07-25T13:45:12.695174072Z",
-    "contentHash": "c7ce7717382a2c43bf5989a5c5b992c86ae8eb5b",
-    "previousContentHash": "0a8df6bd4be7b98521c9fb360d0659a1ec28bd95",
-    "previousUpdatedAt": "2026-07-21T15:22:28.666031982Z"
+    "updatedAt": "2026-08-02T10:14:35.012733887Z",
+    "contentHash": "03530eb03c854f9298f555bf8195385d00491659",
+    "previousContentHash": "c7ce7717382a2c43bf5989a5c5b992c86ae8eb5b",
+    "previousUpdatedAt": "2026-07-25T13:45:12.695174072Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1888,9 +1890,16 @@
   },
   "urban-goods": {
     "createdAt": "2026-07-25T13:44:58.896Z",
-    "updatedAt": "2026-07-25T15:47:23.207479004Z",
-    "contentHash": "d17f6c3528408bad577b807e0be898698bf63d87",
-    "previousContentHash": "d3042d0cf245678cccc580af3827fb1813d17e88",
-    "previousUpdatedAt": "2026-07-25T15:47:46.360525879Z"
+    "updatedAt": "2026-08-02T10:07:29.608843018Z",
+    "contentHash": "f64352a01f2260ad4d0cec5202fa7e3590e325e6",
+    "previousContentHash": "d17f6c3528408bad577b807e0be898698bf63d87",
+    "previousUpdatedAt": "2026-07-25T15:47:23.207479004Z"
+  },
+  "simd": {
+    "createdAt": "2026-08-02T10:14:20.814Z",
+    "updatedAt": "2026-08-02T10:19:29.559302979Z",
+    "contentHash": "36325349857ad7939a6aa2e71b09a2cdb80f5fe4",
+    "previousContentHash": "2065f733fe758444af259a4dfca5a0df71c1f4e7",
+    "previousUpdatedAt": "2026-08-02T10:17:06.782112061Z"
   }
 }
