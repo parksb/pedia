@@ -50,7 +50,7 @@ export function App({ documents, document, css, js }: Props) {
           />
           <link
             rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+            href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
           />
           <style dangerouslySetInnerHTML={{ __html: css }}></style>
         </head>
