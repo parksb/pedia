@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[so-much-stuff]]
 - [[simd]]
 - [[urban-goods]]
 - [[clickhouse]]
