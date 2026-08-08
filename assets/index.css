@@ -77,7 +77,7 @@ li > code,  p > code { padding: 2px 6px; margin: 0; font-size: 15px; background-
 blockquote { margin: 16px 0 0 0; padding: 0 20px; color: var(--text-secondary); border-left: 2px solid var(--border); }
 .INFO { margin: 16px 0 0 0; padding: 0 16px; color: var(--text-secondary); border-left: 2px solid var(--block-info-border); }
 .NOTE { padding: 12px 16px; background-color: var(--block-note-bg); color: var(--block-note-text); margin: 16px 0 0 0; border-left: 2px solid var(--block-note-border); }
-.NOTE > p:last-child { margin: 0; }
+.NOTE > p:first-child { margin: 0; }
 blockquote a, .NOTE a { color: var(--link-secondary); }
 blockquote a.external, .NOTE a.external { color: var(--link-external-secondary); }
 ol ol, ol ul, ul ol, ul ul { margin-top: 0; }
