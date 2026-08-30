@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[lean]]
 - [[so-much-stuff]]
 - [[simd]]
 - [[urban-goods]]
