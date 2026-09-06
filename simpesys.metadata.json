@@ -141,10 +141,10 @@
   },
   "neutrality-myth": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2026-02-21T12:25:35.003970947Z",
-    "contentHash": "f27eaddd530e0ce0987518ff73d91b4918815eec",
-    "previousContentHash": "d6e05394eb0ae786e9b7d7857b51e4e4ca88677c",
-    "previousUpdatedAt": "2026-02-21T12:19:06.649668945Z"
+    "updatedAt": "2026-09-04T23:50:52.702368896Z",
+    "contentHash": "3072d4f94b10c99ae87453897223890188187dbb",
+    "previousContentHash": "75ba0e0da500cf849b9cf1c1ba8ff1e66668e08e",
+    "previousUpdatedAt": "2026-09-04T23:48:59.213917969Z"
   },
   "rust-oop": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1528,8 +1528,10 @@
   },
   "stock-option": {
     "createdAt": "2024-11-27T00:54:35Z",
-    "updatedAt": "2025-11-01T11:08:10.246Z",
-    "contentHash": "918a1120fa51699a13a2da5be4f544e911c3e5df"
+    "updatedAt": "2026-09-04T23:52:05.074166992Z",
+    "contentHash": "6379f660b5e8d4130203da3478099e03ed112096",
+    "previousContentHash": "918a1120fa51699a13a2da5be4f544e911c3e5df",
+    "previousUpdatedAt": "2025-11-01T11:08:10.246Z"
   },
   "jeonse": {
     "createdAt": "2025-03-02T05:48:54Z",
