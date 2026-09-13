@@ -13,3 +13,7 @@
 석유화학 산업에서는 5-8년간 경미한 사고가 크게 감소했음에도 사망자 수는 감소하지 않았다는 연구[^martin2010]가 있다. 여기에서는 21세기 산업에 하인리히의 법칙을 적용하기에는 모델이 너무 단순하다는 점을 언급한다.
 
 [^martin2010]: Martin Anderson et al., "The Heinrich Accident Triangle—Too Simplistic A Model for HSE Management in the 21st Century?", _SPE International Conference on Health, Safety and Environment in Oil and Gas Exploration and Production_, 2010.
+
+## 관련문서
+
+- [[safety-engineering]]

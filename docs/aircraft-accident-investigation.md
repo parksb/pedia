@@ -60,6 +60,10 @@
 - 감압: 비상강하를 야기시키는 여압감소의 경우.
 - 근거리 충돌위험, 기타 항공교통상의 준사고: 근거리 접근으로 인한 충돌위험과 절차 미숙 또는 장비고장으로 인한 타 항공기와의 위험스러운 항공교통 준사고.
 
+## 관련문서
+
+- [[safety-engineering]]
+
 ## 참고자료
 
 - ICAO, "Annex 13 Twelfth Edition - Aircraft Accident and Incident Investigation", 2020

@@ -188,10 +188,10 @@
   },
   "human-centered-artificial-intelligence": {
     "createdAt": "2024-11-22T02:27:26Z",
-    "updatedAt": "2026-03-01T13:41:03.698822021Z",
-    "contentHash": "2e5fff69fba8f42b652b509bbf92e9547cd3fbc3",
-    "previousContentHash": "52022cfba93fa0ec68b051065d85337dc7e0ff3c",
-    "previousUpdatedAt": "2025-11-01T11:08:10.225Z"
+    "updatedAt": "2026-09-13T10:20:22.962246094Z",
+    "contentHash": "1d0df03045abfa7640539bd1493e960d2de7fc10",
+    "previousContentHash": "4f116307efa6148d833c5209ce675ec3e75535f0",
+    "previousUpdatedAt": "2026-09-13T10:14:43.643427002Z"
   },
   "generate-thumbnail-using-aws-lambda": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -571,10 +571,10 @@
   },
   "human-computer-interaction": {
     "createdAt": "2024-12-29T08:30:05Z",
-    "updatedAt": "2026-02-22T09:31:48.666343994Z",
-    "contentHash": "b804b070c6c395d15e2474516e924cd9ef5dd399",
-    "previousContentHash": "1c693bce579b863e336c1ce69813c5c33fe5e165",
-    "previousUpdatedAt": "2026-02-14T09:15:24.161Z"
+    "updatedAt": "2026-09-13T11:44:44.261314941Z",
+    "contentHash": "b3d4b66f55027a84068f9e1e4676d733d074ad94",
+    "previousContentHash": "e06abc9e8da258e46b8b2c9214b9894fc079e8bc",
+    "previousUpdatedAt": "2026-09-13T11:44:43.313045898Z"
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
@@ -640,10 +640,10 @@
   },
   "computer-network": {
     "createdAt": "2020-12-28T15:28:16Z",
-    "updatedAt": "2026-02-22T09:31:48.643673096Z",
-    "contentHash": "b7806f98a5947512a2ec6bbec020cd112afc858f",
-    "previousContentHash": "c4a022d4fc221b71e80bcc1166037861b07387aa",
-    "previousUpdatedAt": "2025-05-17T15:04:07Z"
+    "updatedAt": "2026-09-13T11:44:56.284891113Z",
+    "contentHash": "0499dac0987a171ffc688531404bd99587f1fcbc",
+    "previousContentHash": "b7806f98a5947512a2ec6bbec020cd112afc858f",
+    "previousUpdatedAt": "2026-02-22T09:31:48.643673096Z"
   },
   "megalopolis-seoul-railroad": {
     "createdAt": "2022-04-07T14:04:39Z",
@@ -1021,10 +1021,10 @@
   },
   "artificial-intelligence": {
     "createdAt": "2025-05-20T13:51:28Z",
-    "updatedAt": "2026-02-22T09:31:48.666246094Z",
-    "contentHash": "077faceb3d52c35941389856037f1fa748c380b6",
-    "previousContentHash": "89ae7a691158606f71329947e5b061070b02348d",
-    "previousUpdatedAt": "2025-09-05T13:52:11Z"
+    "updatedAt": "2026-09-13T11:44:36.738300049Z",
+    "contentHash": "80f9ee966a332fd1121854851df5989c64487309",
+    "previousContentHash": "077faceb3d52c35941389856037f1fa748c380b6",
+    "previousUpdatedAt": "2026-02-22T09:31:48.666246094Z"
   },
   "justifying-injustice": {
     "createdAt": "2024-12-22T14:10:44Z",
@@ -1605,25 +1605,31 @@
   },
   "aircraft-accident-investigation": {
     "createdAt": "2024-12-30T15:33:13Z",
-    "updatedAt": "2025-11-01T11:08:10.192Z",
-    "contentHash": "ad147a9a11bde51d5ceeac552cee6580c6d64ea8"
+    "updatedAt": "2026-09-13T11:43:48.514825928Z",
+    "contentHash": "bb339a080a5205a787a51999fd95a54bc2a9dbaf",
+    "previousContentHash": "ad147a9a11bde51d5ceeac552cee6580c6d64ea8",
+    "previousUpdatedAt": "2025-11-01T11:08:10.192Z"
   },
   "shell-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-11-01T11:08:10.244Z",
-    "contentHash": "ed08c99e01d5bdf7520e3cbb16ff4a5f07263d71"
+    "updatedAt": "2026-09-13T11:43:28.304462891Z",
+    "contentHash": "324391a267c2c8dffe48dec98e03b1efd3faad5d",
+    "previousContentHash": "ed08c99e01d5bdf7520e3cbb16ff4a5f07263d71",
+    "previousUpdatedAt": "2025-11-01T11:08:10.244Z"
   },
   "heinrichs-law": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2025-11-01T11:08:10.222Z",
-    "contentHash": "e51870995d8c8eb1c09b2614dcb19dc6d2dde6f9"
+    "updatedAt": "2026-09-13T11:43:08.85725Z",
+    "contentHash": "1ea52a5afe1e8fda9d34280396687d2b4407c490",
+    "previousContentHash": "e51870995d8c8eb1c09b2614dcb19dc6d2dde6f9",
+    "previousUpdatedAt": "2025-11-01T11:08:10.222Z"
   },
   "swiss-cheese-model": {
     "createdAt": "2024-11-12T02:15:02Z",
-    "updatedAt": "2026-02-22T09:31:48.669862061Z",
-    "contentHash": "8d8b24f2858cfebdf0f8d143a2a91bbd2cb593f9",
-    "previousContentHash": "6d5209afb94000e03faa427f2ab5bce5a870388d",
-    "previousUpdatedAt": "2025-11-01T11:08:10.247Z"
+    "updatedAt": "2026-09-13T11:43:18.797349121Z",
+    "contentHash": "7bee20e8651e801bf6692cb567f22f514c358f61",
+    "previousContentHash": "c6cde5a474a6d5ec9e4fcc8bf82162bd6874dccb",
+    "previousUpdatedAt": "2026-09-13T11:40:43.342764893Z"
   },
   "oled-and-qled": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1728,24 +1734,24 @@
   },
   "computer-architecture": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2026-02-22T09:31:48.643558105Z",
-    "contentHash": "0aeba99375098341b344c75bd4e2a14e4d7e7f96",
-    "previousContentHash": "966607bdf49a3cb3c7209f5af94e594521cf6cef",
-    "previousUpdatedAt": "2026-02-16T13:12:27.097Z"
+    "updatedAt": "2026-09-13T11:45:03.454968018Z",
+    "contentHash": "d75e36b14c0bacae2111bae3d4bbe740e4640997",
+    "previousContentHash": "0aeba99375098341b344c75bd4e2a14e4d7e7f96",
+    "previousUpdatedAt": "2026-02-22T09:31:48.643558105Z"
   },
   "software-engineering": {
     "createdAt": "2024-11-05T07:46:29Z",
-    "updatedAt": "2026-02-22T09:31:48.643454102Z",
-    "contentHash": "5a476fa84176a1e873363c6b742d88521e795acb",
-    "previousContentHash": "96141d14ebe1ba59c554cb5d8da05a760807abec",
-    "previousUpdatedAt": "2026-02-18T09:14:07.25689209Z"
+    "updatedAt": "2026-09-13T11:44:31.421147949Z",
+    "contentHash": "ec343583b167e6c9851e115a2ffe757fcc36cc02",
+    "previousContentHash": "5a476fa84176a1e873363c6b742d88521e795acb",
+    "previousUpdatedAt": "2026-02-22T09:31:48.643454102Z"
   },
   "graphic-design": {
     "createdAt": "2020-12-16T09:15:20Z",
-    "updatedAt": "2026-02-22T09:31:48.643360107Z",
-    "contentHash": "e500ae594938c94baf8f841f5e9ec478f075521d",
-    "previousContentHash": "166b40ffd97b8ee0c5e5c6ebe2aad419743d1e3e",
-    "previousUpdatedAt": "2025-04-27T12:03:49Z"
+    "updatedAt": "2026-09-13T11:44:49.904876953Z",
+    "contentHash": "5969f471dd8d58698f0df44b634cd7f05e12fd2e",
+    "previousContentHash": "e500ae594938c94baf8f841f5e9ec478f075521d",
+    "previousUpdatedAt": "2026-02-22T09:31:48.643360107Z"
   },
   "idea": {
     "createdAt": "2026-02-22T09:29:29.36Z",
@@ -1756,17 +1762,17 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-08-30T09:02:50.570801025Z",
-    "contentHash": "8541eade2b72e64e80aead89ae6f90d73f06ff12",
-    "previousContentHash": "89847a8bb209193beaf47fbdbb11a44f45a4ac0b",
-    "previousUpdatedAt": "2026-08-08T06:25:44.137779053Z"
+    "updatedAt": "2026-09-13T11:41:25.264427002Z",
+    "contentHash": "642d0b3ab1efd73a480d1f06075838ed9901defa",
+    "previousContentHash": "8541eade2b72e64e80aead89ae6f90d73f06ff12",
+    "previousUpdatedAt": "2026-08-30T09:02:50.570801025Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-03-18T11:57:11.179528076Z",
-    "contentHash": "670ae0d2171508e83dae296bf82087efa1b8b2d3",
-    "previousContentHash": "310d31d6d9f764c1963479f6cc1eede5cf210f70",
-    "previousUpdatedAt": "2026-03-18T11:56:38.09851001Z"
+    "updatedAt": "2026-09-13T11:39:00.761013916Z",
+    "contentHash": "160ae6407cbcaa67932a21f2199a60937488871a",
+    "previousContentHash": "670ae0d2171508e83dae296bf82087efa1b8b2d3",
+    "previousUpdatedAt": "2026-03-18T11:57:11.179528076Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1798,10 +1804,10 @@
   },
   "towards-a-science-of-ai-agent-reilability": {
     "createdAt": "2026-03-01T11:00:29.553Z",
-    "updatedAt": "2026-03-01T11:44:26.461063965Z",
-    "contentHash": "971ea0045d7fe7eb849f52175c0169c72818221b",
-    "previousContentHash": "a123bf69bfefa8ed2530355308fc5ae4ffdbdc2e",
-    "previousUpdatedAt": "2026-03-01T11:42:02.389269043Z"
+    "updatedAt": "2026-09-13T11:49:12.296013916Z",
+    "contentHash": "e32b410c57e7b623db8396eff25386338199a1cf",
+    "previousContentHash": "971ea0045d7fe7eb849f52175c0169c72818221b",
+    "previousUpdatedAt": "2026-03-01T11:44:26.461063965Z"
   },
   "the-way-we-notice-thats-what-really-matters-instantiating-ui-components-with-distinguishing-variations": {
     "createdAt": "2026-03-01T12:54:06.249Z",
@@ -1906,10 +1912,10 @@
   },
   "so-much-stuff": {
     "createdAt": "2026-08-08T06:25:33.844Z",
-    "updatedAt": "2026-08-08T06:26:22.112937012Z",
-    "contentHash": "d0a9a0493886031444b58c4dd4faafafb8a12dd5",
-    "previousContentHash": "c04bf58fceb9ce6399534b6c762be0cc716169f9",
-    "previousUpdatedAt": "2026-08-08T06:25:44.144396973Z"
+    "updatedAt": "2026-09-13T11:53:37.987600098Z",
+    "contentHash": "03c62a7201ca2b7a62776fbf06b50248fc95fb7a",
+    "previousContentHash": "8de04113d58f6115fc148d9d6338fdeec8ea2b93",
+    "previousUpdatedAt": "2026-09-13T11:53:20.029908936Z"
   },
   "lean": {
     "createdAt": "2026-08-30T09:02:58.205Z",
@@ -1917,5 +1923,19 @@
     "contentHash": "696ef8c1cf2db6646f2220a7cad2377892e4961c",
     "previousContentHash": "c6ae706d7b58789048c351d2463238cb5512a574",
     "previousUpdatedAt": "2026-08-30T12:25:11.104029053Z"
+  },
+  "ironies-of-automation": {
+    "createdAt": "2026-09-13T11:36:53.6Z",
+    "updatedAt": "2026-09-13T11:54:20.742562012Z",
+    "contentHash": "8bb0571be1c56ec4427e40f280658cd5bb77d154",
+    "previousContentHash": "5f16199d562b670c33fffded6ea019ee813da9e7",
+    "previousUpdatedAt": "2026-09-13T11:54:18.722993896Z"
+  },
+  "safety-engineering": {
+    "createdAt": "2026-09-13T11:41:36.866Z",
+    "updatedAt": "2026-09-13T11:44:03.771660889Z",
+    "contentHash": "a2340c10f54276eb584c0bc78a8674b44719ad6e",
+    "previousContentHash": "a05e493165c7ce673898fe5053caf0b682211532",
+    "previousUpdatedAt": "2026-09-13T11:42:52.651916992Z"
   }
 }

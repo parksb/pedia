@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[safety-engineering]]
 - [[lean]]
 - [[so-much-stuff]]
 - [[simd]]
