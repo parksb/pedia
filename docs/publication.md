@@ -5,6 +5,7 @@
 ### 문헌
 
 - [[ironies-of-automation]]
+- [[so-much-stuff]]
 - [[why-ai-systems-dont-learn-and-what-to-do-about-it]]
 - [[information-and-communications-technology-as-a-general-purpose-technology]]
 - [[the-productivity-paradox-of-information-technology]]

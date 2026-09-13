@@ -4,7 +4,6 @@
 
 - [[safety-engineering]]
 - [[lean]]
-- [[so-much-stuff]]
 - [[simd]]
 - [[urban-goods]]
 - [[clickhouse]]

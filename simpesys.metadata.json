@@ -1762,17 +1762,17 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-09-13T11:41:25.264427002Z",
-    "contentHash": "642d0b3ab1efd73a480d1f06075838ed9901defa",
-    "previousContentHash": "8541eade2b72e64e80aead89ae6f90d73f06ff12",
-    "previousUpdatedAt": "2026-08-30T09:02:50.570801025Z"
+    "updatedAt": "2026-09-13T11:56:44.850306885Z",
+    "contentHash": "a743bea7d98b635b71bd209c56a0fa42251e84b9",
+    "previousContentHash": "642d0b3ab1efd73a480d1f06075838ed9901defa",
+    "previousUpdatedAt": "2026-09-13T11:41:25.264427002Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-09-13T11:39:00.761013916Z",
-    "contentHash": "160ae6407cbcaa67932a21f2199a60937488871a",
-    "previousContentHash": "670ae0d2171508e83dae296bf82087efa1b8b2d3",
-    "previousUpdatedAt": "2026-03-18T11:57:11.179528076Z"
+    "updatedAt": "2026-09-13T11:56:52.404689941Z",
+    "contentHash": "a4d400c969943d7ad2b539ae8de594d4c50c4162",
+    "previousContentHash": "160ae6407cbcaa67932a21f2199a60937488871a",
+    "previousUpdatedAt": "2026-09-13T11:39:00.761013916Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1910,13 +1910,6 @@
     "previousContentHash": "2065f733fe758444af259a4dfca5a0df71c1f4e7",
     "previousUpdatedAt": "2026-08-02T10:17:06.782112061Z"
   },
-  "so-much-stuff": {
-    "createdAt": "2026-08-08T06:25:33.844Z",
-    "updatedAt": "2026-09-13T11:53:37.987600098Z",
-    "contentHash": "03c62a7201ca2b7a62776fbf06b50248fc95fb7a",
-    "previousContentHash": "8de04113d58f6115fc148d9d6338fdeec8ea2b93",
-    "previousUpdatedAt": "2026-09-13T11:53:20.029908936Z"
-  },
   "lean": {
     "createdAt": "2026-08-30T09:02:58.205Z",
     "updatedAt": "2026-08-30T12:30:06.147809082Z",
@@ -1937,5 +1930,12 @@
     "contentHash": "a2340c10f54276eb584c0bc78a8674b44719ad6e",
     "previousContentHash": "a05e493165c7ce673898fe5053caf0b682211532",
     "previousUpdatedAt": "2026-09-13T11:42:52.651916992Z"
+  },
+  "so-much-stuff": {
+    "createdAt": "2026-08-08T06:25:33.844Z",
+    "updatedAt": "2026-09-13T11:58:48.141153076Z",
+    "contentHash": "d7466d7d98743749febdb9f1febaf74fd174209e",
+    "previousContentHash": "03c62a7201ca2b7a62776fbf06b50248fc95fb7a",
+    "previousUpdatedAt": "2026-09-13T11:53:37.987600098Z"
   }
 }
