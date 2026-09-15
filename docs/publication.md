@@ -4,6 +4,7 @@
 
 ### 문헌
 
+- [[economic-scenarios-for-transformative-ai]]
 - [[ironies-of-automation]]
 - [[so-much-stuff]]
 - [[why-ai-systems-dont-learn-and-what-to-do-about-it]]

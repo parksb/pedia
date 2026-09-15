@@ -1769,10 +1769,10 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-09-13T11:56:52.404689941Z",
-    "contentHash": "a4d400c969943d7ad2b539ae8de594d4c50c4162",
-    "previousContentHash": "160ae6407cbcaa67932a21f2199a60937488871a",
-    "previousUpdatedAt": "2026-09-13T11:39:00.761013916Z"
+    "updatedAt": "2026-09-15T12:34:29.998758057Z",
+    "contentHash": "0ced8c7005216834e0b7de604332cdd9da89634b",
+    "previousContentHash": "a4d400c969943d7ad2b539ae8de594d4c50c4162",
+    "previousUpdatedAt": "2026-09-13T11:56:52.404689941Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1937,5 +1937,12 @@
     "contentHash": "d7466d7d98743749febdb9f1febaf74fd174209e",
     "previousContentHash": "03c62a7201ca2b7a62776fbf06b50248fc95fb7a",
     "previousUpdatedAt": "2026-09-13T11:53:37.987600098Z"
+  },
+  "economic-scenarios-for-transformative-ai": {
+    "createdAt": "2026-09-15T12:34:13.604Z",
+    "updatedAt": "2026-09-15T13:04:57.696194092Z",
+    "contentHash": "f06f03821f2e1ed7a1f2f20b083976eae06cef16",
+    "previousContentHash": "53427d0f12b9d64ca7bfc1d8c9dfdec4bd47240b",
+    "previousUpdatedAt": "2026-09-15T12:39:13.661693115Z"
   }
 }
