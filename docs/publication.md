@@ -4,6 +4,7 @@
 
 ### 문헌
 
+- [[masterplot]]
 - [[economic-scenarios-for-transformative-ai]]
 - [[ironies-of-automation]]
 - [[so-much-stuff]]

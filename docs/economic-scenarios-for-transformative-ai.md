@@ -17,9 +17,10 @@
 >
 > 이러한 시나리오에서 주요 과제는 경제 성장을 달성하는 것이 아니라, 이익을 더 폭넓게 분배하고, 비용이 불균등하게 분산되지 않도록 하는 것이다.
 
-그러니까 [[what-people-dont-talk-about-when-it-comes-to-culling]]{"AI 시대에 도태되지 않기 위한 방법"} 같은 건 그만보고 싶다. --- [@parksb@silicon.moe](https://social.silicon.moe/@parksb/117275043655244157)
+그러니까 [[surviving-in-ai-era]]{"AI 시대에} [[what-people-dont-talk-about-when-it-comes-to-culling]]{도태되지 않기 위한 방법"} 같은 건 그만보고 싶다. --- [@parksb@silicon.moe](https://social.silicon.moe/@parksb/117275043655244157)
 :::
 
 ## 관련문서
 
 - [[surviving-in-ai-era]]
+- [[what-people-dont-talk-about-when-it-comes-to-culling]]

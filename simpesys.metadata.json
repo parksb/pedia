@@ -1769,10 +1769,10 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-09-15T12:34:29.998758057Z",
-    "contentHash": "0ced8c7005216834e0b7de604332cdd9da89634b",
-    "previousContentHash": "a4d400c969943d7ad2b539ae8de594d4c50c4162",
-    "previousUpdatedAt": "2026-09-13T11:56:52.404689941Z"
+    "updatedAt": "2026-09-19T12:48:22.9836521Z",
+    "contentHash": "70731e0efb865dcd9821913fb053c0463e10f146",
+    "previousContentHash": "0ced8c7005216834e0b7de604332cdd9da89634b",
+    "previousUpdatedAt": "2026-09-15T12:34:29.998758057Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1933,16 +1933,23 @@
   },
   "so-much-stuff": {
     "createdAt": "2026-08-08T06:25:33.844Z",
-    "updatedAt": "2026-09-13T11:58:48.141153076Z",
-    "contentHash": "d7466d7d98743749febdb9f1febaf74fd174209e",
-    "previousContentHash": "03c62a7201ca2b7a62776fbf06b50248fc95fb7a",
-    "previousUpdatedAt": "2026-09-13T11:53:37.987600098Z"
+    "updatedAt": "2026-09-16T13:17:54.486681885Z",
+    "contentHash": "b37646fe1d48610137588295b1773ff7cbb2dd65",
+    "previousContentHash": "d7466d7d98743749febdb9f1febaf74fd174209e",
+    "previousUpdatedAt": "2026-09-13T11:58:48.141153076Z"
   },
   "economic-scenarios-for-transformative-ai": {
     "createdAt": "2026-09-15T12:34:13.604Z",
-    "updatedAt": "2026-09-15T13:04:57.696194092Z",
-    "contentHash": "f06f03821f2e1ed7a1f2f20b083976eae06cef16",
-    "previousContentHash": "53427d0f12b9d64ca7bfc1d8c9dfdec4bd47240b",
-    "previousUpdatedAt": "2026-09-15T12:39:13.661693115Z"
+    "updatedAt": "2026-09-16T13:17:12.598208008Z",
+    "contentHash": "4bc15a0d55c48bd9b40ca64bfe9ea1510a7df1e3",
+    "previousContentHash": "f06f03821f2e1ed7a1f2f20b083976eae06cef16",
+    "previousUpdatedAt": "2026-09-15T13:04:57.696194092Z"
+  },
+  "masterplot": {
+    "createdAt": "2026-09-19T12:48:21.019Z",
+    "updatedAt": "2026-09-19T13:28:30.884104004Z",
+    "contentHash": "29edf994d10700f28b8331aafdc7c5aaf79670e2",
+    "previousContentHash": "0618e47e2b75d24eebc766e7d0f37eb496b5f3e7",
+    "previousUpdatedAt": "2026-09-19T13:21:49.372159912Z"
   }
 }
