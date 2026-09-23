@@ -2,9 +2,9 @@
   "version": "5",
   "specifiers": {
     "jsr:@hono/hono@^4.10.7": "4.10.7",
-    "jsr:@simpesys/core@0.6.1-canary.12": "0.6.1-canary.12",
-    "jsr:@std/encoding@^1.0.10": "1.0.10",
-    "jsr:@std/path@^1.0.8": "1.1.4",
+    "jsr:@simpesys/core@0.6.1": "0.6.1",
+    "jsr:@std/encoding@^1.0.10": "1.0.11",
+    "jsr:@std/path@^1.0.8": "1.1.6",
     "npm:@js-temporal/polyfill@*": "0.5.1",
     "npm:@markslides/markdown-it-mermaid@~0.3.6": "0.3.7",
     "npm:@nozbe/microfuzz@1": "1.0.0",
@@ -37,8 +37,8 @@
     "@hono/hono@4.10.7": {
       "integrity": "b60512559d554f20a945e07a6c5f115e57cbd4c024da9217833c8e7b2c90355d"
     },
-    "@simpesys/core@0.6.1-canary.12": {
-      "integrity": "0ebe93d4718d6cf5b3ea5ede65c608eeb1d760e5abb3e282a20f7c5be2c26beb",
+    "@simpesys/core@0.6.1": {
+      "integrity": "dfc4f772ead69ab40c08499d5e65961e46a438d35495fe5f8cd450a42610d447",
       "dependencies": [
         "jsr:@std/encoding",
         "jsr:@std/path",
@@ -66,11 +66,11 @@
         "npm:shiki"
       ]
     },
-    "@std/encoding@1.0.10": {
-      "integrity": "8783c6384a2d13abd5e9e87a7ae0520a30e9f56aeeaa3bdf910a3eaaf5c811a1"
+    "@std/encoding@1.0.11": {
+      "integrity": "e7cef2f0b3153bccc17431e7c864a1de03a4b6d9647389c43e08aaa775d37385"
     },
-    "@std/path@1.1.4": {
-      "integrity": "1d2d43f39efb1b42f0b1882a25486647cb851481862dc7313390b2bb044314b5"
+    "@std/path@1.1.6": {
+      "integrity": "c68485c2a4dfbb5ae3cc74fae4e8c4e5d874cf8a8ed12927917235c758b46cbe"
     }
   },
   "npm": {
@@ -1175,7 +1175,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@^4.10.7",
-      "jsr:@simpesys/core@0.6.1-canary.12",
+      "jsr:@simpesys/core@0.6.1",
       "npm:@nozbe/microfuzz@1"
     ]
   }
