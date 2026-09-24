@@ -13,7 +13,11 @@ interface Htmx {
 }
 
 interface Mermaid {
-  run({ querySelector }: { querySelector: string }): void;
+  initialize(config: {
+    startOnLoad?: boolean;
+    theme?: "redux" | "redux-dark" | "neutral" | "default" | "base";
+  }): void;
+  run({ querySelector }: { querySelector: string }): Promise<void>;
 }
 
 declare global {

@@ -16,4 +16,9 @@ self.select = select;
 self.scrollToActive = scrollToActive;
 self.toggleSidebar = toggleSidebar;
 
+mermaid.initialize({
+  startOnLoad: true,
+  theme: "redux",
+});
+
 registerEvents();
