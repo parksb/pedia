@@ -24,4 +24,4 @@ SLI(Service Level Indicator, 서비스 수준 지표)는 서비스의 동작을 
 
 ## 관련 문서
 
-- [[open-telemetry]]
+- [[opentelemetry]]

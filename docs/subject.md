@@ -27,7 +27,7 @@
 - [[binary-opposition]]
 - [[island-architecture]]
 - [[color-space]]
-- [[open-telemetry]]
+- [[opentelemetry]]
 - [[nextjs]]
 - [[webassembly]]
 - [[artificial-intelligence]]

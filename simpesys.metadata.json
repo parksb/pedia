@@ -578,10 +578,10 @@
   },
   "unix-philosophy": {
     "createdAt": "2024-11-11T14:03:57Z",
-    "updatedAt": "2026-02-21T15:45:08.959073975Z",
-    "contentHash": "17e3f6bca153c1f71db99659655384dd858064b9",
-    "previousContentHash": "8a49448ae9c7e067cb1ae0bbd6e88d44809fd555",
-    "previousUpdatedAt": "2025-11-01T11:08:10.251Z"
+    "updatedAt": "2026-09-24T00:14:36.808202881Z",
+    "contentHash": "c34fc9a9eae68cae58f858ed27f4245cd74fc9fe",
+    "previousContentHash": "17e3f6bca153c1f71db99659655384dd858064b9",
+    "previousUpdatedAt": "2026-02-21T15:45:08.959073975Z"
   },
   "trpl-common-collections": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -1104,11 +1104,6 @@
     "updatedAt": "2025-11-01T11:08:10.234Z",
     "contentHash": "0fafdc4e5b3e4ca8798550d5a8338e42b3e831bd"
   },
-  "open-telemetry": {
-    "createdAt": "2025-08-24T04:16:24Z",
-    "updatedAt": "2025-11-01T11:08:10.234Z",
-    "contentHash": "0517a5638941fbe160db989afcdf1fb664dcce5a"
-  },
   "js-async-context": {
     "createdAt": "2025-08-26T15:02:05Z",
     "updatedAt": "2025-11-01T11:08:10.229Z",
@@ -1236,10 +1231,10 @@
   },
   "observability": {
     "createdAt": "2026-02-14T13:40:19.989Z",
-    "updatedAt": "2026-02-14T13:47:25.485Z",
-    "contentHash": "ec7fe32ba2129879779ccd56f46cd5835d1bd49b",
-    "previousContentHash": "c1c2c7c49d3b94f6fc5d33d52f419b2a35574873",
-    "previousUpdatedAt": "2026-02-14T13:47:15.583Z"
+    "updatedAt": "2026-10-03T12:48:37.397333984Z",
+    "contentHash": "1ab5a6fc30ff53153261b5710ff67b6bc2992cc5",
+    "previousContentHash": "ec7fe32ba2129879779ccd56f46cd5835d1bd49b",
+    "previousUpdatedAt": "2026-02-14T13:47:25.485Z"
   },
   "reductionism": {
     "createdAt": "2026-02-15T14:03:55.774Z",
@@ -1762,17 +1757,17 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-09-13T11:56:44.850306885Z",
-    "contentHash": "a743bea7d98b635b71bd209c56a0fa42251e84b9",
-    "previousContentHash": "642d0b3ab1efd73a480d1f06075838ed9901defa",
-    "previousUpdatedAt": "2026-09-13T11:41:25.264427002Z"
+    "updatedAt": "2026-10-03T12:48:57.418716064Z",
+    "contentHash": "ee6fe3b28dfcd1395813f1c2e3257857d32663f5",
+    "previousContentHash": "a743bea7d98b635b71bd209c56a0fa42251e84b9",
+    "previousUpdatedAt": "2026-09-13T11:56:44.850306885Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-09-19T12:48:22.9836521Z",
-    "contentHash": "70731e0efb865dcd9821913fb053c0463e10f146",
-    "previousContentHash": "0ced8c7005216834e0b7de604332cdd9da89634b",
-    "previousUpdatedAt": "2026-09-15T12:34:29.998758057Z"
+    "updatedAt": "2026-10-03T12:49:16.909111084Z",
+    "contentHash": "49be84009d24ac34ab1cfa97f4f2a847fed0a5a8",
+    "previousContentHash": "70731e0efb865dcd9821913fb053c0463e10f146",
+    "previousUpdatedAt": "2026-09-19T12:48:22.9836521Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1891,10 +1886,10 @@
   },
   "clickhouse": {
     "createdAt": "2026-07-21T15:22:02.468Z",
-    "updatedAt": "2026-07-25T13:12:23.33050708Z",
-    "contentHash": "094168449ad7b4d359e1a31fa136f09bfb6a004f",
-    "previousContentHash": "31182a752fcbd057177e26747dedd0a6e3dfff06",
-    "previousUpdatedAt": "2026-07-25T13:12:05.401314941Z"
+    "updatedAt": "2026-10-03T12:48:46.633976074Z",
+    "contentHash": "5905bcb83ef72edff9252b126fb6bdf14ec46a63",
+    "previousContentHash": "094168449ad7b4d359e1a31fa136f09bfb6a004f",
+    "previousUpdatedAt": "2026-07-25T13:12:23.33050708Z"
   },
   "urban-goods": {
     "createdAt": "2026-07-25T13:44:58.896Z",
@@ -1933,10 +1928,10 @@
   },
   "so-much-stuff": {
     "createdAt": "2026-08-08T06:25:33.844Z",
-    "updatedAt": "2026-09-16T13:17:54.486681885Z",
-    "contentHash": "b37646fe1d48610137588295b1773ff7cbb2dd65",
-    "previousContentHash": "d7466d7d98743749febdb9f1febaf74fd174209e",
-    "previousUpdatedAt": "2026-09-13T11:58:48.141153076Z"
+    "updatedAt": "2026-09-24T11:15:53.765263916Z",
+    "contentHash": "154fb7ab9ecaa96f368088dc6b2e2e73d8bdbcb2",
+    "previousContentHash": "b37646fe1d48610137588295b1773ff7cbb2dd65",
+    "previousUpdatedAt": "2026-09-16T13:17:54.486681885Z"
   },
   "economic-scenarios-for-transformative-ai": {
     "createdAt": "2026-09-15T12:34:13.604Z",
@@ -1949,7 +1944,19 @@
     "createdAt": "2026-09-19T12:48:21.019Z",
     "updatedAt": "2026-09-19T13:28:30.884104004Z",
     "contentHash": "29edf994d10700f28b8331aafdc7c5aaf79670e2",
-    "previousContentHash": "0618e47e2b75d24eebc766e7d0f37eb496b5f3e7",
-    "previousUpdatedAt": "2026-09-19T13:21:49.372159912Z"
+    "previousContentHash": "92ef2df0c350c1927e542d2bbae336c18708491b",
+    "previousUpdatedAt": "2026-09-24T12:56:23.117554932Z"
+  },
+  "opentelemetry": {
+    "createdAt": "2026-01-03T12:11:22.689Z",
+    "updatedAt": "2026-10-03T12:48:57.424658936Z",
+    "contentHash": "0517a5638941fbe160db989afcdf1fb664dcce5a"
+  },
+  "learning-opentelemetry": {
+    "createdAt": "2026-10-03T12:48:16.368Z",
+    "updatedAt": "2026-10-03T12:49:48.320779053Z",
+    "contentHash": "f76fe5e60a4651b4b3c737b4ff5ef47b07a8a6d1",
+    "previousContentHash": "595bef0dae47a4f44516c6c592b9d653e13de616",
+    "previousUpdatedAt": "2026-10-03T12:49:33.21912793Z"
   }
 }

@@ -23,3 +23,7 @@
 
 - [이종립, "Unix philosophy".](https://johngrib.github.io/wiki/Unix-philosophy/)
 - [박성환, "[번역] The Unix Philosophy: A Brief Introduction"](https://shoark7.github.io/programming/knowledge/unix-philosophy-intro)
+
+## 관련문서
+
+- [[reductionism]]

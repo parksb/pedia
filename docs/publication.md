@@ -4,6 +4,7 @@
 
 ### 문헌
 
+- [[learning-opentelemetry]]
 - [[masterplot]]
 - [[economic-scenarios-for-transformative-ai]]
 - [[ironies-of-automation]]
