@@ -6,6 +6,7 @@
   https://pedia.parksb.xyz/
 </div>
 
-## License
+---
 
-Simonpedia is distributed under the [CC BY-NC 4.0](LICENSE).
+- Built by [Simpesys](https://github.com/parksb/simpesys).
+- Simonpedia is distributed under the [CC BY-NC 4.0](LICENSE).
