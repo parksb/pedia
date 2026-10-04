@@ -1,6 +1,10 @@
-# 🪴 Simonpedia
+<div align="center">
+  <h1>Simonpedia</h1>
 
-> https://pedia.parksb.xyz/
+  <img width="256px" height="256px" src="assets/logo.svg" />
+  
+  https://pedia.parksb.xyz/
+</div>
 
 ## License
 
