@@ -26,6 +26,8 @@ export function App({ documents, document, css, js }: Props) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="theme-color" content="#ffffff" />
+          <link rel="icon" href="/favicon.ico?v=2" sizes="16x16 32x32 48x48" />
+          <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" sizes="any" />
 
           <meta name="fediverse:creator" content="@parksb@silicon.moe" />
           <meta property="og:title" content={document.title} />

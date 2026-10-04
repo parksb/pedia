@@ -1,4 +1,4 @@
-# 🪴Simonpedia
+# Simonpedia
 
 [[parksb]]의 디지털 정원.
 

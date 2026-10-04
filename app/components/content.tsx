@@ -54,7 +54,7 @@ export function Content({ document }: Props) {
           </a>
         </div>
       </header>
-      <article>{raw(document.html)}</article>
+      <article data-document={document.filename}>{raw(document.html)}</article>
     </div>
   );
 }

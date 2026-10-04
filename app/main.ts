@@ -21,6 +21,8 @@ app.use(logger());
 
 app.use("/robots.txt", serveStatic({ root: "./public" }));
 
+app.use("/favicon.ico", serveStatic({ root: "./public" }));
+
 app.use("/googleb1e5dbcc1d32e7b1.html", serveStatic({ root: "./public" }));
 
 app.use("/assets/*", serveStatic({ root: "./" }));
