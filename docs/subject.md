@@ -2,6 +2,7 @@
 
 ## 하위문서
 
+- [[masunaga]]
 - [[safety-engineering]]
 - [[lean]]
 - [[simd]]

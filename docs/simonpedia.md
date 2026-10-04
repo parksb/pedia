@@ -14,5 +14,6 @@
 
 - [[simpesys]]
 - [[simonpedia-rules]]
+- [[work-with-the-garage-door-up]]
 - [[how-to-take-smart-notes]]
 - [[memex]]

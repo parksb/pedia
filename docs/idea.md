@@ -24,3 +24,4 @@
 - [[clean-code-myth]]
 - [[developer-chauvinism]]
 - [[dynamic-language-vs-static-language]]
+- [[about-apple-and-fashion]]

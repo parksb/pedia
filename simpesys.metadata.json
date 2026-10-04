@@ -433,10 +433,10 @@
   },
   "simonpedia": {
     "createdAt": "2024-12-28T12:48:16Z",
-    "updatedAt": "2026-03-15T04:52:06.316920898Z",
-    "contentHash": "92af06f4baed597fbce63830c9ee2b08e90caf9a",
-    "previousContentHash": "5a2c22801562698918c1465af5814831162ae04b",
-    "previousUpdatedAt": "2026-03-15T04:46:29.578788086Z"
+    "updatedAt": "2026-10-04T14:32:38.077860107Z",
+    "contentHash": "370b81a8833448f51ea62a4616be6be13802dea5",
+    "previousContentHash": "d4a82fea2c6c5161f5ebfd09047fba2387a8ce38",
+    "previousUpdatedAt": "2026-10-04T14:32:31.251743896Z"
   },
   "trpl-common-programming-concepts": {
     "createdAt": "2020-12-16T09:15:20Z",
@@ -647,8 +647,10 @@
   },
   "megalopolis-seoul-railroad": {
     "createdAt": "2022-04-07T14:04:39Z",
-    "updatedAt": "2025-11-01T11:08:10.231Z",
-    "contentHash": "cf204b2ff033076e2170a93ca34c636e516a49a2"
+    "updatedAt": "2026-10-04T00:44:00.793999023Z",
+    "contentHash": "e1e42d6fd613af168ba55c4a3ab67a101a464fea",
+    "previousContentHash": "1c4c53603d4044054982d35756a6b51cc177c446",
+    "previousUpdatedAt": "2026-10-04T00:43:40.518547119Z"
   },
   "functional-programming": {
     "createdAt": "2021-07-24T13:54:47Z",
@@ -1750,24 +1752,24 @@
   },
   "idea": {
     "createdAt": "2026-02-22T09:29:29.36Z",
-    "updatedAt": "2026-05-14T15:05:00.055270996Z",
-    "contentHash": "c21d8fb4c47c379f72ad0bde72349a195cdb5470",
-    "previousContentHash": "8a37205d1b9c99af750a60cc40a77b5eabe4fe37",
-    "previousUpdatedAt": "2026-05-14T15:04:58.306416016Z"
+    "updatedAt": "2026-10-04T12:24:11.345054932Z",
+    "contentHash": "fdd75d2d25416485743a66ec10d332acd20b3998",
+    "previousContentHash": "381951917f05717ed7bf3eb4d838dfa7bbb7f65c",
+    "previousUpdatedAt": "2026-10-04T12:19:51.110812012Z"
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-10-03T12:48:57.418716064Z",
-    "contentHash": "ee6fe3b28dfcd1395813f1c2e3257857d32663f5",
-    "previousContentHash": "a743bea7d98b635b71bd209c56a0fa42251e84b9",
-    "previousUpdatedAt": "2026-09-13T11:56:44.850306885Z"
+    "updatedAt": "2026-10-04T12:33:00.031960938Z",
+    "contentHash": "3322797a1a5c0ad20c7be3a93ba2d258bbfc8c76",
+    "previousContentHash": "ee6fe3b28dfcd1395813f1c2e3257857d32663f5",
+    "previousUpdatedAt": "2026-10-03T12:48:57.418716064Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-10-03T12:49:16.909111084Z",
-    "contentHash": "49be84009d24ac34ab1cfa97f4f2a847fed0a5a8",
-    "previousContentHash": "70731e0efb865dcd9821913fb053c0463e10f146",
-    "previousUpdatedAt": "2026-09-19T12:48:22.9836521Z"
+    "updatedAt": "2026-10-04T14:31:21.591683105Z",
+    "contentHash": "739403bec95fd3a2610b78ebfeb13bab506b3d4c",
+    "previousContentHash": "49be84009d24ac34ab1cfa97f4f2a847fed0a5a8",
+    "previousUpdatedAt": "2026-10-03T12:49:16.909111084Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1893,10 +1895,10 @@
   },
   "urban-goods": {
     "createdAt": "2026-07-25T13:44:58.896Z",
-    "updatedAt": "2026-08-02T10:07:29.608843018Z",
-    "contentHash": "f64352a01f2260ad4d0cec5202fa7e3590e325e6",
-    "previousContentHash": "d17f6c3528408bad577b807e0be898698bf63d87",
-    "previousUpdatedAt": "2026-07-25T15:47:23.207479004Z"
+    "updatedAt": "2026-10-04T12:41:14.764449951Z",
+    "contentHash": "83e5e7dc962b94d5503ad1d7bb0fc796fb04ed9c",
+    "previousContentHash": "f64352a01f2260ad4d0cec5202fa7e3590e325e6",
+    "previousUpdatedAt": "2026-08-02T10:07:29.608843018Z"
   },
   "simd": {
     "createdAt": "2026-08-02T10:14:20.814Z",
@@ -1958,5 +1960,24 @@
     "contentHash": "f76fe5e60a4651b4b3c737b4ff5ef47b07a8a6d1",
     "previousContentHash": "595bef0dae47a4f44516c6c592b9d653e13de616",
     "previousUpdatedAt": "2026-10-03T12:49:33.21912793Z"
+  },
+  "about-apple-and-fashion": {
+    "createdAt": "2026-10-04T12:22:00.584Z",
+    "updatedAt": "2026-10-04T12:24:11.349520996Z",
+    "contentHash": "b44424fb7688a123dddd20e342ed2db3f46589b8"
+  },
+  "masunaga": {
+    "createdAt": "2026-10-04T12:33:14.723Z",
+    "updatedAt": "2026-10-04T13:20:20.138037109Z",
+    "contentHash": "2a081f71f2541a543869382eac1c44432f9a877c",
+    "previousContentHash": "0657ac763918e1a30e33664e0ba0022d414607d5",
+    "previousUpdatedAt": "2026-10-04T13:19:34.51075708Z"
+  },
+  "work-with-the-garage-door-up": {
+    "createdAt": "2026-10-04T14:30:52.548Z",
+    "updatedAt": "2026-10-04T14:32:14.73511499Z",
+    "contentHash": "d304eb9ccfdf06ef6dfef8c0b1a97372badc44ea",
+    "previousContentHash": "8ac21b63e5d4c7578e724507339eac268f21245f",
+    "previousUpdatedAt": "2026-10-04T14:31:21.628052002Z"
   }
 }
