@@ -2,6 +2,8 @@
 
 ## 하위문서
 
+- [[swiss-style]]
+- [[wabi-sabi]]
 - [[masunaga]]
 - [[safety-engineering]]
 - [[lean]]

@@ -450,8 +450,10 @@
   },
   "brutalism": {
     "createdAt": "2025-01-02T13:35:24Z",
-    "updatedAt": "2025-11-01T11:08:10.202Z",
-    "contentHash": "fab5cc2a2467c88bbce71ef33ccf203257fd3325"
+    "updatedAt": "2026-10-05T02:12:26.7647771Z",
+    "contentHash": "5cbfd3debe253e9c7a63d2dd635d79de1d256499",
+    "previousContentHash": "fab5cc2a2467c88bbce71ef33ccf203257fd3325",
+    "previousUpdatedAt": "2025-11-01T11:08:10.202Z"
   },
   "korean-palace-coup-2024": {
     "createdAt": "2024-12-29T09:10:48Z",
@@ -1759,10 +1761,10 @@
   },
   "subject": {
     "createdAt": "2026-02-22T09:29:13.248Z",
-    "updatedAt": "2026-10-04T12:33:00.031960938Z",
-    "contentHash": "3322797a1a5c0ad20c7be3a93ba2d258bbfc8c76",
-    "previousContentHash": "ee6fe3b28dfcd1395813f1c2e3257857d32663f5",
-    "previousUpdatedAt": "2026-10-03T12:48:57.418716064Z"
+    "updatedAt": "2026-10-05T12:10:37.30925293Z",
+    "contentHash": "d5268d6352f111831deb59a61feff283264d32a2",
+    "previousContentHash": "a4737441b7fbf753584927f88f26e60e647bd459",
+    "previousUpdatedAt": "2026-10-05T01:06:07.073042969Z"
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
@@ -1979,5 +1981,19 @@
     "contentHash": "d304eb9ccfdf06ef6dfef8c0b1a97372badc44ea",
     "previousContentHash": "8ac21b63e5d4c7578e724507339eac268f21245f",
     "previousUpdatedAt": "2026-10-04T14:31:21.628052002Z"
+  },
+  "wabi-sabi": {
+    "createdAt": "2026-10-05T01:05:57.35Z",
+    "updatedAt": "2026-10-05T06:56:55.997125Z",
+    "contentHash": "8c77fd8c6ea2352befba3e76b11e2d52ad45a363",
+    "previousContentHash": "c5dbb305d54db30f2dd0de7762c493902474ea18",
+    "previousUpdatedAt": "2026-10-05T02:12:10.999589111Z"
+  },
+  "swiss-style": {
+    "createdAt": "2026-10-05T12:10:35.883Z",
+    "updatedAt": "2026-10-05T12:42:12.089216064Z",
+    "contentHash": "00f0b35c2fe78f35a256c4edd35128e6f8496615",
+    "previousContentHash": "eb7df1d9b2f51486e2c8d11bcb8b489548544fe6",
+    "previousUpdatedAt": "2026-10-05T12:41:53.719868896Z"
   }
 }
