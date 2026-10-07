@@ -17,7 +17,12 @@ export function Content({ document }: Props) {
   return (
     <>
       <header class={scopes.header.className} role="navigation">
-        <div id="search" class={scopes.search.className} hx-preserve="true">
+        <div
+          id="search"
+          class={scopes.search.className}
+          hx-preserve="true"
+          hx-include="#search"
+        >
           <input
             type="search"
             name="q"

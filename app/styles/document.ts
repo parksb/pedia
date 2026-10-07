@@ -280,6 +280,7 @@ const rules = {
     ${homeTitle} {
       width: 2rem;
       height: 2rem;
+      margin-right: .08em;
       vertical-align: -0.2rem;
     }
   `,

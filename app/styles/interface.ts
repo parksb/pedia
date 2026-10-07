@@ -5,7 +5,6 @@ const { header, sidebar, main, footer, search, documentList } = scopes;
 const collapsedHeader = `${sidebar.root}.hidden ~ ${main.root} ${header.root}`;
 const collapsedSearch = `${collapsedHeader} ${search.root}`;
 const documentNavigation = `${header.root} > [data-document-navigation]`;
-const headerFade = `${header.root}::after`;
 const contentSlot = `${main.root} > #main`;
 const hiddenSidebar = `${sidebar.within}.hidden`;
 const sidebarScroll = `${sidebar.root} > [data-sidebar-scroll]`;
@@ -33,20 +32,6 @@ const rules = {
       flex-shrink: 0;
     }
 
-    ${headerFade} {
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      height: 16px;
-      background: linear-gradient(to bottom, var(--bg), transparent);
-      -webkit-backdrop-filter: blur(6px);
-      backdrop-filter: blur(6px);
-      mask-image: linear-gradient(to bottom, #000, transparent);
-      pointer-events: none;
-    }
-
     ${documentNavigation} ,
       ${documentNavigation} > div {
       display: flex;
@@ -55,6 +40,9 @@ const rules = {
     }
 
     ${documentNavigation} {
+      box-sizing: border-box;
+      height: 100%;
+      border-bottom: 1px solid var(--border);
       justify-content: space-between;
       gap: 16px;
     }
@@ -219,16 +207,15 @@ const rules = {
       overflow: hidden;
       white-space: nowrap;
       mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
-      transition: background-color .15s;
     }
 
     ${revealedTitles} {
       width: max-content;
       min-width: var(--title-width);
+      padding-right: 8px;
       overflow: visible;
       mask-image: none;
-      background-color: rgb(255 255 255 / .88);
-      border-radius: 4px;
+      background-color: var(--bg);
     }
 
     ${documentList.root} > ul > li:hover > a {
@@ -245,10 +232,10 @@ const rules = {
   main: css`
     ${main.root} {
       display: flex;
-      flex: 1 1 640px;
+      flex: 1 1 720px;
       flex-direction: column;
       min-width: 0;
-      max-width: 640px;
+      max-width: 720px;
       min-height: calc(100dvh - 2 * var(--page-top));
     }
 
@@ -292,22 +279,25 @@ const rules = {
   search: css`
     ${search.root} {
       display: flex;
+      box-sizing: border-box;
       height: var(--navigation-height);
       width: 100%;
       min-width: 0;
       font-size: 14px;
       flex-shrink: 0;
       border: 0;
+      border-bottom: 1px solid var(--border);
     }
 
     ${search.root} > select {
       cursor: pointer;
-      width: 40px;
+      width: auto;
+      flex-shrink: 0;
       border: 0;
       outline: none;
       box-shadow: none;
       padding: 0;
-      margin-right: 4px;
+      margin: 0;
       background-color: transparent;
       color: var(--text);
       font-size: 13px;
@@ -341,13 +331,13 @@ const rules = {
     @media (max-width: 799px) {
       body {
         --page-top: 24px;
-        --sidebar-width: clamp(96px, 28vw, 140px);
-        --column-gap: 16px;
+        --sidebar-width: clamp(104px, 30vw, 150px);
+        --column-gap: 12px;
         padding: var(--page-top);
       }
 
       ${revealedSidebarScroll} {
-        max-width: 100%;
+        max-width: calc(100vw - 48px);
       }
 
       ${main.root} {

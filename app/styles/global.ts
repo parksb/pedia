@@ -15,10 +15,10 @@ const rules = {
       min-height: 100%;
       --page-top: 32px;
       --navigation-height: 40px;
-      --sidebar-width: 180px;
+      --sidebar-width: 200px;
       --sidebar-row-height: 28px;
-      --column-gap: clamp(24px, 5vw, 64px);
-      --document-gap: 12px;
+      --column-gap: clamp(20px, 4vw, 44px);
+      --document-gap: 24px;
       --bg: #fdfdfc;
       --text: #24292e;
       --text-secondary: #6a737d;
@@ -44,7 +44,7 @@ const rules = {
       justify-content: center;
       gap: var(--column-gap);
       box-sizing: border-box;
-      max-width: 980px;
+      max-width: 1060px;
       margin: 0 auto;
       padding: var(--page-top) 48px;
       word-break: keep-all;
@@ -53,7 +53,7 @@ const rules = {
       font-family: 'Pretendard VF Distilled', sans-serif;
       font-size: 16px;
       font-weight: 400;
-      min-height: 100vh;
+      min-height: 100dvh;
       width: 100%;
       background-color: var(--bg);
       -webkit-font-smoothing: antialiased;
@@ -104,6 +104,7 @@ const rules = {
     a:is([href="/simonpedia"], [href="/simonpedia.html"], [href="simonpedia.html"])::before {
       width: 1em;
       height: 1em;
+      margin-right: .15em;
       vertical-align: -0.1em;
     }
   `,
