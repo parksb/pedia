@@ -3,187 +3,196 @@ import {
   loadScript,
   registerContainer,
 } from "../../container.ts";
+import { type Point, type Transform } from "./geometry.ts";
+import { attachInteractionHandlers } from "./interaction.ts";
 import {
-  attachInteractionHandlers,
-  buildAdjacency,
-  buildLinkCount,
-  buildNodeColors,
-  D3_CDN,
-  drawFrame,
-  edgeEndpoints,
-  getGraphTheme,
+  type CategoryWeights,
+  createGraphModel,
+  graphCategories,
+  type GraphCategory,
+  type GraphData,
   type GraphEdge,
+  type GraphModel,
   type GraphNode,
-  type Point,
+  isFixedNode,
   ROOT_NODE,
-  setupCanvas,
-  type Transform,
-} from "./utils.ts";
+} from "./model.ts";
+import { createGraphRenderer, type GraphSize } from "./rendering.ts";
 
-function buildClusterPositions(
-  categories: string[],
-  width: number,
-  height: number,
-): Map<string, Point> {
-  const radius = Math.min(width, height) * 0.3;
-  return new Map(categories.map((cat, i) => {
-    const angle = (2 * Math.PI * i) / categories.length;
-    return [cat, {
-      x: width / 2 + radius * Math.cos(angle),
-      y: height / 2 + radius * Math.sin(angle),
-    }] as const;
+const D3_CDN = "https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js";
+
+function buildCategoryPositions(size: GraphSize): Map<GraphCategory, Point> {
+  const categories = Object.keys(graphCategories) as GraphCategory[];
+  const radius = Math.min(size.width, size.height) * 0.3;
+
+  return new Map(categories.map((category, index) => {
+    const angle = -Math.PI / 2 - (2 * Math.PI * index) / categories.length;
+
+    return [category, {
+      x: size.width / 2 + radius * Math.cos(angle),
+      y: size.height / 2 + radius * Math.sin(angle),
+    }];
   }));
+}
+
+function blendedPosition(
+  weights: CategoryWeights,
+  positions: Map<GraphCategory, Point>,
+  center: Point,
+): Point {
+  const target = { x: 0, y: 0 };
+  let hasCategory = false;
+
+  for (const [category, position] of positions) {
+    const weight = weights[category];
+
+    target.x += position.x * weight;
+    target.y += position.y * weight;
+    hasCategory ||= weight > 0;
+  }
+
+  return hasCategory ? target : center;
 }
 
 function buildNodeTargets(
-  nodes: GraphNode[],
-  edges: GraphEdge[],
-  clusters: Map<string, Point>,
+  graph: GraphModel,
+  size: GraphSize,
 ): Map<string, Point> {
-  const nodeMap = new Map(nodes.map((n) => [n.id, n]));
-  const weights = new Map(
-    nodes.map((n) => [n.id, new Map<string, number>([[n.category, 3]])]),
-  );
-  for (const edge of edges) {
-    const [s, t] = edgeEndpoints(edge);
-    const sn = nodeMap.get(s), tn = nodeMap.get(t);
-    if (sn && tn) {
-      const sw = weights.get(s)!;
-      sw.set(tn.category, (sw.get(tn.category) ?? 0) + 1);
-      const tw = weights.get(t)!;
-      tw.set(sn.category, (tw.get(sn.category) ?? 0) + 1);
-    }
-  }
-  return new Map(nodes.map((node) => {
-    let x = 0, y = 0, total = 0;
-    for (const [cat, w] of weights.get(node.id)!) {
-      const pos = clusters.get(cat)!;
-      x += pos.x * w;
-      y += pos.y * w;
-      total += w;
-    }
-    return [node.id, { x: x / total, y: y / total }] as const;
+  const positions = buildCategoryPositions(size);
+  const center = { x: size.width / 2, y: size.height / 2 };
+
+  return new Map(graph.nodes.map((node) => {
+    const { weights } = graph.profiles.get(node.id)!;
+    return [node.id, blendedPosition(weights, positions, center)];
   }));
 }
 
-function initNodePositions(
-  nodes: GraphNode[],
+function initializeNodePositions(
+  graph: GraphModel,
   targets: Map<string, Point>,
-  w: number,
-  h: number,
 ): void {
-  for (const node of nodes) {
-    if (node.id === ROOT_NODE) {
-      node.x = w / 2;
-      node.y = h / 2;
-      node.fx = w / 2;
-      node.fy = h / 2;
+  for (const node of graph.nodes) {
+    const target = targets.get(node.id)!;
+
+    if (isFixedNode(node)) {
+      node.x = target.x;
+      node.y = target.y;
+      node.fx = target.x;
+      node.fy = target.y;
     } else {
-      const pos = targets.get(node.id)!;
-      node.x = pos.x + (Math.random() - 0.5) * 80;
-      node.y = pos.y + (Math.random() - 0.5) * 80;
+      node.x = target.x + (Math.random() - 0.5) * 80;
+      node.y = target.y + (Math.random() - 0.5) * 80;
     }
   }
 }
 
-function createSimulation(
-  nodes: GraphNode[],
-  edges: GraphEdge[],
-  targets: Map<string, Point>,
-) {
+function linkDistance(edge: GraphEdge): number {
+  const touchesRoot = edge.source.id === ROOT_NODE ||
+    edge.target.id === ROOT_NODE;
+  return touchesRoot ? 300 : 100;
+}
+
+function createLinkForce(graph: GraphModel) {
   return d3
-    .forceSimulation(nodes)
+    .forceLink(graph.edges)
+    .id((node: GraphNode) => node.id)
+    .distance(linkDistance);
+}
+
+function createCollisionForce(graph: GraphModel) {
+  return d3
+    .forceCollide()
+    .radius((node: GraphNode) => {
+      const { radius, extent } = graph.profiles.get(node.id)!;
+      return radius * extent * 0.85;
+    })
+    .strength(0.5);
+}
+
+function createSimulation(graph: GraphModel, targets: Map<string, Point>) {
+  return d3
+    .forceSimulation(graph.nodes)
     .alpha(0.3)
     .alphaDecay(0.03)
     .velocityDecay(0.6)
-    .force(
-      "link",
-      d3.forceLink(edges).id((d: GraphNode) => d.id).distance(
-        (e: GraphEdge) => {
-          const [s, t] = edgeEndpoints(e);
-          return (s === ROOT_NODE || t === ROOT_NODE) ? 300 : 100;
-        },
-      ),
-    )
+    .force("link", createLinkForce(graph))
     .force("charge", d3.forceManyBody().strength(-200))
-    .force("x", d3.forceX((d: GraphNode) => targets.get(d.id)!.x).strength(0.3))
-    .force("y", d3.forceY((d: GraphNode) => targets.get(d.id)!.y).strength(0.3))
-    .force("collision", d3.forceCollide().radius(16));
+    .force(
+      "x",
+      d3.forceX((node: GraphNode) => targets.get(node.id)!.x)
+        .strength(0.3),
+    )
+    .force(
+      "y",
+      d3.forceY((node: GraphNode) => targets.get(node.id)!.y)
+        .strength(0.3),
+    )
+    .force("collision", createCollisionForce(graph));
+}
+
+function initialTransform(size: GraphSize): Transform {
+  const zoom = 0.6;
+
+  return {
+    x: size.width * (1 - zoom) / 2,
+    y: size.height * (1 - zoom) / 2,
+    k: zoom,
+  };
+}
+
+async function loadGraph(): Promise<GraphModel> {
+  await loadScript(D3_CDN);
+
+  const response = await fetch("/api/graph");
+  const data: GraphData = await response.json();
+
+  return createGraphModel(data);
 }
 
 function createGraphHandler(): ContainerHandler {
   let simulation: ReturnType<typeof d3.forceSimulation> | null = null;
+  let destroyed = false;
+
+  function stopSimulation(): void {
+    simulation?.stop();
+    simulation = null;
+  }
+
+  function mountGraph(container: HTMLElement, graph: GraphModel): void {
+    const renderer = createGraphRenderer(container, graph);
+    const targets = buildNodeTargets(graph, renderer.size);
+    let transform = initialTransform(renderer.size);
+
+    initializeNodePositions(graph, targets);
+    simulation = createSimulation(graph, targets);
+
+    const { render } = attachInteractionHandlers({
+      canvas: renderer.canvas,
+      graph,
+      simulation,
+      getTransform: () => transform,
+      setTransform: (next) => {
+        transform = next;
+      },
+      draw: (hovered) => renderer.draw(transform, hovered),
+    });
+
+    simulation.on("tick", render);
+  }
 
   return {
     async init(container: HTMLElement): Promise<void> {
-      simulation?.stop();
-      simulation = null;
+      destroyed = false;
+      stopSimulation();
       container.replaceChildren();
-      await loadScript(D3_CDN);
 
-      const { nodes, edges }: { nodes: GraphNode[]; edges: GraphEdge[] } =
-        await fetch("/api/graph").then((r) => r.json());
-
-      const adjacency = buildAdjacency(edges);
-      const linkCount = buildLinkCount(edges);
-      const { clientWidth: w, clientHeight: h } = container;
-      const fadeRadius = Math.min(w, h) * 0.8;
-
-      const categories = [...new Set(nodes.map((n) => n.category))];
-      const clusters = buildClusterPositions(categories, w, h);
-      const nodeTargets = buildNodeTargets(nodes, edges, clusters);
-      const theme = getGraphTheme(container);
-      const nodeColors = buildNodeColors(
-        nodes,
-        edges,
-        (category) => theme.categoryColors[category] ?? theme.node,
-      );
-
-      initNodePositions(nodes, nodeTargets, w, h);
-
-      const { canvas, ctx } = setupCanvas(container, w, h);
-
-      const k0 = 0.6;
-      let transform: Transform = {
-        x: w * (1 - k0) / 2,
-        y: h * (1 - k0) / 2,
-        k: k0,
-      };
-
-      simulation = createSimulation(nodes, edges, nodeTargets);
-
-      const { render } = attachInteractionHandlers({
-        canvas,
-        nodes,
-        linkCount,
-        simulation,
-        getTransform: () => transform,
-        setTransform: (t) => {
-          transform = t;
-        },
-        draw: (hovered) =>
-          drawFrame(
-            ctx,
-            w,
-            h,
-            nodes,
-            edges,
-            linkCount,
-            nodeColors,
-            theme,
-            adjacency,
-            transform,
-            hovered,
-            fadeRadius,
-          ),
-      });
-
-      simulation.on("tick", render);
+      const graph = await loadGraph();
+      if (!destroyed) mountGraph(container, graph);
     },
 
     destroy(): void {
-      simulation?.stop();
-      simulation = null;
+      destroyed = true;
+      stopSimulation();
     },
   };
 }
