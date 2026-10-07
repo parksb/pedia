@@ -16,7 +16,34 @@ export interface GraphEdge {
 export type Point = { x: number; y: number };
 export type Transform = { x: number; y: number; k: number };
 
+export interface GraphTheme {
+  categoryColors: Record<string, string>;
+  node: string;
+  emphasis: string;
+  edge: string;
+  background: string;
+  fontFamily: string;
+}
+
+export const ROOT_NODE = "simonpedia";
 export const D3_CDN = "https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js";
+
+export function getGraphTheme(container: HTMLElement): GraphTheme {
+  const style = getComputedStyle(container);
+  const color = (name: string) => style.getPropertyValue(name).trim();
+  return {
+    categoryColors: {
+      subject: color("--graph-subject"),
+      publication: color("--graph-publication"),
+      idea: color("--graph-idea"),
+    },
+    node: color("--text-secondary"),
+    emphasis: color("--text"),
+    edge: color("--border"),
+    background: color("--bg"),
+    fontFamily: style.fontFamily,
+  };
+}
 
 export function edgeEndpoints(edge: GraphEdge): [string, string] {
   return [
@@ -31,7 +58,7 @@ export function navigateTo(id: string): void {
   a.setAttribute("hx-get", `/swap/${id}`);
   a.setAttribute("hx-target", "#main");
   a.setAttribute("hx-push-url", `/${id}`);
-  a.setAttribute("hx-swap", "show:top");
+  a.setAttribute("hx-swap", "show:window:top");
   a.setAttribute("hx-on:click", `select('${id}') && scrollToActive()`);
   document.body.appendChild(a);
   htmx.process(a);
@@ -105,6 +132,7 @@ export function drawFrame(
   edges: GraphEdge[],
   linkCount: Map<string, number>,
   nodeColors: Map<string, string>,
+  theme: GraphTheme,
   adjacency: Map<string, Set<string>>,
   t: Transform,
   hoveredNode: GraphNode | null,
@@ -136,11 +164,12 @@ export function drawFrame(
   }
 
   ctx.lineWidth = pw;
-  ctx.strokeStyle = "#ccc";
+  ctx.strokeStyle = theme.edge;
   ctx.globalAlpha = connected ? 0.05 : 0.6;
   ctx.stroke(pathDim);
 
   if (connected) {
+    ctx.strokeStyle = theme.node;
     ctx.globalAlpha = 0.8;
     ctx.stroke(pathActive);
   }
@@ -152,16 +181,18 @@ export function drawFrame(
     ctx.arc(node.x!, node.y!, r, 0, Math.PI * 2);
     ctx.fillStyle = nodeColors.get(node.id)!;
     ctx.fill();
-    ctx.strokeStyle = "#fff";
-    ctx.lineWidth = 1.5 * pw;
+    ctx.strokeStyle = node.id === hoveredNode?.id
+      ? theme.emphasis
+      : theme.background;
+    ctx.lineWidth = (node.id === hoveredNode?.id ? 2 : 1.5) * pw;
     ctx.stroke();
   }
 
-  ctx.font = `${10 * pw}px sans-serif`;
+  ctx.font = `${10 * pw}px ${theme.fontFamily}`;
   ctx.textBaseline = "middle";
   ctx.lineWidth = 2 * pw;
   ctx.lineJoin = "round";
-  ctx.strokeStyle = "#fff";
+  ctx.strokeStyle = theme.background;
 
   if (t.k >= labelMinZoom) {
     const cx = (w / 2 - t.x) / t.k;
@@ -177,7 +208,7 @@ export function drawFrame(
       if (alpha <= 0) continue;
       ctx.globalAlpha = alpha;
       ctx.strokeText(node.label, node.x! + 8 * pw, node.y! + 3 * pw);
-      ctx.fillStyle = "#333";
+      ctx.fillStyle = theme.emphasis;
       ctx.fillText(node.label, node.x! + 8 * pw, node.y! + 3 * pw);
     }
   } else if (hoveredNode) {
@@ -187,7 +218,7 @@ export function drawFrame(
       hoveredNode.x! + 8 * pw,
       hoveredNode.y! + 3 * pw,
     );
-    ctx.fillStyle = "#333";
+    ctx.fillStyle = theme.emphasis;
     ctx.fillText(
       hoveredNode.label,
       hoveredNode.x! + 8 * pw,

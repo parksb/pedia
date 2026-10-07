@@ -11,14 +11,14 @@ import {
   D3_CDN,
   drawFrame,
   edgeEndpoints,
+  getGraphTheme,
   type GraphEdge,
   type GraphNode,
   type Point,
+  ROOT_NODE,
   setupCanvas,
   type Transform,
 } from "./utils.ts";
-
-const ROOT_NODE = "simonpedia";
 
 function buildClusterPositions(
   categories: string[],
@@ -130,12 +130,14 @@ function createGraphHandler(): ContainerHandler {
       const fadeRadius = Math.min(w, h) * 0.8;
 
       const categories = [...new Set(nodes.map((n) => n.category))];
-      const categoryColor = d3.scaleOrdinal(d3.schemeObservable10).domain(
-        categories,
-      );
       const clusters = buildClusterPositions(categories, w, h);
       const nodeTargets = buildNodeTargets(nodes, edges, clusters);
-      const nodeColors = buildNodeColors(nodes, edges, categoryColor);
+      const theme = getGraphTheme(container);
+      const nodeColors = buildNodeColors(
+        nodes,
+        edges,
+        (category) => theme.categoryColors[category] ?? theme.node,
+      );
 
       initNodePositions(nodes, nodeTargets, w, h);
 
@@ -168,6 +170,7 @@ function createGraphHandler(): ContainerHandler {
             edges,
             linkCount,
             nodeColors,
+            theme,
             adjacency,
             transform,
             hovered,

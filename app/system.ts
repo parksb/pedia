@@ -72,7 +72,7 @@ export class System {
 
     this.simpesys = await this.simpesys.init({
       syncMetadata: Deno.env.get("ENV") !== "production",
-      cache: { version: "v1", previous: cache },
+      cache: { version: "v2", previous: cache },
     });
 
     try {

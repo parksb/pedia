@@ -65,30 +65,10 @@ export function App({ documents, document, js }: Props) {
         </head>
         <body>
           <aside class={scopes.sidebar.className}>
-            <div id="search" class={scopes.search.className}>
-              <input
-                type="search"
-                name="q"
-                placeholder="Search..."
-                hx-get="/search"
-                hx-trigger="keyup changed delay:200ms"
-                hx-target="#list"
-                hx-swap="innerHTML"
-              />
-              <select
-                name="o"
-                hx-get="/search"
-                hx-target="#list"
-                hx-swap="innerHTML"
-              >
-                <option value="c" title="Newest">C</option>
-                <option value="u" title="Recently updated">U</option>
-                <option value="b" title="BFS">B</option>
-              </select>
-            </div>
-            <div data-container="local-graph"></div>
-            <div id="list" class={scopes.documentList.className}>
-              <List documents={documents} document={document} />
+            <div data-sidebar-scroll="">
+              <div id="list" class={scopes.documentList.className}>
+                <List documents={documents} document={document} />
+              </div>
             </div>
           </aside>
           <main class={scopes.main.className}>

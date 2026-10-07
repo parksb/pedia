@@ -22,7 +22,13 @@ export function select(key: string): boolean {
  * Scroll the active list item into view
  */
 export function scrollToActive(): boolean {
-  htmx.find("#list > ul > li.active").scrollIntoView({ block: "center" });
+  const active = htmx.find("#list > ul > li.active");
+  const container = active?.closest<HTMLElement>("[data-sidebar-scroll]");
+  if (!container || !container.clientHeight) return true;
+
+  container.scrollTop += active.getBoundingClientRect().top -
+    container.getBoundingClientRect().top -
+    (container.clientHeight - active.offsetHeight) / 2;
   return true;
 }
 

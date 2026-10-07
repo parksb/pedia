@@ -16,7 +16,7 @@ export function Anchor({ href, label, scrollTo }: Props) {
       hx-get={`/swap/${href}`}
       hx-target="#main"
       hx-push-url={`/${href}`}
-      hx-swap="show:top"
+      hx-swap="show:window:top"
       hx-on:click={onClick}
     >
       {label ?? href}

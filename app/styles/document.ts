@@ -10,8 +10,11 @@ const homeTitle = rawCssString(
 const rules = {
   layout: css`
     ${article.root} {
-      max-width: 720px;
-      padding: 32px 40px;
+      margin-top: var(--document-gap);
+    }
+
+    ${article.root} [id] {
+      scroll-margin-top: calc(var(--navigation-height) + var(--document-gap));
     }
   `,
 
@@ -184,6 +187,9 @@ const rules = {
       margin: 16px 0 0 0;
     }
     ${article.within} [data-container="global-graph"] {
+      --graph-subject: #6682a6;
+      --graph-publication: #7b956a;
+      --graph-idea: #b08a62;
       width: 100%;
       aspect-ratio: 1 / 1;
       border: 1px solid var(--border-secondary);

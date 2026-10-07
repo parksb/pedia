@@ -12,14 +12,17 @@ const rules = {
 
   theme: css`
     html {
-      display: flex;
-      height: 100%;
-      --bg: #ffffff;
-      --header-bg: #ffffffa0;
+      min-height: 100%;
+      --page-top: 32px;
+      --navigation-height: 40px;
+      --sidebar-width: 180px;
+      --sidebar-row-height: 28px;
+      --column-gap: clamp(24px, 5vw, 64px);
+      --document-gap: 12px;
+      --bg: #fdfdfc;
       --text: #24292e;
       --text-secondary: #6a737d;
       --border: #dfe2e5;
-      --border-layout: #3f3f3f;
       --border-secondary: #eaecef;
       --link: #0366d6;
       --link-secondary: #53a6f6;
@@ -37,15 +40,22 @@ const rules = {
   page: css`
     body {
       display: flex;
-      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      gap: var(--column-gap);
+      box-sizing: border-box;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: var(--page-top) 48px;
       word-break: keep-all;
       word-wrap: break-word;
       line-height: 1.6;
       font-family: 'Pretendard VF Distilled', sans-serif;
       font-size: 16px;
       font-weight: 400;
-      height: 100%;
+      min-height: 100vh;
       width: 100%;
+      background-color: var(--bg);
       -webkit-font-smoothing: antialiased;
     }
   `,
