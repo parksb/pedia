@@ -1,3 +1,6 @@
+import { Style } from "hono/css";
+import { globalStyles } from "../styles/index.ts";
+import { scopes } from "../styles/scopes.ts";
 import { WEBSITE_DOMAIN } from "../consts.ts";
 import { Document } from "@simpesys/core";
 import { Content } from "./content.tsx";
@@ -6,11 +9,10 @@ import { List } from "./list.tsx";
 interface Props {
   documents: Document[];
   document: Document;
-  css: string;
   js: string;
 }
 
-export function App({ documents, document, css, js }: Props) {
+export function App({ documents, document, js }: Props) {
   return (
     "<!DOCTYPE html>" +
     (
@@ -27,7 +29,12 @@ export function App({ documents, document, css, js }: Props) {
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="theme-color" content="#ffffff" />
           <link rel="icon" href="/favicon.ico?v=2" sizes="16x16 32x32 48x48" />
-          <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" sizes="any" />
+          <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/assets/favicon.svg"
+            sizes="any"
+          />
 
           <meta name="fediverse:creator" content="@parksb@silicon.moe" />
           <meta property="og:title" content={document.title} />
@@ -54,11 +61,11 @@ export function App({ documents, document, css, js }: Props) {
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
           />
-          <style dangerouslySetInnerHTML={{ __html: css }}></style>
+          <Style>{globalStyles}</Style>
         </head>
         <body>
-          <aside>
-            <div id="search">
+          <aside class={scopes.sidebar.className}>
+            <div id="search" class={scopes.search.className}>
               <input
                 type="search"
                 name="q"
@@ -80,15 +87,15 @@ export function App({ documents, document, css, js }: Props) {
               </select>
             </div>
             <div data-container="local-graph"></div>
-            <div id="list">
+            <div id="list" class={scopes.documentList.className}>
               <List documents={documents} document={document} />
             </div>
           </aside>
-          <main>
+          <main class={scopes.main.className}>
             <section id="main" hx-history-elt>
               <Content document={document} />
             </section>
-            <footer>
+            <footer class={scopes.footer.className}>
               <small>© 박성범</small>
             </footer>
           </main>

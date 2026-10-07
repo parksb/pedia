@@ -1,6 +1,7 @@
 import { raw } from "hono/html";
 import { Breadcrumb, Document } from "@simpesys/core";
 import { Anchor } from "./anchor.tsx";
+import { scopes } from "../styles/scopes.ts";
 import {
   CodeFileIcon,
   GitHubIcon,
@@ -15,7 +16,7 @@ interface Props {
 export function Content({ document }: Props) {
   return (
     <div>
-      <header role="navigation">
+      <header class={scopes.header.className} role="navigation">
         <div>
           <div class="sidebar-toggle" hx-on:click="toggleSidebar()">
             <SidebarCloseIcon />
@@ -54,7 +55,12 @@ export function Content({ document }: Props) {
           </a>
         </div>
       </header>
-      <article data-document={document.filename}>{raw(document.html)}</article>
+      <article
+        class={scopes.document.className}
+        data-document={document.filename}
+      >
+        {raw(document.html)}
+      </article>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export class System {
   private list: Document[] = [];
 
   private searcher: FuzzySearcher<Document> | null = null;
-  private asset: Asset = { css: "", js: "" };
+  private asset: Asset = { js: "" };
   private graph: string | null = null;
 
   private config = defineConfig({
@@ -57,7 +57,6 @@ export class System {
     const start = performance.now();
 
     this.asset = {
-      css: await readFile(`${ASSETS_DIR_PATH}/index.css`),
       js: await readFile(`${ASSETS_DIR_PATH}/index.js`),
     };
 
@@ -128,7 +127,6 @@ export class System {
       return App({
         documents: this.getDocuments(),
         document,
-        css: this.asset.css,
         js: this.asset.js,
       });
     }
