@@ -27,4 +27,4 @@
 ## 참고자료
 
 - [MASUNAGA since 1905](https://masunaga1905.com/)
-- [Masunaga Optical Mfg Co., Ltd., "The Vison of 120 Years", 2025.](https://story120.masunaga1905.com/)
+- [@bib{"The Vison of 120 Years" author="Masunaga Optical Mfg Co., Ltd." year="2025"}](https://story120.masunaga1905.com/)

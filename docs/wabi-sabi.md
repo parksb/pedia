@@ -20,4 +20,4 @@ _교토 료안지(龍安寺)의 가레산스이(枯山水) 양식 방장정원._
 
 ## 참고자료
 
-- [無印良品, "無印良品について"](https://www.ryohin-keikaku.jp/about-muji)
+- [@bib{"無印良品について" author="無印良品"}](https://www.ryohin-keikaku.jp/about-muji)

@@ -1,5 +1,5 @@
 # Work with the garage door up
 
 ::: INFO
-[Andy Matuschak, 『Work with the garage door up』, _Andy's working notes_, 2024.](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ)
+[@bib{"Work with the garage door up" author="Andy Matuschak" publisher="Andy's working notes" year="2024"}](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ)
 :::
