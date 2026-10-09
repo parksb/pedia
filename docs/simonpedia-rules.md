@@ -34,43 +34,22 @@ INFO 블록은 내용에 대한 부가적인 정보를 작성할 때 사용한�
 
 ## 인용
 
-### 단행본
+참고자료는 `@bib{title="제목" ...}` 문법으로 인용한다.
 
-> 저자명, "도서명", 출판사, 발행연도
-
-> 박현준, "세대 간 사회이동의 변화", 박영스토리, 2021.
-
-### 번역된 단행본
-
-> 저자명, "도서명, 역자명, 발행연도.
-
-> 루츠 판 다이크, 데니스 도에 타마클로에, "처음 읽는 아프리카의 역사", 웅진지식하우스, 안인희 역, 2005.
-
-### 학술지 게재 논문
-
-> 저자명, "논문명", 학술지명, 권(호), 출판사 또는 학회명, 발행연도.
-
-### 학술 대회 발표 논문
-
-> 저자명, "논문명", 학술대회명, 발표장소 또는 학회명, 발행연도.
-
-## 로드맵
-
-- [x] [[htmx]] 전환
-- [x] 사이드바 모바일 대응
-- [x] 문서 검색 구현
-- [x] 인용 문서 표시
-- [x] 빌드 스크립트 파일 분리
-- [x] 앵커 태그 중복 문제 개선
-- [x] 문서 그래프 시각화
-- [ ] ~~노트 모아보기~~
-  - ~~모든 문서의 노트 블록을 모아서 보여주는 단일 문서를 만든다.~~
-  - ~~의미가 있을까? 가장 바람직한 방향은 모든 문서에 하나 이상의 노트를 작성하는 것.~~
-  - 노트 블록을 문헌 문서에만 작성하는 것으로 결정하면서 기각.
-- [ ] ~~최근 변경/추가된 문서~~
-  - ~~루트 문서에 목록을 보여준다.~~
-  - 사이드바에 날짜 정렬 기능을 구현해서 기각. 
+- `@bib{"세대 간 사회이동의 변화" author="박현준" publisher="박영스토리" year="2021"}`
+  > @bib{"세대 간 사회이동의 변화" author="박현준" publisher="박영스토리" year="2021"}
+- `@bib{"플랫폼 엔지니어링" author="카미유 푸르니에, 이언 놀런드" translator="류광, 307번역랩" publisher="한빛미디어" year="2025"}`
+  > @bib{"플랫폼 엔지니어링" author="카미유 푸르니에, 이언 놀런드" translator="류광, 307번역랩" publisher="한빛미디어" year="2025"}
+- `@bib{"The Image of the City" author="Kevin Lynch" publisher="MIT Press" year="1964"}`
+  > @bib{"The Image of the City" author="Kevin Lynch" publisher="MIT Press" year="1964"}
+- `@bib{"KS 코드 완성형 한글의 추가 글자 제안", author="노민지, 윤민구" journal="글자씨 7(2)" publisher="한국타이포그라피학회" year="2015" pages="153-175"}`
+  > @bib{"KS 코드 완성형 한글의 추가 글자 제안", author="노민지, 윤민구" journal="글자씨 7(2)" publisher="한국타이포그라피학회" year="2015" pages="153-175"}
+- `@bib{"Ironies of Automation" author="Lisanne Bainbridge" journal="Automatica 19(6)" year="1983"}`
+  > @bib{"Ironies of Automation" author="Lisanne Bainbridge" journal="Automatica 19(6)" year="1983"}
+- `[@bib{"Work with the garage door up" author="Andy Matuschak" publisher="Andy's working notes" year="2024"}](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ)`
+  > [@bib{"Work with the garage door up" author="Andy Matuschak" publisher="Andy's working notes" year="2024"}](https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ)
 
 ## 관련문서
 
 - [[simpesys]]
+- [[ieee-citation-style]]

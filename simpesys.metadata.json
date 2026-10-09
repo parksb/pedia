@@ -1310,10 +1310,10 @@
   },
   "simonpedia-rules": {
     "createdAt": "2024-11-30T18:02:14Z",
-    "updatedAt": "2026-02-22T10:04:42.621458984Z",
-    "contentHash": "978ff14e8334508769a8ebb75cd32942f33d000f",
-    "previousContentHash": "f410b76c893b34472118740a623615b86b284603",
-    "previousUpdatedAt": "2026-02-22T10:04:01.026524902Z"
+    "updatedAt": "2026-10-09T12:14:40.43385498Z",
+    "contentHash": "1ff7ab3e09a6195b80595cca61b1d63bdaf5191d",
+    "previousContentHash": "7791bc89e59b2e5cdde49e0d55d09d4677fa17e4",
+    "previousUpdatedAt": "2026-10-09T12:14:13.744870117Z"
   },
   "simpesys": {
     "createdAt": "2025-01-03T16:26:56Z",
