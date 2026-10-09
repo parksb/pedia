@@ -60,6 +60,9 @@ const rules = {
     ${article.within} code {
       font-family: 'Consolas', 'Monaco', 'Ubuntu Mono', 'Andale Mono', monospace;
     }
+    ${article.within} cite.bibliography {
+      font-style: inherit;
+    }
   `,
 
   images: css`
@@ -109,7 +112,7 @@ const rules = {
 
   callouts: css`
     ${article.within} blockquote {
-      margin: 16px 0 0 0;
+      margin: 0;
       padding: 0 20px;
       color: var(--text-secondary);
       border-left: 2px solid var(--border);

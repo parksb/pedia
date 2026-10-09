@@ -26,6 +26,7 @@
     "npm:markdown-it-task-checkbox@^1.0.6": "1.0.6",
     "npm:markdown-it-texmath@1": "1.0.0",
     "npm:markdown-it@^14.1.0": "14.3.2",
+    "npm:markdown-it@^14.1.2": "14.3.2",
     "npm:shiki@^4.0.2": "4.4.3"
   },
   "jsr": {
@@ -45,7 +46,6 @@
         "npm:denque",
         "npm:es-toolkit",
         "npm:katex",
-        "npm:markdown-it",
         "npm:markdown-it-anchor",
         "npm:markdown-it-container",
         "npm:markdown-it-emoji",
@@ -57,6 +57,7 @@
         "npm:markdown-it-table-of-contents",
         "npm:markdown-it-task-checkbox",
         "npm:markdown-it-texmath",
+        "npm:markdown-it@^14.1.0",
         "npm:shiki"
       ]
     },
@@ -1094,7 +1095,9 @@
     "dependencies": [
       "jsr:@hono/hono@^4.10.7",
       "jsr:@simpesys/core@0.6.2",
-      "npm:@nozbe/microfuzz@1"
+      "npm:@nozbe/microfuzz@1",
+      "npm:@types/markdown-it@^14.1.2",
+      "npm:markdown-it@^14.1.2"
     ]
   }
 }

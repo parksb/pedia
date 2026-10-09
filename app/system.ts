@@ -8,6 +8,7 @@ import { WEBSITE_DOMAIN } from "./consts.ts";
 import { List } from "./components/list.tsx";
 import { App } from "./components/app.tsx";
 import { Content } from "./components/content.tsx";
+import { bibliographyPlugin } from "./markdown/bibliography.ts";
 
 export class System {
   private dict: Record<string, Document> = {};
@@ -29,6 +30,9 @@ export class System {
       backlinksSectionTitle: "이 문서를 인용한 문서",
     },
     hooks: {
+      configureMarkdownConverter: (md) => {
+        md.use(bibliographyPlugin);
+      },
       manipulateMarkdown: (markdown, candidate) => {
         let result = markdown;
 
@@ -72,7 +76,7 @@ export class System {
 
     this.simpesys = await this.simpesys.init({
       syncMetadata: Deno.env.get("ENV") !== "production",
-      cache: { version: "v2", previous: cache },
+      cache: { version: "v11", previous: cache },
     });
 
     try {

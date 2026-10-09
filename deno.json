@@ -2,7 +2,9 @@
   "imports": {
     "@nozbe/microfuzz": "npm:@nozbe/microfuzz@^1.0.0",
     "@simpesys/core": "jsr:@simpesys/core@0.6.2",
-    "hono": "jsr:@hono/hono@^4.10.7"
+    "@types/markdown-it": "npm:@types/markdown-it@^14.1.2",
+    "hono": "jsr:@hono/hono@^4.10.7",
+    "markdown-it": "npm:markdown-it@^14.1.2"
   },
   "tasks": {
     "start": "deno run -N -R -E -W app/main.ts",
