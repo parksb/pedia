@@ -1,0 +1,15 @@
+**
+!deno.json
+!deno.lock
+!app/
+!app/**
+!assets/
+!assets/**
+!docs/
+!docs/**
+!public/
+!public/**
+!tools/
+!tools/healthcheck.ts
+!simpesys.metadata.json
+!LICENSE

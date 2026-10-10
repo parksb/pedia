@@ -64,26 +64,31 @@ export class System {
       js: await readFile(`${ASSETS_DIR_PATH}/index.js`),
     };
 
+    const production = Deno.env.get("ENV") === "production";
     const cachePath = ".simpesys.cache.json";
     let cache: Cache | undefined;
 
-    try {
-      const content = await Deno.readTextFile(cachePath);
-      cache = JSON.parse(content);
-    } catch {
-      // Build from scratch when the cache is missing or unreadable.
+    if (!production) {
+      try {
+        const content = await Deno.readTextFile(cachePath);
+        cache = JSON.parse(content);
+      } catch {
+        // Build from scratch when the cache is missing or unreadable.
+      }
     }
 
     this.simpesys = await this.simpesys.init({
-      syncMetadata: Deno.env.get("ENV") !== "production",
-      cache: { version: "v11", previous: cache },
+      syncMetadata: !production,
+      cache: production ? false : { version: "v11", previous: cache },
     });
 
-    try {
-      const content = JSON.stringify(this.simpesys.getCache());
-      await Deno.writeTextFile(cachePath, content);
-    } catch (error) {
-      Log.warn(`Unable to save render cache: ${error}`);
+    if (!production) {
+      try {
+        const content = JSON.stringify(this.simpesys.getCache());
+        await Deno.writeTextFile(cachePath, content);
+      } catch (error) {
+        Log.warn(`Unable to save render cache: ${error}`);
+      }
     }
 
     this.dict = this.simpesys.getDocuments();
