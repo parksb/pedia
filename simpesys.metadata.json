@@ -1768,10 +1768,10 @@
   },
   "publication": {
     "createdAt": "2026-02-22T08:40:31.759Z",
-    "updatedAt": "2026-10-04T14:31:21.591683105Z",
-    "contentHash": "739403bec95fd3a2610b78ebfeb13bab506b3d4c",
-    "previousContentHash": "49be84009d24ac34ab1cfa97f4f2a847fed0a5a8",
-    "previousUpdatedAt": "2026-10-03T12:49:16.909111084Z"
+    "updatedAt": "2026-10-10T09:04:56.017477051Z",
+    "contentHash": "5912599981aa16a39edbdbaf1e5c4b84061ed8ae",
+    "previousContentHash": "739403bec95fd3a2610b78ebfeb13bab506b3d4c",
+    "previousUpdatedAt": "2026-10-04T14:31:21.591683105Z"
   },
   "software-engineer-in-ai-era": {
     "createdAt": "2026-02-28T00:52:10.421Z",
@@ -1897,10 +1897,10 @@
   },
   "urban-goods": {
     "createdAt": "2026-07-25T13:44:58.896Z",
-    "updatedAt": "2026-10-04T12:41:14.764449951Z",
-    "contentHash": "83e5e7dc962b94d5503ad1d7bb0fc796fb04ed9c",
-    "previousContentHash": "f64352a01f2260ad4d0cec5202fa7e3590e325e6",
-    "previousUpdatedAt": "2026-08-02T10:07:29.608843018Z"
+    "updatedAt": "2026-10-10T11:04:37.430522949Z",
+    "contentHash": "b26a339e8c9926eb5f2686f38026822fc192be42",
+    "previousContentHash": "d0524cfc04040271ecd99e696c0bc81cd1790802",
+    "previousUpdatedAt": "2026-10-10T11:04:09.818542969Z"
   },
   "simd": {
     "createdAt": "2026-08-02T10:14:20.814Z",
@@ -1977,10 +1977,10 @@
   },
   "work-with-the-garage-door-up": {
     "createdAt": "2026-10-04T14:30:52.548Z",
-    "updatedAt": "2026-10-09T13:00:22.787391113Z",
-    "contentHash": "1aafa5afa8c3ed005414909e7e4435e532e2868d",
-    "previousContentHash": "61c097bb41c679df5e83b7b639d3f4269471e044",
-    "previousUpdatedAt": "2026-10-09T12:59:56.496293945Z"
+    "updatedAt": "2026-10-10T09:29:02.173054932Z",
+    "contentHash": "78ff55f1575658ee88f1795d548ab424c230dbd1",
+    "previousContentHash": "1aafa5afa8c3ed005414909e7e4435e532e2868d",
+    "previousUpdatedAt": "2026-10-09T13:00:22.787391113Z"
   },
   "wabi-sabi": {
     "createdAt": "2026-10-05T01:05:57.35Z",
@@ -1995,5 +1995,12 @@
     "contentHash": "8c4a5c75872302264c15acdabcc270a11d2c7c30",
     "previousContentHash": "07e8a76dff1436ba1916b79c0dd3e6fe6d131107",
     "previousUpdatedAt": "2026-10-09T12:57:59.022788086Z"
+  },
+  "aesthetics-of-the-everyday": {
+    "createdAt": "2026-10-10T09:04:54.786Z",
+    "updatedAt": "2026-10-10T09:15:36.225434082Z",
+    "contentHash": "fdc008e14887c9125cbccb7fc35cc53efe7d6c62",
+    "previousContentHash": "f26ccb4d6fd666b5f3fb0b36bcafb02a4177daec",
+    "previousUpdatedAt": "2026-10-10T09:15:32.568855957Z"
   }
 }

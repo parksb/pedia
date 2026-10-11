@@ -4,6 +4,7 @@
 
 ### 문헌
 
+- [[aesthetics-of-the-everyday]]
 - [[work-with-the-garage-door-up]]
 - [[learning-opentelemetry]]
 - [[masterplot]]
