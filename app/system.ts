@@ -38,6 +38,8 @@ export class System {
 
         if (candidate.type === "publication") {
           result = result.replace(/^#\s(.*)/, "# 『$1』");
+        } else if (candidate.breadcrumbs[1]?.filename === "idea") {
+          result = result.replace(/^#\s(.*)/, "# 《$1》");
         }
 
         return result;
@@ -79,7 +81,7 @@ export class System {
 
     this.simpesys = await this.simpesys.init({
       syncMetadata: !production,
-      cache: production ? false : { version: "v11", previous: cache },
+      cache: production ? false : { version: "v12", previous: cache },
     });
 
     if (!production) {
