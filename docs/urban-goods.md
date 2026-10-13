@@ -30,6 +30,8 @@
 
 - [dgng](https://dgng.co/)
 - [29Magazine](https://www.29cm.co.kr/content/29magazine)
+- [디에디트](https://the-edit.co.kr/)
+- [Minimalissimo](https://minimalissimo.com/)
 
 ## 관련문서
 

@@ -1312,8 +1312,8 @@
     "createdAt": "2024-11-30T18:02:14Z",
     "updatedAt": "2026-10-09T12:14:40.43385498Z",
     "contentHash": "1ff7ab3e09a6195b80595cca61b1d63bdaf5191d",
-    "previousContentHash": "7791bc89e59b2e5cdde49e0d55d09d4677fa17e4",
-    "previousUpdatedAt": "2026-10-09T12:14:13.744870117Z"
+    "previousContentHash": "011c02f4c9e8f1b25267892b5c7dd6b355f34b74",
+    "previousUpdatedAt": "2026-10-12T12:32:02.285948975Z"
   },
   "simpesys": {
     "createdAt": "2025-01-03T16:26:56Z",
@@ -1897,10 +1897,10 @@
   },
   "urban-goods": {
     "createdAt": "2026-07-25T13:44:58.896Z",
-    "updatedAt": "2026-10-10T11:04:37.430522949Z",
-    "contentHash": "b26a339e8c9926eb5f2686f38026822fc192be42",
-    "previousContentHash": "d0524cfc04040271ecd99e696c0bc81cd1790802",
-    "previousUpdatedAt": "2026-10-10T11:04:09.818542969Z"
+    "updatedAt": "2026-10-11T03:13:32.08499292Z",
+    "contentHash": "dee7ed34084c45f815f275f4151fb905cb45b76d",
+    "previousContentHash": "b26a339e8c9926eb5f2686f38026822fc192be42",
+    "previousUpdatedAt": "2026-10-10T11:04:37.430522949Z"
   },
   "simd": {
     "createdAt": "2026-08-02T10:14:20.814Z",
@@ -1998,9 +1998,9 @@
   },
   "aesthetics-of-the-everyday": {
     "createdAt": "2026-10-10T09:04:54.786Z",
-    "updatedAt": "2026-10-10T09:15:36.225434082Z",
-    "contentHash": "fdc008e14887c9125cbccb7fc35cc53efe7d6c62",
-    "previousContentHash": "f26ccb4d6fd666b5f3fb0b36bcafb02a4177daec",
-    "previousUpdatedAt": "2026-10-10T09:15:32.568855957Z"
+    "updatedAt": "2026-10-13T14:00:02.08402002Z",
+    "contentHash": "ca1d69fd9acef8b538fc5b85fbe3cefdc1af8517",
+    "previousContentHash": "d28b0eebfacdae34d199b61325f6b5044b840320",
+    "previousUpdatedAt": "2026-10-13T13:59:32.579417969Z"
   }
 }
