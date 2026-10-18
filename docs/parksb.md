@@ -16,3 +16,4 @@
 - [[private/my-diary]]
 - [[private/viva-republica-note]]
 - [[private/what-will-i-live-for]]
+- [[private/goodbye-2026]]
